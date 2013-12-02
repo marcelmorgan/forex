@@ -1,6 +1,7 @@
 # Forex
 
-TODO: Write a gem description
+Provides a simple DSL for managing Foreign Exchange rates (forex) for various
+traders.
 
 ## Installation
 
@@ -18,7 +19,39 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To add a new trader, create a new file at
+``lib/forex/traders/<country-code>/<trader-name>.rb`` with the following
+contents:
+
+```ruby
+
+Forex::Trader.define "NCB" do |t|
+  t.base_currency = "JMD"
+  t.name          = "National Commercial Bank"
+  t.endpoint      = "http://www.jncb.com/rates/foreignexchangerates"
+
+  t.rates_parser = Proc.new do |doc| # doc is a nokogiri document
+    # process the doc and return rates hash in the following format
+
+    # {
+    #   "USD" => {
+    #     :buy_cash => 102.0,
+    #     :buy_draft => 103.3,
+    #     :sell_cash => 105.0
+    #   },
+    #   # ...
+    # }
+  end
+end
+
+# Rates may be fetched for a specific trader
+Forex::Trader.all['BNS'].fetch
+
+# Or all traders and yielded to the block given
+Forex::Trader.fetch_all do |trader|
+  # Save or do some other processing on the rates ``trader.rates`` hash.
+end
+```
 
 ## Contributing
 
