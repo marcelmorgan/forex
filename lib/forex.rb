@@ -1,5 +1,7 @@
-require "forex/version"
+require 'nokogiri'
+require 'net/http'
+require 'active_support/core_ext/string'
 
-module Forex
-  # Your code goes here...
-end
+require "forex/version"
+require "forex/tabular_rates"
+
