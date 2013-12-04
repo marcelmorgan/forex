@@ -1,0 +1,332 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.fxtrader.gkmsonline.com/rates
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - www.fxtrader.gkmsonline.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 04 Dec 2013 20:26:40 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.2.10-2ubuntu6.5
+      Etag:
+      - '"56fe7512a8549d37b2bab12b4032617a"'
+      Expires:
+      - Sun, 19 Nov 1978 05:00:00 GMT
+      Cache-Control:
+      - must-revalidate
+      Set-Cookie:
+      - SESS4aa7b68d1fce4c4fc84a6aa9f01e783f=0ff0e956fcdcdc300cceba264ed2fdab; expires=Sat,
+        28-Dec-2013 00:00:00 GMT; path=/; domain=.fxtrader.gkmsonline.com
+      Last-Modified:
+      - Wed, 04 Dec 2013 19:39:07 GMT
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html
+        xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\" dir=\"ltr\">\n<head>\n<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>Cheque/Cash
+        daily exchange rates | FX Trader Jamaica | Grace Kennedy Money Services</title>\n<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<meta
+        name=\"description\" content=\"In 1997, GraceKennedy Money Services (GKMS),
+        \ added its Bureaux de Change (Cambio) operation called FX Trader to its suite
+        of services. Shortly thereafter, this service was extended to Trinidad and
+        Tobago. GKMS started to take advantage of the opportunity the remittance business
+        presented for foreign currency conversions.\" />\n<link type=\"text/css\"
+        rel=\"stylesheet\" media=\"all\" href=\"/sites/default/files/css/css_6697e3d9f22118bc33e9bed205b01af6.css\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"print\" href=\"/sites/default/files/css/css_e1510b2f7b3d5ea502865d4d92326374.css\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/html-reset.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/style.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/wireframes.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/sidebars.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/layout-fixed.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/page-backgrounds.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/tabs.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/messages.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/pages.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/block-editing.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/blocks.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/navigation.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/panels-styles.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/views-styles.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/nodes.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/comments.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/forms.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/fields.css?J\"
+        />\n<link type=\"text/css\" rel=\"stylesheet\" media=\"print\" href=\"/sites/all/themes/fx_trader/css/print.css?J\"
+        />\n<!--[if IE]>\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\"
+        href=\"/sites/all/themes/fx_trader/css/ie.css?J\" />\n<![endif]-->\n<!--[if
+        lte IE 6]>\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/fx_trader/css/ie6.css?J\"
+        />\n<![endif]-->\n<script type=\"text/javascript\" src=\"/misc/jquery.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/misc/drupal.js?J\"></script>\n<script type=\"text/javascript\"
+        src=\"/sites/all/modules/google_analytics/googleanalytics.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/sites/all/modules/lightbox2/js/lightbox.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/sites/all/modules/nice_menus/superfish/js/superfish.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/sites/all/modules/nice_menus/superfish/js/jquery.bgiframe.min.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/sites/all/modules/nice_menus/superfish/js/jquery.hoverIntent.minified.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/sites/all/modules/nice_menus/nice_menus.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/sites/all/modules/poormanscron/poormanscron.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/sites/all/modules/views_slideshow/js/jquery.cycle.all.min.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/sites/all/modules/views_slideshow/contrib/views_slideshow_thumbnailhover/views_slideshow.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/sites/all/modules/hierarchical_select/hierarchical_select.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/sites/all/modules/hierarchical_select/hierarchical_select_formtoarray.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/sites/all/modules/jquery_ui/jquery.ui/ui/minified/ui.core.min.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/sites/all/modules/jquery_ui/jquery.ui/ui/minified/effects.core.min.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/sites/all/modules/jquery_ui/jquery.ui/ui/minified/effects.drop.min.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/sites/all/modules/hierarchical_select/includes/views.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/sites/all/themes/fx_trader/js/expand.js?J\"></script>\n<script
+        type=\"text/javascript\" src=\"/sites/all/themes/fx_trader/js/expand-head.js?J\"></script>\n<script
+        type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\njQuery.extend(Drupal.settings,
+        { \"basePath\": \"/\", \"googleanalytics\": { \"trackOutgoing\": 1, \"trackMailto\":
+        1, \"trackDownload\": 1, \"trackDownloadExtensions\": \"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip\"
+        }, \"lightbox2\": { \"rtl\": 0, \"file_path\": \"/(\\\\w\\\\w/)sites/default/files\",
+        \"default_image\": \"/sites/all/modules/lightbox2/images/brokenimage.jpg\",
+        \"border_size\": 10, \"font_color\": \"000\", \"box_color\": \"fff\", \"top_position\":
+        \"\", \"overlay_opacity\": \"0.8\", \"overlay_color\": \"000\", \"disable_close_click\":
+        true, \"resize_sequence\": 0, \"resize_speed\": 400, \"fade_in_speed\": 400,
+        \"slide_down_speed\": 600, \"use_alt_layout\": false, \"disable_resize\":
+        false, \"disable_zoom\": false, \"force_show_nav\": false, \"show_caption\":
+        true, \"loop_items\": false, \"node_link_text\": \"View Image Details\", \"node_link_target\":
+        false, \"image_count\": \"Image !current of !total\", \"video_count\": \"Video
+        !current of !total\", \"page_count\": \"Page !current of !total\", \"lite_press_x_close\":
+        \"press \\x3ca href=\\\"#\\\" onclick=\\\"hideLightbox(); return FALSE;\\\"\\x3e\\x3ckbd\\x3ex\\x3c/kbd\\x3e\\x3c/a\\x3e
+        to close\", \"download_link_text\": \"\", \"enable_login\": false, \"enable_contact\":
+        false, \"keys_close\": \"c x 27\", \"keys_previous\": \"p 37\", \"keys_next\":
+        \"n 39\", \"keys_zoom\": \"z\", \"keys_play_pause\": \"32\", \"display_image_size\":
+        \"original\", \"image_node_sizes\": \"()\", \"trigger_lightbox_classes\":
+        \"\", \"trigger_lightbox_group_classes\": \"\", \"trigger_slideshow_classes\":
+        \"\", \"trigger_lightframe_classes\": \"\", \"trigger_lightframe_group_classes\":
+        \"\", \"custom_class_handler\": 0, \"custom_trigger_classes\": \"\", \"disable_for_gallery_lists\":
+        true, \"disable_for_acidfree_gallery_lists\": true, \"enable_acidfree_videos\":
+        true, \"slideshow_interval\": 5000, \"slideshow_automatic_start\": true, \"slideshow_automatic_exit\":
+        true, \"show_play_pause\": true, \"pause_on_next_click\": false, \"pause_on_previous_click\":
+        true, \"loop_slides\": false, \"iframe_width\": 600, \"iframe_height\": 400,
+        \"iframe_border\": 1, \"enable_video\": false }, \"nice_menus_options\": {
+        \"delay\": \"0\", \"speed\": \"normal\" }, \"cron\": { \"basePath\": \"/poormanscron\",
+        \"runNext\": 1386271077 } });\n//--><!]]>\n</script>\n</head>\n<body class=\"not-front
+        not-logged-in i18n-en page-rates section-rates one-sidebar sidebar-second
+        page-views\">\n<div id=\"header-top-wrapper\">\n  <div id=\"nav-menu\">  </div>\n
+        \ <div id=\"header-top\"> <div class=\"region region-header-top\">\n  <div
+        id=\"block-nice_menus-2\" class=\"block block-nice_menus region-odd odd region-count-1
+        count-1\">\n  \n  <div class=\"content\">\n    <ul class=\"nice-menu nice-menu-down\"
+        id=\"nice-menu-2\"><li class=\"menu-2112 menuparent menu-path-fxtradergkmsonlinecom
+        first  odd \"><a href=\"http://www.fxtrader.gkmsonline.com\" title=\"\">Choose
+        a service</a><ul><li class=\"menu-2115 menu-path-billexpressgkmsonlinecom
+        first  odd \"><a href=\"http://www.billexpress.gkmsonline.com\" title=\"\">Bill
+        Express</a></li>\n<li class=\"menu-2113 menu-path-gkmsonlinecom- even \"><a
+        href=\"http://www.gkmsonline.com/\" title=\"\">GKMS</a></li>\n<li class=\"menu-2114
+        menu-path-westernuniongkmsonlinecom- odd  last \"><a href=\"http://www.westernunion.gkmsonline.com/\"
+        title=\"\">Western Union</a></li>\n</ul>\n</li>\n<li class=\"menu-2135 menu-path-node-6
+        even  last \"><a href=\"/contact-us\" title=\"\">Contact Us</a></li>\n</ul>\n
+        \ </div>\n\n  </div> <!-- /.block -->\n</div> <!-- /.region -->\n </div>\n</div>\n<div
+        id=\"header-wrapper\">\n  <div id=\"header\">\n    <div class=\"section clearfix\">\n
+        \                       <div class=\"region region-header\">\n  <div id=\"block-block-4\"
+        class=\"block block-block region-odd odd region-count-1 count-5\">\n  \n  <div
+        class=\"content\">\n    <div id=\"fx-logo\">\n\t<a href=\"/\"><img src=\"/sites/all/themes/fx_trader/images/fx-logo.png\"
+        /></a></div>\n  </div>\n\n  </div> <!-- /.block -->\n<div id=\"block-search-0\"
+        class=\"block block-search region-even even region-count-2 count-6\">\n  \n
+        \ <div class=\"content\">\n    <form action=\"/rates\"  accept-charset=\"UTF-8\"
+        method=\"post\" id=\"search-block-form\">\n<div><div class=\"container-inline\">\n
+        \ <div class=\"form-item\" id=\"edit-search-block-form-1-wrapper\">\n <label
+        for=\"edit-search-block-form-1\">Search this site: </label>\n <input type=\"text\"
+        maxlength=\"128\" name=\"search_block_form\" id=\"edit-search-block-form-1\"
+        size=\"15\" value=\"\" title=\"Enter the terms you wish to search for.\" class=\"form-text\"
+        />\n</div>\n<input type=\"submit\" name=\"op\" id=\"edit-submit\" value=\"Search\"
+        \ class=\"form-submit\" />\n<input type=\"hidden\" name=\"form_build_id\"
+        id=\"form-66f5aa503fbb7c3647da0c4fe8adae15\" value=\"form-66f5aa503fbb7c3647da0c4fe8adae15\"
+        \ />\n<input type=\"hidden\" name=\"form_id\" id=\"edit-search-block-form\"
+        value=\"search_block_form\"  />\n</div>\n\n</div></form>\n  </div>\n\n  </div>
+        <!-- /.block -->\n<div id=\"block-block-12\" class=\"block block-block region-odd
+        odd region-count-3 count-7\">\n  \n  <div class=\"content\">\n    <div id=\"social-media\">\n<div
+        id=\"facebook\">\n\t\t<a href=\"http://www.facebook.com/pages/GraceKennedy-Money-Services/215177008533467\"
+        target=\"_blank\"><img src=\"/sites/all/themes/fx_trader/images/facebook.png\"
+        /></a></div>\n<div id=\"youtube\">\n\t\t<a href=\"http://www.youtube.com/GKMoneyServices\"
+        target=\"_blank\"><img src=\"/sites/all/themes/fx_trader/images/youtube.png\"
+        /></a></div>\n</div>\n  </div>\n\n  </div> <!-- /.block -->\n<div id=\"block-nice_menus-1\"
+        class=\"block block-nice_menus region-even even region-count-4 count-8\">\n
+        \ \n  <div class=\"content\">\n    <ul class=\"nice-menu nice-menu-down\"
+        id=\"nice-menu-1\"><li class=\"menu-1222 menu-path-node first  odd \"><a href=\"/node\"
+        title=\"\">Home</a></li>\n<li class=\"menu-2450 menu-path-node-46 even \"><a
+        href=\"/about/trinidad-tobago/46\" title=\"About Us\">About</a></li>\n<li
+        class=\"menu-1203 menuparent menu-path-services active-trail odd \"><a href=\"/services\">Services</a><ul><li
+        class=\"menu-1196 menu-path-rates active-trail first  odd  last \"><a href=\"/rates\"
+        class=\"active\">Rates</a></li>\n</ul>\n</li>\n<li class=\"menu-1193 menuparent
+        menu-path-news even \"><a href=\"/news\">News</a><ul><li class=\"menu-2174
+        menu-path-news-archive first  odd  last \"><a href=\"/news/archive\">Archive</a></li>\n</ul>\n</li>\n<li
+        class=\"menu-1181 menu-path-locations odd \"><a href=\"/locations\">Locations</a></li>\n<li
+        class=\"menu-1014 menu-path-faq even \"><a href=\"/faq\">FAQ</a></li>\n<li
+        class=\"menu-2169 menuparent menu-path-promotions-events odd \"><a href=\"/promotions/events\"
+        title=\"\">Promotions</a><ul><li class=\"menu-2274 menu-path-promotions-campaigns
+        first  odd \"><a href=\"/promotions/campaigns\">Campaigns</a></li>\n<li class=\"menu-2275
+        menu-path-promotions-events even \"><a href=\"/promotions/events\" title=\"\">Sponsorships</a></li>\n<li
+        class=\"menu-2231 menu-path-promotions-archive odd  last \"><a href=\"/promotions/archive\">Archive</a></li>\n</ul>\n</li>\n<li
+        class=\"menu-2809 menu-path-business-solutions even  last \"><a href=\"/business-solutions\">Business
+        Solutions</a></li>\n</ul>\n  </div>\n\n  </div> <!-- /.block -->\n</div> <!--
+        /.region -->\n </div>\n  </div>\n</div>\n<!-- /.section, /#header -->\n<div
+        id=\"page-wrapper\">\n  <div id=\"page\">\n    <div id=\"main-wrapper\">\n
+        \     <div id=\"main\" class=\"clearfix\">\n        <div id=\"content\" class=\"column\">\n
+        \         <div class=\"section\">\n                                                 <h1
+        class=\"title\">Cheque/Cash daily exchange rates</h1>\n                                                             <div
+        id=\"content-area\"> <div class=\"view view-FXTraderRates view-id-FXTraderRates
+        view-display-id-page_1 view-dom-id-2 view-FXTraderRates view-id-FXTraderRates
+        view-display-id-page_1 view-dom-id-2\">\n  \n      <div class=\"view-header\">\n
+        \     <!--<div><span style=\"float: right;\"></span></div>-->    </div>\n
+        \ \n  \n  \n      <div class=\"view-content\">\n        <h3>Jamaica</h3>\n
+        \ <div class=\"views-row views-row-1 views-row-odd views-row-first views-row-last\">\n
+        \     \n  <div class=\"views-field-title\">\n                <span class=\"field-content\">Cash
+        Rates<br />\n<span class=\"date-effective\">Date Effective: <span class=\"date-display-single\">December
+        4, 2013</span></span></span>\n  </div>\n  \n  <div class=\"views-field-title-1\">\n
+        \               <span class=\"field-content\">Cheque Rates<br />\n<span class=\"date-effective\">Date
+        Effective: <span class=\"date-display-single\">December 4, 2013</span></span></span>\n
+        \ </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-label-value\">\n
+        \               <span class=\"field-content\">Currency</span>\n  </div>\n
+        \ \n  <div class=\"views-field-field-fx-trader-buying-label-value\">\n                <span
+        class=\"field-content\">Buying</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-label-value\">\n
+        \               <span class=\"field-content\">Selling</span>\n  </div>\n  \n
+        \ <div class=\"views-field-field-fx-trader-currency-label-value-1\">\n                <span
+        class=\"field-content\">Currency</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-buying-label-value-1\">\n
+        \               <span class=\"field-content\">Buying</span>\n  </div>\n  \n
+        \ <div class=\"views-field-field-fx-trader-selling-label-value-1\">\n                <span
+        class=\"field-content\">Selling</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-1-value\">\n
+        \               <span class=\"field-content\">USD</span>\n  </div>\n  \n  <div
+        class=\"views-field-field-fx-trader-buying-1-value\">\n                <span
+        class=\"field-content\">103.25</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-1-value\">\n
+        \               <span class=\"field-content\">105.60</span>\n  </div>\n  \n
+        \ <div class=\"views-field-field-fx-trader-currency-1-value-1\">\n                <span
+        class=\"field-content\">USD</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-buying-1-b-value\">\n
+        \               <span class=\"field-content\">103.95</span>\n  </div>\n  \n
+        \ <div class=\"views-field-field-fx-trader-selling-1-b-value\">\n                <span
+        class=\"field-content\">106.10</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-2-value\">\n
+        \               <span class=\"field-content\">CAD</span>\n  </div>\n  \n  <div
+        class=\"views-field-field-fx-trader-buying-2-value\">\n                <span
+        class=\"field-content\">95.65</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-2-value\">\n
+        \               <span class=\"field-content\">98.45</span>\n  </div>\n  \n
+        \ <div class=\"views-field-field-fx-trader-currency-2-value-1\">\n                <span
+        class=\"field-content\">CAD</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-buying-2-b-value\">\n
+        \               <span class=\"field-content\">96.25</span>\n  </div>\n  \n
+        \ <div class=\"views-field-field-fx-trader-selling-2-b-value\">\n                <span
+        class=\"field-content\">99.55</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-3-value\">\n
+        \               <span class=\"field-content\">GBP</span>\n  </div>\n  \n  <div
+        class=\"views-field-field-fx-trader-buying-3-value\">\n                <span
+        class=\"field-content\">168.20</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-3-value\">\n
+        \               <span class=\"field-content\">172.20</span>\n  </div>\n  \n
+        \ <div class=\"views-field-field-fx-trader-currency-3-value-1\">\n                <span
+        class=\"field-content\">GBP</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-buying-3-b-value\">\n
+        \               <span class=\"field-content\">168.90</span>\n  </div>\n  \n
+        \ <div class=\"views-field-field-fx-trader-selling-3-b-value\">\n                <span
+        class=\"field-content\">173.55</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-4-value\">\n
+        \               <span class=\"field-content\">KYD</span>\n  </div>\n  \n  <div
+        class=\"views-field-field-fx-trader-buying-4-value\">\n                <span
+        class=\"field-content\">116.70</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-4-value\">\n
+        \               <span class=\"field-content\">120.40</span>\n  </div>\n  \n
+        \ <div class=\"views-field-field-fx-trader-currency-4-value-1\">\n                <span
+        class=\"field-content\">KYD</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-buying-4-b-value\">\n
+        \               <span class=\"field-content\">-</span>\n  </div>\n  \n  <div
+        class=\"views-field-field-fx-trader-selling-4-b-value\">\n                <span
+        class=\"field-content\">-</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-5-value\">\n
+        \               <span class=\"field-content\">EURO</span>\n  </div>\n  \n
+        \ <div class=\"views-field-field-fx-trader-buying-5-value\">\n                <span
+        class=\"field-content\">137.85</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-5-value\">\n
+        \               <span class=\"field-content\">142.15</span>\n  </div>\n  \n
+        \ <div class=\"views-field-field-fx-trader-currency-5-value-1\">\n                <span
+        class=\"field-content\">EURO</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-buying-5-b-value\">\n
+        \               <span class=\"field-content\">-</span>\n  </div>\n  \n  <div
+        class=\"views-field-field-fx-trader-selling-5-b-value\">\n                <span
+        class=\"field-content\">-</span>\n  </div>\n  </div>\n    </div>\n  \n  \n
+        \     <div class=\"attachment attachment-after\">\n      <div class=\"view
+        view-FXTraderRates view-id-FXTraderRates view-display-id-attachment_1 view-dom-id-1
+        view-FXTraderRates view-id-FXTraderRates view-display-id-attachment_1 view-dom-id-1\">\n
+        \ \n      <div class=\"view-header\">\n      <!--<div><span style=\"float:
+        right;\"></span></div>-->    </div>\n  \n  \n  \n      <div class=\"view-content\">\n
+        \       <h3>Trinidad &amp; Tobago</h3>\n  <div class=\"views-row views-row-1
+        views-row-odd views-row-first views-row-last\">\n      \n  <div class=\"views-field-title\">\n
+        \               <span class=\"field-content\">Cash Rates<br />\n<span class=\"date-effective\">Date
+        Effective: <span class=\"date-display-single\">December 4, 2013</span></span></span>\n
+        \ </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-label-value\">\n
+        \               <span class=\"field-content\">Currency</span>\n  </div>\n
+        \ \n  <div class=\"views-field-field-fx-trader-buying-label-value\">\n                <span
+        class=\"field-content\">Buying</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-label-value\">\n
+        \               <span class=\"field-content\">Selling</span>\n  </div>\n  \n
+        \ <div class=\"views-field-field-fx-trader-currency-1-value\">\n                <span
+        class=\"field-content\">USD</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-buying-1-value\">\n
+        \               <span class=\"field-content\">6.20</span>\n  </div>\n  \n
+        \ <div class=\"views-field-field-fx-trader-selling-1-value\">\n                <span
+        class=\"field-content\">6.48</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-2-value\">\n
+        \               <span class=\"field-content\">CAD</span>\n  </div>\n  \n  <div
+        class=\"views-field-field-fx-trader-buying-2-value\">\n                <span
+        class=\"field-content\">5.61</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-2-value\">\n
+        \               <span class=\"field-content\">6.21</span>\n  </div>\n  \n
+        \ <div class=\"views-field-field-fx-trader-currency-3-value\">\n                <span
+        class=\"field-content\">GBP</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-buying-3-value\">\n
+        \               <span class=\"field-content\">9.72</span>\n  </div>\n  \n
+        \ <div class=\"views-field-field-fx-trader-selling-3-value\">\n                <span
+        class=\"field-content\">10.79</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-currency-4-value\">\n
+        \               <span class=\"field-content\">KYD</span>\n  </div>\n  \n  <div
+        class=\"views-field-field-fx-trader-buying-4-value\">\n                <span
+        class=\"field-content\">-</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-selling-4-value\">\n
+        \               <span class=\"field-content\">-</span>\n  </div>\n  \n  <div
+        class=\"views-field-field-fx-trader-currency-5-value\">\n                <span
+        class=\"field-content\">EURO</span>\n  </div>\n  \n  <div class=\"views-field-field-fx-trader-buying-5-value\">\n
+        \               <span class=\"field-content\">7.98</span>\n  </div>\n  \n
+        \ <div class=\"views-field-field-fx-trader-selling-5-value\">\n                <span
+        class=\"field-content\">8.96</span>\n  </div>\n  </div>\n    </div>\n  \n
+        \ \n  \n  \n  \n  \n</div> <!-- /.view -->\n    </div>\n  \n  \n  \n  \n</div>
+        <!-- /.view -->\n </div>\n                                  </div>\n        </div>\n
+        \       <!-- /.section, /#content -->\n                 <div class=\"region
+        region-sidebar-second column sidebar\"><div class=\"section\">\n  <div id=\"block-block-5\"
+        class=\"block block-block region-odd even region-count-1 count-2\">\n  \n
+        \ <div class=\"content\">\n    <div>\n\t<a href=\"/locations\"> </a>\n<h2>\n\t\t<a
+        href=\"/locations\">Find an Agent</a></h2>\n<p>\t<a href=\"/locations\"><img
+        id=\"map\" src=\"/sites/all/themes/fx_trader/images/caribbean3.jpg\" /></a></p></div>\n
+        \ </div>\n\n  </div> <!-- /.block -->\n<div id=\"block-ad-64\" class=\"block
+        block-ad region-even odd region-count-2 count-3\">\n  \n  <div class=\"content\">\n
+        \   \n<div class=\"advertisement group-tids-64\" id=\"group-id-tids-64\"><script
+        type='text/javascript' src='http://www.fxtrader.gkmsonline.com/sites/all/modules/ad/serve.php?q=3&amp;t=64&amp;u=rates&amp;l=rates'></script></div>\n
+        \ </div>\n\n  </div> <!-- /.block -->\n<div id=\"block-block-7\" class=\"block
+        block-block region-odd even region-count-3 count-4\">\n  \n  <div class=\"content\">\n
+        \   <div class=\"block block-mailchimp region-odd even region-count-3 count-10\"
+        id=\"block-mailchimp-3333c1f3c8\">\n<div class=\"content\">\n<h2 class=\"title\">\n\t\t\tWant
+        to know more about our special offers?</h2>\n<form accept-charset=\"UTF-8\"
+        action=\"/\" id=\"mailchimp_subscribe_anon_form_3333c1f3c8\" method=\"post\">\n<div>\n<div
+        class=\"form-item\" id=\"edit-mailchimp-lists-3333c1f3c8-EMAIL-wrapper\">\n\t\t\t\t\t<label
+        for=\"edit-mailchimp-lists-3333c1f3c8-EMAIL\">Please enter your email address:
+        <span class=\"form-required\" title=\"This field is required.\">*</span></label>
+        <input class=\"form-text required\" id=\"edit-mailchimp-lists-3333c1f3c8-EMAIL\"
+        maxlength=\"128\" name=\"mailchimp_lists[3333c1f3c8][EMAIL]\" size=\"15\"
+        type=\"text\" value=\"\" /></div>\n<p>\t\t\t\t<input class=\"form-submit\"
+        id=\"edit-submit\" name=\"op\" type=\"submit\" value=\"Sign Up!\" /></p></div>\n</form>\n</div>\n</div>\n<p>&nbsp;</p>\n
+        \ </div>\n\n  </div> <!-- /.block -->\n</div></div> <!-- /.section, /.region
+        -->\n </div>\n    </div>\n    <!-- /#main, /#main-wrapper -->\n        <div
+        id=\"footer\">\n      <div class=\"section\">                 <div id=\"footer-message\">\r\n<p><span
+        class=\"footerText\">GraceKennedy Limited. All rights reserved. gkms@gkco.com</span></p>\r\n</div>\n
+        \                </div>\n    </div>\n    <!-- /.section, /#footer -->\n      </div>\n</div>\n<!--
+        /#page, /#page-wrapper -->\n <script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nvar
+        _gaq = _gaq || [];_gaq.push([\"_setAccount\", \"UA-231094-58\"]);_gaq.push([\"_trackPageview\"]);(function()
+        {var ga = document.createElement(\"script\");ga.type = \"text/javascript\";ga.async
+        = true;ga.src = (\"https:\" == document.location.protocol ? \"https://ssl\"
+        : \"http://www\") + \".google-analytics.com/ga.js\";var s = document.getElementsByTagName(\"script\")[0];s.parentNode.insertBefore(ga,
+        s);})();\n//--><!]]>\n</script>\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Wed, 04 Dec 2013 20:26:50 GMT
+recorded_with: VCR 2.8.0

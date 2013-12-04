@@ -23,7 +23,6 @@ module Forex
       def reset
         @all = Hash.new
       end
-
     end
 
     def initialize(short_name)

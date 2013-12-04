@@ -1,9 +1,7 @@
 require 'spec_helper'
 
-include Forex # so we don't need to prefix
-
 describe Trader do
-  before { Trader.reset }
+  around { Trader.reset }
 
   describe "#define" do
     specify { expect { |b| Trader.define("TRADER", &b) }.to yield_with_args(Forex::Trader) }

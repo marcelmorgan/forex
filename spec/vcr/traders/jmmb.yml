@@ -1,0 +1,1106 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.jmmb.com/full_rates.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - www.jmmb.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/html
+      Server:
+      - Microsoft-IIS/6.0
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Wed, 04 Dec 2013 20:26:41 GMT
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: "\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\" />\r\n<title>JMMB
+        :: Rates </title>\r\n<script src=\"menu/jquery-1.2.1.min.js\" type=\"text/javascript\"></script>\r\n<script
+        src=\"menu/menu.js\" type=\"text/javascript\"></script>\r\n<link rel=\"stylesheet\"
+        type=\"text/css\" href=\"menu/style.css\" />\r\n\r\n<link href=\"css/main.css\"
+        rel=\"stylesheet\" media=\"screen\"  />\r\n<link href=\"css/tabstyles.css\"
+        rel=\"stylesheet\" media=\"screen\"  />\r\n<!--<link href=\"css/gallery.css\"
+        rel=\"stylesheet\" media=\"screen\"  />-->\r\n\r\n<script type=\"text/javascript\"
+        src=\"js/global.js\" ></script>\r\n<script type=\"text/javascript\" src=\"js/domtab.js\"
+        ></script>\r\n<script type=\"text/javascript\">\r\n\tdocument.write('<style
+        type=\"text/css\">');    \r\n\tdocument.write('div.tabbedInfo div{display:none;}<');\r\n\tdocument.write('/s'+'tyle>');
+        \   \r\n</script>\r\n\r\n</head>\r\n\r\n<body>\r\n<div id=\"container\">\r\n\r\n<div
+        id=\"page\">\r\n\r\n\r\n<table width=\"100%\" border=\"0\" cellspacing=\"0\"
+        cellpadding=\"0\">\r\n  <tr>\r\n    <td>\r\n\t<form style=\"padding:0px; margin-top:0px\"
+        action=\"search.php\" id=\"cse-search-box\">\r\n\t  <div>\r\n\t\t<input type=\"hidden\"
+        name=\"cx\" value=\"015555424491200859113:remhzfl0woa\" />\r\n\t\t<input type=\"hidden\"
+        name=\"cof\" value=\"FORID:10\" />\r\n\t\t<input type=\"hidden\" name=\"ie\"
+        value=\"UTF-8\" />\r\n\t\t<input type=\"text\" name=\"q\" size=\"31\" />\r\n\t\t<input
+        type=\"submit\" name=\"sa\" value=\"Search\" />\r\n\t  </div>\r\n\t</form>\r\n\t<script
+        type=\"text/javascript\" src=\"http://www.google.com/cse/brand?form=cse-search-box&lang=en\"></script>\r\n\t</td>\r\n\t<td
+        align=\"right\" width=\"50%\">\r\n\t <ul id=\"secondary-nav\">\r\n\t <li><a
+        href=\"index.php\">Home</a></li>\r\n\t <li> | </li> \r\n\t <li><a href=\"about.php\">About
+        JMMB</a></li>\r\n\t <li> | </li> \r\n\t <li><a href=\"about.php?id=1012&ref=page\">Group
+        of Companies</a></li>\r\n\t <li> | </li>\r\n\t <li><a href=\"about.php?id=1014&ref=page\">FAQ's</a></li>\r\n\t
+        <li> | </li>\r\n\t <li><a href=\"news.php\">News</a></li>\r\n\t <li> | </li>\r\n\t
+        <li><a href=\"about.php?id=1011&ref=page\">Contact Us</a></li>\r\n\t</ul>\r\n\t</td>\r\n\t<td
+        align=\"right\">\r\n\t <A target=\"_blank\" HREF=\"http://www.facebook.com/JMMBPossibilitiesinAction?ref=ts\"><img
+        src=\"images/facebook.png\" border=\"0\"></A>\r\n\t</td>\r\n\t       <td align=\"right\">\r\n
+        \               <a href=\"https://twitter.com/JMMBGROUP\" class=\"twitter-follow-button\"
+        data-show-count=\"false\" title=\"Follow @JMMBGROUP\"><img border=\"0\" src=\"images/twitter.png\"
+        width=\"32\" height=\"32\" alt=\"\" /></a>\r\n                </td>\r\n\r\n
+        \ </tr>\r\n</table>\r\n\r\n\r\n\r\n\r\n<script type=\"text/javascript\">\r\nvar
+        gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\"
+        : \"http://www.\");\r\ndocument.write(unescape(\"%3Cscript src='\" + gaJsHost
+        + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\r\n</script>\r\n<script
+        type=\"text/javascript\">\r\ntry {\r\nvar pageTracker = _gat._getTracker(\"UA-8481343-1\");\r\npageTracker._trackPageview();\r\n}
+        catch(err) {}</script>\r\n<div id=\"header\"><h1><a href=\"index.php\">JMMB</a></h1></div>\r\n<div
+        id=\"main-nav\">\r\n<ul>\r\n <li><a class='current' href=\"financial_planning.php\">Personal
+        Financial Planning</a></li>\r\n <li> | </li>\r\n  <!--<li><a  href=\"corporate_solutions.php\">Corporate
+        Solutions</a></li>\r\n <li> | </li> -->\r\n <li><a href=\"http://www.jmmb.com/data_integrity/index.html\">Update
+        Your Account Information</a></li>\r\n <li> | </li>\r\n <li><a  href=\"research.php\">Research
+        and Analysis</a></li>\r\n</ul>\r\n</div>\r\n\r\n<script type=\"text/javascript\">\r\nvar
+        gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\"
+        : \"http://www.\");\r\ndocument.write(unescape(\"%3Cscript src='\" + gaJsHost
+        + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\r\n</script>\r\n<script
+        type=\"text/javascript\">\r\ntry {\r\nvar pageTracker = _gat._getTracker(\"UA-8481343-1\");\r\npageTracker._trackPageview();\r\n}
+        catch(err) {}</script>\r\n\r\n\r\n<div id=\"left_full\" style=\"background-color:#FFFFFF\">\r\n<div
+        class=\"page-banner_full\"><img src=\"images/rates_header.jpg\" /></div>\r\n\r\n<div
+        id=\"sideBar-nav\">\r\n<h2>Products and Services</h2>\r\n\r\n<ul id=\"menu4\"
+        class=\"menu collapsible\">\r\n<br><li><a href='#'>Asset Management&nbsp;<img
+        border='0' src='images/list_arrow.gif' align='absmiddle' /></a><ul><br><li><a
+        style='color:#444444;' href='financial_planning.php?id=12&ref=page'>Save Smart</a></li><br><li><a
+        style='color:#444444;' href='financial_planning.php?id=25&ref=page'>Savings
+        Booster</a></li><br><li><a style='color:#444444;' href='financial_planning.php?id=14&ref=page'>Sure
+        Investor</a></li><br><li><a style='color:#444444;' href='financial_planning.php?id=38&ref=page'>Smart
+        Investor</a></li><br><li><a style='color:#444444;' href='financial_planning.php?id=15&ref=page'>Tax
+        Shelter</a></li><br><li><a style='color:#444444;' href='financial_planning.php?id=17&ref=page'>Group
+        Investment Account</a></li><br><li><a style='color:#444444;' href='financial_planning.php?id=18&ref=page'>Income
+        Builder</a></li><br><li><a style='color:#444444;' href='financial_planning.php?id=26&ref=page'>Online
+        Security Tips: Securing Your Online Experience</a></li><br><li><a style='color:#444444;'
+        href='financial_planning.php?id=30&ref=page'>Fund Managers</a></li><br><li><a
+        style='color:#444444;' href='financial_planning.php?id=33&ref=page'>Unit Trust
+        Optimum Capital Fund</a></li><br><li><a style='color:#444444;' href='financial_planning.php?id=34&ref=page'>Income
+        & Growth Fund - Unit Trust Investment</a></li><br><li><a style='color:#444444;'
+        href='financial_planning.php?id=35&ref=page'>Giltedge Unit Trust Fund</a></li><br><li><a
+        style='color:#444444;' href='financial_planning.php?id=36&ref=page'>Forms</a></li></ul></li><br><li><a
+        href='#'>Equities&nbsp;<img border='0' src='images/list_arrow.gif' align='absmiddle'
+        /></a><ul><br><li><a style='color:#444444;' href='financial_planning.php?id=4&ref=page'>How
+        To Buy Stocks?</a></li><br><li><a style='color:#444444;' href='financial_planning.php?id=19&ref=page'>EMMA</a></li><br><li><a
+        style='color:#444444;' href='http://www.jmmbsecurities.com/'>JMMB SL</a></li></ul></li><br><li><a
+        href='#'>Bonds&nbsp;<img border='0' src='images/list_arrow.gif' align='absmiddle'
+        /></a><ul><br><li><a style='color:#444444;' href='financial_planning.php?id=5&ref=page'>Bonds
+        101</a></li><br><li><a style='color:#444444;' href='financial_planning.php?id=6&ref=page'>The
+        Basic Bond Dictionary</a></li></ul></li><br><li><a href='#'>Loans&nbsp;<img
+        border='0' src='images/list_arrow.gif' align='absmiddle' /></a><ul><br><li><a
+        style='color:#444444;' href='financial_planning.php?id=24&ref=page'>JMMB Loans</a></li></ul></li><br><li><a
+        href='#'>Pensions&nbsp;<img border='0' src='images/list_arrow.gif' align='absmiddle'
+        /></a><ul><br><li><a style='color:#444444;' href='/retirement/index.php'>JMMB
+        RS</a></li></ul></li><br><li><a href='#'>Insurance&nbsp;<img border='0' src='images/list_arrow.gif'
+        align='absmiddle' /></a><ul><br><li><a style='color:#444444;' href='jmmb_ib.php'>JMMB
+        IB</a></li></ul></li><br><li><a href='#'>Gift Certificates&nbsp;<img border='0'
+        src='images/list_arrow.gif' align='absmiddle' /></a><ul><br><li><a style='color:#444444;'
+        href='financial_planning.php?id=13&ref=page'>Bridal Registry</a></li><br><li><a
+        style='color:#444444;' href='financial_planning.php?id=16&ref=page'>General</a></li></ul></li><br><li><a
+        href='#'>Services&nbsp;<img border='0' src='images/list_arrow.gif' align='absmiddle'
+        /></a><ul><br><li><a style='color:#444444;' href='financial_planning.php?id=10&ref=page'>Moneyline</a></li><br><li><a
+        style='color:#444444;' href='financial_planning.php?id=11&ref=page'>Wire Transfer</a></li><br><li><a
+        style='color:#444444;' href='financial_planning.php?id=21&ref=page'>Service
+        Fees</a></li></ul></li><br><li><a href='#'>Client Forms&nbsp;<img border='0'
+        src='images/list_arrow.gif' align='absmiddle' /></a><ul><br><li><a style='color:#444444;'
+        href='products_services.php?id=2&ref=document'>Account Opening Forms</a></li><br><li><a
+        style='color:#444444;' href='products_services.php?id=3&ref=document'>Account
+        Schedules</a></li></ul></li></ul>\r\n\r\n<!--<h2>Financial Planning</h2>\r\n<h3>Asset
+        Management</h3>\n<ul>\n<li><a href='financial_planning.php?id=12&ref=page'>Save
+        Smart</a></li>\n<li><a href='financial_planning.php?id=25&ref=page'>Savings
+        Booster</a></li>\n<li><a href='financial_planning.php?id=14&ref=page'>Sure
+        Investor</a></li>\n<li><a href='financial_planning.php?id=38&ref=page'>Smart
+        Investor</a></li>\n<li><a href='financial_planning.php?id=15&ref=page'>Tax
+        Shelter</a></li>\n<li><a href='financial_planning.php?id=17&ref=page'>Group
+        Investment Account</a></li>\n<li><a href='financial_planning.php?id=18&ref=page'>Income
+        Builder</a></li>\n<li><a href='financial_planning.php?id=26&ref=page'>Online
+        Security Tips: Securing Your Online Experience</a></li>\n<li><a href='financial_planning.php?id=30&ref=page'>Fund
+        Managers</a></li>\n<li><a href='financial_planning.php?id=33&ref=page'>Unit
+        Trust Optimum Capital Fund</a></li>\n<li><a href='financial_planning.php?id=34&ref=page'>Income
+        & Growth Fund - Unit Trust Investment</a></li>\n<li><a href='financial_planning.php?id=35&ref=page'>Giltedge
+        Unit Trust Fund</a></li>\n<li><a href='financial_planning.php?id=36&ref=page'>Forms</a></li>\n</ul>\n<h3>Equities</h3>\n<ul>\n<li><a
+        href='financial_planning.php?id=4&ref=page'>How To Buy Stocks?</a></li>\n<li><a
+        href='financial_planning.php?id=19&ref=page'>EMMA</a></li>\n</ul>\n<h3>Bonds</h3>\n<ul>\n<li><a
+        href='financial_planning.php?id=5&ref=page'>Bonds 101</a></li>\n<li><a href='financial_planning.php?id=6&ref=page'>The
+        Basic Bond Dictionary</a></li>\n</ul>\n<h3>Gift Certificates</h3>\n<ul>\n<li><a
+        href='financial_planning.php?id=13&ref=page'>Bridal Registry</a></li>\n<li><a
+        href='financial_planning.php?id=16&ref=page'>General</a></li>\n</ul>\n<h3>Services</h3>\n<ul>\n<li><a
+        href='financial_planning.php?id=10&ref=page'>Moneyline</a></li>\n<li><a href='financial_planning.php?id=11&ref=page'>Wire
+        Transfer</a></li>\n<li><a href='financial_planning.php?id=21&ref=page'>Service
+        Fees</a></li>\n</ul>\n<h3>General</h3>\n<ul>\n<li><a href='financial_planning.php?id=23&ref=page'>Financial
+        Planning</a></li>\n<li><a href='financial_planning.php?id=28&ref=page'>Thank
+        You!</a></li>\n<li><a href='financial_planning.php?id=39&ref=page'>Security
+        Tips: Securing Your Online Experience</a></li>\n</ul>\n<h3>Loans</h3>\n<ul>\n<li><a
+        href='financial_planning.php?id=24&ref=page'>JMMB Loans</a></li>\n</ul>\n<h3>Short
+        Term Goals</h3>\n<ul>\n<li><a href='financial_planning.php?id='></a></li>\n<li><a
+        href='financial_planning.php?id='></a></li>\n<li><a href='financial_planning.php?id=6'>Income
+        Builder</a></li>\n<li><a href='financial_planning.php?id=7'>Sure Advance Plus
+        Loan</a></li>\n<li><a href='financial_planning.php?id='></a></li>\n<li><a
+        href='financial_planning.php?id='></a></li>\n<li><a href='financial_planning.php?id='></a></li>\n<li><a
+        href='financial_planning.php?id='></a></li>\n<li><a href='financial_planning.php?id='></a></li>\n<li><a
+        href='financial_planning.php?id='></a></li>\n<li><a href='financial_planning.php?id='></a></li>\n<li><a
+        href='financial_planning.php?id='></a></li>\n<li><a href='financial_planning.php?id='></a></li>\n<li><a
+        href='financial_planning.php?id='></a></li>\n</ul>\n<h3>Medium Term Goals</h3>\n<ul>\n<li><a
+        href='financial_planning.php?id='></a></li>\n<li><a href='financial_planning.php?id=15'>EMMA</a></li>\n<li><a
+        href='financial_planning.php?id=21'>Pension Fund Administration</a></li>\n<li><a
+        href='financial_planning.php?id='></a></li>\n<li><a href='financial_planning.php?id='></a></li>\n<li><a
+        href='financial_planning.php?id='></a></li>\n<li><a href='financial_planning.php?id='></a></li>\n<li><a
+        href='financial_planning.php?id=35'>JMMB 2011 Preference Share Offer</a></li>\n</ul>\n<h3>Long
+        Term Goals</h3>\n<ul>\n<li><a href='financial_planning.php?id='></a></li>\n<li><a
+        href='financial_planning.php?id=21'>Pension Fund Administration</a></li>\n<li><a
+        href='financial_planning.php?id='></a></li>\n<li><a href='financial_planning.php?id=24'>Pension
+        Investment Management</a></li>\n<li><a href='financial_planning.php?id='></a></li>\n</ul>\n-->\r\n</div>\r\n\r\n<div
+        id=\"content3\">\r\n<h2>Our Rates</h2>\r\n\r\n\r\n<b>JA$ cash secured loan
+        rate is at:  12.0%.</b>\r\n\t   <br><br>\r\n\r\n<div id=\"fps_form\">\r\n\r\n
+        \   \r\n\t   Note: <BR>All product rates are indicative and are subject to
+        change without notice. <BR>All product rates are quoted per annum\r\n      <p><font
+        size=\"3\" face=\"Arial, Helvetica, sans-serif\"><img src=\"images//jsureinvestor.jpg\"
+        width=\"95\" height=\"45\" align=\"absmiddle\"></font></p>\r\n      <p> \r\n
+        \      \r\n              </p>\r\n      <p class=\"TextHeader\"> <b> \r\n        Local
+        (JA$) Corporate Paper and Repo Rates          </b></p>\r\n      <table cellpadding=\"5\"
+        cellspacing=\"0\" border=\"1\" width=\"100%\">\r\n        <tr> \r\n          <td></td>\r\n
+        \                   <td class=\"TableBorder\" bgcolor=\"#ECECEC\" align=\"center\"
+        valign=\"middle\"> \r\n            <p><font size=\"1\"><b> \r\n              Overnight
+        \             </b></font></p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" bgcolor=\"#ECECEC\" align=\"center\" valign=\"middle\">
+        \r\n            <p><font size=\"1\"><b> \r\n              7 Days              </b></font></p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" bgcolor=\"#ECECEC\"
+        align=\"center\" valign=\"middle\"> \r\n            <p><font size=\"1\"><b>
+        \r\n              14 Days              </b></font></p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" bgcolor=\"#ECECEC\" align=\"center\"
+        valign=\"middle\"> \r\n            <p><font size=\"1\"><b> \r\n              30
+        Days              </b></font></p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" bgcolor=\"#ECECEC\" align=\"center\" valign=\"middle\">
+        \r\n            <p><font size=\"1\"><b> \r\n              60 Days              </b></font></p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" bgcolor=\"#ECECEC\"
+        align=\"center\" valign=\"middle\"> \r\n            <p><font size=\"1\"><b>
+        \r\n              90 Days              </b></font></p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" bgcolor=\"#ECECEC\" align=\"center\"
+        valign=\"middle\"> \r\n            <p><font size=\"1\"><b> \r\n              120
+        Days              </b></font></p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" bgcolor=\"#ECECEC\" align=\"center\" valign=\"middle\">
+        \r\n            <p><font size=\"1\"><b> \r\n              180 Days              </b></font></p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" bgcolor=\"#ECECEC\"
+        align=\"center\" valign=\"middle\"> \r\n            <p><font size=\"1\"><b>
+        \r\n              270 Days              </b></font></p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" bgcolor=\"#ECECEC\" align=\"center\"
+        valign=\"middle\"> \r\n            <p><font size=\"1\"><b> \r\n              365
+        Days              </b></font></p>\r\n          </td>\r\n                  <tr>
+        \r\n          <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n                        <font size=\"1\"><b> \r\n              JA$              0.01\t\t\t
+        \ -\r\n              JA$              99,999.99              </b></font>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">0.50%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">0.50%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">0.50%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">0.50%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">0.50%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">0.50%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">0.50%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">0.50%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">0.50%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">0.50%</font>\r\n            </p>\r\n          </td>\r\n                  </tr>\r\n
+        \               <tr> \r\n          <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n                        <font size=\"1\"><b> \r\n              JA$
+        \             100,000.00\t\t\t  -\r\n              JA$              249,999.99
+        \             </b></font>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">0.60%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">0.75%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">1.10%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">2.25%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">2.50%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">2.75%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">3.00%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">3.10%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">3.20%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">3.45%</font>\r\n            </p>\r\n          </td>\r\n
+        \                 </tr>\r\n                <tr> \r\n          <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n                        <font size=\"1\"><b>
+        \r\n              JA$              250,000.00\t\t\t  -\r\n              JA$
+        \             499,999.99              </b></font>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">0.65%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">0.95%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">1.60%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">2.50%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">2.75%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">3.00%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">3.15%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">3.30%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">3.60%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">3.70%</font>\r\n            </p>\r\n
+        \         </td>\r\n                  </tr>\r\n                <tr> \r\n          <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n                        <font
+        size=\"1\"><b> \r\n              JA$              500,000.00\t\t\t  -\r\n
+        \             JA$              749,999.99              </b></font>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">0.85%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">1.20%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">2.60%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">2.75%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">3.00%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">3.15%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">3.25%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">3.60%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">3.75%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">3.85%</font>\r\n
+        \           </p>\r\n          </td>\r\n                  </tr>\r\n                <tr>
+        \r\n          <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n                        <font size=\"1\"><b> \r\n              JA$              750,000.00\t\t\t
+        \ -\r\n              JA$              999,999.99              </b></font>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">1.05%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">1.45%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">2.85%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">3.00%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">3.15%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">3.25%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">3.60%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">3.75%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">3.85%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">3.90%</font>\r\n            </p>\r\n          </td>\r\n                  </tr>\r\n
+        \               <tr> \r\n          <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n                        <font size=\"1\"><b> \r\n              JA$
+        \             1,000,000.00\t\t\t  -\r\n              JA$              4,999,999.99
+        \             </b></font>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">1.20%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">1.65%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">3.10%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">3.15%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">3.25%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">3.60%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">3.75%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">3.85%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">3.95%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">4.05%</font>\r\n            </p>\r\n          </td>\r\n
+        \                 </tr>\r\n                <tr> \r\n          <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n                        <font size=\"1\"><b>
+        \r\n              JA$              5,000,000.00\t\t\t  -\r\n              JA$
+        \             14,999,999.99              </b></font>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">1.85%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">2.00%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">3.25%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">3.35%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">3.50%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">3.65%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">3.85%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">3.95%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">4.10%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">4.20%</font>\r\n
+        \           </p>\r\n          </td>\r\n                  </tr>\r\n                <tr>
+        \r\n          <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n                        <font size=\"1\"><b> \r\n              JA$              15,000,000.00\t\t\t
+        \ -\r\n              JA$              19,999,999.99              </b></font>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">2.00%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">2.25%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">3.35%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">3.50%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">3.60%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">3.75%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">3.95%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">4.10%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">4.25%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">4.35%</font>\r\n            </p>\r\n          </td>\r\n                  </tr>\r\n
+        \             </table>\r\n       <!-- <p class=\"Text\"><B>Amounts in excess
+        of JA$5, 000,000 are negotiable</B></p> -->\r\n            <p><font size=\"2\"
+        face=\"Arial, Helvetica, sans-serif\"><img src=\"images//ussureinvestor.jpg\"
+        width=\"103\" height=\"45\"><br>\r\n        </font></p>\r\n      <p> \r\n
+        \             </p>\r\n      <p class=\"TextHeader\"> <b> \r\n        US$ Corporate
+        Paper, Repo and Eurobond Rates          </b></p>\r\n      <table cellpadding=\"5\"
+        cellspacing=\"0\" border=\"1\" width=\"100%\">\r\n        <tr> \r\n          <td></td>\r\n
+        \                   <td class=\"TableBorder\" bgcolor=\"#ECECEC\" align=\"center\"
+        valign=\"middle\"> \r\n            <p><font size=\"1\"><b> \r\n              Overnight
+        \             </b></font></p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" bgcolor=\"#ECECEC\" align=\"center\" valign=\"middle\">
+        \r\n            <p><font size=\"1\"><b> \r\n              7 Days              </b></font></p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" bgcolor=\"#ECECEC\"
+        align=\"center\" valign=\"middle\"> \r\n            <p><font size=\"1\"><b>
+        \r\n              14 Days              </b></font></p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" bgcolor=\"#ECECEC\" align=\"center\"
+        valign=\"middle\"> \r\n            <p><font size=\"1\"><b> \r\n              30
+        Days              </b></font></p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" bgcolor=\"#ECECEC\" align=\"center\" valign=\"middle\">
+        \r\n            <p><font size=\"1\"><b> \r\n              60 Days              </b></font></p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" bgcolor=\"#ECECEC\"
+        align=\"center\" valign=\"middle\"> \r\n            <p><font size=\"1\"><b>
+        \r\n              90 Days              </b></font></p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" bgcolor=\"#ECECEC\" align=\"center\"
+        valign=\"middle\"> \r\n            <p><font size=\"1\"><b> \r\n              120
+        Days              </b></font></p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" bgcolor=\"#ECECEC\" align=\"center\" valign=\"middle\">
+        \r\n            <p><font size=\"1\"><b> \r\n              180 Days              </b></font></p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" bgcolor=\"#ECECEC\"
+        align=\"center\" valign=\"middle\"> \r\n            <p><font size=\"1\"><b>
+        \r\n              365 Days              </b></font></p>\r\n          </td>\r\n
+        \                 <tr> \r\n          <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n                        <font size=\"1\"><b> \r\n              US$
+        \             0.01              - \r\n              US$              4,999.99
+        \             </b></font>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">0.25%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">0.40%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">0.55%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">0.65%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">0.75%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">0.85%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">N/A</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">0.95%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">1.05%</font>\r\n            </p>\r\n          </td>\r\n                  </tr>\r\n
+        \               <tr> \r\n          <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n                        <font size=\"1\"><b> \r\n              US$
+        \             5,000.00              - \r\n              US$              9,999.99
+        \             </b></font>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">0.35%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">0.55%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">0.60%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">0.75%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">0.85%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">1.00%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">N/A</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">1.25%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">1.50%</font>\r\n            </p>\r\n          </td>\r\n                  </tr>\r\n
+        \               <tr> \r\n          <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n                        <font size=\"1\"><b> \r\n              US$
+        \             10,000.00              - \r\n              US$              24,999.99
+        \             </b></font>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">0.50%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">0.65%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">0.75%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">0.85%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">1.00%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">1.25%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">N/A</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">1.50%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">1.75%</font>\r\n            </p>\r\n          </td>\r\n                  </tr>\r\n
+        \               <tr> \r\n          <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n                        <font size=\"1\"><b> \r\n              US$
+        \             25,000.00              - \r\n              US$              49,999.99
+        \             </b></font>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">0.75%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">0.85%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">0.95%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">1.00%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">1.25%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">1.50%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">N/A</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">1.75%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">1.85%</font>\r\n            </p>\r\n          </td>\r\n                  </tr>\r\n
+        \               <tr> \r\n          <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n                        <font size=\"1\"><b> \r\n              US$
+        \             50,000.00              - \r\n              US$              99,999.99
+        \             </b></font>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">1.00%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">1.15%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">1.25%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">1.35%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">1.50%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">1.75%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">N/A</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">1.85%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">2.00%</font>\r\n            </p>\r\n          </td>\r\n                  </tr>\r\n
+        \               <tr> \r\n          <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n                        <font size=\"1\"><b> \r\n              US$
+        \             100,000.00              - \r\n              US$              199,999.99
+        \             </b></font>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">1.50%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">2.00%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">2.15%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">2.25%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">2.35%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">2.50%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">N/A</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">2.65%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">2.85%</font>\r\n            </p>\r\n          </td>\r\n                  </tr>\r\n
+        \               <tr> \r\n          <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n                        <font size=\"1\"><b> \r\n              US$
+        \             200,000.00              - \r\n              US$              349,999.99
+        \             </b></font>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">1.60%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">2.15%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">2.25%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">2.35%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">2.50%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">2.75%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">N/A</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">2.95%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">3.15%</font>\r\n            </p>\r\n          </td>\r\n                  </tr>\r\n
+        \             </table>\r\n      <!-- <p class=\"Text\">&nbsp;</p> -->\r\n
+        \         <p><font size=\"2\" face=\"Arial, Helvetica, sans-serif\"><img src=\"images//sterlingsureinvestor.jpg\"
+        width=\"116\" height=\"45\"><br>\r\n        </font></p>\r\n      <p> \r\n
+        \             </p>\r\n      <p class=\"TextHeader\"> <b> \r\n                  </b></p>\r\n
+        \     <table cellpadding=\"5\" cellspacing=\"0\" border=\"1\" width=\"100%\">\r\n
+        \       <tr> \r\n          <td></td>\r\n                    <td class=\"TableBorder\"
+        bgcolor=\"#ECECEC\" align=\"center\" valign=\"middle\"> \r\n            <p><font
+        size=\"1\"><b> \r\n              Overnight              </b></font></p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" bgcolor=\"#ECECEC\"
+        align=\"center\" valign=\"middle\"> \r\n            <p><font size=\"1\"><b>
+        \r\n              7 Days              </b></font></p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" bgcolor=\"#ECECEC\" align=\"center\"
+        valign=\"middle\"> \r\n            <p><font size=\"1\"><b> \r\n              30
+        Days              </b></font></p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" bgcolor=\"#ECECEC\" align=\"center\" valign=\"middle\">
+        \r\n            <p><font size=\"1\"><b> \r\n              60 Days              </b></font></p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" bgcolor=\"#ECECEC\"
+        align=\"center\" valign=\"middle\"> \r\n            <p><font size=\"1\"><b>
+        \r\n              90 Days              </b></font></p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" bgcolor=\"#ECECEC\" align=\"center\"
+        valign=\"middle\"> \r\n            <p><font size=\"1\"><b> \r\n              180
+        Days              </b></font></p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" bgcolor=\"#ECECEC\" align=\"center\" valign=\"middle\">
+        \r\n            <p><font size=\"1\"><b> \r\n              365 Days              </b></font></p>\r\n
+        \         </td>\r\n                  <tr> \r\n          <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n                        <font size=\"1\"><b>
+        \r\n              GBP              0.01              - \r\n              GBP
+        \             4,999.99              </b></font>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">N/A</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">N/A</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">0.50%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">0.50%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">0.50%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">0.50%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">0.50%</font>\r\n
+        \           </p>\r\n          </td>\r\n                  </tr>\r\n                <tr>
+        \r\n          <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n                        <font size=\"1\"><b> \r\n              GBP              5,000.00
+        \             - \r\n              GBP              9,999.99              </b></font>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">N/A</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">N/A</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">0.75%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">0.85%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">0.95%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">1.10%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">1.25%</font>\r\n            </p>\r\n          </td>\r\n
+        \                 </tr>\r\n                <tr> \r\n          <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n                        <font size=\"1\"><b>
+        \r\n              GBP              10,000.00              - \r\n              GBP
+        \             24,999.99              </b></font>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">N/A</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">N/A</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">0.85%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">0.95%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">1.05%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">1.25%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">1.35%</font>\r\n
+        \           </p>\r\n          </td>\r\n                  </tr>\r\n                <tr>
+        \r\n          <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n                        <font size=\"1\"><b> \r\n              GBP              25,000.00
+        \             - \r\n              GBP              49,999.99              </b></font>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">N/A</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">N/A</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">1.00%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">1.20%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">1.30%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">1.40%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">1.50%</font>\r\n            </p>\r\n          </td>\r\n
+        \                 </tr>\r\n                <tr> \r\n          <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n                        <font size=\"1\"><b>
+        \r\n              GBP              50,000.00              - \r\n              GBP
+        \             99,999.99              </b></font>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">N/A</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">N/A</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">1.20%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">1.30%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">1.50%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">1.65%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">1.75%</font>\r\n
+        \           </p>\r\n          </td>\r\n                  </tr>\r\n                <tr>
+        \r\n          <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n                        <font size=\"1\"><b> \r\n              GBP              100,000.00
+        \             - \r\n              GBP              199,999.99              </b></font>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">N/A</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">N/A</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">1.35%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">1.50%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">1.65%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">1.85%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">2.00%</font>\r\n            </p>\r\n          </td>\r\n
+        \                 </tr>\r\n                <tr> \r\n          <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n                        <font size=\"1\"><b>
+        \r\n              GBP              200,000.00              - \r\n              GBP
+        \             349,999.99              </b></font>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">N/A</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">N/A</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">1.50%</font>\r\n
+        \           </p>\r\n          </td>\r\n                    <td class=\"TableBorder\"
+        align=\"center\" valign=\"middle\"> \r\n            <p> \r\n              <font
+        size=\"1\">1.65%</font>\r\n            </p>\r\n          </td>\r\n                    <td
+        class=\"TableBorder\" align=\"center\" valign=\"middle\"> \r\n            <p>
+        \r\n              <font size=\"1\">1.85%</font>\r\n            </p>\r\n          </td>\r\n
+        \                   <td class=\"TableBorder\" align=\"center\" valign=\"middle\">
+        \r\n            <p> \r\n              <font size=\"1\">2.25%</font>\r\n            </p>\r\n
+        \         </td>\r\n                    <td class=\"TableBorder\" align=\"center\"
+        valign=\"middle\"> \r\n            <p> \r\n              <font size=\"1\">2.35%</font>\r\n
+        \           </p>\r\n          </td>\r\n                  </tr>\r\n              </table>\r\n
+        \     <!-- <p class=\"Text\">&nbsp;</p> -->\r\n    \r\n<table width=\"100%\"
+        \ border=\"0\" cellspacing=\"5\" cellpadding=\"5\">\r\n  <tr> \r\n    <td
+        valign=\"top\">\r\n      <p class=\"PageHeader\">Current Rates</p>\r\n      <p>
+        \r\n              </p>\r\n      <table width=\"75%\" border=\"0\" cellpadding=\"4\"
+        cellspacing=\"0\">\r\n        <tr> \r\n          <td> \r\n            <p class=\"TextHeader\"><b>Jamaican
+        Dollar Save Smart (J$)<a name=\"JSM\"></a></b></p>          </td>\r\n        </tr>\r\n
+        \       <tr valign=\"top\" background=\"images/horizontal.gif\"> \r\n          <td
+        background=\"images/horizontal.gif\"> \r\n            <p class=\"Text\"><b>Last
+        Updated: \r\n              Dec 03, 2013              </b> </p>\r\n          </td>\r\n
+        \       </tr>\r\n        <tr valign=\"top\"> \r\n          <td> \r\n            <p
+        class=\"Text\"><font size=\"3\" face=\"Arial, Helvetica, sans-serif\"><img
+        src=\"images//jsavesmart.jpg\" width=\"110\" height=\"45\"><br>\r\n              </font>JA$
+        SaveSmart Account Interest rate is at <b> </b> : <b> \r\n              2.27%
+        \             </b> <!-- <br>\r\n              (This rate applies to amounts
+        $25,000 and over) --></p>\r\n          </td>\r\n        </tr>\r\n      </table>\r\n
+        \     <br>\r\n      <table width=\"75%\" border=\"0\" cellspacing=\"0\" cellpadding=\"4\">\r\n
+        \       <tr> \r\n          <td> \r\n            <p class=\"TextHeader\"><strong>United
+        States Dollar Save Smart (US$)<b><a name=\"USM\" id=\"USM\"></a></b></strong></p>\r\n
+        \         </td>\r\n        </tr>\r\n        <tr> \r\n          <td background=\"images/horizontal.gif\">
+        \r\n            <p class=\"Text\"><b>Last Updated: \r\n              Dec 03,
+        2013              </b> </p>\r\n          </td>\r\n        </tr>\r\n        <tr>
+        \r\n          <td> \r\n            <p class=\"Text\"><img src=\"images//ussavesmart.jpg\"
+        width=\"110\" height=\"45\"><br>\r\n              US$ SaveSmart Account Interest
+        Rate is at: <b> \r\n              1.24%              </b></p>\r\n          </td>\r\n
+        \       </tr>\r\n      </table>\r\n      <br>\r\n      <table width=\"75%\"
+        border=\"0\" cellspacing=\"0\" cellpadding=\"4\">\r\n        <tr> \r\n          <td>
+        \r\n            <p class=\"TextHeader\"><strong>Pound Sterling Save Smart
+        (&pound;)<b><a name=\"PSM\" id=\"PSM\"></a></b></strong></p>\r\n          </td>\r\n
+        \       </tr>\r\n        <tr> \r\n          <td background=\"images/horizontal.gif\">
+        \r\n            <p class=\"Text\"><b>Last Updated:</b> <font size=\"2\" face=\"Arial,
+        Helvetica, sans-serif\"><b> \r\n              Dec 03, 2013              </b></font></p>\r\n
+        \         </td>\r\n        </tr>\r\n        <tr> \r\n          <td> \r\n            <p
+        align=\"left\"><img src=\"images//sterlingsavesmart.jpg\" width=\"110\" height=\"45\"></p>\r\n
+        \           <p align=\"left\"><font size=\"2\" face=\"Arial, Helvetica, sans-serif\">&pound;
+        \r\n              Save Smart Account Interest Rate is at: <b> \r\n              1.78%
+        \             </b></font></p>\r\n          </td>\r\n        </tr>\r\n      </table>\r\n
+        \     <br>\r\n      <table width=\"75%\" border=\"0\" cellspacing=\"0\" cellpadding=\"4\">\r\n
+        \       <tr> \r\n          <td> \r\n            <p class=\"TextHeader\"><strong>Tax
+        Shelter (JA$)<b><a name=\"TS\" id=\"TS\"></a></b></strong></p>\r\n          </td>\r\n
+        \       </tr>\r\n        <tr> \r\n          <td background=\"images/horizontal.gif\">
+        \r\n            <p class=\"Text\"><b>Last Updated:</b> <font size=\"2\" face=\"Arial,
+        Helvetica, sans-serif\"><b> \r\n              Dec 03, 2013              </b></font></p>\r\n
+        \         </td>\r\n        </tr>\r\n        <tr> \r\n          <td> \r\n            <p
+        align=\"left\"><font size=\"2\" face=\"Arial, Helvetica, sans-serif\"><img
+        src=\"images//taxshelter.jpg\" width=\"76\" height=\"50\"></font></p>\r\n
+        \           <p align=\"left\">\r\n\t\t\t<font size=\"2\" face=\"Arial, Helvetica,
+        sans-serif\">JA$ Tax Shelter Account Interest Rate (Fixed): <b>up to 3.9%</b><br>\r\n\r\nJA$
+        Tax Shelter Account Interest Rate (Variable): <b>4.51%</b>\r\n</font>\r\n
+        \r\n\t\t\t\r\n\t\t\t<!--<font size=\"2\" face=\"Arial, Helvetica, sans-serif\">JA$
+        \r\n              Tax Shelter Account Interest Rate is at: <b> \r\n               4.51%
+        \r\n              </b></font>-->   </p>\r\n          </td>\r\n        </tr>\r\n
+        \     </table>\r\n      <br>\r\n<table width=\"75%\" border=\"0\" cellspacing=\"0\"
+        cellpadding=\"4\">\r\n    <tr> \r\n        <td> \r\n            <p align=\"left\"
+        style=\"margin-bottom:5px;color:#444 \"><font size=\"4\" face=\"Arial, Helvetica,
+        sans-serif\">GIA Savings</font></p>\r\n            <p class=\"Text\" style=\"margin:0\"><font
+        size=\"2\" face=\"Arial, Helvetica, sans-serif\"><strong>Last Updated: Apr
+        22, 2013</strong></font></p>            \r\n            <p align=\"left\"
+        class=\"Text\" style=\"margin-top:10px\">\r\n                <font size=\"2\"
+        face=\"Arial, Helvetica, sans-serif\">\r\n                GIA Savings Interest
+        Rate: <strong>2.25%</strong>\r\n                </font>\r\n            </p>\r\n
+        \       </td>\r\n    </tr>    \r\n</table>\r\n<br />\r\n\r\n\t  <div>\r\n\t\t<p
+        align=\"left\" style=\"margin-bottom:5px;color:#444 \"><font size=\"4\" face=\"Arial,
+        Helvetica, sans-serif\">Unit Trust Rates</font></p>\r\n\t  </div>\r\n\t  <table
+        cellpadding=\"5\" cellspacing=\"0\" border=\"1\" style=\"margin:5px 0 20px
+        0;\">\r\n\t\t\t\t\r\n                <tr>\r\n                    <td width=\"170\"
+        class=\"TableBorder\" bgcolor=\"#ECECEC\"> \r\n                        <p
+        class=\"Text\"><b>Product</b></p>\r\n                    </td>\r\n                    <td
+        width=\"50\" bgcolor=\"#ECECEC\" class=\"TableBorder\"> \r\n                        <p
+        class=\"Text\"> <b>Buy </b> </p>\r\n                    </td>\r\n                    <td
+        width=\"50\" bgcolor=\"#ECECEC\"> \r\n                        <p class=\"Text\"><b>Sell</b>
+        </p>\r\n                    </td>\r\n                    <td width=\"100\"
+        bgcolor=\"#ECECEC\" class=\"TableBorder\"> \r\n                        <p
+        class=\"Text\"><b>Last Updated</b></p>\r\n                    </td>\r\n                </tr>\r\n
+        \                               <tr> \r\n                <td width=\"170\"
+        class=\"TableBorder\"> \r\n                  <p class=\"Text\"> \r\n                    JA$
+        Income and Growth                  </p>\r\n                </td>\r\n                <td
+        width=\"50\" class=\"TableBorder\"> \r\n                  <p class=\"Text\">
+        \r\n                    6.42                  </p>\r\n                </td>\r\n
+        \               <td width=\"50\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    6.55                  </p>\r\n                </td>\r\n
+        \               <td width=\"100\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    Dec 3, 2013                  </p>\r\n
+        \               </td>\r\n              </tr>\r\n                              <tr>
+        \r\n                <td width=\"170\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    JA$ Optimum Capital                  </p>\r\n
+        \               </td>\r\n                <td width=\"50\" class=\"TableBorder\">
+        \r\n                  <p class=\"Text\"> \r\n                    16.62                  </p>\r\n
+        \               </td>\r\n                <td width=\"50\" class=\"TableBorder\">
+        \r\n                  <p class=\"Text\"> \r\n                    17.12                  </p>\r\n
+        \               </td>\r\n                <td width=\"100\" class=\"TableBorder\">
+        \r\n                  <p class=\"Text\"> \r\n                    Dec 3, 2013
+        \                 </p>\r\n                </td>\r\n              </tr>\r\n
+        \                             <tr> \r\n                <td width=\"170\" class=\"TableBorder\">
+        \r\n                  <p class=\"Text\"> \r\n                    JA$ GILTEDGE
+        \                 </p>\r\n                </td>\r\n                <td width=\"50\"
+        class=\"TableBorder\"> \r\n                  <p class=\"Text\"> \r\n                    15.80
+        \                 </p>\r\n                </td>\r\n                <td width=\"50\"
+        class=\"TableBorder\"> \r\n                  <p class=\"Text\"> \r\n                    15.80
+        \                 </p>\r\n                </td>\r\n                <td width=\"100\"
+        class=\"TableBorder\"> \r\n                  <p class=\"Text\"> \r\n                    Dec
+        3, 2013                  </p>\r\n                </td>\r\n              </tr>\r\n
+        \             \t</table>\r\n      <br/>\r\n      \r\n\t  <div>\r\n\t\t<p align=\"left\"
+        style=\"margin-bottom:5px;color:#444 \"><font size=\"4\" face=\"Arial, Helvetica,
+        sans-serif\">JA$ Smart Investor Rates</font></p>\r\n\t  </div>\r\n      <table
+        cellpadding=\"5\" cellspacing=\"0\" border=\"1\" style=\"margin:5px 0 20px
+        0;\">\r\n\r\n          <tr>\r\n              <td width=\"250\" class=\"TableBorder\"
+        bgcolor=\"#ECECEC\"> \r\n                  <p class=\"Text\"><b>Product</b></p>\r\n
+        \             </td>\r\n              <td width=\"50\" bgcolor=\"#ECECEC\"
+        class=\"TableBorder\"> \r\n                  <p class=\"Text\"> <b>Interest
+        </b> </p>\r\n              </td>\r\n              <td width=\"100\" bgcolor=\"#ECECEC\"
+        class=\"TableBorder\"> \r\n                  <p class=\"Text\"><b>Last Updated</b></p>\r\n
+        \             </td>\r\n          </tr>\r\n                        <tr> \r\n
+        \                 <td class=\"TableBorder\"> \r\n                      <p
+        class=\"Text\"> \r\n                          JA$ Smart Investor 30 Days                                    </p>\r\n
+        \                 </td>\r\n                  <td width=\"50\" class=\"TableBorder\">
+        \r\n                      <p class=\"Text\"> \r\n                          3.20
+        \                     </p>\r\n                  </td>\r\n                  <td
+        width=\"100\" class=\"TableBorder\"> \r\n                      <p class=\"Text\">
+        \r\n                          Dec 3, 2013                      </p>\r\n                  </td>\r\n
+        \             </tr>\r\n                        <tr> \r\n                  <td
+        class=\"TableBorder\"> \r\n                      <p class=\"Text\"> \r\n                          JA$
+        Smart Investor 90 Days                                    </p>\r\n                  </td>\r\n
+        \                 <td width=\"50\" class=\"TableBorder\"> \r\n                      <p
+        class=\"Text\"> \r\n                          3.45                      </p>\r\n
+        \                 </td>\r\n                  <td width=\"100\" class=\"TableBorder\">
+        \r\n                      <p class=\"Text\"> \r\n                          Dec
+        3, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
+        \                       <tr> \r\n                  <td class=\"TableBorder\">
+        \r\n                      <p class=\"Text\"> \r\n                          JA$
+        Smart Investor 180 Days                                   </p>\r\n                  </td>\r\n
+        \                 <td width=\"50\" class=\"TableBorder\"> \r\n                      <p
+        class=\"Text\"> \r\n                          3.95                      </p>\r\n
+        \                 </td>\r\n                  <td width=\"100\" class=\"TableBorder\">
+        \r\n                      <p class=\"Text\"> \r\n                          Dec
+        3, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
+        \                       <tr> \r\n                  <td class=\"TableBorder\">
+        \r\n                      <p class=\"Text\"> \r\n                          JA$
+        Smart Investor 365 Days                                   </p>\r\n                  </td>\r\n
+        \                 <td width=\"50\" class=\"TableBorder\"> \r\n                      <p
+        class=\"Text\"> \r\n                          4.10                      </p>\r\n
+        \                 </td>\r\n                  <td width=\"100\" class=\"TableBorder\">
+        \r\n                      <p class=\"Text\"> \r\n                          Dec
+        3, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
+        \               </table>\r\n      <br/>   \r\n      \r\n\t  <div>\r\n\t\t<p
+        align=\"left\" style=\"margin-bottom:5px;color:#444 \"><font size=\"4\" face=\"Arial,
+        Helvetica, sans-serif\">US$ Smart Investor Rates</font></p>\r\n\t  </div>\r\n
+        \     <table cellpadding=\"5\" cellspacing=\"0\" border=\"1\" style=\"margin:5px
+        0 20px 0;\">\r\n\r\n          <tr>\r\n              <td width=\"250\" class=\"TableBorder\"
+        bgcolor=\"#ECECEC\"> \r\n                  <p class=\"Text\"><b>Product</b></p>\r\n
+        \             </td>\r\n              <td width=\"50\" bgcolor=\"#ECECEC\"
+        class=\"TableBorder\"> \r\n                  <p class=\"Text\"> <b>Interest
+        </b> </p>\r\n              </td>\r\n              <td width=\"100\" bgcolor=\"#ECECEC\"
+        class=\"TableBorder\"> \r\n                  <p class=\"Text\"><b>Last Updated</b></p>\r\n
+        \             </td>\r\n          </tr>\r\n                        <tr> \r\n
+        \                 <td class=\"TableBorder\"> \r\n                      <p
+        class=\"Text\"> \r\n                          US$ Smart Investor 30 Days                                    </p>\r\n
+        \                 </td>\r\n                  <td width=\"50\" class=\"TableBorder\">
+        \r\n                      <p class=\"Text\"> \r\n                          1.05
+        \                     </p>\r\n                  </td>\r\n                  <td
+        width=\"100\" class=\"TableBorder\"> \r\n                      <p class=\"Text\">
+        \r\n                          Dec 3, 2013                      </p>\r\n                  </td>\r\n
+        \             </tr>\r\n                        <tr> \r\n                  <td
+        class=\"TableBorder\"> \r\n                      <p class=\"Text\"> \r\n                          US$
+        Smart Investor 90 Days                                    </p>\r\n                  </td>\r\n
+        \                 <td width=\"50\" class=\"TableBorder\"> \r\n                      <p
+        class=\"Text\"> \r\n                          1.13                      </p>\r\n
+        \                 </td>\r\n                  <td width=\"100\" class=\"TableBorder\">
+        \r\n                      <p class=\"Text\"> \r\n                          Dec
+        3, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
+        \                       <tr> \r\n                  <td class=\"TableBorder\">
+        \r\n                      <p class=\"Text\"> \r\n                          US$
+        Smart Investor 180 Days                                   </p>\r\n                  </td>\r\n
+        \                 <td width=\"50\" class=\"TableBorder\"> \r\n                      <p
+        class=\"Text\"> \r\n                          1.40                      </p>\r\n
+        \                 </td>\r\n                  <td width=\"100\" class=\"TableBorder\">
+        \r\n                      <p class=\"Text\"> \r\n                          Dec
+        3, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
+        \                       <tr> \r\n                  <td class=\"TableBorder\">
+        \r\n                      <p class=\"Text\"> \r\n                          US$
+        Smart Investor 365 Days                                   </p>\r\n                  </td>\r\n
+        \                 <td width=\"50\" class=\"TableBorder\"> \r\n                      <p
+        class=\"Text\"> \r\n                          1.65                      </p>\r\n
+        \                 </td>\r\n                  <td width=\"100\" class=\"TableBorder\">
+        \r\n                      <p class=\"Text\"> \r\n                          Dec
+        3, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
+        \               </table>\r\n      <br/>      \r\n     <!-- <table width=\"75%\"
+        border=\"0\" cellspacing=\"0\" cellpadding=\"4\">\r\n        <tr> \r\n          <td>
+        \r\n            <p class=\"TextHeader\"><strong>Cheqmate (JA$)<b><a name=\"CM\"
+        id=\"CM\"></a></b></strong></p>\r\n          </td>\r\n        </tr>\r\n        <tr>
+        \r\n          <td background=\"images/horizontal.gif\"> \r\n            <p
+        class=\"Text\"><b>Last Updated:</b> <font size=\"2\" face=\"Arial, Helvetica,
+        sans-serif\"><b> \r\n                            </b></font></p>\r\n          </td>\r\n
+        \       </tr>\r\n        <tr> \r\n          <td> \r\n            <p align=\"left\"><font
+        size=\"2\" face=\"Arial, Helvetica, sans-serif\"><img src=\"images//cheqmate.jpg\"
+        width=\"96\" height=\"50\"></font></p>\r\n            <p align=\"left\"><font
+        size=\"2\" face=\"Arial, Helvetica, sans-serif\">JA$ \r\n              Cheqmate
+        Account Interest Rate is at: <b> \r\n                            </b></font></p>\r\n
+        \         </td>\r\n        </tr>\r\n      </table>-->\r\n      <br>\r\n      <table
+        width=\"75%\" border=\"0\" cellspacing=\"0\" cellpadding=\"4\">\r\n        <tr>
+        \r\n          <td> \r\n            <p align=\"left\" class=\"TextHeaderRed\"><b>
+        FX Trading Rates</b></p>\r\n          </td>\r\n        </tr>\r\n        <tr>
+        \r\n          <td background=\"images/horizontal.gif\"> \r\n            <p
+        class=\"Text\"><b> \r\n                            Last Updated:</b> <b> \r\n
+        \             Nov 29, 2013              </b><font size=\"2\" face=\"Arial,
+        Helvetica, sans-serif\"><b> </b></font></p>\r\n          </td>\r\n        </tr>\r\n
+        \       <tr> \r\n          <td valign=\"top\"> \r\n            <p><img src=\"images//cambio.jpg\"
+        width=\"209\" height=\"60\"></p>\r\n            <table border=\"0\" cellspacing=\"0\"
+        cellpadding=\"4\">\r\n              <tr> \r\n                <td width=\"74\">
+        \r\n                  <p class=\"Text\">&nbsp;</p>\r\n                </td>\r\n
+        \               <td colspan=\"2\" bgcolor=\"#FFFFCC\" class=\"TableBorder\">
+        \r\n                  <p class=\"Text\" align=\"center\"><b>CASH </b></p>\r\n
+        \               </td>\r\n                <td colspan=\"2\" bgcolor=\"#FFCC99\"
+        class=\"TableBorder\"> \r\n                  <p class=\"Text\" align=\"center\"><b>DRAFT</b></p>\r\n
+        \               </td>\r\n              </tr>\r\n              <tr> \r\n                <td
+        width=\"74\" class=\"TableBorder\" bgcolor=\"#ECECEC\"> \r\n                  <p
+        class=\"Text\"><b>CURRENCY</b></p>\r\n                </td>\r\n                <td
+        width=\"34\" bgcolor=\"#ECECEC\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> <b>Buy </b> </p>\r\n                </td>\r\n                <td
+        width=\"35\" bgcolor=\"#ECECEC\"> \r\n                  <p class=\"Text\"><b>Sell</b>
+        </p>\r\n                </td>\r\n                <td width=\"24\" bgcolor=\"#ECECEC\"
+        class=\"TableBorder\"> \r\n                  <p class=\"Text\"><b>Buy</b></p>\r\n
+        \               </td>\r\n                <td width=\"29\" bgcolor=\"#ECECEC\"
+        class=\"TableBorder\"> \r\n                  <p class=\"Text\"><b>Sell</b>
+        </p>\r\n                </td>\r\n              </tr>\r\n                            <tr>
+        \r\n                <td width=\"74\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    US$                  </p>\r\n                </td>\r\n
+        \               <td width=\"34\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    103.45                  </p>\r\n                </td>\r\n
+        \               <td width=\"35\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    N/A                  </p>\r\n                </td>\r\n
+        \               <td width=\"24\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    104.45                  </p>\r\n                </td>\r\n
+        \               <td width=\"29\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    105.95                  </p>\r\n                </td>\r\n
+        \             </tr>\r\n                            <tr> \r\n                <td
+        width=\"74\" class=\"TableBorder\"> \r\n                  <p class=\"Text\">
+        \r\n                    TT$                  </p>\r\n                </td>\r\n
+        \               <td width=\"34\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    14.55                  </p>\r\n                </td>\r\n
+        \               <td width=\"35\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    N/A                  </p>\r\n                </td>\r\n
+        \               <td width=\"24\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    15.01                  </p>\r\n                </td>\r\n
+        \               <td width=\"29\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    16.92                  </p>\r\n                </td>\r\n
+        \             </tr>\r\n                            <tr> \r\n                <td
+        width=\"74\" class=\"TableBorder\"> \r\n                  <p class=\"Text\">
+        \r\n                    GBP                  </p>\r\n                </td>\r\n
+        \               <td width=\"34\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    168.47                  </p>\r\n                </td>\r\n
+        \               <td width=\"35\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    N/A                  </p>\r\n                </td>\r\n
+        \               <td width=\"24\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    169.47                  </p>\r\n                </td>\r\n
+        \               <td width=\"29\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    175.19                  </p>\r\n                </td>\r\n
+        \             </tr>\r\n                            <tr> \r\n                <td
+        width=\"74\" class=\"TableBorder\"> \r\n                  <p class=\"Text\">
+        \r\n                    EUR                  </p>\r\n                </td>\r\n
+        \               <td width=\"34\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    138.50                  </p>\r\n                </td>\r\n
+        \               <td width=\"35\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    N/A                  </p>\r\n                </td>\r\n
+        \               <td width=\"24\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    140.00                  </p>\r\n                </td>\r\n
+        \               <td width=\"29\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    145.68                  </p>\r\n                </td>\r\n
+        \             </tr>\r\n                            <tr> \r\n                <td
+        width=\"74\" class=\"TableBorder\"> \r\n                  <p class=\"Text\">
+        \r\n                    CAD                  </p>\r\n                </td>\r\n
+        \               <td width=\"34\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    95.85                  </p>\r\n                </td>\r\n
+        \               <td width=\"35\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    N/A                  </p>\r\n                </td>\r\n
+        \               <td width=\"24\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    96.85                  </p>\r\n                </td>\r\n
+        \               <td width=\"29\" class=\"TableBorder\"> \r\n                  <p
+        class=\"Text\"> \r\n                    100.79                  </p>\r\n                </td>\r\n
+        \             </tr>\r\n                          </table>\r\n            <div
+        align=\"left\"> \r\n              <p><br>\r\n                <font face=\"Arial,
+        Helvetica, sans-serif\" size=\"2\">Amounts in \r\n                excess of
+        the following are negotiable:</font></p>\r\n            </div>\r\n            <table
+        border=\"0\">\r\n                            <tr valign=\"top\"> \r\n                <td>
+        \r\n                  <p class=\"Text\"> <b> \r\n                    US$  0.00
+        \                   </b> </p>\r\n                </td>\r\n                <td>
+        \r\n                  <p class=\"Text\">&nbsp; </p>\r\n                </td>\r\n
+        \             </tr>\r\n                            <tr valign=\"top\"> \r\n
+        \               <td> \r\n                  <p class=\"Text\"> <b> \r\n                    TT$
+        \ 0.00                    </b> </p>\r\n                </td>\r\n                <td>
+        \r\n                  <p class=\"Text\">&nbsp; </p>\r\n                </td>\r\n
+        \             </tr>\r\n                            <tr valign=\"top\"> \r\n
+        \               <td> \r\n                  <p class=\"Text\"> <b> \r\n                    GBP
+        \ 0.00                    </b> </p>\r\n                </td>\r\n                <td>
+        \r\n                  <p class=\"Text\">&nbsp; </p>\r\n                </td>\r\n
+        \             </tr>\r\n                            <tr valign=\"top\"> \r\n
+        \               <td> \r\n                  <p class=\"Text\"> <b> \r\n                    EUR
+        \ 0.00                    </b> </p>\r\n                </td>\r\n                <td>
+        \r\n                  <p class=\"Text\">&nbsp; </p>\r\n                </td>\r\n
+        \             </tr>\r\n                            <tr valign=\"top\"> \r\n
+        \               <td> \r\n                  <p class=\"Text\"> <b> \r\n                    CAD
+        \ 0.00                    </b> </p>\r\n                </td>\r\n                <td>
+        \r\n                  <p class=\"Text\">&nbsp; </p>\r\n                </td>\r\n
+        \             </tr>\r\n                          </table>\r\n            <p
+        align=\"left\">&nbsp;</p>\r\n          </td>\r\n        </tr>\r\n      </table>\r\n\r\n</div>\r\n\r\n</div>
+        \r\n</div><!--end left full-->\r\n\r\n<ul id=\"footer\">\r\n <li>&copy; JMMB
+        2010</li>\r\n <li> | </li>\r\n <li>All names and trademarks are the property
+        of JMMB</li>\r\n <li> | </li>\r\n <li><a href=\"disclaimer.php\">Disclaimer</a></li>\r\n</ul>\r\n<p
+        style=\"float: right; color: #CCCCCC; padding: 0 0 0px 10px; font-size: 10px\">developed
+        by <a href=\"http://www.dutchpotinteractive.com\"><img border=\"0\" src=\"images/dpilogo.gif\"
+        /></a></p>\r\n</div><!--end page-->\r\n\r\n\r\n\r\n</div><!--end container-->\r\n\r\n<script
+        type=\"text/javascript\">\r\nfunction initMenus() {\r\n\t$('ul.menu ul').hide();\r\n\t$.each($('ul.menu'),
+        function(){\r\n\t$('#' + this.id + '.expandfirst ul:first').show();\r\n\t});\r\n\t$('ul.menu
+        li a').click(\r\n\tfunction() {\r\n\tvar checkElement = $(this).next();\r\n\tvar
+        parent = this.parentNode.parentNode.id;\r\n\t\r\n\tif($('#' + parent).hasClass('noaccordion'))
+        {\r\n\t$(this).next().slideToggle('normal');\r\n\treturn false;\r\n\t}\r\n\tif((checkElement.is('ul'))
+        && (checkElement.is(':visible'))) {\r\n\tif($('#' + parent).hasClass('collapsible'))
+        {\r\n\t$('#' + parent + ' ul:visible').slideUp('normal');\r\n\t}\r\n\treturn
+        false;\r\n\t}\r\n\tif((checkElement.is('ul')) && (!checkElement.is(':visible')))
+        {\r\n\t$('#' + parent + ' ul:visible').slideUp('normal');\r\n\tcheckElement.slideDown('normal');\r\n\treturn
+        false;\r\n\t}\r\n\t}\r\n\t);\r\n\t}\r\n\t$(document).ready(function() {initMenus();});\r\n\r\n</script>\r\n\r\n<script
+        type=\"text/javascript\">\r\nvar gaJsHost = ((\"https:\" == document.location.protocol)
+        ? \"https://ssl.\" : \"http://www.\");\r\ndocument.write(unescape(\"%3Cscript
+        src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\r\n</script>\r\n<script
+        type=\"text/javascript\">\r\ntry {\r\n\tvar pageTracker = _gat._getTracker(\"UA-15943610-1\");\r\n\tpageTracker._trackPageview();\r\n}
+        \r\ncatch(err) {}\r\n</script>\r\n</body>\r\n</html>\r\n"
+    http_version: 
+  recorded_at: Wed, 04 Dec 2013 20:26:58 GMT
+recorded_with: VCR 2.8.0

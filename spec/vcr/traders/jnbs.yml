@@ -1,0 +1,487 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.jnbs.com/fx-rates-2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - www.jnbs.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 04 Dec 2013 20:26:48 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Pingback:
+      - http://www.jnbs.com/xmlrpc.php
+      Link:
+      - <http://www.jnbs.com/?p=4262>; rel=shortlink
+      Set-Cookie:
+      - PHPSESSID=deddd28b2afafc13a47712c5c2b7915c; path=/
+      - wfvt_1978812851=529f9008f1489; expires=Wed, 04-Dec-2013 20:56:48 GMT; path=/
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\r\n<html lang=\"en-US\">\r\n<head>\r\n<meta charset=\"UTF-8\"
+        />\t\r\n\r\n<script type=\"text/javascript\">\r\nfunction closePopup(id){\r\n\tvar
+        element = document.getElementById(id);\r\n\telement.parentNode.removeChild(element);\r\n}\r\n</script>\r\n<title>Foreign
+        Currency Exchange Rates | Jamaica National Building Society</title>\r\n\r\n<link
+        rel=\"stylesheet\" href=\"http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css\"
+        />\r\n<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.jnbs.com/wp-content/themes/jnbs/css/tipsy.css\"
+        />\r\n<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.jnbs.com/wp-content/themes/jnbs/style.css\"
+        />\r\n<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.jnbs.com/wp-content/themes/jnbs/css/blueberry.css\"
+        />\r\n<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.jnbs.com/wp-content/themes/jnbs/css/push-style.css\"
+        />\r\n<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.jnbs.com/wp-content/themes/jnbs/css/bjqs.css\"
+        />\r\n\r\n<link rel=\"pingback\" href=\"http://www.jnbs.com/xmlrpc.php\" />\r\n\r\n\r\n
+        \   \r\n\n<!-- This site is optimized with the Yoast WordPress SEO plugin
+        v1.4.18 - http://yoast.com/wordpress/seo/ -->\n<meta name=\"description\"
+        content=\"Find the lastest buying and selling exchange rates for Cheques,
+        Incoming Wire Transfers &amp; Withdrawals from JNBS foreign currency savings
+        accounts.\"/>\n<link rel=\"canonical\" href=\"http://www.jnbs.com/fx-rates-2\"
+        />\n<!-- / Yoast WordPress SEO plugin. -->\n\n<link rel=\"alternate\" type=\"application/rss+xml\"
+        title=\"Jamaica National Building Society &raquo; Feed\" href=\"http://www.jnbs.com/feed\"
+        />\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Jamaica National
+        Building Society &raquo; Comments Feed\" href=\"http://www.jnbs.com/comments/feed\"
+        />\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Jamaica National
+        Building Society &raquo; FX Rates Comments Feed\" href=\"http://www.jnbs.com/fx-rates-2/feed\"
+        />\n<link rel='stylesheet' id='jqueryui-css'  href='http://www.jnbs.com/wp-content/plugins/article-accordion/css/ui-theme/ui.all.css?ver=3.7.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='articleAccordion.style-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/article-accordion/css/style.css?ver=3.7.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='collapseomatic-css-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/jquery-collapse-o-matic/light_style.css?ver=1.5.2'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='nextgen_gallery_related_images-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_gallery_display/static/nextgen_gallery_related_images.css?ver=3.7.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='q-a-plus-css'  href='http://www.jnbs.com/wp-content/plugins/q-and-a/css/q-a-plus.css?ver=1.0.6.2'
+        type='text/css' media='screen' />\n<link rel='stylesheet' id='wdm_wpe_FE-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/wordpresspasswordexpiry/css/wpe_fe.css?ver=3.7.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='skitter.styles-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/wp-skitter-slideshow/css/skitter.styles.min.css?ver=3.7.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='contact-form-7-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.5.2'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='wpsr-socialbuttons-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/wp-socializer/public/css/wp-socializer-buttons-css.css?ver=2.4.9.6'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='ccf-jquery-ui-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/custom-contact-forms/css/jquery-ui.css?ver=3.7.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='CCFStandardsCSS-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/custom-contact-forms/css/custom-contact-forms-standards.css?ver=3.7.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='CCFFormsCSS-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/custom-contact-forms/css/custom-contact-forms.css?ver=3.7.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='jq_ui_css-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/ajax-event-calendar/css/jquery-ui-1.8.16.custom.css?ver=1.8.16'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='custom-css'  href='http://www.jnbs.com/wp-content/plugins/ajax-event-calendar/css/custom.css?ver=1.0.4'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='tw-pagination-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/tw-pagination/tw-pagination.css?ver=1.0'
+        type='text/css' media='screen' />\n<link rel='stylesheet' id='wp-pagenavi-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='counterize_stylesheet-css'
+        \ href='http://www.jnbs.com/wp-content/plugins/counterize/counterize.css.php?ver=3.7.1'
+        type='text/css' media='all' />\n<script type='text/javascript' src='http://www.jnbs.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/article-accordion/js/jquery-ui.js?ver=3.7.1'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/article-accordion/js/ready.js?ver=3.7.1'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/jquery-collapse-o-matic/js/collapse.min.js?ver=1.5.2'></script>\n<script
+        type='text/javascript'>\n/* <![CDATA[ */\nvar photocrati_ajax = {\"url\":\"http:\\/\\/www.jnbs.com\\/photocrati_ajax\",\"wp_site_url\":\"http:\\/\\/www.jnbs.com\",\"wp_site_static_url\":\"http:\\/\\/www.jnbs.com\"};\n/*
+        ]]> */\n</script>\n<script type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ajax/static/ajax.js?ver=3.7.1'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/frame_communication/static/frame_event_publisher.js?ver=3.7.1'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/scroll-post-excerpt/scroll-post-excerpt.js?ver=3.7.1'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/vertical-scroll-recent-post/vertical-scroll-recent-post.js?ver=3.7.1'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/wp-skitter-slideshow/js/jquery.skitter.min.js?ver=3.7.1'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/wp-skitter-slideshow/js/jquery.easing.1.3.js?ver=3.7.1'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-includes/js/comment-reply.min.js?ver=3.7.1'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/custom-contact-forms/js/custom-contact-forms-datepicker.js?ver=3.7.1'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/custom-contact-forms/js/jquery.tools.min.js?ver=3.7.1'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/custom-contact-forms/js/custom-contact-forms.js?ver=3.7.1'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/vslider/js/vslider.js?ver=3.7.1'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/counterize/counterize.js.php?ver=3.7.1'></script>\n<link
+        rel=\"EditURI\" type=\"application/rsd+xml\" title=\"RSD\" href=\"http://www.jnbs.com/xmlrpc.php?rsd\"
+        />\n<link rel=\"wlwmanifest\" type=\"application/wlwmanifest+xml\" href=\"http://www.jnbs.com/wp-includes/wlwmanifest.xml\"
+        /> \n\n<link rel='shortlink' href='http://www.jnbs.com/?p=4262' />\n\n<!--
+        This site is using AdRotate v3.8.8 to display their advertisements - http://www.adrotateplugin.com/
+        -->\n<!-- AdRotate CSS (Deprecated) -->\n<style type=\"text/css\" media=\"screen\">\n.bl-1
+        { overflow:auto;margin:0;padding:0px;clear:none;width:auto;height:auto; }\n.al-1
+        { margin:1px;clear:none;float:left;width:125px;height:125px;border:0; }\n.bl-2
+        { overflow:auto;margin:0;padding:0px;clear:none;width:auto;height:auto; }\n.al-2
+        { margin:1px;clear:none;float:left;width:125px;height:125px;border:0; }\n.bl-3
+        { overflow:auto;margin:0;padding:0px;clear:none;width:auto;height:auto; }\n.al-3
+        { margin:1px;clear:none;float:left;width:125px;height:125px;border:0; }\n.block_left
+        { clear:left; }\n.block_right { clear:right; }\n.block_both { clear:both;
+        }\n</style>\n<!-- /AdRotate CSS (Deprecated) -->\n\n\r\n<!-- AmberPanther
+        Favicon for WordPress -->\r\n<link rel=\"icon\" type=\"image/png\" href=\"http://www.jnbs.com/favicon.png\"
+        />\r\n<script type='text/javascript'>\nvar colomatduration = 'fast';\nvar
+        colomatslideEffect = 'slideFade';\n</script><!-- <meta name=\"NextGEN\" version=\"2.0.30\"
+        /> -->\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"http://www.jnbs.com/wp-content/plugins/nivo-slider-for-wordpress/css/nivoslider4wp.css\"
+        />\r\n\t\t<style>\r\n\t\t#slider{\r\n\t\t\twidth:960px;\r\n\t\t\theight:332px;\r\n\t\t\tbackground:transparent
+        url(http://www.jnbs.com/wp-content/plugins/nivo-slider-for-wordpress/css/images/loading.gif)
+        no-repeat 50% 50%;\r\n\t\t}\r\n\t\t.nivo-caption {\r\n\t\t\tbackground:#000000;\r\n\t\t\tcolor:#ffffff;\r\n\t\t}\r\n\t\t</style>\r\n\t<!--
+        Q & A -->\n\t\t<noscript><link rel=\"stylesheet\" type=\"text/css\" href=\"http://www.jnbs.com/wp-content/plugins/q-and-a/css/q-a-plus-noscript.css?ver=1.0.6.2\"
+        /></noscript><!-- Q & A --><script type=\"text/javascript\">var src=\"http://www.jnbs.com/wp-admin/admin-ajax.php?action=wordfence_logHuman&amp;hid=2FCD86871FE10AC04215733A8C2470F6\";
+        if(window.location.protocol == \"https:\"){ src = src.replace(\"http:\", \"https:\");
+        } var wfHTImg = new Image();  wfHTImg.src=src;</script><script src=\"http://www.jnbs.com/wp-content/themes/jnbs/js/jquery.tools.min.js\"
+        ></script>\r\n</head>\r\n\r\n<body class=\"page page-id-4262 page-template-default\">\r\n
+        \  <!-- POP START -->\r\n       \t<!-- POP END -->\r\n\t<div id=\"wrapper\">\r\n\t\r\n
+        \   <!-- Begin Header -->\r\n    <div id=\"header\" class=\"rounded\">\r\n
+        \   \t<div id=\"branding\">\r\n        \t<a href=\"http://www.jnbs.com/\"
+        class=\"logo\" title=\"JN Home\"></a>\r\n        </div>\r\n        <div id=\"greetings\"></div>\r\n\t\r\n
+        \       <div id=\"hnav-wrap\">\r\n            <ul id=\"global-nav\">\r\n                <li><a
+        href=\"https://www.jnbslive.com/\" target=\"_blank\" class=\"signin\">sign
+        in LIVE by JN</a></li>\r\n                <li><a href=\"http://www.jnbs.com/\"
+        title=\"JN Home\">Home</a></li>                <li><a href=\"http://www.jnbs.com/contact-us\">Contact</a></li>\r\n
+        \               <li><a href=\"http://www.jnbs.com/branch-locator\">Branch
+        Locator</a></li>\r\n                <li><a href=\"http://www.jnbs.com/jn-sitemap\">Sitemap</a></li>\r\n
+        \               <li><a href=\"http://www.jnbs.com/about\">About</a></li>\r\n\t\t<li
+        class=\"last\"><a href=\"http://www.jnbs.com/media-center\">News</a></li>\r\n
+        \           </ul>\r\n            <div id=\"search\" class=\"clearright\t\">\r\n
+        \               <form method=\"get\" id=\"searchform\" action=\"http://www.jnbs.com/\">\n\t<input
+        type=\"text\" value=\"\" name=\"s\" id=\"s\" />\n\t<input type=\"submit\"
+        id=\"searchsubmit\" value=\"\" class=\"button\" />\n</form>\n            </div>\r\n
+        \       </div>\r\n        <br class=\"clearboth\" />\r\n    </div>\r\n    <!--
+        End Header -->\r\n    <script type=\"text/javascript\">\r\n\r\n  var _gaq
+        = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-7872910-1']);\r\n  _gaq.push(['_trackPageview']);\r\n\r\n
+        \ (function() {\r\n    var ga = document.createElement('script'); ga.type
+        = 'text/javascript'; ga.async = true;\r\n    ga.src = ('https:' == document.location.protocol
+        ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\r\n    var
+        s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+        s);\r\n  })();\r\n\r\n</script>\n<!-- Title Bar Begin -->\r\n   \t\t<div id=\"title-bar\">\r\n
+        \       \t<div id=\"sub-menu\">\r\n            \t<ul>\r\n                \t<li><a
+        href=\"http://www.jnbs.com/savings\">Savings</a></li>\r\n                    <li><a
+        href=\"http://www.jnbs.com/loans\">Loans</a></li>\r\n                    <li><a
+        href=\"http://www.jnbs.com/remittance\">Remittance</a></li>\r\n                    <li><a
+        href=\"http://www.jnbs.com/invest\">Investments/Insurance</a></li>\r\n                </ul>\r\n
+        \           </div>\r\n            <div id=\"page-title\">\r\n            \t<h1>FX
+        Rates</h1>\r\n            </div>\r\n        </div>\r\n   <!-- Title Bar Ends
+        -->\n<!-- Begin Homppage Content Area -->\n    <div id=\"sub-container\" class=\"rounded\">\n
+        \       <div class=\"inside\">\n           \n            <!-- Begin Content
+        -->\n            <div id=\"content\" class=\"about\">\n\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t<h1>FX
+        Rates</h1>\n\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t<p>\n<!-- Start WP Socializer
+        Plugin - Sharethis Button -->\n<p><span class='st_sharethis' st_title='FX
+        Rates' st_url='http://www.jnbs.com/fx-rates-2' displayText='ShareThis'></span></p>\n<!--
+        End WP Socializer Plugin - Sharethis Button -->\n</p><div class=\"fx-rates-search\">\n<form
+        action=\"\" method=\"POST\">\n<table cellpadding=\"2\" cellspacing=\"2\" align=\"left\"
+        style=\"width:400px;\">\n<tr>\n<td width=\"100\"><label>Daily Rates for:</label></td>\n<td
+        width=\"160\">\n<select name=\"fx-month\">\n<option value=\"1\">Jan</option>\n<option
+        value=\"2\">Feb</option>\n<option value=\"3\">Mar</option>\n<option value=\"4\">Apr</option>\n<option
+        value=\"5\">May</option>\n<option value=\"6\">Jun</option>\n<option value=\"7\">Jul</option>\n<option
+        value=\"8\">Aug</option>\n<option value=\"9\">Sep</option>\n<option value=\"10\">Oct</option>\n<option
+        value=\"11\">Nov</option>\n<option value=\"12\" selected=\"selected\">Dec</option>\n</select>\n<select
+        name=\"fx-day\">\n<option value=\"1\">1</option>\n<option value=\"2\">2</option>\n<option
+        value=\"3\">3</option>\n<option value=\"4\" selected=\"selected\">4</option>\n<option
+        value=\"5\">5</option>\n<option value=\"6\">6</option>\n<option value=\"7\">7</option>\n<option
+        value=\"8\">8</option>\n<option value=\"9\">9</option>\n<option value=\"10\">10</option>\n<option
+        value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option
+        value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option
+        value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option
+        value=\"20\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option
+        value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option
+        value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option
+        value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select
+        name=\"fx-year\">\n<option value=\"2013\" selected=\"selected\">2013</option>\n<option
+        value=\"2012\">2012</option>\n<option value=\"2011\">2011</option>\n</select>\n</td>\n<td>\n
+        \           \t<input type=\"submit\" class=\"submit-btn\" value=\"Go\"/>\n
+        \           </td>\n</tr>\n</table></form>\n</div>\n<table id=\"wp-table-reloaded-id-47-no-1\"
+        class=\"wp-table-reloaded wp-table-reloaded-id-47 fx-full\">\n<thead>\n<tr
+        class=\"row-1 odd\">\n<th class=\"column-1\">&nbsp;</th>\n<th class=\"column-2\"><b>BUYING</b></th>\n<th
+        class=\"column-3\">&nbsp;</th>\n<th class=\"column-4\"><b>SELLING</b></th>\n<th
+        class=\"column-5\"><b>SELLING</b></th>\n</tr>\n</thead>\n<tbody class=\"row-hover\">\n<tr
+        class=\"row-2 even\">\n<td class=\"column-1\">&nbsp;</td>\n<td colspan=\"2\"
+        class=\"column-2 colspan-2\"><strong>Cheques,         Incoming Wire Transfers
+        &amp; withdrawals from Foreign currency savings accounts</strong></td>\n<td
+        colspan=\"2\" class=\"column-4 colspan-2\"><strong>NOT TO EXCEED $500 in USD,
+        CAD, GBP and EUR (MEMBERS ONLY) *</strong></td>\n</tr>\n<tr class=\"row-3
+        odd\">\n<td class=\"column-1\">&nbsp;</td>\n<td class=\"column-2\">&nbsp;</td>\n<td
+        class=\"column-3\"><strong>Cash</strong></td>\n<td class=\"column-4\"><strong>LOW
+        \          RATE</strong></td>\n<td class=\"column-5\"><strong>BOARD       RATE</strong></td>\n</tr>\n<tr
+        class=\"row-4 even\">\n<td class=\"column-1\"><b>USD</b></td>\n<td class=\"column-2\">103.20
+        &nbsp; </td>\n<td class=\"column-3\">102.70  &nbsp; </div>\n</td>\n<td class=\"column-4\">105.05
+        \  &nbsp; </td>\n<td class=\"column-5\">105.25  &nbsp; </div>\n</td>\n</tr>\n<tr
+        class=\"row-4 even\">\n<td class=\"column-1\"><b>GBP</b></td>\n<td class=\"column-2\">168.71
+        &nbsp; </td>\n<td class=\"column-3\">167.96  &nbsp; </div>\n</td>\n<td class=\"column-4\">172.68
+        \  &nbsp; </td>\n<td class=\"column-5\">173.85  &nbsp; </div>\n</td>\n</tr>\n<tr
+        class=\"row-4 even\">\n<td class=\"column-1\"><b>CAD</b></td>\n<td class=\"column-2\">96.91
+        &nbsp; </td>\n<td class=\"column-3\">96.16  &nbsp; </div>\n</td>\n<td class=\"column-4\">99.18
+        \  &nbsp; </td>\n<td class=\"column-5\">99.79  &nbsp; </div>\n</td>\n</tr>\n<tr
+        class=\"row-4 even\">\n<td class=\"column-1\"><b>KYD</b></td>\n<td class=\"column-2\">
+        &nbsp; </td>\n<td class=\"column-3\">95.00  &nbsp; </div>\n</td>\n<td class=\"column-4\">104.03
+        \  &nbsp; </td>\n<td class=\"column-5\">104.50  &nbsp; </div>\n</td>\n</tr>\n<tr
+        class=\"row-4 even\">\n<td class=\"column-1\"><b>EUR</b></td>\n<td class=\"column-2\">136.21
+        &nbsp; </td>\n<td class=\"column-3\">135.21  &nbsp; </div>\n</td>\n<td class=\"column-4\">143.65
+        \  &nbsp; </td>\n<td class=\"column-5\">144.71  &nbsp; </div>\n</td>\n</tr>\n<tr
+        class=\"row-9 odd\">\n<td class=\"column-1\">&nbsp;</td>\n<td class=\"column-2\"><strong>Incoming
+        Money Transfers and Giro</strong></td>\n<td class=\"column-3\"></td>\n<td
+        class=\"column-4\"><strong>Outgoing JN Money Transfer</strong></td>\n<td class=\"column-5\"><strong>Outgoing
+        Moneygram</strong></td>\n</tr>\n<tr class=\"row-4 even\">\n<td class=\"column-1\"><b>USD</b></td>\n<td
+        class=\"column-2\">103.30&nbsp; </div>\n</td>\n<td class=\"column-3\">&nbsp;</td>\n<td
+        class=\"column-4\">104.85  &nbsp; </div>\n</td>\n<td class=\"column-5\">105.35&nbsp;
+        </div>\n</td>\n</tr>\n<tr class=\"row-4 even\">\n<td class=\"column-1\"><b>GBP</b></td>\n<td
+        class=\"column-2\">168.05&nbsp; </div>\n</td>\n<td class=\"column-3\">&nbsp;</td>\n<td
+        class=\"column-4\">176.45  &nbsp; </div>\n</td>\n<td class=\"column-5\">&nbsp;
+        </div>\n</td>\n</tr>\n<tr class=\"row-4 even\">\n<td class=\"column-1\"><b>CAD</b></td>\n<td
+        class=\"column-2\">95.46&nbsp; </div>\n</td>\n<td class=\"column-3\">&nbsp;</td>\n<td
+        class=\"column-4\">101.19  &nbsp; </div>\n</td>\n<td class=\"column-5\">&nbsp;
+        </div>\n</td>\n</tr>\n<tr class=\"row-4 even\">\n<td class=\"column-1\"><b>KYD</b></td>\n<td
+        class=\"column-2\">123.05&nbsp; </div>\n</td>\n<td class=\"column-3\">&nbsp;</td>\n<td
+        class=\"column-4\">126.74  &nbsp; </div>\n</td>\n<td class=\"column-5\">&nbsp;
+        </div>\n</td>\n</tr>\n<tr class=\"row-4 even\">\n<td class=\"column-1\"><b>EUR</b></td>\n<td
+        class=\"column-2\">&nbsp; </div>\n</td>\n<td class=\"column-3\">&nbsp;</td>\n<td
+        class=\"column-4\">  &nbsp; </div>\n</td>\n<td class=\"column-5\">&nbsp; </div>\n</td>\n</tr>\n<tr
+        class=\"row-15 odd\">\n<td class=\"column-1\"><strong>Postal Orders</strong></td>\n<td
+        class=\"column-2\"><b>BUYING</b></td>\n<td class=\"column-3\">&nbsp;</td>\n<td
+        class=\"column-4\">&nbsp;</td>\n<td class=\"column-5\">&nbsp;</td>\n</tr>\n<tr>\n<td
+        class=\"column-1\"><b>US Postal Orders</b></td>\n<td class=\"column-2\">102.70&nbsp;</td>\n<td
+        class=\"column-3\">&nbsp;</td>\n<td class=\"column-4\">&nbsp;</td>\n<td class=\"column-5\">&nbsp;</td>\n</tr>\n<tr>\n<td
+        class=\"column-1\"><b>UK Postal Orders</b></td>\n<td class=\"column-2\">96.16&nbsp;</td>\n<td
+        class=\"column-3\">&nbsp;</td>\n<td class=\"column-4\">&nbsp;</td>\n<td class=\"column-5\">&nbsp;</td>\n</tr>\n<tr>\n<td
+        class=\"column-1\"><b>CDN Postal Orders</b></td>\n<td class=\"column-2\">167.96&nbsp;</td>\n<td
+        class=\"column-3\">&nbsp;</td>\n<td class=\"column-4\">&nbsp;</td>\n<td class=\"column-5\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\n<p>\n\t<strong>Last
+        Updated: December 04, 2013</strong>\n</p>\n<p><span style=\"font-family: Arial,Helvetica,sans-serif;
+        font-size: x-small;\">NB:<br />\nThe buying rates for amounts in excess of
+        $3,000 are negotiable please speak to  your branch representative.</span><br
+        />\n<span style=\"font-family: Arial,Helvetica,sans-serif; font-size: x-small;\"><span
+        style=\"font-family: Verdana,Arial,Helvetica,sans-serif; font-size: x-small;\"><em><span
+        style=\"color: #ff0000;\">Rates are subject to change without notice.</span></em></span></span></p>\n<div
+        id=\"facebook_like\"><iframe src=\"http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.jnbs.com%2Ffx-rates-2&amp;layout=standard&amp;show_faces=true&amp;width=500&amp;action=like&amp;font=segoe+ui&amp;colorscheme=light&amp;height=80\"
+        scrolling=\"no\" frameborder=\"0\" style=\"border:none; overflow:hidden; width:500px;
+        height:80px;\" allowTransparency=\"true\"></iframe></div><h3>Share and Enjoy</h3>\r\n<p>\n<!--
+        Start WP Socializer Plugin - Sharethis Button -->\n<p><span class='st_sharethis'
+        st_title='FX Rates' st_url='http://www.jnbs.com/fx-rates-2' displayText='ShareThis'></span></p>\n<!--
+        End WP Socializer Plugin - Sharethis Button -->\n</p>\t\t\t\t\t\t\t\t\t\t\t\t\n\n</div>\n
+        \        <!-- End Content -->\n\n\t\t<!-- Begin Sidebar -->\r\n\r\n<div id=\"sidebar1\"
+        class=\"rounded\">\r\n    <div class=\"inside\">\r\n              \t\t<h3>Other
+        Saving Plans</h3>\r\n            <ul>\r\n                <li><a href=\"http://www.jnbs.com/baby-registry\">Baby
+        Registry</a></li>\r\n                <li><a href=\"http://www.jnbs.com/bridal-registry\">Bridal
+        Registry</a></li>\r\n                <!--li><a href=\"http://www.jnbs.com/dormant-accounts\">Dormant
+        Accounts</a></li-->\r\n                <!--li><a href=\"http://www.jnbs.com/foreign-currency-account\">Foreign
+        Currency Account</a></li-->\r\n                <li><a href=\"http://www.jnbs.com/jn-health\">JN
+        Health</a></li>\r\n                <li><a href=\"http://www.jnbs.com/jn-rewards\">JN
+        Rewards</a></li>\r\n                <li><a href=\"http://www.jnbs.com/foreign-currency-account\">Non
+        Resident/FC Accounts</a></li>\r\n                <li><a href=\"http://www.jnbs.com/real-estate-services\">JN
+        Real Estate Referral</a></li>\r\n                <li><a href=\"http://www.jnbs.com/home/savings/school-savers\">School
+        Savings Programme</a></li>\r\n            </ul>\r\n                \r\n        \r\n
+        \       <h3>Get in Touch</h3>\r\n        <ul>\r\n            <li><a href=\"http://www.jnbs.com/branch-locator\">Branch
+        Locator</a></li>\r\n            <li><a id=\"wtip\">Useful Numbers</a>\r\n
+        \           <div class=\"tooltip\">\r\n                <table class=\"number-list\">\r\n
+        \                   <tr>\r\n                        <td class=\"from\">In
+        Jamaica</td>\r\n                        <td>1.888.991.4065/6</td>\r\n                        \r\n
+        \                   </tr>\r\n                    <tr>\r\n                     <td></td>\r\n
+        \                    <td>1-888-GETJNBS (438-5627) </td>\r\n                    </tr>\r\n
+        \                   <tr>\r\n                        <td class=\"from\">From
+        USA</td>\r\n                        <td>1.800.462.9003</td>\r\n                    </tr>\r\n
+        \                   <tr>\r\n                        <td class=\"from\">From
+        Canada</td>\r\n                        <td>1.800.462.9003</td>\r\n                    </tr>\r\n
+        \                   <tr>\r\n                        <td class=\"from\">From
+        United Kingdom</td>\r\n                        <td>0.800.328.0387</td>\r\n
+        \                   </tr>\r\n                </table>\r\n            </div>\r\n
+        \           </li>\r\n            <li><a href=\"http://www.jnbs.com/atm-locator\">ATM
+        Locator</a></li>\r\n            <li><a href=\"http://www.jnbs.com/blog\">News</a></li>\r\n
+        \       </ul>\r\n        \r\n        <ul id=\"tools\">\r\n            <li
+        class=\"calc\"><a href=\"http://www.jnbs.com/calculator\">Mortgage Calculator</a></li>\r\n\t\t<li
+        class=\"calc\"><a href=\"http://www.jnbs.com/savings-calculator-2\">Savings
+        Calculator</a></li>\r\n            <li class=\"cserv\"><a href=\"http://www.jnbs.com/customer-service\">Customer
+        Service</a></li>\r\n           <!-- <li class=\"apply\"><a href=\"http://www.jnbs.com/application-form\">Apply
+        Now</a></li>-->\r\n        </ul>\r\n        \r\n    </div>\r\n    <div id=\"adv\">\r\n
+        \       <span class=\"adv\">Advertisement</span>\r\n        <div id=\"bl-1\"
+        class=\"block_outer bl-1\"><div id=\"al-4\" class=\"block_inner al-1 block_both
+        \"><a href=\"http://www.jnbs.com/wp-content/plugins/adrotate/adrotate-out.php?track=NCwwLDEsaHR0cDovL3d3dy5qbmJzLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAxMy8wOS9Nb2JpbGUtVW5pdC1TY2hlZHVsZS1mb3ItQ0MtT0NUT0JFUi0yMDEzLW9yaWdpbmFsLWYucGRm\"><img
+        src=\"http://205.134.253.213/~jnbsco5/jnbs/wp-content/uploads/2011/10/mobileUnitAd.jpg\"
+        /></a></div></div>    </div>\r\n</div>\r\n<!-- End Sidebar -->        <br
+        class=\"clearboth\" />\n        </div>\n\n    </div>\n    <!-- End Content
+        Area -->\n  \r\n <!-- Begin Footer -->\r\n    <div id=\"footer\">\r\n    \t<ul
+        class=\"f-cols\">\r\n        \t<li class=\"f-col\">\r\n            \t<h3>JN
+        Services</h3>\r\n                <ul>\r\n<li><a href=\"http://www.jnbs.com/discount\">Discount
+        Merchants</a></li>\r\n<li><a href=\"http://www.jnbs.com/wp-content/uploads/2012/03/catherine-hall-MAGAZINE-3.pdf\">JN
+        Financial Services, Montego Bay</a></li>\r\n<li><a href=\"http://www.jnbs.com/home/savings/jn-live-in-the-streets\">JN
+        LIVE on the Street</a></li>\r\n<li><a href=\"http://www.jnbs.com/jn-money-shops\">JN
+        MoneyShops</a></li>\r\n<li><a href=\"http://www.jnbs.com/jnbs-scholarship-programme\">JN
+        Scholarship Programme</a></li>\r\n<li><a href=\"http://www.jnbs.com/real-estate-services\">JN
+        Real Estate Referral</a></li>\r\n<li><a href=\"http://www.jnbs.com/jn-rewards\">Member
+        Benefits</a></li>\r\n<li><a href=\"http://www.nht.gov.jm/contribution-refunds\"
+        target=\"_blank\">NHT Contribution Refunds</a></li>\r\n<li><a href=\"http://www.jnbs.com/wp-content/uploads/2013/11/November-P.-Treaty-2013.pdf\"
+        target=\"_blank\">Private Treaty Listing</a></li>\r\n<li><a href=\"http://www.jnbs.com/preferred-developments\">Preferred
+        Lender Partners</a></li>\r\n<li><a href=\"http://www.jnbs.com/wp-content/uploads/Mobile-Unit-Schedule-for-CC-DECEMBER-2013-original-f.pptx-final.pdf\"
+        target=\"_blank\">UK Mobile Unit Schedule</a></li>\r\n</ul>\r\n                \r\n
+        \           </li>\r\n            <li class=\"f-col\">\r\n            \t<h3>Customer
+        Service</h3>\r\n<ul>\r\n<li><a href=\"http://www.jnbs.com/become-a-jnbs-member\">Become
+        a Member</a></li>\r\n<li><a href=\"http://www.jnbs.com/atm-locator\">ATM Locator</a></li>\r\n<li><a
+        href=\"http://www.jnbs.com/branch-locator\">Branch Locator</a></li>\r\n<li><a
+        href=\"http://www.jnbs.com/calculator\">Mortgage Calculator</a></li>\r\n<li><a
+        href=\"http://www.jnbs.com/media-center\">JN Media Centre</a></li>\r\n<li><a
+        href=\"http://www.jnbs.com/5981-2\">JNBS E-Newsletters</a></li>\r\n<li><a
+        href=\"http://www.jnbs.com/client-forms\">Member Forms</a></li>\r\n<li><a
+        href=\"http://www.jnbs.com/mortgage-faqs\">Mortgage FAQs</a></li>\r\n<!--li><a
+        href=\"http://www.jnbs.com/wp-content/uploads/2012/05/Local-Funds-countertop.pdf\">RTGS</a></li-->\r\n<li><a
+        href=\"http://www.jnbs.com/savings-faqs\">Savings FAQs</a></li>\r\n<!--li><a
+        href=\"http://www.jnbs.com/personal-finance-faqs\">Personal Finance FAQs</a></li-->\r\n
+        </ul>\r\n            </li>\r\n            <li class=\"f-col\">\r\n            \t<h3>JN
+        Subsidiaries</h3>\r\n                <ul>\r\n<li><a href=\"http://www.calljaa.com/\"
+        title=\"Jamaica Automobile Association\" target=\"_blank\" class=\"ext\">Jamaica
+        Automobile Association</a></li>\r\n<li><a href=\"http://www.jnfunds.com\"
+        title=\"JN Fund Managers\" target=\"_blank\" class=\"ext\">JN Fund Managers</a></li>\r\n<li><a
+        href=\"http://www.jngijamaica.com\" title=\"JN General Insurance Company Limited\"
+        target=\"_blank\" class=\"ext\">JN General Insurance Company Limited</a></li>\r\n<li><a
+        href=\"http://www.jnmoneytransfer.com\" title=\"JN Money Services Limited\"
+        target=\"_blank\" class=\"ext\">JN Money Services Limited</a></li>\r\n<li><a
+        href=\"http://www.jnsbl.com\" title=\"\" target=\"_blank\" class=\"ext\">JN
+        Small Business Loans Limited</a></li>\r\n<li><a href=\"http://www.mcsystems.com\"
+        title=\"Management Control Systems\" target=\"_blank\" class=\"ext\">Management
+        Control Systems</a></li>\r\n<li><a href=\"http://www.jnbs.com/manufacturers-credit-and-information-service\"
+        title=\"Manufacturer's Credit and Information Service\" target=\"_blank\"
+        class=\"ext\">Manufacturer's Credit and Information Services Ltd</a></li>\r\n<li><a
+        href=\"http://www.nbsc.com.ky/\">National Building Society of Cayman</a></li>\r\n
+        \               </ul>\r\n                <h3>JN Divisions</h3>\r\n                <ul>\r\n
+        \               <li><a href=\"http://www.jnfinanceltd.com\" title=\"JN Finance\"
+        target=\"_blank\">JN Finance</a></li>\r\n                <li><a href=\"http://www.jnbs.com/the-creative-unit\"
+        title=\"The Creative Unit\" target=\"_blank\" class=\"ext\">The Creative Unit</a></li>\r\n
+        \               </ul>\r\n            </li>\r\n            <li class=\"f-col\">\r\n
+        \           \t<h3>Overseas Offices</h3>\r\n                <ul>\r\n<li><a
+        href=\"http://www.jnbs.com/florida-page\">JNBS Representative Office (Florida)
+        </a></li>\r\n<li><a href=\"http://www.jnbs.com/canada-page\"  target=\"_blank\">JNBS
+        Representative Office (Toronto)</a></li>\r\n<li><a href=\"http://www.jnbs.com/uk-page\">JNBS
+        Representative Office (UK)</a></li>\r\n                    \r\n                                        \r\n
+        \               </ul>\r\n                <div id=\"newsletter\">\r\n                \t\t\r\n
+        \                   <span id=\"validEmail\"></span>\r\n                    <form
+        id='Mail_ActionPage_FormResponse' name='Mail_ActionPage_FormResponse' method='post'
+        action='http://app.bronto.com/public/actionpage/subscriber_add/?fn=Mail_ActionPage_FormResponse&pid=eucaoo9gyvl7383u3bgtkztlx51rv&ssid=12996'>\r\n
+        \                       <label>SUBSCRIBE TO JN E-NEWSLETTER</label>\r\n                        <input
+        type=\"text\" id=\"nl\" name=\"email\" value=\"Enter Your Email Address\"
+        onfocus=\"if (this.value == 'Enter Your Email Address') {this.value = '';}\"
+        onblur=\"if (this.value == '') {this.value = 'Enter Your Email Address';}\"
+        />\r\n                        <input type=\"submit\" id=\"submit\" class=\"rounded
+        nl\" value=\"GO\" />\r\n                    </form>\r\n                    \r\n
+        \               </div>\r\n                \r\n                <div id=\"social\"
+        class=\"clearright\">\r\n                \t<span>JOIN US ON:</span>\r\n                    <ul>\r\n
+        \                   \t<li><a href=\"http://www.jnbs.com/feed/rss\"><img src=\"http://www.jnbs.com/wp-content/themes/jnbs/images/social/rss.png\"
+        width=\"20px\" alt=\"RSS Feed\" /></a></li>\r\n                        <li><a
+        href=\"http://twitter.com/jamaicanational\"><img src=\"http://www.jnbs.com/wp-content/themes/jnbs/images/social/twitter.png\"
+        width=\"20px\" alt=\"Follow us on Twitter\" /></a></li>\r\n                        <li><a
+        href=\"http://www.facebook.com/jnbs1\"><img src=\"http://www.jnbs.com/wp-content/themes/jnbs/images/social/facebook.png\"
+        width=\"20px\" alt=\"Join us on Facebook\" /></a></li>\r\n                        <li><a
+        href=\"http://linkedin.com/\"><img src=\"http://www.jnbs.com/wp-content/themes/jnbs/images/social/linkedin.png\"
+        width=\"20px\" alt=\"Veiw our profile on Linkedin\" /></a></li>\r\n                        <li><a
+        href=\"http://www.youtube.com/user/JNBStv\"><img src=\"http://www.jnbs.com/wp-content/themes/jnbs/images/social/youtube.png\"
+        width=\"20px\" alt=\"Watch us on Youtube\" /></a></li>\r\n                        <li><a
+        href=\"http://www.flickr.com/photos/44638482@N04/\"><img src=\"http://www.jnbs.com/wp-content/themes/jnbs/images/social/flickr.png\"
+        width=\"20px\" alt=\"Veiw our photos on Flickr\" /></a></li>\r\n<li><a href=\"https://plus.google.com/111907059074335344997\"
+        rel=\"publisher\"><img src=\"http://www.jnbs.com/wp-content/themes/jnbs/images/social/google.png\"
+        width=\"20px\" alt=\"Follow us on Google+\" /></a></li>\r\n\t\t\t<li><a href=\"http://www.pinterest.com/jamaicanational/\"><img
+        src=\"http://www.jnbs.com/wp-content/uploads/2013/08/pinterest.png\" width=\"20px\"
+        alt=\"Pin us on Pinterest\" /></a></li>\r\n                    </ul>\r\n                </div>\r\n
+        \           </li>\r\n        </ul>\r\n     \t\t<script type=\"text/javascript\"
+        src=\"http://www.jnbs.com/wp-content/themes/jnbs/js/script.js\"></script>\r\n\t\t
+        \       \r\n    </div>\r\n    <div id=\"copy\">Copyright &copy; 2010. Jamaica
+        National Building Society. All Rights Reserved. <!--span class=\"credits\">a
+        <a href=\"\" title=\"\" target=\"_blank\"></a> design</div-->\r\n    <!--
+        End Footer -->\r\n</div>\r\n\r\n\t\t<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js\"></script>\r\n\t\t<script
+        type=\"text/javascript\" src=\"http://www.jnbs.com/wp-content/plugins/nivo-slider-for-wordpress/js/jquery.nivo.slider.pack.js\"></script>\r\n\t\t<script
+        type=\"text/javascript\">\r\n\t\tvar $nv4wp = jQuery.noConflict();\r\n\t\t$nv4wp(window).load(function()
+        {\r\n\t\t\t$nv4wp('#slider').nivoSlider({\r\n\t\t\t\teffect:'fade',\r\n\t\t\t\tslices:15,
+        // For slice animations\r\n\t\t\t\tboxCols: 4, // For box animations\r\n\t\t\t\tboxRows:
+        2, // For box animations\r\n\t\t\t\tanimSpeed:1000, // Slide transition speed\r\n\t\t\t\tpauseTime:5000,
+        // How long each slide will show\r\n\t\t\t\tstartSlide:0, // Set starting
+        Slide (0 index)\r\n\t\t\t\tdirectionNav:true, //Next & Prev\r\n\t\t\t\tdirectionNavHide:true,
+        //Only show on hover\r\n\t\t\t\tcontrolNav:true, // 1,2,3... navigation\r\n\t\t\t\tcontrolNavThumbs:false,
+        // Use thumbnails for Control Nav\r\n\t\t\t\tcontrolNavThumbsFromRel:false,
+        // Use image rel for thumbs\r\n\t\t\t\tcontrolNavThumbsSearch: '.jpg', //
+        Replace this with...\r\n\t\t\t\tcontrolNavThumbsReplace: '_thumb.jpg', //
+        ...this in thumb Image src\r\n\t\t\t\tkeyboardNav:true, //Use left & right
+        arrows\r\n\t\t\t\tpauseOnHover:true, //Stop animation while hovering\r\n\t\t\t\tmanualAdvance:false,
+        //Force manual transitions\r\n\t\t\t\tcaptionOpacity:0.8, //Universal caption
+        opacity\r\n\t\t\t\tprevText: 'Prev', // Prev directionNav text\r\n\t\t\t\tnextText:
+        'Next', // Next directionNav text\r\n\t\t\t\tbeforeChange: function(){}, //
+        Triggers before a slide transition\r\n\t\t\t\tafterChange: function(){}, //
+        Triggers after a slide transition\r\n\t\t\t\tslideshowEnd: function(){}, //
+        Triggers after all slides have been shown\r\n\t\t\t\tlastSlide: function(){},
+        // Triggers when last slide is shown\r\n\t\t\t\tafterLoad: function(){} //
+        Triggers when slider has loaded\r\n\t\t\t});\r\n\t\t});\r\n\t\t</script>\r\n\t\t\n<!--
+        WP Socializer - ShareThis Config -->\n<script type=\"text/javascript\">\r\nvar
+        sharethisLoad = function(){ stLight.options({publisher:'wp.037000c6-14c5-45cb-8091-e0ddfe731ca3'});
+        }, st_type='wordpress';\r\nif(window.addEventListener) window.addEventListener(\"load\",
+        sharethisLoad, false); \r\nelse if (window.attachEvent) window.attachEvent(\"onload\",
+        sharethisLoad);\r\n</script>\n<!-- WP Socializer - End ShareThis Config -->\n\n<!--WP
+        Socializer v2.4.9.6 - Scripts Loader-->\r\n<script type=\"text/javascript\">\r\nvar
+        wu=[\"http://w.sharethis.com/button/buttons.js\"],wc=1;\r\nfunction wpsrload(){
+        for(var i=0;i<wc;i++){wpsrasync(wu[i]);} }\r\nfunction wpsrasync(u){var a=document.createElement(\"script\");a.type=\"text/javascript\";a.async=true;a.src=u;var
+        s=document.getElementsByTagName(\"script\")[0];s.parentNode.insertBefore(a,s);}
+        wpsrload();\r\n</script>\r\n<!--End WP Socializer - Scripts Loader-->\n<!--
+        This JavaScript snippet activates those tabs -->\r\n<script type=\"text/javascript\">\r\n\r\n//
+        perform JavaScript after the document is scriptable.\r\n$(function() {\r\n\t//
+        setup ul.tabs to work as tabs for each div directly under div.panes\r\n\t$(\"ul.tabs\").tabs(\"div.panes
+        > div\");\r\n});\r\n</script>\r\n<script type=\"text/javascript\">\r\n\t\r\n\t$(document).ready(function()
+        {\r\n\t\r\n\t\t$('.faq-answer').css({'display':'none'});\r\n\t\t\r\n\t\t$('.faq-title').click(function(){\r\n\t\t\t$('.faq-answer').slideUp();\r\n\t\t\t$(this).next().slideDown();\r\n\t\t\treturn
+        false;\r\n\t\t});\r\n\r\n\t\t$(\"#nl\").keyup(function(){\r\n\t\t\r\n\t\t\tvar
+        email = $(\"#nl\").val();\r\n\t\t\r\n\t\t\tif(email != 0)\r\n\t\t\t{\r\n\t\t\t\t\r\n\t\t\t\tif(isValidEmailAddress(email))\r\n\t\t\t\t{\r\n\t\t\t\t\t$(\"#validEmail\").css({\r\n\t\t\t\t\t\t\"background-image\":
+        \"url('http://www.jnbs.com/wp-content/themes/jnbs/images/validyes.png')\"\r\n\t\t\t\t\t});\r\n\t\t\t\t}
+        else {\r\n\t\t\t\t\t$(\"#validEmail\").css({\r\n\t\t\t\t\t\t\"background-image\":
+        \"url('http://www.jnbs.com/wp-content/themes/jnbs/images/validno.png')\"\r\n\t\t\t\t\t});\r\n\t\t\t\t}\r\n\t\t\t}
+        else {\r\n\t\t\t\t$(\"#validEmail\").css({\r\n\t\t\t\t\t\"background-image\":
+        \"none\"\r\n\t\t\t\t});\t\t\t\r\n\t\t\t}\r\n\t\t\r\n\t\t});\r\n\t\r\n\t});\r\n\t\r\n\t$(\"#submit\").click(function(){\r\n\t\t\r\n\t\tvar
+        emailval = $(\"#nl\").val();\r\n\t\t\r\n\t\tif(isValidEmailAddress(emailval))\r\n\t\t\t\t{\r\n\t\t\t\t\t/*$(\"#newsletter\").slideUp(\"normal\",
+        function() {\r\n\t\r\n\t\t\t\t\t   $(\"#newsletter\").before('<div class=\"success\"><h2>Success</h2><p>Your
+        Email was added. Check your email and confirm.</p></div>');\r\n\t\t\t\t\t
+        \  $(\"#newsletter\").after('<img src=\"<img src=\"http://app.bronto.com/public/?q=direct_add&fn=Public_DirectAddForm&id=azwpqvjgpymtfjtylrmjyverwlopbli&email='
+        + emailval + '&doubleOptin=1&sendWelcome=always&messageId=3f40ed9b14c78514cbc027a43381e1ee&fromName=JNBS+Online&fromAddress=info%40jnbs.com&list1=0bbb03ec0000000000000000000000032a02\"
+        width=\"0\" height=\"0\" border=\"0\" alt=\"\"/>')\r\n\t\t\t\t\t   \r\n\t\t\t\t\t
+        });\r\n\t\t\t\t\t\r\n\t\t\t\t\t return false;*/\r\n\t\t\t\t\t window.open(\"http://www.jnbs.com/wp-content/themes/jnbs/newsletter_subscription/news.php?email=\"+emailval),
+        \"\",\"toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=690,height=590,left=200,top=450\";
+        \r\n\t\t\t\t\t return false;\r\n\t\t\t\t} else {\r\n\t\t\t\t\talert('Sorry
+        You entered an invalid email address. Please Try Again.');\r\n\t\t\t\t\treturn
+        false;\r\n\t\t\t\t}\r\n\t\t\r\n\t});\r\n\t\r\n\tfunction isValidEmailAddress(emailAddress)
+        {\r\n \t\tvar pattern = new RegExp(/^((\"[\\w-\\s]+\")|([\\w-]+(?:\\.[\\w-]+)*)|(\"[\\w-\\s]+\")([\\w-]+(?:\\.[\\w-]+)*))(@((?:[\\w-]+\\.)*\\w[\\w-]{0,66})\\.([a-z]{2,6}(?:\\.[a-z]{2})?)$)|(@\\[?((25[0-5]\\.|2[0-4][0-9]\\.|1[0-9]{2}\\.|[0-9]{1,2}\\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\\]?$)/i);\r\n
+        \t\treturn pattern.test(emailAddress);\r\n\t}\r\n\t\r\n\t</script>\r\n<!--<script
+        type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\"></script>-->\r\n<script
+        type=\"text/javascript\" src=\"http://www.jnbs.com/wp-content/themes/jnbs/js/overseas-event-pop.js\"></script>\r\n<script
+        type=\"text/javascript\">\r\n\r\n\t$(function() {\r\n\t\t//$(\"#accordion\").tabs(\"#accordion
+        div.pane\", {tabs: 'h2', effect: 'slide', initialIndex: null});\r\n\t\t/*$(\"#wtip\").tooltip({
+        effect: 'slide'});*/\r\n\t\t$(\".dp-body\").hide('fast');\r\n\t\t$(\"h2.dp-title\").click(function(){\r\n\t\t\t$(this).next().slideToggle(400);\r\n\t\t});\r\n\t\t\r\n\t\t$(\"h2.ui-accordion-header\").click(function(){\r\n\t\t\t$(this).parent().find('.pane').css({'display':'none'}).removeClass('current');\r\n\t\t\t$(this).next().slideToggle(400);\r\n\t\t})\r\n\t\t\r\n\t\t\t\t\r\n\t});\r\n</script>\r\n\r\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.3'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-includes/js/jquery/ui/jquery.ui.datepicker.min.js?ver=1.10.3'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/q-and-a/js/q-a-plus.js?ver=1.0.6.2'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.40.0-2013.08.13'></script>\n<script
+        type='text/javascript'>\n/* <![CDATA[ */\nvar _wpcf7 = {\"loaderUrl\":\"http:\\/\\/www.jnbs.com\\/wp-content\\/plugins\\/contact-form-7\\/images\\/ajax-loader.gif\",\"sending\":\"Sending
+        ...\",\"cached\":\"1\"};\n/* ]]> */\n</script>\n<script type='text/javascript'
+        src='http://www.jnbs.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.5.2'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/ajax-event-calendar/js/jquery.fullcalendar.min.js?ver=1.5.3'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/ajax-event-calendar/js/jquery.simplemodal.1.4.3.min.js?ver=1.4.3'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/ajax-event-calendar/js/jquery.mousewheel.min.js?ver=3.0.6'></script>\n<script
+        type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/ajax-event-calendar/js/jquery.jgrowl.min.js?ver=1.2.5'></script>\n<script
+        type='text/javascript'>\n/* <![CDATA[ */\nvar custom = {\"is_rtl\":\"\",\"locale\":\"en\",\"start_of_week\":\"1\",\"step_interval\":\"30\",\"datepicker_format\":\"mm\\/dd\\/yy\",\"is24HrTime\":\"\",\"show_weekends\":\"1\",\"agenda_time_format\":\"h:mmt{
+        - h:mmt}\",\"other_time_format\":\"h:mmt\",\"axis_time_format\":\"h:mmt\",\"limit\":\"0\",\"today\":\"Today\",\"all_day\":\"All
+        Day\",\"years\":\"Years\",\"year\":\"Year\",\"months\":\"Months\",\"month\":\"Month\",\"weeks\":\"Weeks\",\"week\":\"Week\",\"days\":\"Days\",\"day\":\"Day\",\"hours\":\"Hours\",\"hour\":\"Hour\",\"minutes\":\"Minutes\",\"minute\":\"Minute\",\"january\":\"January\",\"february\":\"February\",\"march\":\"March\",\"april\":\"April\",\"may\":\"May\",\"june\":\"June\",\"july\":\"July\",\"august\":\"August\",\"september\":\"September\",\"october\":\"October\",\"november\":\"November\",\"december\":\"December\",\"jan\":\"Jan\",\"feb\":\"Feb\",\"mar\":\"Mar\",\"apr\":\"Apr\",\"may_short\":\"May\",\"jun\":\"Jun\",\"jul\":\"Jul\",\"aug\":\"Aug\",\"sep\":\"Sep\",\"oct\":\"Oct\",\"nov\":\"Nov\",\"dec\":\"Dec\",\"sunday\":\"Sunday\",\"monday\":\"Monday\",\"tuesday\":\"Tuesday\",\"wednesday\":\"Wednesday\",\"thursday\":\"Thursday\",\"friday\":\"Friday\",\"saturday\":\"Saturday\",\"sun\":\"Sun\",\"mon\":\"Mon\",\"tue\":\"Tue\",\"wed\":\"Wed\",\"thu\":\"Thu\",\"fri\":\"Fri\",\"sat\":\"Sat\",\"close_event_form\":\"Close
+        Event Form\",\"loading_event_form\":\"Loading Event Form...\",\"update_btn\":\"Update\",\"delete_btn\":\"Delete\",\"category_type\":\"Category
+        type\",\"hide_all_notifications\":\"hide all notifications\",\"has_been_created\":\"has
+        been created.\",\"has_been_modified\":\"has been modified.\",\"has_been_deleted\":\"has
+        been deleted.\",\"add_event\":\"Add Event\",\"edit_event\":\"Edit Event\",\"delete_event\":\"Delete
+        this event?\",\"loading\":\"Loading Events...\",\"category_filter_label\":\"Category
+        filter label\",\"repeats_every\":\"Repeats Every\",\"until\":\"Until\",\"success\":\"Success!\",\"whoops\":\"Whoops!\",\"ajaxurl\":\"http:\\/\\/www.jnbs.com\\/wp-admin\\/admin-ajax.php\",\"editable\":\"\"};\nvar
+        custom = {\"is_rtl\":\"\",\"locale\":\"en\",\"start_of_week\":\"1\",\"step_interval\":\"30\",\"datepicker_format\":\"mm\\/dd\\/yy\",\"is24HrTime\":\"\",\"show_weekends\":\"1\",\"agenda_time_format\":\"h:mmt{
+        - h:mmt}\",\"other_time_format\":\"h:mmt\",\"axis_time_format\":\"h:mmt\",\"limit\":\"0\",\"today\":\"Today\",\"all_day\":\"All
+        Day\",\"years\":\"Years\",\"year\":\"Year\",\"months\":\"Months\",\"month\":\"Month\",\"weeks\":\"Weeks\",\"week\":\"Week\",\"days\":\"Days\",\"day\":\"Day\",\"hours\":\"Hours\",\"hour\":\"Hour\",\"minutes\":\"Minutes\",\"minute\":\"Minute\",\"january\":\"January\",\"february\":\"February\",\"march\":\"March\",\"april\":\"April\",\"may\":\"May\",\"june\":\"June\",\"july\":\"July\",\"august\":\"August\",\"september\":\"September\",\"october\":\"October\",\"november\":\"November\",\"december\":\"December\",\"jan\":\"Jan\",\"feb\":\"Feb\",\"mar\":\"Mar\",\"apr\":\"Apr\",\"may_short\":\"May\",\"jun\":\"Jun\",\"jul\":\"Jul\",\"aug\":\"Aug\",\"sep\":\"Sep\",\"oct\":\"Oct\",\"nov\":\"Nov\",\"dec\":\"Dec\",\"sunday\":\"Sunday\",\"monday\":\"Monday\",\"tuesday\":\"Tuesday\",\"wednesday\":\"Wednesday\",\"thursday\":\"Thursday\",\"friday\":\"Friday\",\"saturday\":\"Saturday\",\"sun\":\"Sun\",\"mon\":\"Mon\",\"tue\":\"Tue\",\"wed\":\"Wed\",\"thu\":\"Thu\",\"fri\":\"Fri\",\"sat\":\"Sat\",\"close_event_form\":\"Close
+        Event Form\",\"loading_event_form\":\"Loading Event Form...\",\"update_btn\":\"Update\",\"delete_btn\":\"Delete\",\"category_type\":\"Category
+        type\",\"hide_all_notifications\":\"hide all notifications\",\"has_been_created\":\"has
+        been created.\",\"has_been_modified\":\"has been modified.\",\"has_been_deleted\":\"has
+        been deleted.\",\"add_event\":\"Add Event\",\"edit_event\":\"Edit Event\",\"delete_event\":\"Delete
+        this event?\",\"loading\":\"Loading Events...\",\"category_filter_label\":\"Category
+        filter label\",\"repeats_every\":\"Repeats Every\",\"until\":\"Until\",\"success\":\"Success!\",\"whoops\":\"Whoops!\",\"ajaxurl\":\"http:\\/\\/www.jnbs.com\\/wp-admin\\/admin-ajax.php\",\"editable\":\"\"};\n/*
+        ]]> */\n</script>\n<script type='text/javascript' src='http://www.jnbs.com/wp-content/plugins/ajax-event-calendar/js/jquery.init_show_calendar.js?ver=1.0.4'></script>\n</body>\r\n</html>"
+    http_version: 
+  recorded_at: Wed, 04 Dec 2013 20:26:59 GMT
+recorded_with: VCR 2.8.0
