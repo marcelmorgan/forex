@@ -1,7 +1,7 @@
 # Forex
 
 Provides a simple DSL for managing Foreign Exchange rates (forex) for various
-traders.
+traders (Inspired by [CurrrencyJA](https://github.com/kenrick/currencyja)).
 
 ## Installation
 
