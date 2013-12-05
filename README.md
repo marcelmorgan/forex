@@ -53,9 +53,9 @@ Forex::Trader.fetch_all do |trader|
 end
 ```
 
-### TabularRate
+### TabularRates
 
-`TabularRate` allows you to simplify the process of parsing a table of rates.
+`TabularRates` allows you to simplify the process of parsing a table of rates.
 Simply find the table and pass it along with options of what values are in which
 columns (zero indexed).
 
