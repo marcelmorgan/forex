@@ -53,6 +53,39 @@ Forex::Trader.fetch_all do |trader|
 end
 ```
 
+### TabularRate
+
+`TabularRate` allows you to simplify the process of parsing a table of rates.
+Simply find the table and pass it along with options of what values are in which
+columns (zero indexed).
+
+For example:
+
+```ruby
+  #...
+
+  t.rates_parser = Proc.new do |doc| # doc is a nokogiri document
+
+    options = {
+      currency_code: 1,
+      sell_cash: 2,
+      buy_cash: 4,
+      buy_draft: 3,
+    }
+
+    table = doc.css(".rates table").first
+
+    Forex::TabularRates.new(table, options).parse_rates
+  end
+
+  #...
+```
+
+## TODO
+
+* Make it possible to have the same trader in multiple countries
+* Add other traders in Jamaica
+
 ## Code Status
 
 * [![Code Climate](https://codeclimate.com/github/mcmorgan/forex.png)](https://codeclimate.com/github/mcmorgan/forex)
