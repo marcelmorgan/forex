@@ -4,7 +4,15 @@ module Forex
 
     attr_accessor :table, :options
 
-    def initialize(table, options)
+    DEFAULT_OPTIONS = {
+      currency_code: 0,
+      buy_cash: 1,
+      buy_draft: 2,
+      sell_cash: 3,
+      sell_draft: 4,
+    }
+
+    def initialize(table, options = DEFAULT_OPTIONS)
       @table = table
       @options = options.symbolize_keys
     end
