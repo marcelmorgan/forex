@@ -1,0 +1,575 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.firstglobal-bank.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - www.firstglobal-bank.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 05 Dec 2013 16:59:52 GMT
+      Server:
+      - Microsoft-IIS/6.0
+      X-Powered-By:
+      - ASP.NET
+      X-Aspnet-Version:
+      - 2.0.50727
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '45231'
+    body:
+      encoding: UTF-8
+      string: "\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n<title>First
+        Global Bank Limited... Your Commercial Bank from GraceKennedy</title>\r\n<link
+        href=\"thrColFixHdr.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<link
+        href=\"home.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<!--[if lte IE
+        6]>\r\n<style type=\"text/css\"> \r\n/* place css box model fixes for IE 6
+        or earlier* in this conditional comment */\r\n.thrColFixHdr #sidebar1 { width:
+        169px; padding:0; margin:0;}\r\n.thrColFixHdr #sidebar2 { width: 458px; padding:0;
+        margin:0;}\r\n.thrColFixHdr #mainContent {margin: 0 458px 0 169px; padding:0;
+        \ }\r\n.thrColFixHdr #container{ padding:0;}\r\n#your2 ul {margin:0px;}\r\n</style>\r\n<![endif]-->\r\n\r\n<!--[if
+        IE ]>\r\n<style type=\"text/css\"> \r\n/* place css fixes for all versions
+        of IE in this conditional comment */\r\n.thrColFixHdr #sidebar2, .thrColFixHdr
+        #sidebar1 { padding-top: 0px; }\r\n.thrColFixHdr #mainContent { zoom: 1;padding-left:0px;
+        }\r\n.thrColFixHdr #your ul { margin-left: 0px; }\r\n/* the above proprietary
+        zoom property gives IE the hasLayout it needs to avoid several bugs */\r\n</style>\r\n<![endif]-->\r\n\r\n<script
+        type=\"text/javascript\" src=\"p7pm/p7popmenu.js\"></script>\r\n<style type=\"text/css\"
+        media=\"screen\">\r\n<!--\r\n@import url(\"p7pm/p7pmv0.css\");\r\n-->\r\n</style>\r\n<script
+        type=\"text/javascript\" src=\"p7epm/p7EPMscripts.js\"></script>\r\n<link
+        href=\"p7epm/epm4/p7EPM04.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\"
+        />\r\n<link href=\"p7epm/epm4/p7EPM05.css\" rel=\"stylesheet\" type=\"text/css\"
+        media=\"all\" />\r\n<script type=\"text/javascript\">\r\n<!--\r\nfunction
+        MM_openBrWindow(theURL,winName,features) { //v2.0\r\n  window.open(theURL,winName,features);\r\n}\r\n//-->\r\n</script>\r\n
+        \ <script language=JavaScript src=\"livechat/vtrack.aspx\"></script>\r\n\r\n</head>\r\n<body
+        class=\"thrColFixHdr\" onload=\"P7_initPM(0,0,1,-20,10)\">\r\n<div id=\"container\">\r\n
+        \ <div id=\"header\">\r\n    <div id=\"top_1\"><img src=\"images/top_1.jpg\"
+        width=\"980\" height=\"49\" alt=\" \" /></div>\r\n    <div id=\"top_2\"><a
+        href=\"/about_fgb/about_fgb.aspx\" title=\"About First Global Bank\">About
+        FGB</a>.<a href=\"online_banking/login.aspx\">My Accounts</a>.<a href=\"/customer_service/general_faqs.aspx\"
+        title=\"FGB Customer Service\">Help</a>.<a href=\"http://www.google.com/cse?cx=012720650344799034876%3Ag2yuj7oq4aw&ie=UTF-8\"
+        title=\"Search\" target=\"_blank\">Search</a>.<a href=\"/branches/corporate.aspx\">Contact
+        Us</a>.<a href=\"secure/forms/depositacc.aspx\">Open an Account</a>.<a href=\"/customer_service/introduction.aspx\">Customer
+        Service</a> . <span  class=\"login_red\"><img src=\"images/icon_login_lock.gif\"
+        width=\"9\" height=\"12\" alt=\"FGB Online Banking Login\" />&nbsp;<a href=\"online_banking/login.aspx\">Online
+        Banking Login</a></span></div>\r\n    <div id=\"top_3\"><a href=\"http://www.gracekennedy.com/\"
+        title=\"Grace Kennedy Limited\" target=\"_blank\">GraceKennedy</a>.<a href=\"http://www.fgfs.com/\"
+        title=\"First Global Financial Services\" target=\"_blank\">First Global Financial
+        Services</a>.<a href=\"http://www.fgttnow.com\" title=\"First Global Bank-
+        Trinidad & Tobago\" target=\"_blank\">First Global Trinidad &amp; Tobago</a></div>\r\n
+        \   <div id=\"top_4\"><img src=\"images/top_4.jpg\" width=\"980\" height=\"30\"
+        alt=\" \" /></div>\r\n    <div id=\"ticker\"></div>\r\n    <!-- end #header
+        -->\r\n  </div>\r\n  <div id=\"sidebar1\">\r\n    <ul id=\"p7PMnav\">\r\n
+        \ <li><a href=\"/index.aspx\">HOME</a></li>\r\n  <li><a href=\"/personal_banking/index.aspx\"
+        class=\"p7PMtrg\">PERSONAL BANKING</a>\r\n    <ul>\r\n      <li><a href=\"/personal_banking/savings.aspx\"
+        class=\"p7PMtrg\">Savings Accounts</a>\r\n        <ul>\r\n          <li><a
+        href=\"/products/statement_savings.aspx\">Statement</a></li>\r\n          <li><a
+        href=\"/products/premier_savings.aspx\">US$ Premier</a></li>\r\n          <li><a
+        href=\"/products/taxfree_deposit.aspx\">Tax-free Deposit</a></li>\r\n          <li><a
+        href=\"/products/global_kids_teens.aspx\">Global Kids/Teens</a></li>\r\n          <li><a
+        href=\"/products/global_savers_club.aspx\">Global Savers Club</a></li>\r\n
+        \       </ul>\r\n      </li>\r\n      <li><a href=\"/personal_banking/chequing.aspx\"
+        class=\"p7PMtrg\">Chequing Accounts</a>\r\n        <ul>\r\n          <li><a
+        href=\"/products/foreign_currency_chequing.aspx\">Foreign Currency</a></li>\r\n
+        \         <li><a href=\"/products/money_market_chequing.aspx\">Individual
+        Money Market</a></li>\r\n          <li><a href=\"/products/interest_chequing.aspx\">Interest
+        Chequing</a></li>\r\n        </ul>\r\n      </li>\r\n      <li><a href=\"/personal_banking/loans.aspx\"
+        class=\"p7PMtrg\">Loans &amp; Credit</a>\r\n        <ul>\r\n          <li><a
+        href=\"/products/double_yuh_money.aspx\">Double Yuh Money</a></li>\r\n          <li><a
+        href=\"/products/car_loan.aspx\">Motor Vehicle</a></li>\r\n          <li><a
+        href=\"/products/education_loan.aspx\">Education</a></li>\r\n          <li><a
+        href=\"/products/go_green_energy_saver_loan.aspx\">Go Green Energy Saver</a></li>\r\n
+        \        <li><a href=\"/products/home_equity.aspx\">Home Equity</a></li>\r\n
+        \         <li><a href=\"/products/home_equity_lines_of_credit.aspx\">Home
+        Equity Lines of Credit</a></li>\r\n          <li><a href=\"/products/pb_insurance_premium_financing.aspx\">Insurance
+        Premium Financing</a></li>\r\n          <li><a href=\"/products/overdraft_protection_plan.aspx\">Overdraft
+        Protection Plan</a></li>\r\n          <li><a href=\"/products/bond_extension_support.aspx\">Bond
+        Extension Support Loan</a></li>\r\n        </ul>\r\n      </li>\r\n      <li><a
+        href=\"/personal_banking/credit_cards.aspx\" class=\"p7PMtrg\">Credit Cards</a>\r\n
+        \       <ul>\r\n          <li><a href=\"http://rewards.firstglobal-bank.com/credit_cards/visa_platinum.aspx\">Visa
+        Platinum</a></li>\r\n          <li><a href=\"http://rewards.firstglobal-bank.com/credit_cards/visa_gold.aspx\">Visa
+        Gold</a></li>\r\n          <li><a href=\"http://rewards.firstglobal-bank.com/credit_cards/visa_classic.aspx\">Visa
+        Classic</a></li>\r\n          <li><a href=\"http://rewards.firstglobal-bank.com/credit_cards/jccul_visa_classic.aspx\">JCCUL
+        Classic Card</a></li>\r\n          <li><a href=\"/personal_banking/credit_cards.aspx\">Choose
+        A Card</a></li>\r\n          <li><a href=\"/personal_banking/credit_security.aspx\">Card
+        Security</a></li>\r\n          <li><a href=\"/personal_banking/credit_balance_transfer.aspx\">Balance
+        Transfer</a></li>\r\n          <!--li><a href=\"/personal_banking/card_protection.aspx\">Card
+        Protection</a></li-->\r\n          <li><a href=\"/personal_banking/terms_conditions.aspx\">Terms
+        &amp; Conditions</a></li>\r\n          <li><a href=\"/personal_banking/apply_online.aspx\">Apply
+        Online</a></li>\r\n          <li><a href=\"/personal_banking/credit_faqs.aspx\">FAQs</a></li>\r\n
+        \         <li><a href=\"/personal_banking/credit_education.aspx\">Credit Education</a></li>\r\n
+        \       </ul>\r\n      </li>\r\n      <li><a href=\"/personal_banking/high_yield_options.aspx\"
+        class=\"p7PMtrg\">High Yield Options</a>\r\n        <ul>\r\n          <!--li><a
+        href=\"/products/long_term_savings.aspx\">Long Term Savings Account</a></li-->\r\n
+        \         <li><a href=\"/products/certificates_of_deposit.aspx\">Certificates
+        of Deposit</a></li>\r\n          <li><a href=\"/products/type_a_account.aspx\">Type
+        \"A\" Account</a></li>\r\n        </ul>\r\n      </li>\r\n      <li><a href=\"/personal_banking/general_banking_solutions.aspx\"
+        class=\"p7PMtrg\">General Banking Solutions</a>\r\n        <ul>\r\n          <li><a
+        href=\"/products/global_direct.aspx\">GlobalDirect</a></li>\r\n          <li><a
+        href=\"/products/global_pay.aspx\">Global Pay</a></li>\r\n          <li><a
+        href=\"/products/debit_card_abm.aspx\">Debit Card & ABM facilities</a></li>\r\n
+        \         <li><a href=\"/online_banking/index.aspx\">Online Banking</a></li>\r\n
+        \         <li><a href=\"/products/foreign_exchange_trading.aspx\">Foreign
+        Exchange Trading</a></li>\r\n          <li><a href=\"/products/safety_deposit.aspx\">Safe
+        Deposit Boxes</a></li>\r\n          <li><a href=\"/products/wire_transfers.aspx\">Wire
+        Transfers</a></li>\r\n          <li><a href=\"/products/drafts_managers_cheques.aspx\">Drafts
+        &amp; Manager's Cheques</a></li>\r\n          <li><a href=\"/products/travellers_cheques.aspx\">Traveller's
+        Cheques</a></li>\r\n          <li><a href=\"/products/certification_of_balances.aspx\">Certification
+        of Balances</a></li>\r\n          <li><a href=\"/products/safe_keeping.aspx\">Safekeeping</a></li>\r\n
+        \         <li><a href=\"/products/night_depository.aspx\">Night Depository</a></li>\r\n
+        \         <li><a href=\"/products/standing_orders.aspx\">Standing Orders</a></li>\r\n
+        \         <li><a href=\"/products/letters_of_undertaking.aspx\">Letters of
+        Undertaking</a></li>\r\n        </ul>\r\n      </li>\r\n    </ul>\r\n  </li>\r\n
+        \ <li><a href=\"/business_banking/index.aspx\" class=\"p7PMtrg\">BUSINESS
+        BANKING</a>\r\n    <ul>\r\n      <li><a href=\"/business_banking/savings.aspx\"
+        class=\"p7PMtrg\">Savings Accounts</a>\r\n        <ul>\r\n          <li><a
+        href=\"/products/corporate_savings.aspx\">Corporate Savings</a></li>\r\n        </ul>\r\n
+        \     </li>\r\n      <li><a href=\"/business_banking/chequing.aspx\" class=\"p7PMtrg\">Chequing
+        Accounts</a>\r\n        <ul>\r\n          <li><a href=\"/products/corporate_chequing.aspx\">Corporate
+        Chequing</a></li>\r\n          <li><a href=\"/products/corporate_money_market.aspx\">Corporate
+        Money Market</a></li>\r\n          <li><a href=\"/products/foreign_currency_chequing.aspx\">Foreign
+        Currency Chequing</a></li>\r\n        </ul>\r\n      </li>\r\n      <li><a
+        href=\"/business_banking/loans.aspx\" class=\"p7PMtrg\">Loans &amp; Credit</a>\r\n
+        \       <ul>\r\n          <li><a href=\"/products/structured_financing_loan.aspx\">Structured
+        Financing</a></li>\r\n          <li><a href=\"/products/insurance_premium_financing.aspx\">Insurance
+        Premium Financing</a></li>\r\n          <li><a href=\"/products/line_of_credit.aspx\">Line
+        of Credit</a></li>\r\n          <li><a href=\"/products/commercial_loan.aspx\">Commercial
+        Loans</a></li>\r\n          <li><a href=\"/products/bankers_guarantee.aspx\">Banker's
+        Guarantees/Indemnities</a></li>\r\n          <li><a href=\"/products/loans_from_exim_bank.aspx\">Loans
+        from the EX-IM Bank</a></li>\r\n          <li><a href=\"/products/construction_loan.aspx\">Construction
+        Loans</a></li>\r\n          <li><a href=\"/products/go_green_energy_saver_loan.aspx\">Go
+        Green Energy Saver</a></li>\r\n          <li><a href=\"/products/bond_extension_support.aspx\">Bond
+        Extension Support Loan</a></li>\r\n        </ul>\r\n      </li>\r\n      <li><a
+        href=\"/business_banking/credit_cards.aspx\" class=\"p7PMtrg\">Credit Cards</a>\r\n
+        \       <ul>\r\n          <li><a href=\"http://rewards.firstglobal-bank.com/credit_cards/visa_corporate.aspx\">Visa
+        Corporate</a></li>\r\n          <li><a href=\"http://rewards.firstglobal-bank.com/credit_cards/visa_business.aspx\">Visa
+        Business</a></li>\r\n          <li><a href=\"/personal_banking/credit_security.aspx\">Card
+        Security</a></li>\r\n          <li><a href=\"/personal_banking/credit_balance_transfer.aspx\">Balance
+        Transfer</a></li>\r\n          <!--li><a href=\"#\">FGB Balance Insurance</a></li-->\r\n
+        \         <!--li><a href=\"/personal_banking/card_protection.aspx\">Card Protection</a></li-->\r\n
+        \         <li><a href=\"/personal_banking/terms_conditions.aspx\">Terms &amp;
+        Conditions</a></li>\r\n          <li><a href=\"/business_banking/apply_online.aspx\">Apply
+        Online</a></li>\r\n          <li><a href=\"/personal_banking/credit_faqs.aspx\">FAQs</a></li>\r\n
+        \         <li><a href=\"/online_banking/login.aspx\">View Online Transactions</a></li>\r\n
+        \         <li><a href=\"/online_banking/login.aspx\">Enroll for Online Banking</a></li>\r\n
+        \         <li><a href=\"/personal_banking/credit_education.aspx\">Credit Education</a></li>\r\n
+        \       </ul>\r\n      </li>\r\n      <li><a href=\"/business_banking/general_banking_solutions.aspx\"
+        class=\"p7PMtrg\">General Banking Solutions</a>\r\n        <ul>\r\n          <li><a
+        href=\"/products/global_direct.aspx\">GlobalDirect</a></li>\r\n          <li><a
+        href=\"/products/global_pay.aspx\">Global Pay</a></li>\r\n          <li><a
+        href=\"/products/foreign_exchange_trading.aspx\">Foreign Exchange Trading</a></li>\r\n
+        \         <li><a href=\"/online_banking/index.aspx\">Online Banking</a></li>\r\n
+        \         <li><a href=\"/products/letters_of_credit.aspx\">Letters of Credit</a></li>\r\n
+        \         <li><a href=\"/products/letters_of_undertaking.aspx#\">Letters of
+        Undertaking</a></li>\r\n          <li><a href=\"/products/wire_transfers.aspx\">Wire
+        Transfers</a></li>\r\n          <li><a href=\"/products/drafts_managers_cheques.aspx\">Drafts
+        &amp; Manager's Cheques</a></li>\r\n          <li><a href=\"/products/travellers_cheques.aspx\">Traveller's
+        Cheques</a></li>\r\n          <li><a href=\"/products/certification_of_balances.aspx\">Certification
+        of Balances</a></li>\r\n          <li><a href=\"/products/safe_keeping.aspx\">Safekeeping</a></li>\r\n
+        \         <li><a href=\"/products/night_depository.aspx\">Night Depository</a></li>\r\n
+        \         <li><a href=\"/products/standing_orders.aspx\">Standing Orders</a></li>\r\n
+        \       </ul>\r\n      </li>\r\n    </ul>\r\n  </li>\r\n  <br />\r\n  <li><a
+        href=\"/categories/savings.aspx\" class=\"p7PMtrg\">SAVINGS</a>\r\n    <ul>\r\n
+        \     <li><a href=\"/products/statement_savings.aspx\">Statement</a></li>\r\n
+        \     <li><a href=\"/products/premier_savings.aspx\">US$ Premier</a></li>\r\n
+        \     <li><a href=\"/products/taxfree_deposit.aspx\">Tax-free Deposit</a></li>\r\n
+        \     <li><a href=\"/products/corporate_savings.aspx\">Corporate Savings</a></li>\r\n
+        \     <li><a href=\"/products/global_kids_teens.aspx\">Global Kids/Teens</a></li>\r\n
+        \     <li><a href=\"/products/global_savers_club.aspx\">Global Savers Club</a></li>\r\n
+        \   </ul>\r\n  </li>\r\n  <li><a href=\"/categories/high_yield_options.aspx\"
+        class=\"p7PMtrg\">HIGH YIELD OPTIONS</a>\r\n    <ul>\r\n      <!--li><a href=\"/products/long_term_savings.aspx\">Long
+        Term Savings Account</a></li-->\r\n      <li><a href=\"/products/certificates_of_deposit.aspx\">Certificates
+        of Deposit</a></li>\r\n      <li><a href=\"/products/type_a_account.aspx\">Type
+        \"A\" Account</a></li>\r\n    </ul>\r\n  </li>\r\n  <li><a href=\"/categories/loans.aspx\"
+        class=\"p7PMtrg\">LOANS & CREDIT</a>\r\n    <ul>\r\n      <li><a href=\"/products/double_yuh_money.aspx\">Double
+        Yuh Money</a></li>\r\n      <li><a href=\"/products/car_loan.aspx\">Motor
+        Vehicle</a></li>\r\n      <li><a href=\"/products/education_loan.aspx\">Education</a></li>\r\n
+        \     <li><a href=\"/products/go_green_energy_saver_loan.aspx\">Go Green Energy
+        Saver</a></li>\r\n      <li><a href=\"/products/home_equity.aspx\">Home Equity</a></li>\r\n
+        \      <li><a href=\"/products/home_equity_lines_of_credit.aspx\">Home Equity
+        Lines of Credit</a></li>\r\n      <li><a href=\"/products/pb_insurance_premium_financing.aspx\">Personal
+        Insurance Premium Financing</a></li>\r\n      <li><a href=\"/products/insurance_premium_financing.aspx\">Business
+        Insurance Premium Financing</a></li>\r\n      <li><a href=\"/products/overdraft_protection_plan.aspx\">Overdraft
+        Protection Plan</a></li>    \r\n      <li><a href=\"/products/structured_financing_loan.aspx\">Structured
+        Financing</a></li>\r\n      <li><a href=\"/products/insurance_premium_financing.aspx\">Insurance
+        Premium Financing</a></li>\r\n      <li><a href=\"/products/line_of_credit.aspx\">Line
+        of Credit</a></li>\r\n      <li><a href=\"/products/commercial_loan.aspx\">Commercial
+        Loans</a></li>\r\n      <li><a href=\"/products/bankers_guarantee.aspx\">Banker's
+        Guarantees/Indemnities</a></li>\r\n      <li><a href=\"/products/loans_from_exim_bank.aspx\">Loans
+        from the EX-IM Bank</a></li>\r\n      <li><a href=\"/products/construction_loan.aspx\">Construction
+        Loans</a></li>\r\n      <li><a href=\"/products/bond_extension_support.aspx\">Bond
+        Extension Support Loan</a></li>\r\n    </ul>\r\n  </li>\r\n  <li><a href=\"/categories/credit_cards.aspx\"
+        class=\"p7PMtrg\">CREDIT CARDS</a>\r\n    <ul>\r\n      <li><a href=\"http://rewards.firstglobal-bank.com/credit_cards/visa_gold.aspx\">Visa
+        Gold</a></li>\r\n      <li><a href=\"http://rewards.firstglobal-bank.com/credit_cards/visa_classic.aspx\">Visa
+        Classic</a></li>\r\n      <li><a href=\"http://rewards.firstglobal-bank.com/credit_cards/visa_platinum.aspx\">Visa
+        Platinum</a></li>\r\n      <li><a href=\"http://rewards.firstglobal-bank.com/credit_cards/jccul_visa_classic.aspx\">JCCUL
+        Classic Card</a></li>\r\n      <li><a href=\"http://rewards.firstglobal-bank.com/credit_cards/visa_business.aspx\">Visa
+        Business</a></li>\r\n      <li><a href=\"http://rewards.firstglobal-bank.com/credit_cards/visa_corporate.aspx\">Visa
+        Corporate</a></li>\r\n    </ul>\r\n  </li>\r\n  <li><a href=\"/categories/chequing.aspx\"
+        class=\"p7PMtrg\">CHEQUING</a>\r\n    <ul>\r\n      <li><a href=\"/products/foreign_currency_chequing.aspx\">Personal
+        Foreign Currency</a></li>\r\n      <li><a href=\"/products/money_market_chequing.aspx\">Personal
+        Money Market</a></li>\r\n      <li><a href=\"/products/interest_chequing.aspx\">Interest
+        Chequing</a></li>\r\n      <li><a href=\"/products/corporate_chequing.aspx\">Corporate
+        Chequing</a></li>\r\n      <li><a href=\"/products/corporate_money_market.aspx\">Corporate
+        Money Market</a></li>\r\n      <li><a href=\"/products/corporate_foreign_currency_chequing.aspx\">Corporate
+        Foreign Currency</a></li>\r\n    </ul>\r\n  </li>\r\n  <li><a href=\"/categories/general_banking_solutions.aspx\"
+        class=\"p7PMtrg\">GENERAL SOLUTIONS</a>\r\n    <ul>\r\n      <li><a href=\"/products/global_direct.aspx\">GlobalDirect</a></li>\r\n
+        \     <li><a href=\"/products/global_pay.aspx\">Global Pay</a></li>\r\n      <li><a
+        href=\"/products/debit_card_abm.aspx\">Debit Card & ABM facilities</a></li>\r\n
+        \     <li><a href=\"/online_banking/index.aspx\">Online Banking</a></li>\r\n
+        \     <li><a href=\"/products/foreign_exchange_trading.aspx\">Foreign Exchange
+        Trading</a></li>\r\n      <li><a href=\"/products/safety_deposit.aspx\">Safe
+        Deposit Boxes</a></li>\r\n      <li><a href=\"/products/wire_transfers.aspx\">Wire
+        Transfers</a></li>\r\n      <li><a href=\"/products/drafts_managers_cheques.aspx\">Drafts
+        &amp; Manager's Cheques</a></li>\r\n      <li><a href=\"/products/travellers_cheques.aspx\">Traveller's
+        Cheques</a></li>\r\n      <li><a href=\"/products/certification_of_balances.aspx\">Certification
+        of Balances</a></li>\r\n      <li><a href=\"/products/safe_keeping.aspx\">Safekeeping</a></li>\r\n
+        \     <li><a href=\"/products/letters_of_credit.aspx\">Letters of Credit</a></li>\r\n
+        \     <li><a href=\"/products/night_depository.aspx\">Night Depository</a></li>\r\n
+        \     <li><a href=\"/products/standing_orders.aspx\">Standing Orders</a></li>\r\n
+        \     <li><a href=\"/products/letters_of_undertaking.aspx\">Letters of Undertaking</a></li>\r\n
+        \   </ul>\r\n  </li>\r\n  <br />\r\n  <li><a href=\"/customer_service/introduction.aspx\"
+        class=\"p7PMtrg\">CUSTOMER SERVICE</a>\r\n    <ul>\r\n      <li><a href=\"#\"
+        class=\"p7PMtrg\">Interest Rates</a>\r\n      \t<ul>\r\n          <li><a href=\"/customer_service/rates_deposit.aspx\">Deposit
+        Rates</a></li>\r\n          <li><a href=\"/customer_service/rates_savings.aspx\">Savings
+        Rates</a></li>\r\n          <li><a href=\"/customer_service/rates_chequing.aspx\">Chequing
+        Rates</a></li>\r\n        </ul>\r\n      </li>\r\n      <li><a href=\"#\"
+        class=\"p7PMtrg\">Application Forms</a>\r\n        <ul>\r\n          <li><a
+        href=\"/secure/forms/depositacc.aspx\">Personal Savings Account</a></li>\r\n
+        \         <li><a href=\"/secure/forms/nonpersonalaccounts.aspx\">Business
+        Savings Account</a></li>\r\n          <li><a href=\"/secure/forms/depositacc.aspx\">Personal
+        Chequing Account</a></li>\r\n          <li><a href=\"/secure/forms/nonpersonalaccounts.aspx\">Business
+        Chequing Account</a></li>\r\n          <li><a href=\"/secure/forms/DebitCardAcceptanceForm.aspx\">Debit
+        Card</a></li>\r\n          <li><a href=\"/secure/forms/depositacc.aspx\">Personal
+        Term Deposits</a></li>\r\n          <li><a href=\"/secure/forms/nonpersonalaccounts.aspx\">Business
+        Term Deposits</a></li>\r\n          <li><a href=\"/secure/forms/VisaCreditCardApplicationForm.aspx\">Personal
+        Credit Cards</a></li>\r\n          <li><a href=\"/secure/forms/companycreditcard.aspx\">Business
+        Credit Cards</a></li>\r\n          <li><a href=\"/secure/forms/loanapplication.aspx\">Personal
+        Loans</a></li>\r\n          <li><a href=\"/secure/forms/loanapplication_business.aspx\">Business
+        Loans</a></li>          \r\n          <li><a href=\"/secure/forms/internetbanking.aspx\">Online
+        Banking Contract</a></li>\r\n          <li><a href=\"/secure/forms/internetbanking.aspx\">Add
+        New User - Online Banking</a></li>\r\n          <li><a href=\"/secure/forms/internetbanking.aspx\">Add
+        New Account - Online Banking</a></li>\r\n        </ul>\r\n      </li>\r\n
+        \     <!--li><a href=\"/branches/corporate.aspx\" class=\"p7PMtrg\">Contact
+        Us</a>\r\n        <ul>\r\n          <li><a href=\"/branches/corporate.aspx\">Business
+        Hours</a></li>\r\n          <li><a href=\"/branches/corporate.aspx\">Phone</a></li>\r\n
+        \         <li><a href=\"/branches/corporate.aspx\">Location</a></li>\r\n          <li><a
+        href=\"/branches/corporate.aspx\">Postal Mail</a></li>\r\n        </ul>\r\n
+        \     </li-->\r\n      <li><a href=\"/customer_service/diaspora.aspx\">Diaspora</a></li>\r\n
+        \     <li><a href=\"/branches/corporate.aspx\">Contact Us</a></li>\r\n      <li><a
+        href=\"#\" class=\"p7PMtrg\">Online Account Services</a>\r\n        <ul>\r\n
+        \         <li><a href=\"/customer_service/activate_card.aspx\">Activate Card</a></li>\r\n
+        \         <li><a href=\"/customer_service/add_change_email_address.aspx\">Add/Change
+        Email Address</a></li>\r\n          <li><a href=\"/customer_service/change_address.aspx\">Change
+        Address</a></li>\r\n          <li><a href=\"/customer_service/ask_a_question.aspx\">Ask
+        a Question</a></li>\r\n          <li><a href=\"/customer_service/reorder_cheques.aspx\">Re-order
+        Cheques</a></li>\r\n          <li><a href=\"/customer_service/request_copies_of_cheque_drafts.aspx\">Request
+        copies of cheques/drafts</a></li>\r\n          <li><a href=\"/customer_service/request_copies_of_statements.aspx\">Request
+        copies of statements</a></li>\r\n          <li><a href=\"/customer_service/stop_payment_on_cheques.aspx\">Stop
+        Payment on Cheques</a></li>\r\n          <!--li><a href=\"/customer_service/order_travellers_cheques.aspx\">Order
+        Travellers Cheques</a></li-->\r\n        </ul>\r\n      </li>\r\n      <li><a
+        href=\"#\" class=\"p7PMtrg\">Frequently Asked Questions</a>\r\n        <ul>\r\n
+        \         <li><a href=\"/customer_service/general_faqs.aspx\">General</a></li>\r\n
+        \         <li><a href=\"/customer_service/loans_faqs.aspx\">Loans</a></li>\r\n
+        \         <li><a href=\"/customer_service/savings_faqs.aspx\">Savings</a></li>\r\n
+        \         <li><a href=\"/customer_service/chequing_faqs.aspx\">Chequing</a></li>\r\n
+        \       </ul>\r\n      </li>\r\n      <li><a href=\"/calculators/calculators.aspx\">Calculators</a></li>\r\n
+        \   </ul>\r\n  </li>\r\n  <li><a href=\"/online_banking/index.aspx\" class=\"p7PMtrg\">ONLINE
+        BANKING</a>\r\n    <ul>\r\n      <li><a href=\"/online_banking/login.aspx\">Login</a></li>\r\n
+        \     <li><a href=\"#\" class=\"p7PMtrg\">Online Service Guarantee</a>\r\n
+        \       <ul>\r\n          <li><a href=\"/online_banking/banking_agreement.aspx\">Online
+        Banking Agreement</a></li>\r\n          <li><a href=\"/online_banking/responsibility.aspx\">Customer
+        Responsibility</a></li>\r\n        </ul>\r\n      </li>\r\n      <li><a href=\"/fraud/mobile_security.aspx\">Privacy
+        &amp; Security</a></li>\r\n      <li><a href=\"/online_banking/requirements.aspx\">System
+        Requirements</a></li>\r\n      <!--li><a href=\"/online_banking/payments_transfers.aspx\">Payments
+        and Transfers</a></li-->\r\n      <li><a href=\"#\" class=\"p7PMtrg\">Frequently
+        Asked Questions</a>\r\n        <ul>\r\n          <li><a href=\"/online_banking/faq_general.aspx\">General
+        Information</a></li>\r\n          <li><a href=\"/online_banking/faq_enrollment.aspx\">Enrollment</a></li>\r\n
+        \         <li><a href=\"/online_banking/faq_how_to_login.aspx\">Login</a></li>\r\n
+        \         <li><a href=\"/online_banking/faq_online_billpay.aspx\">Bill Payment</a></li>\r\n
+        \         <!--li><a href=\"/online_banking/faq_top_questions.aspx\">Top Questions</a></li-->\r\n
+        \       </ul>\r\n      </li>\r\n    </ul>\r\n  </li>\r\n  <li><a class=\"p7PMtrg\"
+        href=\"javascript: void(0)\"   onclick=\"window.open('/online_bank_demo/_swf/mainmenu.swf',
+        'FGB_Online_Banking_Demo','width=1007,height=500'); return false;\">ONLINE
+        BANKING DEMO</a>\r\n    <ul>\r\n      <li><a href=\"javascript: void(0)\"
+        \  onclick=\"window.open('/online_bank_demo/_swf/cobmodule.swf', 'FGB_Consumer_Online_Banking_Demo','width=1007,height=500');
+        return false;\">Consumer Online Banking</a></li>\r\n      <li><a href=\"javascript:
+        void(0)\"   onclick=\"window.open('/online_bank_demo/_swf/bobmodule.swf',
+        'FGB_Business_Online_Banking_Demo','width=1007,height=500'); return false;\">Business
+        Online Banking</a></li>\r\n    </ul>\r\n  </li>\r\n  <li><a href=\"/planning_learning/introduction.aspx\"
+        class=\"p7PMtrg\">PLANNING &amp; LEARNING</a>\r\n    <ul>\r\n      <li><a
+        href=\"#\" class=\"p7PMtrg\">College Planning</a>\r\n        <ul>\r\n        <li><a
+        href=\"/planning_learning/getting_started.aspx\">Getting Started</a></li>\r\n
+        \       <li><a href=\"/planning_learning/paying_for_college.aspx\">Paying
+        for College</a></li>\r\n        <li><a href=\"/planning_learning/planning_after_college.aspx\">Planning
+        after College</a></li>\r\n        <li><a href=\"/calculators/savings_calculator.aspx\">Savings
+        Calculator</a></li>\r\n        </ul>\r\n      </li>\r\n      <!--li><a href=\"#\"
+        class=\"p7PMtrg\">Home Buying</a>\r\n        <ul>\r\n          <li><a href=\"/planning_learning/introduction.aspx\">Introduction</a></li>\r\n<li><a
+        href=\"/calculators/mortgage_calculator.aspx\">Mortgage Calculator</a></li>\r\n<li><a
+        href=\"/planning_learning/moving_into_a_home.aspx\">Moving into a Home</a></li>\r\n<li><a
+        href=\"/planning_learning/financing_your_home.aspx\">Financing Your Home</a></li>\r\n<li><a
+        href=\"/planning_learning/rent_vs_buying.aspx\">Rent vs Buying</a></li>\r\n<li><a
+        href=\"/planning_learning/what_to_know_about_buying.aspx\">What to Know about
+        Buying?</a></li>\r\n<li><a href=\"/planning_learning/what_to_know_about_selling.aspx\">What
+        to Know about Selling?</a></li>\r\n<li><a href=\"/planning_learning/glossary_home_buying.aspx\">Glossary</a></li>\r\n
+        \       </ul>\r\n      </li-->\r\n      <li><a href=\"#\" class=\"p7PMtrg\">Retirement
+        Planning</a>\r\n        <ul>\r\n          <li><a href=\"/planning_learning/begin_planning_retirement.aspx\">Begin
+        Planning for Retirement</a></li>\r\n          <li><a href=\"/planning_learning/evaluate_your_retirement_plan.aspx\">Evaluate
+        Your Retirement Plan</a></li>\r\n          <li><a href=\"/planning_learning/changing_jobs.aspx\">Changing
+        Jobs</a></li>\r\n          <li><a href=\"/planning_learning/already_retired.aspx\">Already
+        Retired</a></li>\r\n          <li><a href=\"/calculators/retirement_calculator.aspx\">Retirement
+        Calculator</a></li>\r\n          <li><a href=\"/planning_learning/retirement_faqs.aspx\">FAQs</a></li>\r\n
+        \       </ul>\r\n      </li>\r\n      <!--li><a href=\"#\" class=\"p7PMtrg\">Investing
+        Basics</a>\r\n        <ul>\r\n          <li><a href=\"/planning_learning/investing_getting_started.aspx\">Getting
+        Started</a></li>\r\n          <li><a href=\"/planning_learning/investment_goals.aspx\">Investment
+        Goals</a></li>\r\n          <li><a href=\"/planning_learning/investment_choices.aspx\">Investment
+        Choices</a></li>\r\n          <li><a href=\"/planning_learning/portfolio_management.aspx\">Portfolio
+        Management</a></li>\r\n        </ul>\r\n      </li-->\r\n      <li><a href=\"#\"
+        class=\"p7PMtrg\">Money Management Basics</a>\r\n        <ul>\r\n          <li><a
+        href=\"/planning_learning/budgeting_tips.aspx\">Budgeting Tips</a></li>\r\n
+        \         <!--li><a href=\"#\">Financial Protection</a></li-->\r\n          <li><a
+        href=\"/planning_learning/debt_consolidation.aspx\">Debt Consolidation</a></li>\r\n
+        \         <li><a href=\"/calculators/budget_calculator.aspx\">Budget Calculator</a></li>\r\n
+        \       </ul>\r\n      </li>\r\n    </ul>\r\n  </li>\r\n  <li><a href=\"/branches/jamaica.aspx\"
+        class=\"p7PMtrg\">BRANCHES</a>\r\n    <ul>\r\n      <li><a href=\"/branches/corporate.aspx\">Corporate</a></li>\r\n
+        \     <li><a href=\"/branches/downtown.aspx\">Duke &amp; Harbour</a></li>\r\n
+        \     <li><a href=\"/branches/new_kingston.aspx\">New Kingston</a></li>\r\n
+        \     <li><a href=\"/branches/liguanea.aspx\">Liguanea</a></li>\r\n      <li><a
+        href=\"/branches/manor_park.aspx\">Manor Park</a></li>\r\n      <li><a href=\"/branches/mandeville.aspx\">Mandeville</a></li>\r\n
+        \     <li><a href=\"/branches/montego_bay.aspx\">Montego Bay</a></li>\r\n
+        \   </ul>\r\n  </li>\r\n  <li><a href=\"#\" class=\"p7PMtrg\">ONLINE APPLICATIONS</a>\r\n
+        \   <ul>\r\n      <li><a href=\"#\" class=\"p7PMtrg\">Personal</a>\r\n        <ul>\r\n
+        \         <li><a href=\"/secure/forms/depositacc.aspx\">Savings Account</a></li>\r\n
+        \         <li><a href=\"/secure/forms/depositacc.aspx\">Chequing Account</a></li>\r\n
+        \         <li><a href=\"/secure/forms/DebitCardAcceptanceForm.aspx\">Debit
+        Card</a></li>\r\n          <li><a href=\"/secure/forms/depositacc.aspx\">Term
+        Deposits</a></li>\r\n          <li><a href=\"/secure/forms/VisaCreditCardApplicationForm.aspx\">Credit
+        Cards</a></li>\r\n         <li><a href=\"/secure/forms/loanapplication.aspx\">Loans</a></li>\r\n
+        \         <li><a href=\"/secure/forms/internetbanking.aspx\">Internet Banking
+        Contract</a></li>\r\n          <li><a href=\"/secure/forms/internetbanking.aspx\">Add
+        a New User (Online Banking)</a></li>\r\n          <li><a href=\"/secure/forms/internetbanking.aspx\">Add
+        a New Account (Online Banking)</a></li>\r\n        </ul>\r\n      </li>\r\n
+        \     <li><a href=\"#\" class=\"p7PMtrg\">Business</a>\r\n        <ul>\r\n
+        \         <li><a href=\"/secure/forms/nonpersonalaccounts.aspx\">Savings Account</a></li>\r\n
+        \         <li><a href=\"/secure/forms/nonpersonalaccounts.aspx\">Chequing
+        Account</a></li>\r\n          <li><a href=\"/secure/forms/DebitCardAcceptanceForm.aspx\">Debit
+        Card</a></li>\r\n          <li><a href=\"/secure/forms/nonpersonalaccounts.aspx\">Term
+        Deposits</a></li>\r\n          <li><a href=\"/secure/forms/companycreditcard.aspx\">Credit
+        Cards</a></li>\r\n          <li><a href=\"/secure/forms/loanapplication_business.aspx\">Loans</a></li>\r\n
+        \         <li><a href=\"/secure/forms/internetbanking.aspx\">Internet Banking
+        Contract</a></li>\r\n          <li><a href=\"/secure/forms/internetbanking.aspx\">Add
+        a New User (Online Banking)</a></li>\r\n          <li><a href=\"/secure/forms/internetbanking.aspx\">Add
+        a New Account (Online Banking)</a></li>\r\n        </ul>\r\n      </li>\r\n
+        \   </ul>\r\n  </li>\r\n  <!--[if lte IE 6]><style>#p7PMnav a{height:1em;}#p7PMnav
+        li{height:1em;float:left;clear:both;width:100%}</style><![endif]-->\r\n  <!--[if
+        IE 6]><style>#p7PMnav li{clear:none;}</style><![endif]-->\r\n  <!--[if IE
+        7]><style>#p7PMnav a{zoom:100%;}#p7PMnav li{float:left;clear:both;width:100%;}</style><![endif]-->\r\n</ul>\r\n<div
+        id=\"google_search\">\r\n<form action=\"http://www.google.com/cse\" id=\"cse-search-box\">\r\n<div>\r\n
+        \   <input type=\"hidden\" name=\"cx\" value=\"012720650344799034876:g2yuj7oq4aw\"
+        />\r\n    <input type=\"hidden\" name=\"ie\" value=\"UTF-8\" />\r\n    <input
+        type=\"text\" name=\"q\" />\r\n    <input class=\"submit\" type=\"submit\"
+        name=\"sa\" value=\"Search FG Now!\" />\r\n  </div>\r\n</form>\r\n<script
+        type=\"text/javascript\" src=\"http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en\"></script>\r\n</div>\r\n
+        \   <!-- end #sidebar1 -->\r\n  </div>\r\n  <div id=\"sidebar2\">\r\n    <span><img
+        src=\"images/home_h1_promo.jpg\" alt=\" \" width=\"458\" height=\"90\" border=\"0\"
+        usemap=\"#Map\" />\r\n<map name=\"Map\" id=\"Map\"><area shape=\"rect\" coords=\"80,78,114,87\"
+        href=\"personal_banking/index.aspx\" />\r\n<area shape=\"rect\" coords=\"124,78,168,85\"
+        href=\"personal_banking/savings.aspx\" />\r\n<area shape=\"rect\" coords=\"180,78,216,86\"
+        href=\"personal_banking/loans.aspx\" />\r\n<area shape=\"rect\" coords=\"239,78,271,86\"
+        href=\"business_banking/index.aspx\" />\r\n<area shape=\"rect\" coords=\"282,79,328,88\"
+        href=\"business_banking/savings.aspx\" />\r\n<area shape=\"rect\" coords=\"341,78,378,86\"
+        href=\"business_banking/loans.aspx\" />\r\n</map></span>\r\n    <div id=\"fgb_home\">\r\n
+        \     <table width=\"458\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\r\n
+        \       <tr>\r\n          <td valign=\"top\">            \r\n            <div
+        id=\"news_home\">\r\n              <h2>News</h2>\r\n              <!-- News
+        Items UC Here -->\r\n\t\t\t  \r\n           <div id=\"p7EPM_5\" class=\"p7EPM05\">\r\n
+        \                 <div id=\"p7EPMt_5\" class=\"p7epm_trigs\">\r\n                    <ul>\r\n
+        \                     <li class=\"t1\"><a href=\"#p7EPMc5_1\" id=\"p7EPMtrg5_1\">FGB</a>&nbsp;&nbsp;</li>\r\n
+        \                     <li class=\"t2\"> <a href=\"#p7EPMc5_2\" id=\"p7EPMtrg5_2\">Local</a>&nbsp;&nbsp;</li>\r\n
+        \                     <li class=\"t3\"> <a href=\"#p7EPMc5_3\" id=\"p7EPMtrg5_3\">International</a></li>\r\n
+        \                   </ul>\r\n                    <div class=\"p7epm_ie5clear\">&nbsp;</div>\r\n
+        \                 </div>\r\n                  <div id=\"p7EPMdw_5\">\r\n                   \r\n
+        \                  \r\n          <ul>\r\n     \r\n                    <li><a
+        href=\"news/newsarticle.aspx?id=114&cat=1\">First Global Strengthens Literacy
+        Programme with Music Day</a></li> \r\n        \r\n                     <li><a
+        href=\"news/newsarticle.aspx?id=109&cat=1\">Reduction in ACH threshold effective
+        July 1, 2013</a></li> \r\n         \r\n                    <li><a href=\"news/newsarticle.aspx?id=98&cat=1\">First
+        Global Bank wins two awards from Global Banking and Finance Review</a></li>
+        \r\n        \r\n                     <li><a href=\"news/newsarticle.aspx?id=95&cat=1\">Revised
+        Multilink Fees and Charges</a></li> \r\n         \r\n          </ul>\r\n        \r\n\r\n\r\n
+        \                  \r\n                   \r\n                  </div>\r\n
+        \                 <!--[if IE 5]><style>.p7epm_trigs a {height: 1%;}.p7epm_ie5clear
+        {clear: both;}</style><![endif]-->\r\n                  <!--[if IE 6]><style>.p7epm_trigs,
+        .p7epm_trigs a {height: 1%;}</style><![endif]-->\r\n                  <script
+        type=\"text/javascript\">\r\n<!--\r\nP7_opEPM('p7EPM_5',1,2,1,1,0,1000);\r\n//-->\r\n
+        \               </script>\r\n                </div>\r\n\t\t\t\r\n\t\t   \r\n\t\t
+        \  \r\n            </div>\r\n            \r\n            \r\n            \r\n
+        \           \r\n            \r\n            <div id=\"news_bottom\"><a href=\"news/\">News
+        Archive</a>&nbsp;<a href=\"/news/fgbrss.aspx\" target=\"_blank\">Subscribe
+        <img src=\"images/rss.jpg\" alt=\"Subscribe to FGB RSS News Feed\" width=\"13\"
+        height=\"13\" border=\"0\" /></a><a href=\"/news/what-is-rss.aspx\">What is
+        RSS?</a><!--| <a href=\"#\">Videos</a> | <a href=\"#\">Photos</a>--></div>\r\n
+        \           <div id=\"promo1_home\">\r\n              <h2>Identity Theft</h2>\r\n
+        \             <span><a href=\"id_theft/index.aspx\"><img src=\"images/id_theft1.jpg\"
+        alt=\"Identity Theft\" width=\"67\" height=\"67\" border=\"0\" class=\"floatleft3\"
+        /></a></span>\r\n              <ul>\r\n                <li><a href=\"id_theft/index.aspx\">About
+        identity theft</a></li>\r\n                <li><a href=\"id_theft/solutions.aspx\">Identity
+        theft solutions</a></li>\r\n                <li><a href=\"id_theft/id_theft_quiz.aspx\">Identity
+        theft quiz</a></li>\r\n                <li><a href=\"id_theft/prevention.aspx\">Prevent
+        identity theft</a></li>\r\n              </ul>\r\n            </div>\r\n            <div
+        id=\"promo1_home\">\r\n              <h2>Fraud</h2>\r\n              <span><a
+        href=\"fraud/index.aspx\"><img src=\"images/fotolia110_F_142fotolia0898_bGmRjt3Zs13ir1gq0Woydw67lvaFYq.jpg\"
+        alt=\"Identity Theft\" width=\"67\" height=\"67\" border=\"0\" class=\"floatleft3\"
+        /></a></span>\r\n              <ul>\r\n                <li><a href=\"fraud/tips.aspx\">How
+        to protect yourself</a></li>\r\n                <li><a href=\"fraud/emails.aspx\">How
+        fraudsters operate</a></li>\r\n                <li><a href=\"fraud/examples.aspx\">Spot
+        suspicious activity</a></li>\r\n                <li><a href=\"fraud/fraud_vs_theft.aspx\">ID
+        Fraud vs. ID Theft</a></li>\r\n              </ul>\r\n            </div></td>\r\n
+        \         <td valign=\"top\" width=\"190\"><div id=\"forex_rates\">\r\n              <h2><span
+        class=\"blue\">FGB</span><span class=\"gold\">FOREX</span><span class=\"blue\">RATES</span></h2>\r\n
+        \              <!-- FX rates UC Here -->\r\n          <table width=\"190\"
+        bgcolor=\"#F1FBFE\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\r\n
+        \          <tr>\r\n                  <th></th>\r\n                  <th>Buy
+        (Cash)</th>\r\n                  <th>Buy (Chq)</th>\r\n                  <th>Sell</th>\r\n
+        \               </tr>\r\n     \r\n                 <tr>\r\n                  <td
+        class=\"currency\">USD</td>\r\n                  <td align=\"center\" class=\"rates\">102.1</td>\r\n
+        \                 <td align=\"center\" class=\"rates\">103.50</td>\r\n                  <td
+        align=\"center\" class=\"rates\">105.70</td>\r\n                 </tr> \r\n
+        \       \r\n                  <tr>\r\n                  <td class=\"currency\">CAD</td>\r\n
+        \                 <td align=\"center\" class=\"rates\">97.00</td>\r\n                  <td
+        align=\"center\" class=\"rates\">98.00</td>\r\n                  <td align=\"center\"
+        class=\"rates\">100.60</td>\r\n                 </tr>  \r\n         \r\n                 <tr>\r\n
+        \                 <td class=\"currency\">GBP</td>\r\n                  <td
+        align=\"center\" class=\"rates\">163.00</td>\r\n                  <td align=\"center\"
+        class=\"rates\">166.50</td>\r\n                  <td align=\"center\" class=\"rates\">173.50</td>\r\n
+        \                </tr> \r\n        \r\n                  <tr>\r\n                  <td
+        class=\"currency\">EUR</td>\r\n                  <td align=\"center\" class=\"rates\">138.00</td>\r\n
+        \                 <td align=\"center\" class=\"rates\">140.00</td>\r\n                  <td
+        align=\"center\" class=\"rates\">143.50</td>\r\n                 </tr>  \r\n
+        \        \r\n          </table>\r\n          \r\n        \r\n <span class=\"ldate\"><span
+        id=\"Fxrates1_showDate\">December 05, 2013</span>\r\n - Subject to change</span>
+        \r\n\r\n\r\n              <div id=\"your\">\r\n                <h2><span class=\"blue\">YOUR</span><span
+        class=\"gold\">CONVENIENCE</span></h2>\r\n                <ul>\r\n                  <li><a
+        href=\"products/safety_deposit.aspx\">Safe deposit boxes</a></li>\r\n                  <li><a
+        href=\"secure/forms/VisaCreditCardApplicationForm.aspx\">Apply for a credit
+        card online</a></li>\r\n                  <li><a href=\"products/safe_keeping.aspx\">Safekeeping
+        for articles</a></li>\r\n                  <li><a href=\"products/night_depository.aspx\">Night
+        depository</a></li>\r\n                  <li><a href=\"online_banking/index.aspx\">Online
+        Banking (Global Access) </a></li>\r\n                </ul>\r\n                <h2><span
+        class=\"blue\">YOUR</span><span class=\"gold\">RETIREMENT</span></h2>\r\n
+        \               <ul>\r\n                  <li><a href=\"planning_learning/begin_planning_retirement.aspx\">Start
+        Planning Your Retirement</a></li>\r\n                  <li><a href=\"products/certificates_of_deposit.aspx\">Certificates
+        of Deposit</a></li>\r\n                  <li><a href=\"products/type_a_account.aspx\">FGB
+        Type 'A' Accounts</a></li>\r\n                  <li><a href=\"calculators/retirement_calculator.aspx\">Retirement
+        Calculator</a></li>\r\n                </ul>\r\n              </div>\r\n            </div></td>\r\n
+        \       </tr>\r\n      </table>\r\n    </div>\r\n    <div id=\"planning_training\"><a
+        href=\"planning_learning/introduction.aspx\"><img src=\"images/planning_training2.jpg\"
+        alt=\"Planning &amp; Training\" width=\"448\" height=\"60\" border=\"0\" /></a></div>\r\n
+        \   <!-- end #sidebar2 -->\r\n  </div>\r\n  <div id=\"mainContent\">\r\n    <div
+        id=\"p7EPM_1\" class=\"p7EPM04\">\r\n      <div id=\"p7EPMt_1\" class=\"p7epm_trigs\">\r\n
+        \       <ul>\r\n          <li class=\"t1\"><a href=\"#p7EPMc1_1\" id=\"p7EPMtrg1_1\">1</a></li>\r\n
+        \         <li class=\"t2\"><a href=\"#p7EPMc1_2\" id=\"p7EPMtrg1_2\">2</a></li>\r\n
+        \         <li class=\"t3\"><a href=\"#p7EPMc1_3\" id=\"p7EPMtrg1_3\">3</a></li>\r\n
+        \         <li class=\"t4\"><a href=\"#p7EPMc1_4\" id=\"p7EPMtrg1_4\">4</a></li>\r\n
+        \         <li class=\"t5\"><a href=\"#p7EPMc1_5\" id=\"p7EPMtrg1_5\">5</a></li>\r\n
+        \         <li class=\"t6\"><a href=\"#p7EPMc1_6\" id=\"p7EPMtrg1_6\">6</a></li>\r\n
+        \         <li class=\"t7\"><a href=\"#p7EPMc1_7\" id=\"p7EPMtrg1_7\">7</a></li>\r\n
+        \       </ul>\r\n        <div class=\"p7epm_ie5clear\">&nbsp;</div>\r\n      </div>\r\n
+        \     <div id=\"p7EPMdw_1\">\r\n      \t<div id=\"p7EPMw1_1\" class=\"p7epm_cwrapper\">\r\n
+        \         <div id=\"p7EPMc1_1\" class=\"p7epm_content pan1\"> <a href=\"customer_service/diaspora.aspx\"><img
+        src=\"/images/home_promo_01_diaspora.jpg\" alt=\"Education Loan\" width=\"343\"
+        height=\"199\" border=\"0\" /></a>  </div>\r\n        </div>\r\n        \r\n
+        \       <div id=\"p7EPMw1_2\" class=\"p7epm_cwrapper\">\r\n          <div
+        id=\"p7EPMc1_2\" class=\"p7epm_content pan2\"><a href=\"http://rewards.firstglobal-bank.com\"><img
+        src=\"/images/home_promo_01_rewards.jpg\" alt=\"FGBC Card Rewards\" width=\"343\"
+        height=\"199\" border=\"0\" /></a>  </div>\r\n        </div>\r\n        <div
+        id=\"p7EPMw1_3\" class=\"p7epm_cwrapper\">\r\n          <div id=\"p7EPMc1_3\"
+        class=\"p7epm_content pan3\"> <a href=\"/news/newsarticle.aspx?id=98&cat=1\"><img
+        src=\"images/home_promo_01_awards.jpg\" alt=\"Why Choose FGB?\" width=\"343\"
+        height=\"199\" border=\"0\" /></a> </div>\r\n        </div>\r\n        <div
+        id=\"p7EPMw1_4\" class=\"p7epm_cwrapper\">\r\n          <div id=\"p7EPMc1_4\"
+        class=\"p7epm_content pan4\"> <a href=\"/products/go_green_energy_saver_loan.aspx\"><img
+        src=\"images/home_promo_01_gogreen.jpg\" alt=\"Go Green Energy Saver Loan\"
+        width=\"343\" height=\"199\" border=\"0\" /></a>  </div>\r\n        </div>\r\n
+        \       <div id=\"p7EPMw1_5\" class=\"p7epm_cwrapper\">\r\n          <div
+        id=\"p7EPMc1_5\" class=\"p7epm_content pan5\">  <a href=\"products/global_kids_teens.aspx\"><img
+        src=\"images/home_promo_01_gkt.jpg\" alt=\"Global Kids & Global Teens Savings
+        Accounts\" width=\"343\" height=\"199\" border=\"0\" /></a>  </div>\r\n        </div>\r\n
+        \       <div id=\"p7EPMw1_6\" class=\"p7epm_cwrapper\">\r\n          <div
+        id=\"p7EPMc1_6\" class=\"p7epm_content pan6\"><a href=\"#\"><img src=\"/images/home_promo_01_creditor.jpg\"
+        alt=\"Creditor Life - Ask about it\" width=\"343\" height=\"199\" border=\"0\"
+        /></a></div>\r\n        </div>\r\n        <div id=\"p7EPMw1_7\" class=\"p7epm_cwrapper\">\r\n
+        \         <div id=\"p7EPMc1_7\" class=\"p7epm_content pan7\"> \r\n          <a
+        href=\"products/car_loan.aspx\"><img src=\"images/home_promo_01_vehicle.jpg\"
+        alt=\"Motor Vehicle Loan\" width=\"343\" height=\"199\" border=\"0\" /></a>\r\n
+        \         \r\n          </div>\r\n        </div>\r\n      </div>\r\n      <!--[if
+        IE 5]><style>.p7epm_trigs {width: 100%;} .p7epm_ie5clear {clear: both;} .p7epm_content,
+        .p7epm_content li a {height: 1%;}</style><![endif]-->\r\n      <!--[if IE
+        6]><style>.p7epm_trigs, .p7epm_content div {zoom: 1;} .p7epm_trigs a {height:
+        auto !important;}</style><![endif]-->\r\n      <script type=\"text/javascript\">\r\n<!--\r\nP7_opEPM('p7EPM_1',1,1,1,0,1,10000,0,0,250,0,0,1);\r\n//-->\r\n
+        \     </script>\r\n    </div>\r\n    <div id=\"promo2_home\">\r\n      <h2>Online
+        Banking...</h2>\r\n      <div id=\"top_2_ob\"><span class=\"login_red\"><img
+        src=\"images/icon_login_lock.gif\" width=\"9\" height=\"12\" alt=\"FGB Online
+        Banking Login\" />&nbsp;<a href=\"online_banking/login.aspx\">Login</a></span>|
+        <a href=\"javascript: void(0);\"   onclick=\"window.open('/online_bank_demo/_swf/mainmenu.swf',
+        'FGB_Online_Banking_Demo','width=1007,height=500'); return false;\">View Demo</a>
+        | <a href=\"online_banking/index.aspx\">Learn More</a> </div>\r\n      <p>Available
+        at night, on weekends and always ready to serve you. With Global Access you're
+        in charge. No need to visit or call a branch.</p>\r\n    </div>\r\n    <div
+        id=\"promo3\">\r\n      <table width=\"343\" border=\"0\" cellspacing=\"0\"
+        cellpadding=\"0\">\r\n        <tr>\r\n          <td width=\"170\" valign=\"top\"><div
+        id=\"your2\">\r\n              <ul>\r\n                <li class=\"leftpad\">Online
+        utility bill payment</li>\r\n                <li class=\"leftpad\">Customer
+        support</li>\r\n                <li class=\"leftpad\">Online statements</li>\r\n
+        \             </ul>\r\n              <br />\r\n            </div></td>\r\n
+        \         <td valign=\"top\"><div id=\"your2\">\r\n              <ul>\r\n
+        \               <li>Account transfer services</li>\r\n                <li>Pay
+        FGB credit card bills</li>\r\n                <li>Update account information</li>\r\n
+        \             </ul>\r\n            </div></td>\r\n        </tr>\r\n      </table>\r\n
+        \   </div>\r\n    <div id=\"promo4_home\">\r\n      <h2>Noteworthy...</h2>\r\n
+        \     <p>First Global Bank is pleased to announce the launch of its <br />\r\n
+        \       new online banking service Global Access. It has convenient features
+        not currently offered by any other online banking service in Jamaica. <a href=\"javascript:
+        void(0)\"   onclick=\"window.open('/online_bank_demo/_swf/mainmenu.swf', 'FGB_Online_Banking_Demo','width=1007,height=500');
+        return false;\">Click here</a> to view our Global Access demo.\r\n        <br
+        />\r\n        <span><a href=\"online_banking/login.aspx\">login</a> . <a href=\"online_banking/banking_agreement.aspx\">agreement</a>
+        . <a href=\"online_banking/faq_enrollment.aspx\">enrollment</a> . <a href=\"online_banking/faq_online_billpay.aspx\">bill
+        payment</a></span>    </div>\r\n    </p>\r\n   \r\n    <br /><br /><br />\r\n
+        \   <!-- end #mainContent -->\r\n  </div>\r\n  <!-- This clearing element
+        should immediately follow the #mainContent div in order to force the #container
+        div to contain all child floats -->\r\n  <br class=\"clearfloat\" />\r\n  <div
+        id=\"footer\">\r\n    <p><a href=\"/footer/terms_conditions.aspx\">Terms&nbsp;&&nbsp;Conditions</a>.<a
+        href=\"/footer/privacy.aspx\">Privacy</a>.<a href=\"/footer/security.aspx\">Security</a>.<a
+        href=\"/customer_service/general_faqs.aspx\">Help</a>.<a href=\"/about_fgb/careers.aspx\">Careers</a>.<a
+        href=\"/branches/corporate.aspx\">Contact Us</a></p>\r\n  <p>&copy;2011 First
+        Global Bank Limited | <a href=\"http://www.jamstockex.com/\" target=\"_blank\">Jamaica&nbsp;Stock&nbsp;Exchange</a>
+        | <a href=\"http://www.jdic.org/\" target=\"_blank\">Jamaica&nbsp;Deposit&nbsp;Insurance&nbsp;Corporation</a>
+        | <a href=\"http://www.boj.org.jm/\" target=\"_blank\">Bank&nbsp;of&nbsp;Jamaica</a>
+        |  <a href=\"http://www.mof.gov.jm/\" target=\"_blank\">GOJ Links &ndash;
+        Ministry&nbsp;of&nbsp;Finance</a> |</p>\r\n    <!-- end #footer -->\r\n  </div>\r\n
+        \ <script type=\"text/javascript\">\r\nvar gaJsHost = ((\"https:\" == document.location.protocol)
+        ? \"https://ssl.\" : \"http://www.\");\r\ndocument.write(unescape(\"%3Cscript
+        src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\r\n</script>\r\n<script
+        type=\"text/javascript\">\r\ntry {\r\nvar pageTracker = _gat._getTracker(\"UA-15825207-1\");\r\npageTracker._trackPageview();\r\n}
+        catch(err) {}</script>\r\n  <!-- end #container -->\r\n</div>\r\n</body>\r\n</html>\r\n"
+    http_version: 
+  recorded_at: Thu, 05 Dec 2013 17:00:04 GMT
+recorded_with: VCR 2.8.0
