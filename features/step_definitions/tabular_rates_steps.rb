@@ -26,7 +26,7 @@ def ensure_rates_are_equal_to(table)
     currencies[table_hash.delete(:currency_code)] =
       table_hash.each_with_object({}) do |currency_rate, rates|
         currency, rate = *currency_rate
-        rates[currency] = rate.to_f
+        rates[currency] = rate.to_f == 0 ? nil : rate.to_f
       end
   end
 

@@ -27,7 +27,7 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Wed, 04 Dec 2013 20:26:41 GMT
+      - Thu, 05 Dec 2013 16:18:04 GMT
       Connection:
       - close
     body:
@@ -784,40 +784,40 @@ http_interactions:
         Dollar Save Smart (J$)<a name=\"JSM\"></a></b></p>          </td>\r\n        </tr>\r\n
         \       <tr valign=\"top\" background=\"images/horizontal.gif\"> \r\n          <td
         background=\"images/horizontal.gif\"> \r\n            <p class=\"Text\"><b>Last
-        Updated: \r\n              Dec 03, 2013              </b> </p>\r\n          </td>\r\n
+        Updated: \r\n              Dec 04, 2013              </b> </p>\r\n          </td>\r\n
         \       </tr>\r\n        <tr valign=\"top\"> \r\n          <td> \r\n            <p
         class=\"Text\"><font size=\"3\" face=\"Arial, Helvetica, sans-serif\"><img
         src=\"images//jsavesmart.jpg\" width=\"110\" height=\"45\"><br>\r\n              </font>JA$
-        SaveSmart Account Interest rate is at <b> </b> : <b> \r\n              2.27%
+        SaveSmart Account Interest rate is at <b> </b> : <b> \r\n              2.28%
         \             </b> <!-- <br>\r\n              (This rate applies to amounts
         $25,000 and over) --></p>\r\n          </td>\r\n        </tr>\r\n      </table>\r\n
         \     <br>\r\n      <table width=\"75%\" border=\"0\" cellspacing=\"0\" cellpadding=\"4\">\r\n
         \       <tr> \r\n          <td> \r\n            <p class=\"TextHeader\"><strong>United
         States Dollar Save Smart (US$)<b><a name=\"USM\" id=\"USM\"></a></b></strong></p>\r\n
         \         </td>\r\n        </tr>\r\n        <tr> \r\n          <td background=\"images/horizontal.gif\">
-        \r\n            <p class=\"Text\"><b>Last Updated: \r\n              Dec 03,
+        \r\n            <p class=\"Text\"><b>Last Updated: \r\n              Dec 04,
         2013              </b> </p>\r\n          </td>\r\n        </tr>\r\n        <tr>
         \r\n          <td> \r\n            <p class=\"Text\"><img src=\"images//ussavesmart.jpg\"
         width=\"110\" height=\"45\"><br>\r\n              US$ SaveSmart Account Interest
-        Rate is at: <b> \r\n              1.24%              </b></p>\r\n          </td>\r\n
+        Rate is at: <b> \r\n              1.25%              </b></p>\r\n          </td>\r\n
         \       </tr>\r\n      </table>\r\n      <br>\r\n      <table width=\"75%\"
         border=\"0\" cellspacing=\"0\" cellpadding=\"4\">\r\n        <tr> \r\n          <td>
         \r\n            <p class=\"TextHeader\"><strong>Pound Sterling Save Smart
         (&pound;)<b><a name=\"PSM\" id=\"PSM\"></a></b></strong></p>\r\n          </td>\r\n
         \       </tr>\r\n        <tr> \r\n          <td background=\"images/horizontal.gif\">
         \r\n            <p class=\"Text\"><b>Last Updated:</b> <font size=\"2\" face=\"Arial,
-        Helvetica, sans-serif\"><b> \r\n              Dec 03, 2013              </b></font></p>\r\n
+        Helvetica, sans-serif\"><b> \r\n              Dec 04, 2013              </b></font></p>\r\n
         \         </td>\r\n        </tr>\r\n        <tr> \r\n          <td> \r\n            <p
         align=\"left\"><img src=\"images//sterlingsavesmart.jpg\" width=\"110\" height=\"45\"></p>\r\n
         \           <p align=\"left\"><font size=\"2\" face=\"Arial, Helvetica, sans-serif\">&pound;
-        \r\n              Save Smart Account Interest Rate is at: <b> \r\n              1.78%
+        \r\n              Save Smart Account Interest Rate is at: <b> \r\n              1.77%
         \             </b></font></p>\r\n          </td>\r\n        </tr>\r\n      </table>\r\n
         \     <br>\r\n      <table width=\"75%\" border=\"0\" cellspacing=\"0\" cellpadding=\"4\">\r\n
         \       <tr> \r\n          <td> \r\n            <p class=\"TextHeader\"><strong>Tax
         Shelter (JA$)<b><a name=\"TS\" id=\"TS\"></a></b></strong></p>\r\n          </td>\r\n
         \       </tr>\r\n        <tr> \r\n          <td background=\"images/horizontal.gif\">
         \r\n            <p class=\"Text\"><b>Last Updated:</b> <font size=\"2\" face=\"Arial,
-        Helvetica, sans-serif\"><b> \r\n              Dec 03, 2013              </b></font></p>\r\n
+        Helvetica, sans-serif\"><b> \r\n              Dec 04, 2013              </b></font></p>\r\n
         \         </td>\r\n        </tr>\r\n        <tr> \r\n          <td> \r\n            <p
         align=\"left\"><font size=\"2\" face=\"Arial, Helvetica, sans-serif\"><img
         src=\"images//taxshelter.jpg\" width=\"76\" height=\"50\"></font></p>\r\n
@@ -853,30 +853,30 @@ http_interactions:
         class=\"TableBorder\"> \r\n                  <p class=\"Text\"> \r\n                    JA$
         Income and Growth                  </p>\r\n                </td>\r\n                <td
         width=\"50\" class=\"TableBorder\"> \r\n                  <p class=\"Text\">
-        \r\n                    6.42                  </p>\r\n                </td>\r\n
+        \r\n                    6.48                  </p>\r\n                </td>\r\n
         \               <td width=\"50\" class=\"TableBorder\"> \r\n                  <p
-        class=\"Text\"> \r\n                    6.55                  </p>\r\n                </td>\r\n
+        class=\"Text\"> \r\n                    6.61                  </p>\r\n                </td>\r\n
         \               <td width=\"100\" class=\"TableBorder\"> \r\n                  <p
-        class=\"Text\"> \r\n                    Dec 3, 2013                  </p>\r\n
+        class=\"Text\"> \r\n                    Dec 4, 2013                  </p>\r\n
         \               </td>\r\n              </tr>\r\n                              <tr>
         \r\n                <td width=\"170\" class=\"TableBorder\"> \r\n                  <p
         class=\"Text\"> \r\n                    JA$ Optimum Capital                  </p>\r\n
         \               </td>\r\n                <td width=\"50\" class=\"TableBorder\">
-        \r\n                  <p class=\"Text\"> \r\n                    16.62                  </p>\r\n
+        \r\n                  <p class=\"Text\"> \r\n                    16.71                  </p>\r\n
         \               </td>\r\n                <td width=\"50\" class=\"TableBorder\">
-        \r\n                  <p class=\"Text\"> \r\n                    17.12                  </p>\r\n
+        \r\n                  <p class=\"Text\"> \r\n                    17.21                  </p>\r\n
         \               </td>\r\n                <td width=\"100\" class=\"TableBorder\">
-        \r\n                  <p class=\"Text\"> \r\n                    Dec 3, 2013
+        \r\n                  <p class=\"Text\"> \r\n                    Dec 4, 2013
         \                 </p>\r\n                </td>\r\n              </tr>\r\n
         \                             <tr> \r\n                <td width=\"170\" class=\"TableBorder\">
         \r\n                  <p class=\"Text\"> \r\n                    JA$ GILTEDGE
         \                 </p>\r\n                </td>\r\n                <td width=\"50\"
-        class=\"TableBorder\"> \r\n                  <p class=\"Text\"> \r\n                    15.80
+        class=\"TableBorder\"> \r\n                  <p class=\"Text\"> \r\n                    15.82
         \                 </p>\r\n                </td>\r\n                <td width=\"50\"
-        class=\"TableBorder\"> \r\n                  <p class=\"Text\"> \r\n                    15.80
+        class=\"TableBorder\"> \r\n                  <p class=\"Text\"> \r\n                    15.82
         \                 </p>\r\n                </td>\r\n                <td width=\"100\"
         class=\"TableBorder\"> \r\n                  <p class=\"Text\"> \r\n                    Dec
-        3, 2013                  </p>\r\n                </td>\r\n              </tr>\r\n
+        4, 2013                  </p>\r\n                </td>\r\n              </tr>\r\n
         \             \t</table>\r\n      <br/>\r\n      \r\n\t  <div>\r\n\t\t<p align=\"left\"
         style=\"margin-bottom:5px;color:#444 \"><font size=\"4\" face=\"Arial, Helvetica,
         sans-serif\">JA$ Smart Investor Rates</font></p>\r\n\t  </div>\r\n      <table
@@ -894,7 +894,7 @@ http_interactions:
         \r\n                      <p class=\"Text\"> \r\n                          3.20
         \                     </p>\r\n                  </td>\r\n                  <td
         width=\"100\" class=\"TableBorder\"> \r\n                      <p class=\"Text\">
-        \r\n                          Dec 3, 2013                      </p>\r\n                  </td>\r\n
+        \r\n                          Dec 4, 2013                      </p>\r\n                  </td>\r\n
         \             </tr>\r\n                        <tr> \r\n                  <td
         class=\"TableBorder\"> \r\n                      <p class=\"Text\"> \r\n                          JA$
         Smart Investor 90 Days                                    </p>\r\n                  </td>\r\n
@@ -902,7 +902,7 @@ http_interactions:
         class=\"Text\"> \r\n                          3.45                      </p>\r\n
         \                 </td>\r\n                  <td width=\"100\" class=\"TableBorder\">
         \r\n                      <p class=\"Text\"> \r\n                          Dec
-        3, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
+        4, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
         \                       <tr> \r\n                  <td class=\"TableBorder\">
         \r\n                      <p class=\"Text\"> \r\n                          JA$
         Smart Investor 180 Days                                   </p>\r\n                  </td>\r\n
@@ -910,7 +910,7 @@ http_interactions:
         class=\"Text\"> \r\n                          3.95                      </p>\r\n
         \                 </td>\r\n                  <td width=\"100\" class=\"TableBorder\">
         \r\n                      <p class=\"Text\"> \r\n                          Dec
-        3, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
+        4, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
         \                       <tr> \r\n                  <td class=\"TableBorder\">
         \r\n                      <p class=\"Text\"> \r\n                          JA$
         Smart Investor 365 Days                                   </p>\r\n                  </td>\r\n
@@ -918,7 +918,7 @@ http_interactions:
         class=\"Text\"> \r\n                          4.10                      </p>\r\n
         \                 </td>\r\n                  <td width=\"100\" class=\"TableBorder\">
         \r\n                      <p class=\"Text\"> \r\n                          Dec
-        3, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
+        4, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
         \               </table>\r\n      <br/>   \r\n      \r\n\t  <div>\r\n\t\t<p
         align=\"left\" style=\"margin-bottom:5px;color:#444 \"><font size=\"4\" face=\"Arial,
         Helvetica, sans-serif\">US$ Smart Investor Rates</font></p>\r\n\t  </div>\r\n
@@ -936,15 +936,15 @@ http_interactions:
         \r\n                      <p class=\"Text\"> \r\n                          1.05
         \                     </p>\r\n                  </td>\r\n                  <td
         width=\"100\" class=\"TableBorder\"> \r\n                      <p class=\"Text\">
-        \r\n                          Dec 3, 2013                      </p>\r\n                  </td>\r\n
+        \r\n                          Dec 4, 2013                      </p>\r\n                  </td>\r\n
         \             </tr>\r\n                        <tr> \r\n                  <td
         class=\"TableBorder\"> \r\n                      <p class=\"Text\"> \r\n                          US$
         Smart Investor 90 Days                                    </p>\r\n                  </td>\r\n
         \                 <td width=\"50\" class=\"TableBorder\"> \r\n                      <p
-        class=\"Text\"> \r\n                          1.13                      </p>\r\n
+        class=\"Text\"> \r\n                          1.15                      </p>\r\n
         \                 </td>\r\n                  <td width=\"100\" class=\"TableBorder\">
         \r\n                      <p class=\"Text\"> \r\n                          Dec
-        3, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
+        4, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
         \                       <tr> \r\n                  <td class=\"TableBorder\">
         \r\n                      <p class=\"Text\"> \r\n                          US$
         Smart Investor 180 Days                                   </p>\r\n                  </td>\r\n
@@ -952,7 +952,7 @@ http_interactions:
         class=\"Text\"> \r\n                          1.40                      </p>\r\n
         \                 </td>\r\n                  <td width=\"100\" class=\"TableBorder\">
         \r\n                      <p class=\"Text\"> \r\n                          Dec
-        3, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
+        4, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
         \                       <tr> \r\n                  <td class=\"TableBorder\">
         \r\n                      <p class=\"Text\"> \r\n                          US$
         Smart Investor 365 Days                                   </p>\r\n                  </td>\r\n
@@ -960,7 +960,7 @@ http_interactions:
         class=\"Text\"> \r\n                          1.65                      </p>\r\n
         \                 </td>\r\n                  <td width=\"100\" class=\"TableBorder\">
         \r\n                      <p class=\"Text\"> \r\n                          Dec
-        3, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
+        4, 2013                      </p>\r\n                  </td>\r\n              </tr>\r\n
         \               </table>\r\n      <br/>      \r\n     <!-- <table width=\"75%\"
         border=\"0\" cellspacing=\"0\" cellpadding=\"4\">\r\n        <tr> \r\n          <td>
         \r\n            <p class=\"TextHeader\"><strong>Cheqmate (JA$)<b><a name=\"CM\"
@@ -1009,7 +1009,7 @@ http_interactions:
         \               <td width=\"24\" class=\"TableBorder\"> \r\n                  <p
         class=\"Text\"> \r\n                    104.45                  </p>\r\n                </td>\r\n
         \               <td width=\"29\" class=\"TableBorder\"> \r\n                  <p
-        class=\"Text\"> \r\n                    105.95                  </p>\r\n                </td>\r\n
+        class=\"Text\"> \r\n                    106.00                  </p>\r\n                </td>\r\n
         \             </tr>\r\n                            <tr> \r\n                <td
         width=\"74\" class=\"TableBorder\"> \r\n                  <p class=\"Text\">
         \r\n                    TT$                  </p>\r\n                </td>\r\n
@@ -1025,35 +1025,35 @@ http_interactions:
         width=\"74\" class=\"TableBorder\"> \r\n                  <p class=\"Text\">
         \r\n                    GBP                  </p>\r\n                </td>\r\n
         \               <td width=\"34\" class=\"TableBorder\"> \r\n                  <p
-        class=\"Text\"> \r\n                    168.47                  </p>\r\n                </td>\r\n
+        class=\"Text\"> \r\n                    167.74                  </p>\r\n                </td>\r\n
         \               <td width=\"35\" class=\"TableBorder\"> \r\n                  <p
         class=\"Text\"> \r\n                    N/A                  </p>\r\n                </td>\r\n
         \               <td width=\"24\" class=\"TableBorder\"> \r\n                  <p
-        class=\"Text\"> \r\n                    169.47                  </p>\r\n                </td>\r\n
+        class=\"Text\"> \r\n                    168.74                  </p>\r\n                </td>\r\n
         \               <td width=\"29\" class=\"TableBorder\"> \r\n                  <p
-        class=\"Text\"> \r\n                    175.19                  </p>\r\n                </td>\r\n
+        class=\"Text\"> \r\n                    174.53                  </p>\r\n                </td>\r\n
         \             </tr>\r\n                            <tr> \r\n                <td
         width=\"74\" class=\"TableBorder\"> \r\n                  <p class=\"Text\">
         \r\n                    EUR                  </p>\r\n                </td>\r\n
         \               <td width=\"34\" class=\"TableBorder\"> \r\n                  <p
-        class=\"Text\"> \r\n                    138.50                  </p>\r\n                </td>\r\n
+        class=\"Text\"> \r\n                    138.81                  </p>\r\n                </td>\r\n
         \               <td width=\"35\" class=\"TableBorder\"> \r\n                  <p
         class=\"Text\"> \r\n                    N/A                  </p>\r\n                </td>\r\n
         \               <td width=\"24\" class=\"TableBorder\"> \r\n                  <p
-        class=\"Text\"> \r\n                    140.00                  </p>\r\n                </td>\r\n
+        class=\"Text\"> \r\n                    140.31                  </p>\r\n                </td>\r\n
         \               <td width=\"29\" class=\"TableBorder\"> \r\n                  <p
         class=\"Text\"> \r\n                    145.68                  </p>\r\n                </td>\r\n
         \             </tr>\r\n                            <tr> \r\n                <td
         width=\"74\" class=\"TableBorder\"> \r\n                  <p class=\"Text\">
         \r\n                    CAD                  </p>\r\n                </td>\r\n
         \               <td width=\"34\" class=\"TableBorder\"> \r\n                  <p
-        class=\"Text\"> \r\n                    95.85                  </p>\r\n                </td>\r\n
+        class=\"Text\"> \r\n                    95.59                  </p>\r\n                </td>\r\n
         \               <td width=\"35\" class=\"TableBorder\"> \r\n                  <p
         class=\"Text\"> \r\n                    N/A                  </p>\r\n                </td>\r\n
         \               <td width=\"24\" class=\"TableBorder\"> \r\n                  <p
-        class=\"Text\"> \r\n                    96.85                  </p>\r\n                </td>\r\n
+        class=\"Text\"> \r\n                    96.59                  </p>\r\n                </td>\r\n
         \               <td width=\"29\" class=\"TableBorder\"> \r\n                  <p
-        class=\"Text\"> \r\n                    100.79                  </p>\r\n                </td>\r\n
+        class=\"Text\"> \r\n                    100.56                  </p>\r\n                </td>\r\n
         \             </tr>\r\n                          </table>\r\n            <div
         align=\"left\"> \r\n              <p><br>\r\n                <font face=\"Arial,
         Helvetica, sans-serif\" size=\"2\">Amounts in \r\n                excess of
@@ -1102,5 +1102,5 @@ http_interactions:
         type=\"text/javascript\">\r\ntry {\r\n\tvar pageTracker = _gat._getTracker(\"UA-15943610-1\");\r\n\tpageTracker._trackPageview();\r\n}
         \r\ncatch(err) {}\r\n</script>\r\n</body>\r\n</html>\r\n"
     http_version: 
-  recorded_at: Wed, 04 Dec 2013 20:26:58 GMT
+  recorded_at: Thu, 05 Dec 2013 16:18:24 GMT
 recorded_with: VCR 2.8.0

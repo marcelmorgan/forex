@@ -45,7 +45,8 @@ module Forex
 
     # converts the currency to it's storage representation
     def value
-      @currency_code ||= @string.strip.to_f
+      value = @string.strip.to_f
+      value == 0.0 ? nil : value
     end
 
   end
