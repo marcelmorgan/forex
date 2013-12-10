@@ -3,7 +3,7 @@ Forex::Trader.define "BNS" do |t|
   t.name          = "Bank of Nova Scotia"
   t.endpoint      = "http://www4.scotiabank.com/cgi-bin/ratesTool/depdisplay.cgi?pid=56"
 
-  t.rates_parser = Proc.new do |doc| # doc is a nokogiri document
+  t.rates_parser = ->(doc) do # doc is a nokogiri document
 
     options = {
       currency_code: 0,

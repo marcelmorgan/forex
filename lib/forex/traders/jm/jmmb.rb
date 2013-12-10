@@ -3,7 +3,7 @@ Forex::Trader.define "JMMB" do |t|
   t.name          = "Jamaica Money Market Brokers"
   t.endpoint      = "http://www.jmmb.com/full_rates.php"
 
-  t.rates_parser = Proc.new do |doc| # doc is a nokogiri document
+  t.rates_parser = ->(doc) do # doc is a nokogiri document
 
     options = {
       currency_code: 0,

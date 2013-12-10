@@ -3,7 +3,7 @@ Forex::Trader.define "FGB" do |t|
   t.name          = "First Global Bank"
   t.endpoint      = "http://www.firstglobal-bank.com/"
 
-  t.rates_parser = Proc.new do |doc| # doc is a nokogiri document
+  t.rates_parser = ->(doc) do # doc is a nokogiri document
     options = {
       currency_code: 0,
       buy_cash: 1,

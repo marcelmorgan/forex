@@ -3,7 +3,7 @@ Forex::Trader.define "FXTRADERS" do |t|
   t.name          = "FX Traders"
   t.endpoint      = "http://www.fxtrader.gkmsonline.com/rates"
 
-  t.rates_parser = Proc.new do |doc| # doc is a nokogiri document
+  t.rates_parser = ->(doc) do # doc is a nokogiri document
 
     content_for = ->(type, n, part = nil) do
       doc.css(
