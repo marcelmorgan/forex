@@ -7,4 +7,5 @@ require "forex/tabular_rates"
 require "forex/trader"
 
 # Traders are automatically loaded
-Dir[File.dirname(__FILE__) + '/forex/traders/**/*.rb'].each { |t| require t }
+traders_path = File.join(File.dirname(__FILE__), 'forex', 'traders', '**', '*.rb')
+Dir[traders_path].each { |file| require file }
