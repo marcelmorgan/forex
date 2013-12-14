@@ -1,0 +1,12 @@
+USD:
+ buy_cash: 103.4
+ buy_draft: 101.8
+ sell_cash: 105.65
+GBP:
+ buy_cash: 165.8
+ buy_draft: 162.0
+ sell_cash: 172.3
+CAD:
+ buy_cash: 95.75
+ buy_draft: 93.5
+ sell_cash: 98.45
