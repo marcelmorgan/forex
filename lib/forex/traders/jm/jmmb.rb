@@ -13,12 +13,17 @@ Forex::Trader.define "JMMB" do |t|
       sell_draft: 4
     }
 
+    translations = {
+      'US$' => 'USD',
+      'TT$' => 'TTD',
+    }
+
     table =
       doc.search("[text()*='FX Trading Rates']").first.  # Section with rates
        ancestors('table').first.                         # Root table for section
        css("table").first                                # Rates table
 
-    Forex::TabularRates.new(table, options).parse_rates
+    Forex::TabularRates.new(table, options).parse_rates(translations)
   end
 end
 

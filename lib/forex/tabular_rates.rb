@@ -4,31 +4,34 @@ module Forex
 
     attr_accessor :table, :options
 
+    COLUMN_LABELS = [
+      :buy_cash,
+      :buy_draft,
+      :sell_cash,
+      :sell_draft
+    ]
+
     DEFAULT_OPTIONS = {
       currency_code: 0,
-      buy_cash: 1,
-      buy_draft: 2,
-      sell_cash: 3,
-      sell_draft: 4,
-    }
+    }.merge(Hash[(COLUMN_LABELS).zip(1..COLUMN_LABELS.size)])
 
     def initialize(table, options = DEFAULT_OPTIONS)
       @table = table
       @options = options.symbolize_keys
     end
 
-    def parse_rates
+    def parse_rates(translations = {})
       currency = options.delete(:currency_code) || 0
 
       table.css('tr').each_with_object({}) do |tr, currencies|
         cells = tr.css('td')
         next if cells.empty?
 
-        currency_code = CurrencyCode.new(cells[currency.to_i].content)
+        currency_code = CurrencyCode.new(cells[currency.to_i].content, translations)
 
         next if currencies.has_key?(currency_code.to_s) || currency_code.invalid?
 
-        currencies[currency_code.to_s] = column_labels.each_with_object({}) do |column_label, rates|
+        currencies[currency_code.to_s] = COLUMN_LABELS.each_with_object({}) do |column_label, rates|
           next unless rate_column = options[column_label]
 
           rate_node = cells[rate_column.to_i]
@@ -39,35 +42,28 @@ module Forex
       end
     end
 
-    def column_labels
-      [:buy_cash, :buy_draft, :sell_cash, :sell_draft]
-    end
-
   end
 
-  class Currency
-
-    def initialize(string)
-      @string = string
-    end
+  class Currency < Struct.new(:string)
 
     # converts the currency to it's storage representation
     def value
-      value = @string.strip.to_f
-      value == 0.0 ? nil : value
+      converted == 0.0 ? nil : converted
+    end
+
+    private
+
+    def converted
+      @converted ||= string.strip.to_f
     end
 
   end
 
-  class CurrencyCode
-    def initialize(string)
-      @string = string
-    end
+  class CurrencyCode < Struct.new(:string, :translations)
 
     # TODO validate the currency codes via http://www.xe.com/iso4217.php
     def valid?
-      @string = to_s # hack
-      !@string.blank? && @string.length == 3
+      !translated.blank? && translated.length == 3
     end
 
     def invalid?
@@ -75,14 +71,17 @@ module Forex
     end
 
     def to_s
-      @string.strip.
-        # Replace currency symbols with letter equivalent
-        # TODO go crazy and add the rest http://www.xe.com/symbols.php
-        gsub('$', 'D').
+      translated
+    end
 
-        # Remove all non word charactes ([^A-Za-z0-9_])
-        gsub(/\W/,'')
+    private
 
+    def translated
+      @translated ||= translations[converted] || converted
+    end
+
+    def converted
+      @converted ||= string.strip
     end
   end
 end
