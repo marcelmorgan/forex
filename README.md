@@ -3,6 +3,7 @@
 [![Code Climate](https://codeclimate.com/github/mcmorgan/forex.png)](https://codeclimate.com/github/mcmorgan/forex)
 [![Build Status](https://api.travis-ci.org/mcmorgan/forex.png)](https://travis-ci.org/mcmorgan/forex)
 [![Dependency Status](https://gemnasium.com/mcmorgan/forex.png)](https://gemnasium.com/mcmorgan/forex)
+[![Gem Version](https://badge.fury.io/rb/forex.png)](http://rubygems.org/gems/forex)
 
 Provides a simple DSL for managing Foreign Exchange rates (forex) for various
 traders (Inspired by [CurrrencyJA](https://github.com/kenrick/currencyja)).
