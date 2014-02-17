@@ -9,7 +9,7 @@ Forex::Trader.define "JMMB" do |t|
       currency_code: 0,
       buy_cash: 1,
       buy_draft: 3,
-      sell_cash: 2,
+      sell_cash: 4,
       sell_draft: 4
     }
 
