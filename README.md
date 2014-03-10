@@ -51,11 +51,6 @@ end
 
 # Rates may be fetched for a specific trader
 Forex::Trader.all['BNS'].fetch
-
-# Or all traders and yielded to the block given
-Forex::Trader.fetch_all do |trader|
-  # Save or do some other processing on the rates ``trader.rates`` hash.
-end
 ```
 
 ### TabularRates
