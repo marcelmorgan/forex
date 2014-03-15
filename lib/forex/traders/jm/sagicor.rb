@@ -1,6 +1,6 @@
-Forex::Trader.define "Sagicore" do |t|
+Forex::Trader.define "Sagicor" do |t|
   t.base_currency = "JMD"
-  t.name          = "Sagicore Bank"
+  t.name          = "Sagicor Bank"
   t.endpoint      = "http://www.gopancaribbean.com/personal-banking"
 
   t.rates_parser = ->(doc) do # doc is a nokogiri document

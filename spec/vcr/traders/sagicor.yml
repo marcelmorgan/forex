@@ -858,6 +858,6 @@ http_interactions:
         KCcjZGxnSW5mb3JtYXRpb24nKS5kaWFsb2coeyd0aXRsZSc6JycsJ2F1dG9P
         cGVuJzpmYWxzZSwnbW9kYWwnOnRydWUsJ3dpZHRoJzo3MjAsJ2hlaWdodCc6
         NTgwfSk7Cn0pOwovKl1dPiovCjwvc2NyaXB0Pgo8L2JvZHk+CjwvaHRtbD4=
-    http_version: 
+    http_version:
   recorded_at: Thu, 05 Dec 2013 16:43:25 GMT
 recorded_with: VCR 2.8.0
