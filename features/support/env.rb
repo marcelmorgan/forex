@@ -1,1 +1,2 @@
 require 'forex'
+require 'pry'

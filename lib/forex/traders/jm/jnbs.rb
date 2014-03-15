@@ -6,7 +6,6 @@ Forex::Trader.define "JNBS" do |t|
   t.rates_parser = ->(doc) do # doc is a nokogiri document
 
     options = {
-      currency_code: 0,
       sell_cash: 4,
       buy_cash: 2,
       buy_draft: 1,
