@@ -1,4 +1,10 @@
 language: ruby
 rvm:
   - 2.0.0
-script: bundle exec cucumber && bundle exec rspec
+cache: bundler
+branches:
+  only:
+    - master
+script:
+  - bundle exec cucumber
+  - bundle exec rspec
