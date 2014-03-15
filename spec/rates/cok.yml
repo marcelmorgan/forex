@@ -10,3 +10,11 @@ CAD:
  buy_cash: 95.75
  buy_draft: 93.5
  sell_cash: 98.45
+KYD:
+  :buy_cash: 116.3
+  :buy_draft: 100.0
+  :sell_cash: 120.4
+EUR:
+  :buy_cash: 139.5
+  :buy_draft: 130.2
+  :sell_cash: 144.0

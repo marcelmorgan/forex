@@ -14,6 +14,11 @@ Forex::Trader.define "COK" do |t|
 
     table = doc.css(".table-bordered").first
 
-    Forex::TabularRates.new(table, options).parse_rates
+    translations = {
+      'CI'    => 'KYD',
+      'Euro'  => 'EUR',
+    }
+
+    Forex::TabularRates.new(table, options).parse_rates(translations)
   end
 end
