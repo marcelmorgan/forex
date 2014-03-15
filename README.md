@@ -31,9 +31,10 @@ contents:
 ```ruby
 
 Forex::Trader.define "NCB" do |t|
-  t.base_currency = "JMD"
-  t.name          = "National Commercial Bank"
-  t.endpoint      = "http://www.jncb.com/rates/foreignexchangerates"
+  t.base_currency  = "JMD"
+  t.name           = "National Commercial Bank"
+  t.endpoint       = "http://www.jncb.com/rates/foreignexchangerates"
+  t.twitter_handle = "@ncbja"
 
   t.rates_parser = ->(doc) do # doc is a nokogiri document
     # process the doc and return rates hash in the following format
@@ -63,7 +64,7 @@ For example:
 
 ```ruby
   #...
-  
+
   translations = {
     'US$' => 'USD',
     'TT$' => 'TTD',

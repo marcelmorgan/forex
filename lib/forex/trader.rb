@@ -7,7 +7,8 @@ module Forex
                   :base_currency,
                   :endpoint,
                   :rates_parser,
-                  :rates
+                  :rates,
+                  :twitter_handle
 
     class << self
       attr_accessor :all
