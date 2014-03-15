@@ -11,10 +11,15 @@ Forex::Trader.define "FXTRADERS" do |t|
       ).first.content
     end
 
-    (1..5).each_with_object({}) do |n, currencies|
-      country_code = content_for.(:currency, n)
+    translations = {
+      'EURO' => 'EUR',
+    }
 
-      currencies[country_code] = {
+    (1..5).each_with_object({}) do |n, currencies|
+      currency_code = content_for.(:currency, n)
+      currency_code = translations[currency_code] || currency_code
+
+      currencies[currency_code] = {
         buy_cash:   content_for.(:buying, n).to_f,
         buy_draft:  content_for.(:buying, n, :b).to_f,
         sell_cash:  content_for.(:selling, n).to_f,
