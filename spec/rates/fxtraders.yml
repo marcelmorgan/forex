@@ -1,0 +1,26 @@
+---
+USD:
+  :buy_cash: 103.25
+  :buy_draft: 103.95
+  :sell_cash: 105.6
+  :sell_draft: 106.1
+CAD:
+  :buy_cash: 95.65
+  :buy_draft: 96.25
+  :sell_cash: 98.45
+  :sell_draft: 99.55
+GBP:
+  :buy_cash: 168.2
+  :buy_draft: 168.9
+  :sell_cash: 172.2
+  :sell_draft: 173.55
+KYD:
+  :buy_cash: 116.7
+  :buy_draft: 0.0
+  :sell_cash: 120.4
+  :sell_draft: 0.0
+EUR:
+  :buy_cash: 137.85
+  :buy_draft: 0.0
+  :sell_cash: 142.15
+  :sell_draft: 0.0
