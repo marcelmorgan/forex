@@ -15,15 +15,18 @@ describe "Traders" do
     expected_rates_file_path = "spec/rates/#{short_name.downcase}.yml"
 
     unless File.exists?(expected_rates_file_path)
-      pending "Create expected rates YAML for #{short_name} at #{expected_rates_file_path}"
+      error_message = "Create expected rates YAML for #{short_name} at #{expected_rates_file_path}"
+      raise error_message
     end
 
-    YAML.load(File.read(expected_rates_file_path)). # read file
-      each_with_object({}) do |(currency,txns), rates| # make txn type a symbol
-        rates[currency] = txns.each_with_object({}) do |(txn, price), txn_price|
-          txn_price[txn.to_sym] = price
-        end
+    expected_rates_yaml = File.read(expected_rates_file_path)
+    expected_rates = YAML.load(expected_rates_yaml)
+
+    expected_rates.each_with_object({}) do |(currency,txns), rates|
+      rates[currency] = txns.each_with_object({}) do |(txn, price), txn_price|
+        txn_price[txn.to_sym] = price
       end
+    end
   end
 
 end

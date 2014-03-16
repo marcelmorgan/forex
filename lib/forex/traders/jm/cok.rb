@@ -5,13 +5,6 @@ Forex::Trader.define "COK" do |t|
 
   t.rates_parser = ->(doc) do # doc is a nokogiri document
 
-    options = {
-      currency_code: 0,
-      buy_cash: 3,
-      buy_draft: 2,
-      sell_cash: 1,
-    }
-
     table = doc.css(".table-bordered").first
 
     translations = {
@@ -19,6 +12,6 @@ Forex::Trader.define "COK" do |t|
       'Euro'  => 'EUR',
     }
 
-    Forex::TabularRates.new(table, options).parse_rates(translations)
+    Forex::TabularRates.new(table).parse_rates(translations)
   end
 end

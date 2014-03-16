@@ -1,0 +1,51 @@
+---
+USD:
+  :buy_cash: 101.3
+  :buy_draft: 103.3
+  :sell_cash: 105.0
+  :sell_draft: 105.0
+GBP:
+  :buy_cash: 166.06
+  :buy_draft: 169.48
+  :sell_cash: 173.16
+  :sell_draft: 173.16
+CAD:
+  :buy_cash: 94.3
+  :buy_draft: 96.71
+  :sell_cash: 99.5
+  :sell_draft: 99.5
+EUR:
+  :buy_cash: 135.01
+  :buy_draft: 138.05
+  :sell_cash: 143.82
+  :sell_draft: 143.82
+BBD:
+  :buy_cash: 46.23
+  :buy_draft: 50.25
+  :sell_cash: 54.62
+  :sell_draft: 54.62
+KYD:
+  :buy_cash: 112.4
+  :buy_draft: 117.09
+  :sell_cash: 127.13
+  :sell_draft: 127.13
+XCD:
+  :buy_cash: 34.59
+  :buy_draft: 36.41
+  :sell_cash: 40.46
+  :sell_draft: 40.46
+JPY:
+  :buy_cash: 0.9341
+  :buy_draft: 0.9833
+  :sell_cash: 1.0573
+  :sell_draft: 1.0573
+CHF:
+  :buy_cash: 106.8
+  :buy_draft: 110.67
+  :sell_cash: 119.64
+  :sell_draft: 119.64
+TTD:
+  :buy_cash: 15.26
+  :buy_draft: 16.06
+  :sell_cash: 17.65
+  :sell_draft: 17.65
