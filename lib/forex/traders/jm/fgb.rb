@@ -1,7 +1,8 @@
 Forex::Trader.define "FGB" do |t|
-  t.base_currency = "JMD"
-  t.name          = "First Global Bank"
-  t.endpoint      = "http://www.firstglobal-bank.com/"
+  t.base_currency   = "JMD"
+  t.name            = "First Global Bank"
+  t.twitter_handle  = "@First_Global"
+  t.endpoint        = "http://www.firstglobal-bank.com/"
 
   t.rates_parser = ->(doc) do # doc is a nokogiri document
     options = {
