@@ -65,11 +65,6 @@ For example:
 ```ruby
   #...
 
-  translations = {
-    'US$' => 'USD',
-    'TT$' => 'TTD',
-  }
-
   t.rates_parser = ->(doc) do # doc is a nokogiri document
 
     options = {
@@ -80,8 +75,13 @@ For example:
     }
 
     table = doc.css(".rates table").first
+    
+    translations = {
+      'US$' => 'USD',
+      'TT$' => 'TTD',
+    }
 
-    # translations is optional
+    # translations are optional
     Forex::TabularRates.new(table, options).parse_rates(translations)
   end
 
