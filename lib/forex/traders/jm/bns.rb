@@ -1,7 +1,8 @@
 Forex::Trader.define "BNS" do |t|
-  t.base_currency = "JMD"
-  t.name          = "Bank of Nova Scotia"
-  t.endpoint      = "http://www4.scotiabank.com/cgi-bin/ratesTool/depdisplay.cgi?pid=56"
+  t.base_currency   = "JMD"
+  t.name            = "Bank of Nova Scotia"
+  t.twitter_handle  = "@ScotiabankJM"
+  t.endpoint        = "http://www4.scotiabank.com/cgi-bin/ratesTool/depdisplay.cgi?pid=56"
 
   t.rates_parser = ->(doc) do # doc is a nokogiri document
 
