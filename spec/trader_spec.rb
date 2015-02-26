@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Trader do
-  around { Trader.reset }
+  after(:each) { Trader.reset }
 
   describe "#define" do
     specify { expect { |b| Trader.define("TRADER", &b) }.to yield_with_args(Forex::Trader) }
@@ -45,7 +45,7 @@ describe Trader do
       specify { expect(trader.rates_parser).to be == rates_parser }
 
       it ".fetch" do
-        trader.stub(:doc)
+        allow(trader).to receive_messages(doc: nil)
         expect(trader.fetch).to be == sample_rates
       end
     end
