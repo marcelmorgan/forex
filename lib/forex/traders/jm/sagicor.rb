@@ -2,10 +2,10 @@ Forex::Trader.define "Sagicor" do |t|
   t.base_currency   = "JMD"
   t.name            = "Sagicor Bank"
   t.twitter_handle  = "@SagicorJa"
-  t.endpoint        = "http://www.gopancaribbean.com/personal-banking"
+  t.endpoint        = "https://www.sagicorjamaica.com/personal/banking/fx-access"
 
   t.rates_parser = ->(doc) do # doc is a nokogiri document
-    table = doc.css("table .data").first
+    table = doc.css("table.table-condensed.table-hover").first
     Forex::TabularRates.new(table).parse_rates
   end
 end
