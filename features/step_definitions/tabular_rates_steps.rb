@@ -48,7 +48,7 @@ module KnowsTabularRates
         end
     end
 
-    parse_rates.should == formatted_rates
+    expect(parse_rates).to be == formatted_rates
   end
 
   def convert_rates!(table)

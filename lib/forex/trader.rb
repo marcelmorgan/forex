@@ -38,11 +38,9 @@ module Forex
 
     # doc built from the endpoint
     def doc
-      markup = Net::HTTP.get(URI(endpoint))
-      Nokogiri::HTML(markup)
+      Nokogiri::HTML(Client.new.get_response(endpoint).body)
     end
 
     reset
   end
 end
-
