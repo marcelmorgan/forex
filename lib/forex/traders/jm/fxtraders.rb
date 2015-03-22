@@ -7,7 +7,7 @@ Forex::Trader.define "FXTRADERS" do |t|
 
     content_for = ->(type, n, part = nil) do
       doc.css(
-        ['.views-field-field-fx-trader', type, n, part, 'value span'].compact.join('-')
+        ['.views-field-field-fx-trader', type, n, part].compact.join('-').concat(' .field-content')
       ).first.content
     end
 
@@ -28,4 +28,3 @@ Forex::Trader.define "FXTRADERS" do |t|
     end
   end
 end
-
