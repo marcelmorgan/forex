@@ -1,7 +1,7 @@
 Forex::Trader.define "NCB" do |t|
   t.base_currency   = "JMD"
   t.name            = "National Commercial Bank"
-  t.endpoint        = "http://www.jncb.com/rates/foreignexchangerates"
+  t.endpoint        = "http://www.jncb.com/rates"
   t.twitter_handle  = "@ncbja"
 
   t.rates_parser = ->(doc) do # doc is a nokogiri document
@@ -13,7 +13,7 @@ Forex::Trader.define "NCB" do |t|
       buy_draft: 3,
     }
 
-    table = doc.css(".rates table").first
+    table = doc.css(".fxratestable").first
 
     Forex::TabularRates.new(table, options).parse_rates
   end
