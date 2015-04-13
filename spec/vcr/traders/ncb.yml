@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.jncb.com/rates
+    uri: https://www.jncb.com/rates
     body:
       encoding: US-ASCII
       string: ''
@@ -21,19 +21,20 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 22 Mar 2015 14:58:07 GMT
+      - Mon, 13 Apr 2015 01:12:55 GMT
       Server:
       - Apache
       X-Frame-Options:
       - SAMEORIGIN
       Set-Cookie:
-      - c8c87e3eb43cb6380e08a4f6b7ee3e04=t6ce6vagshpvsim4fj2kmsv1b4; path=/; HttpOnly
+      - c8c87e3eb43cb6380e08a4f6b7ee3e04=b871jeoltm9ebv9d78d694bh26; path=/; secure;
+        HttpOnly
       P3p:
       - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
       Expires:
       - Mon, 1 Jan 2001 00:00:00 GMT
       Last-Modified:
-      - Sun, 22 Mar 2015 14:58:08 GMT
+      - Mon, 13 Apr 2015 01:12:55 GMT
       Cache-Control:
       - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
       Pragma:
@@ -44,66 +45,69 @@ http_interactions:
       - text/html; charset=utf-8
     body:
       encoding: UTF-8
-      string: "<!DOCTYPE html>\n<!--[if IE 8]>\n\t<html class=\"no-js lt-ie9\" lang=\"en\"
-        > \n<![endif]-->\n<!--[if gt IE 8]>\n<!--> <html class=\"no-js\" lang=\"en\"
-        > <!--<![endif]-->\n\n<head>\n\t<meta charset=\"utf-8\" />\n    <meta name=\"viewport\"
-        content=\"width=device-width\" />\n\t  <base href=\"http://www.jncb.com/rates\"
-        />\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"
-        />\n  <meta name=\"generator\" content=\"Kentico CMS\" />\n  <title>National
-        Commercial Bank - FX Rates</title>\n  <link href=\"/favicon.ico\" rel=\"shortcut
-        icon\" type=\"image/vnd.microsoft.icon\" />\n  <link href=\"http://www.jncb.com/component/search/?Itemid=331&amp;format=opensearch\"
+      string: "<!DOCTYPE html>\r\n<!--[if IE 8]>\r\n\t<html class=\"no-js lt-ie9\"
+        lang=\"en\" > \r\n<![endif]-->\r\n<!--[if gt IE 8]>\r\n<!--> <html class=\"no-js\"
+        lang=\"en\" > <!--<![endif]-->\r\n\r\n<head>\r\n  <meta http-equiv=\"X-UA-Compatible\"
+        content=\"IE=9; IE=8; IE=7; IE=EDGE\" />\r\n\t<meta charset=\"utf-8\" />\r\n
+        \   <meta name=\"viewport\" content=\"width=device-width\" />\r\n\t  <base
+        href=\"https://www.jncb.com/rates\" />\n  <meta http-equiv=\"content-type\"
+        content=\"text/html; charset=utf-8\" />\n  <meta name=\"generator\" content=\"Kentico
+        CMS\" />\n  <title>National Commercial Bank - FX Rates</title>\n  <link href=\"/favicon.ico\"
+        rel=\"shortcut icon\" type=\"image/vnd.microsoft.icon\" />\n  <link href=\"https://www.jncb.com/component/search/?Itemid=331&amp;format=opensearch\"
         rel=\"search\" title=\"Search National Commercial Bank\" type=\"application/opensearchdescription+xml\"
-        />\n\n    \n    <link rel=\"stylesheet\" href=\"/templates/ncb-jamaica/css/normalize.css\"
-        />\n    <link rel=\"stylesheet\" href=\"/templates/ncb-jamaica/css/fn.min.css\"
-        />\n    <link rel=\"stylesheet\" href=\"/templates/ncb-jamaica/css/jncb.css\"
-        />\n        \n    <script src=\"/templates/ncb-jamaica/js/modernizr.js\"></script>\n
-        \ \n      <!--[if lt IE 9]>\n        <script src=\"/templates/ncb-jamaica/js/ie/respond.js\"></script>\n
-        \       <script src=\"/templates/ncb-jamaica/js/ie/html5shiv.js\"></script>\n
-        \       <script src=\"/templates/ncb-jamaica/js/ie/nwmatcher.js\"></script>\n
-        \       <script src=\"/templates/ncb-jamaica/js/ie/selectivizr.js\"></script>\n
-        \     <![endif]-->\n      \t        <style>\n            .row {\n                max-width:
-        940px;\n            }\n        </style>\n                \n     \n      \n
-        \        \n    \n    </head>\n<body class=\" innerPage\">\n\n<div id=\"container\">\n\t<header
-        class=\"row header\">\n    <!-- Logo -->\n    <div class=\"large-3 small-12
-        columns small-centered large-uncentered logoModule\">\n    <p><a title=\"National
-        Commercial Bank\" href=\"/\"><img class=\"logo\" title=\"National Commercial
-        Bank, Jamaica Ltd\" src=\"/images/logos/logo.png\" alt=\"National Commercial
-        Bank, Jamaica Ltd\" /></a></p>\n    </div>\n    \n    \n    <div class=\"large-6
-        small-12 columns headerMenu\">\n\n    <section class=\"row\">\n    <a class=\"secondary
-        radius button dropdown  small-centered onlinebanking\" href=\"https://www.ncbelink.com/\"
-        target=\"_blank\" data-dropdown=\"drop\" data-options=\"is_hover:true; hover_timeout:1500\">Online
-        Banking</a>\n\n<ul id=\"drop\" class=\"f-dropdown content medium\" style=\"position:
-        absolute; top: 26px; left: -99999px;\" data-dropdown-content=\"\">\n\n<div
-        class=\"row onlinebankingdropdown\">\n  <div class=\"large-6 columns\"><h4>Personal</h4>\n
-        \ \n   <ul class=\"no-bullet\">\n      <li><a href=\"/internetbanking.php?RetailLogin\">Login</a></li>\n
-        \     <li><a href=\"/internetbanking.php?RetailSignup\">Sign Up</a></li>\n
-        \     <li><a href=\"/bankingdemos\">Demo</a></li>\n\t<li><a href=\"/personalinternetlbankingmanuals\">Manuals
-        &amp; FAQs</a></li>\n\n    </ul>\n  \n  </div>\n  <div class=\"large-6 columns
-        leftborder\"><h4>Business</h4>\n     <ul class=\"no-bullet\">\n      <li><a
-        href=\"/internetbanking.php?CorporateLogin\">Login</a></li>\n      <li><a
-        href=\"/internetbanking.php?CorporateSignup\">Sign Up</a></li>\n      <li><a
-        href=\"/corporatebankingdemos\">Demo</a></li>\n\t<li><a href=\"/corporateinternetlbankingmanuals\">Manuals
-        &amp; FAQs</a></li>\n    </ul>\n  </div>\n</div>\n\n</ul>\n\n<div class=\"search
-        HeaderSearch\">\r\n    <form action=\"/rates\" method=\"post\" class=\"form-inline\">\r\n
-        \     <div class=\"row\">\r\n      <div class=\"large-12 small-12 columns\">\r\n
-        \  \r\n    \t\t<label for=\"mod-search-searchword\" class=\"element-invisible\">Search
-        ...</label> <input name=\"searchword\" id=\"mod-search-searchword\" maxlength=\"200\"
-        \ class=\"inputbox search-query\" type=\"text\" size=\"30\" value=\"Search
-        ...\"  onblur=\"if (this.value=='') this.value='Search ...';\" onfocus=\"if
-        (this.value=='Search ...') this.value='';\" />    \t<input type=\"hidden\"
-        name=\"task\" value=\"search\" />\r\n    \t<input type=\"hidden\" name=\"option\"
-        value=\"com_search\" />\r\n    \t<input type=\"hidden\" name=\"Itemid\" value=\"331\"
-        />\r\n        </div>\r\n        </div>\r\n    </form>\r\n</div>\r\n\n    </section>\n
-        \   </div>\n    \n    \n    <div class=\"large-3 hide-for-small   columns\">\n
-        \   <p class=\"today right\">Sunday March 22, 2015</p>\n    </div>\n    </header>\n\n
-        <div class=\"row main-navigation\">  \n <div class=\"large-3  hide-for-small
-        large-uncentered columns slogan \">\n Put Your Best <span>Life</span> Forward\n
-        </div>\n <div class=\"large-9 columns\">\n \t    \n            <!--aboverow-->
-        \n            <!-- put style=\"siegeEngine\" back -->\n            \r\n<nav
-        class=\"top-bar\" data-topbar >\r\n <ul class=\"title-area\">\r\n    <!--
-        Title Area -->\r\n<li class=\"name\">\r\n    </li>\r\n    <!-- Remove the
-        class \"menu-icon\" to get rid of menu icon. Take out \"Menu\" to just have
-        icon alone -->\r\n    <li class=\"toggle-topbar menu-icon\"><a href=\"#\"><span>Menu</span></a></li>\r\n
+        />\n\r\n    \r\n    <link rel=\"stylesheet\" href=\"/templates/ncb-jamaica/css/normalize.css\"
+        />\r\n    <link rel=\"stylesheet\" href=\"/templates/ncb-jamaica/css/fn.min.css\"
+        />\r\n    <link rel=\"stylesheet\" href=\"/templates/ncb-jamaica/css/jncb.css\"
+        />\r\n        \r\n    <script src=\"/templates/ncb-jamaica/js/modernizr.js\"></script>\r\n
+        \ \r\n      <!--[if lt IE 9]>\r\n        <script src=\"/templates/ncb-jamaica/js/ie/respond.js\"></script>\r\n
+        \       <script src=\"/templates/ncb-jamaica/js/ie/html5shiv.js\"></script>\r\n
+        \       <script src=\"/templates/ncb-jamaica/js/ie/nwmatcher.js\"></script>\r\n
+        \       <script src=\"/templates/ncb-jamaica/js/ie/selectivizr.js\"></script>\r\n
+        \     <![endif]-->\r\n      \t        <style>\r\n            .row {\r\n                max-width:
+        940px;\r\n            }\r\n        </style>\r\n                \r\n     \r\n
+        \     \r\n         \r\n    \r\n    </head>\r\n<body class=\" innerPage\">\r\n\r\n<div
+        id=\"container\">\r\n\t<header class=\"row header\">\r\n    <!-- Logo -->\r\n
+        \   <div class=\"large-3 small-12 columns small-centered large-uncentered
+        logoModule\">\r\n    <p><a title=\"National Commercial Bank\" href=\"/\"><img
+        class=\"logo\" title=\"National Commercial Bank, Jamaica Ltd\" src=\"/images/logos/logo.png\"
+        alt=\"National Commercial Bank, Jamaica Ltd\" /></a></p>\r\n    </div>\r\n
+        \   \r\n    \r\n    <div class=\"large-6 small-12 columns headerMenu\">\r\n\r\n
+        \   <section class=\"row\">\r\n    <a class=\"secondary radius button dropdown
+        \ small-centered onlinebanking\" href=\"https://www.ncbelink.com/\" target=\"_blank\"
+        data-dropdown=\"drop\" data-options=\"is_hover:true; hover_timeout:1500\">Online
+        Banking</a>\r\n\r\n<ul id=\"drop\" class=\"f-dropdown content medium\" style=\"position:
+        absolute; top: 26px; left: -99999px;\" data-dropdown-content=\"\">\r\n\r\n<div
+        class=\"row onlinebankingdropdown\">\r\n  <div class=\"large-6 columns\"><h4>Personal</h4>\r\n
+        \ \r\n   <ul class=\"no-bullet\">\r\n      <li><a href=\"/internetbanking.php?RetailLogin\">Login</a></li>\r\n
+        \     <li><a href=\"/internetbanking.php?RetailSignup\">Sign Up</a></li>\r\n
+        \     <li><a href=\"/bankingdemos\">Demo</a></li>\r\n\t<li><a href=\"/personalinternetlbankingmanuals\">Manuals
+        &amp; FAQs</a></li>\r\n\r\n    </ul>\r\n  \r\n  </div>\r\n  <div class=\"large-6
+        columns leftborder\"><h4>Business</h4>\r\n     <ul class=\"no-bullet\">\r\n
+        \     <li><a href=\"/internetbanking.php?CorporateLogin\">Login</a></li>\r\n
+        \     <li><a href=\"/internetbanking.php?CorporateSignup\">Sign Up</a></li>\r\n
+        \     <li><a href=\"/corporatebankingdemos\">Demo</a></li>\r\n\t<li><a href=\"/corporateinternetlbankingmanuals\">Manuals
+        &amp; FAQs</a></li>\r\n    </ul>\r\n  </div>\r\n</div>\r\n\r\n</ul>\r\n\r\n<div
+        class=\"search HeaderSearch\">\r\n    <form action=\"/rates\" method=\"post\"
+        class=\"form-inline\">\r\n      <div class=\"row\">\r\n      <div class=\"large-12
+        small-12 columns\">\r\n   \r\n    \t\t<label for=\"mod-search-searchword\"
+        class=\"element-invisible\">Search ...</label> <input name=\"searchword\"
+        id=\"mod-search-searchword\" maxlength=\"200\"  class=\"inputbox search-query\"
+        type=\"text\" size=\"30\" value=\"Search ...\"  onblur=\"if (this.value=='')
+        this.value='Search ...';\" onfocus=\"if (this.value=='Search ...') this.value='';\"
+        />    \t<input type=\"hidden\" name=\"task\" value=\"search\" />\r\n    \t<input
+        type=\"hidden\" name=\"option\" value=\"com_search\" />\r\n    \t<input type=\"hidden\"
+        name=\"Itemid\" value=\"331\" />\r\n        </div>\r\n        </div>\r\n    </form>\r\n</div>\r\n\r\n
+        \   </section>\r\n    </div>\r\n    \r\n    \r\n    <div class=\"large-3 hide-for-small
+        \  columns\">\r\n    <p class=\"today right\">Monday April 13, 2015</p>\r\n
+        \   </div>\r\n    </header>\r\n\r\n <div class=\"row main-navigation\">  \r\n
+        <div class=\"large-3  hide-for-small large-uncentered columns slogan \">\r\n
+        Put Your Best <span>Life</span> Forward\r\n </div>\r\n <div class=\"large-9
+        columns\">\r\n \t    \r\n            <!--aboverow--> \r\n            <!--
+        put style=\"siegeEngine\" back -->\r\n            \r\n<nav class=\"top-bar\"
+        data-topbar >\r\n <ul class=\"title-area\">\r\n    <!-- Title Area -->\r\n<li
+        class=\"name\">\r\n    </li>\r\n    <!-- Remove the class \"menu-icon\" to
+        get rid of menu icon. Take out \"Menu\" to just have icon alone -->\r\n    <li
+        class=\"toggle-topbar menu-icon\"><a href=\"#\"><span>Menu</span></a></li>\r\n
         \ </ul>\r\n<section class=\"top-bar-section\">\r\n    <!-- Left Nav Section
         -->\r\n    <ul class=\"left \">\r\n    <li class=\"item-101 deeper has-dropdown
         parent\"><a href=\"/individuals\" >Individual</a><ul class=\"dropdown\"><li
@@ -204,31 +208,32 @@ http_interactions:
         href=\"/aboutus/annuallearningreports\" >Annual Learning Reports</a></li><li
         class=\"item-283\"><a href=\"/aboutus/ncbbrandmanual\" >NCB Brand Manual</a></li><li
         class=\"item-253\"><a href=\"/aboutus/financials\" >Financials</a></li></ul></li></ul>\r\n
-        \     </section>\r\n</nav>\n        </div>\n        \n        </div>\n\n    \n
-        \   \n\n    \n\t\n\t\t\n    <div class=\"row\">\n    \t<!--mainrow-->\n        <div
-        class=\"large-12 small-12 columns\">\n                <div class=\"large-12
-        columns main\">\n        \t<!--mainrow-->\n                         \n\t\t\t
-        \n            \t<div id=\"system-message-container\">\n\t</div>\n  \n    \t\t\t\r\n<article>\r\n\t\t\t\t\r\n\t\t<header>\r\n\t\t\t\t</header>\r\n\t\r\n\t<footer>\r\n\t\t<ul
+        \     </section>\r\n</nav>\r\n        </div>\r\n        \r\n        </div>\r\n\r\n
+        \   \r\n    \r\n\r\n    \r\n\t\r\n\t\t\r\n    <div class=\"row\">\r\n    \t<!--mainrow-->\r\n
+        \       <div class=\"large-12 small-12 columns\">\r\n                <div
+        class=\"large-12 columns main\">\r\n        \t<!--mainrow-->\r\n                         \r\n\t\t\t
+        \r\n            \t<div id=\"system-message-container\">\n\t</div>\n  \r\n
+        \   \t\t\t\r\n<article>\r\n\t\t\t\t\r\n\t\t<header>\r\n\t\t\t\t</header>\r\n\t\r\n\t<footer>\r\n\t\t<ul
         class=\"article-info inline\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>\r\n
         \         \t</footer>\r\n\t\t\t\t\t\t\t\t\t \r\n <figure class=\"ArticleHeaderImage\"></figure>\r\n
         \r\n\t\t\t<div class=\"article-body\">\r\n\t\t<h1>Foreign Exchange Rates</h1>\r\n\t\t\t<div
-        class=\"moduletable\">\n\t\t\t\t\t\t<p> Effective Date: March 20, 2015 (Rates
+        class=\"moduletable\">\n\t\t\t\t\t\t<p> Effective Date: April 10, 2015 (Rates
         are subject to change) </p>\r\n <table class=\"fxratestable\" width=\"100%\">\r\n\t
         \ <thead>\r\n\t    <tr>\r\n        <th>&nbsp; </th>\r\n\t    <th >Currency</th>\r\n\t
         \    <th>Selling</th>\r\n \t    <th>Buy <br />(Cheque)</th>\r\n\t     <th>Buy
         <br /> (Cash)</th>\r\n\t    </tr>\r\n\t  </thead>\r\n\t  <tbody>\r\n\r\n<tr></tr><tr><td
         class=\"flagimg\" ><img src=\"/images/flags/USD.png\"/></td><td class=\"currencycodename\">USD</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">115.27</td><td align=\"center\"
-        class=\"fxcurrencyvalues\">113.75</td><td align=\"center\" class=\"fxcurrencyvalues\">112.80</td></tr><tr><td
+        align=\"center\" class=\"fxcurrencyvalues\">114.98</td><td align=\"center\"
+        class=\"fxcurrencyvalues\">113.50</td><td align=\"center\" class=\"fxcurrencyvalues\">112.50</td></tr><tr><td
         class=\"flagimg\" ><img src=\"/images/flags/GBP.png\"/></td><td class=\"currencycodename\">GBP</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">172.00</td><td align=\"center\"
-        class=\"fxcurrencyvalues\">170.20</td><td align=\"center\" class=\"fxcurrencyvalues\">168.50</td></tr><tr><td
+        align=\"center\" class=\"fxcurrencyvalues\">169.20</td><td align=\"center\"
+        class=\"fxcurrencyvalues\">166.00</td><td align=\"center\" class=\"fxcurrencyvalues\">164.50</td></tr><tr><td
         class=\"flagimg\" ><img src=\"/images/flags/CAD.png\"/></td><td class=\"currencycodename\">CAD</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">91.80</td><td align=\"center\"
-        class=\"fxcurrencyvalues\">89.60</td><td align=\"center\" class=\"fxcurrencyvalues\">87.50</td></tr><tr><td
+        align=\"center\" class=\"fxcurrencyvalues\">91.90</td><td align=\"center\"
+        class=\"fxcurrencyvalues\">90.00</td><td align=\"center\" class=\"fxcurrencyvalues\">89.00</td></tr><tr><td
         class=\"flagimg\" ><img src=\"/images/flags/EUR.png\"/></td><td class=\"currencycodename\">EUR</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">124.80</td><td align=\"center\"
-        class=\"fxcurrencyvalues\">122.00</td><td align=\"center\" class=\"fxcurrencyvalues\">118.00</td></tr><tr><td
+        align=\"center\" class=\"fxcurrencyvalues\">123.00</td><td align=\"center\"
+        class=\"fxcurrencyvalues\">120.00</td><td align=\"center\" class=\"fxcurrencyvalues\">118.30</td></tr><tr><td
         class=\"flagimg\" ><img src=\"/images/flags/KYD.png\"/></td><td class=\"currencycodename\">KYD</td><td
         align=\"center\" class=\"fxcurrencyvalues\">128.00</td><td align=\"center\"
         class=\"fxcurrencyvalues\">0.00</td><td align=\"center\" class=\"fxcurrencyvalues\">109.00</td></tr><tr><td
@@ -236,8 +241,8 @@ http_interactions:
         align=\"center\" class=\"fxcurrencyvalues\">0.00</td><td align=\"center\"
         class=\"fxcurrencyvalues\">0.00</td><td align=\"center\" class=\"fxcurrencyvalues\">0.00</td></tr><tr><td
         class=\"flagimg\" ><img src=\"/images/flags/BZD.png\"/></td><td class=\"currencycodename\">BZD</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">56.92</td><td align=\"center\"
-        class=\"fxcurrencyvalues\">54.21</td><td align=\"center\" class=\"fxcurrencyvalues\">0.00</td></tr><tr><td
+        align=\"center\" class=\"fxcurrencyvalues\">56.70</td><td align=\"center\"
+        class=\"fxcurrencyvalues\">54.00</td><td align=\"center\" class=\"fxcurrencyvalues\">0.00</td></tr><tr><td
         class=\"flagimg\" ><img src=\"/images/flags/XCD.png\"/></td><td class=\"currencycodename\">XCD</td><td
         align=\"center\" class=\"fxcurrencyvalues\">0.00</td><td align=\"center\"
         class=\"fxcurrencyvalues\">0.00</td><td align=\"center\" class=\"fxcurrencyvalues\">0.00</td></tr><tr><td
@@ -245,64 +250,65 @@ http_interactions:
         align=\"center\" class=\"fxcurrencyvalues\">18.50</td><td align=\"center\"
         class=\"fxcurrencyvalues\">16.30</td><td align=\"center\" class=\"fxcurrencyvalues\">14.50</td></tr><tr><td
         class=\"flagimg\" ><img src=\"/images/flags/CHF.png\"/></td><td class=\"currencycodename\">CHF</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">114.15</td><td align=\"center\"
-        class=\"fxcurrencyvalues\">108.72</td><td align=\"center\" class=\"fxcurrencyvalues\">108.42</td></tr><tr><td
+        align=\"center\" class=\"fxcurrencyvalues\">118.42</td><td align=\"center\"
+        class=\"fxcurrencyvalues\">112.78</td><td align=\"center\" class=\"fxcurrencyvalues\">112.48</td></tr><tr><td
         class=\"flagimg\" ><img src=\"/images/flags/JPY.png\"/></td><td class=\"currencycodename\">JPY</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">0.94</td><td align=\"center\"
+        align=\"center\" class=\"fxcurrencyvalues\">0.95</td><td align=\"center\"
         class=\"fxcurrencyvalues\">0.90</td><td align=\"center\" class=\"fxcurrencyvalues\">0.89</td></tr>\t</tbody>\r\n\r\n\t</table>\r\n
-        \   \t\t</div>\n\t\t</div>\r\n\t\t\t    \r\n\t\t</article>\r\n\t\t\r\n\n                            <section
-        class=\"below-content\">\n                    <!--below-content-->\n                    \n
-        \                   \n                    \n<hr>\n                    <div
-        class=\"row\">\n                    <div class=\"small-12 large-12 small-centered
-        large-centered columns\">\n                   <ul class=\"stack-for-small
-        button-group even-3 radius\">\n\t<li>\n    \n\n\n        <a class=\"button
-        small secondary ico-facebook\" href=\"http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.jncb.com%2Frates&t=National%20Commercial%20Bank%20-%20FX%20Rates\"
-        rel=\"nofollow\" target=\"_blank\">Share on Facebook</a>\n\t</li>\n\t<li >\n\t\t<a
-        class=\"button small secondary ico-twitter\" href=\"http://twitter.com/share?text=National%20Commercial%20Bank%20-%20FX%20Rates&url=http%3A%2F%2Fwww.jncb.com%2Frates\"
-        rel=\"nofollow\" target=\"_blank\">Share on Twitter</a>\n\t</li>\n\t<li >\n\t\t<a
-        class=\"button small secondary ico-google\" href=\"http://plus.google.com/share?url=http%3A%2F%2Fwww.jncb.com%2Frates\"
-        rel=\"nofollow\" target=\"_blank\">Share on Google+</a>\n\t</li>\n</ul>\n</div>\n</div>\n\n
-        \                   \n                    \t\t<div class=\"moduletable \">\r\n\r\n\t\t\r\n\t\t\t\n\n<div
-        class=\"custom\"  >\n\t</div>\n\t\t\r\n\t\t</div>\r\n\r\n\t\n                </section>\n
-        \              \t\t</div>\n\t\t    </div>\n\t</div>\n    \n        \n    \n
-        \   \t<section class=\"row\">\n    <div class=\"columns large-12 small-12
-        above footer\">\n    <p><span class=\"customercarenumber\"><span>Customer
+        \   \t\t</div>\n\t\t</div>\r\n\t\t\t    \r\n\t\t</article>\r\n\t\t\r\n\r\n
+        \                           <section class=\"below-content\">\r\n                    <!--below-content-->\r\n
+        \                   \r\n                    \r\n                    \r\n<hr>\r\n
+        \                   <div class=\"row\">\r\n                    <div class=\"small-12
+        large-12 small-centered large-centered columns\">\r\n                   <ul
+        class=\"stack-for-small button-group even-3 radius\">\r\n\t<li>\r\n    \r\n\r\n\r\n
+        \       <a class=\"button small secondary ico-facebook\" href=\"http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.jncb.com%2Frates&t=National%20Commercial%20Bank%20-%20FX%20Rates\"
+        rel=\"nofollow\" target=\"_blank\">Share on Facebook</a>\r\n\t</li>\r\n\t<li
+        >\r\n\t\t<a class=\"button small secondary ico-twitter\" href=\"http://twitter.com/share?text=National%20Commercial%20Bank%20-%20FX%20Rates&url=https%3A%2F%2Fwww.jncb.com%2Frates\"
+        rel=\"nofollow\" target=\"_blank\">Share on Twitter</a>\r\n\t</li>\r\n\t<li
+        >\r\n\t\t<a class=\"button small secondary ico-google\" href=\"http://plus.google.com/share?url=https%3A%2F%2Fwww.jncb.com%2Frates\"
+        rel=\"nofollow\" target=\"_blank\">Share on Google+</a>\r\n\t</li>\r\n</ul>\r\n</div>\r\n</div>\r\n\r\n
+        \                   \r\n                    \t\t<div class=\"moduletable \">\r\n\r\n\t\t\r\n\t\t\t\n\n<div
+        class=\"custom\"  >\n\t</div>\n\t\t\r\n\t\t</div>\r\n\r\n\t\r\n                </section>\r\n
+        \              \t\t</div>\r\n\t\t    </div>\r\n\t</div>\r\n    \r\n        \r\n
+        \   \r\n    \t<section class=\"row\">\r\n    <div class=\"columns large-12
+        small-12 above footer\">\r\n    <p><span class=\"customercarenumber\"><span>Customer
         Care Centre:</span> <span class=\"number\">1-888-NCB-FIRST (622-3477)</span></span><span
-        style=\"float: right;\">\n     <a class=\"webicon facebook small\" href=\"https://www.facebook.com/NCBJa\">
-        Like Us On Facebook</a>\n     <a class=\"webicon twitter small\" href=\"https://twitter.com/ncbja\">Follow
+        style=\"float: right;\">\r\n     <a class=\"webicon facebook small\" href=\"https://www.facebook.com/NCBJa\">
+        Like Us On Facebook</a>\r\n     <a class=\"webicon twitter small\" href=\"https://twitter.com/ncbja\">Follow
         Us On Twitter</a> <a class=\"webicon googleplus small\" href=\"https://plus.google.com/117728075397534288990/posts\">Follow
         Us On Google+</a>  <a class=\"webicon mail small\" href=\"mailto:ncbinfo@jncb.com\">Contact
         Us Via E-Mail</a>   <a class=\"webicon instagram small\" href=\"https://www.instagram.com/ncbjamaica\">Instagram</a>
         \ <a class=\"webicon linkedin small\" href=\"https://www.linkedin.com/company/national-commercial-bank-jamaica-limited\">
-        Add Us On LinkedIn</a>\n <a class=\"webicon youtube small\" href=\"https://www.youtube.com/user/ncbja\">Watch
-        Us On YouTube</a> </span></p>\n    </div>\n    \n    </section>\n   \n        <footer
-        class=\"row siteFooter\">\n   <div class=\"columns large-12 small-12 small-centered
-        \ footerMain\">\n   <div class=\"row\">\n  \t <div class=\"columns large-8
-        small-centered large-centered\">\n<ul class=\"top-nav  bottommenu\">\r\n<li
-        class=\"item-118\"><a href=\"/\" >Home</a></li><li class=\"item-120\"><a href=\"/sitemap\"
-        >Sitemap</a></li><li class=\"item-216\"><a href=\"/privacysecuritypolicy\"
-        >Privacy &amp; Security Policy</a></li><li class=\"item-220\"><a href=\"/termsofuse\"
-        >Terms Of Use</a></li><li class=\"item-123\"><a href=\"/customersupport/onlinesecurityguarantee\"
-        >Online Security Guarantee</a></li><li class=\"item-114\"><a href=\"/lendingrates\"
-        >Lending Rates</a></li><li class=\"item-310\"><a href=\"/depositrates\" >Deposit
-        Rates</a></li><li class=\"item-115 parent\"><a href=\"/locations\" >Branch
-        / ABMs</a></li><li class=\"item-330\"><a href=\"https://www.jncb.com/careers\"
-        >Careers</a></li><li class=\"item-117\"><a href=\"/contactus\" >Contact Us</a></li></ul>\r\n\n
-        \n\n   \t</div>\n   </div>\n\n<div class=\"row\">\n  \t <div class=\"columns
-        text-center large-10 small-centered large-centered footnote\">\n<p>&copy;
+        Add Us On LinkedIn</a>\r\n <a class=\"webicon youtube small\" href=\"https://www.youtube.com/user/ncbja\">Watch
+        Us On YouTube</a> </span></p>\r\n    </div>\r\n    \r\n    </section>\r\n
+        \  \r\n        <footer class=\"row siteFooter\">\r\n   <div class=\"columns
+        large-12 small-12 small-centered  footerMain\">\r\n   <div class=\"row\">\r\n
+        \ \t <div class=\"columns large-8 small-centered large-centered\">\r\n<ul
+        class=\"top-nav  bottommenu\">\r\n<li class=\"item-118\"><a href=\"/\" >Home</a></li><li
+        class=\"item-120\"><a href=\"/sitemap\" >Sitemap</a></li><li class=\"item-216\"><a
+        href=\"/privacysecuritypolicy\" >Privacy &amp; Security Policy</a></li><li
+        class=\"item-220\"><a href=\"/termsofuse\" >Terms Of Use</a></li><li class=\"item-123\"><a
+        href=\"/customersupport/onlinesecurityguarantee\" >Online Security Guarantee</a></li><li
+        class=\"item-114\"><a href=\"/lendingrates\" >Lending Rates</a></li><li class=\"item-310\"><a
+        href=\"/depositrates\" >Deposit Rates</a></li><li class=\"item-115 parent\"><a
+        href=\"/locations\" >Branch / ABMs</a></li><li class=\"item-330\"><a href=\"http://www.jncb.com/careers\"
+        >Careers</a></li><li class=\"item-117\"><a href=\"/contactus\" >Contact Us</a></li></ul>\r\n\r\n
+        \r\n\r\n   \t</div>\r\n   </div>\r\n\r\n<div class=\"row\">\r\n  \t <div class=\"columns
+        text-center large-10 small-centered large-centered footnote\">\r\n<p>&copy;
         Copyright 1999 - 2015 NCB Jamaica. Ltd. All Rights Reserved.&nbsp;Member of
         the <a href=\"http://www.jba.org.jm/\" title=\"Jamaica Bankers Association\">JBA</a>
-        &amp; <a href=\"http://www.jdic.org/\" title=\"Jamaica Deposit Insurance Corproation\">JDIC</a>&nbsp;</p>\n\n</div>\n</div>\n
-        \  </div>\n        </footer>\n\n\n\n    <script type=\"text/javascript\">\n
-        \       var ie = !(navigator.userAgent.indexOf(\"MSIE 8.0\") < 0);\n        if
-        (ie == false) {\n            document.write(\"<script src=\\\"/templates/ncb-jamaica/js/jquery2.js\\\"></scr\"
-        + \"ipt>\");\n\t\t\tdocument.write(\"<script src=\\\"/templates/ncb-jamaica/js/fn.min.js\\\"></scr\"
-        + \"ipt>\");\n        } else {\n            document.write(\"<script src=\\\"/templates/ncb-jamaica/js/jquery19.js\\\"></scr\"
-        + \"ipt>\");\n\t\t\tdocument.write(\"<script src=\\\"/templates/ncb-jamaica/js/fn4.min.js\\\"></scr\"
-        + \"ipt>\");\n        }\n    </script> \n<script>\n  $(function() {$(document).foundation();});\n</script>\n\n
-        \ <!-- http://mths.be/aab -->\n<script>\nvar _gaq=[['_setAccount','UA-47167941-1'],[\"_trackPageview\"]];\n(function(d,t){var
-        g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;\ng.src=(\"https:\"==location.protocol?\"//ssl\":\"//www\")+\".google-analytics.com/ga.js\";\ns.parentNode.insertBefore(g,s)}(document,\"script\"));\n</script>\n<noscript>JavaScript
-        is unavailable or disabled</noscript>\n</div>\n</body>\n</html>\n"
+        &amp; <a href=\"http://www.jdic.org/\" title=\"Jamaica Deposit Insurance Corproation\">JDIC</a>&nbsp;</p>\r\n\r\n</div>\r\n</div>\r\n
+        \  </div>\r\n        </footer>\r\n\r\n\r\n\r\n    <script type=\"text/javascript\">\r\n
+        \       var ie = !(navigator.userAgent.indexOf(\"MSIE 8.0\") < 0);\r\n        if
+        (ie == false) {\r\n            document.write(\"<script src=\\\"/templates/ncb-jamaica/js/jquery2.js\\\"></scr\"
+        + \"ipt>\");\r\n\t\t\tdocument.write(\"<script src=\\\"/templates/ncb-jamaica/js/fn.min.js\\\"></scr\"
+        + \"ipt>\");\r\n        } else {\r\n            document.write(\"<script src=\\\"/templates/ncb-jamaica/js/jquery19.js\\\"></scr\"
+        + \"ipt>\");\r\n\t\t\tdocument.write(\"<script src=\\\"/templates/ncb-jamaica/js/fn4.min.js\\\"></scr\"
+        + \"ipt>\");\r\n        }\r\n    </script> \r\n<script>\r\n  $(function()
+        {$(document).foundation();});\r\n</script>\r\n\r\n  <!-- http://mths.be/aab
+        -->\r\n<script>\r\nvar _gaq=[['_setAccount','UA-47167941-1'],[\"_trackPageview\"]];\r\n(function(d,t){var
+        g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;\r\ng.src=(\"https:\"==location.protocol?\"//ssl\":\"//www\")+\".google-analytics.com/ga.js\";\r\ns.parentNode.insertBefore(g,s)}(document,\"script\"));\r\n</script>\r\n<noscript>JavaScript
+        is unavailable or disabled</noscript>\r\n</div>\r\n</body>\r\n</html>\r\n"
     http_version: 
-  recorded_at: Sun, 22 Mar 2015 14:58:23 GMT
+  recorded_at: Mon, 13 Apr 2015 01:13:45 GMT
 recorded_with: VCR 2.9.3
