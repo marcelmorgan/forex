@@ -10,66 +10,66 @@ http_interactions:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - '*/*'
+      - "*/*"
       User-Agent:
       - Ruby
-      Host:
-      - www4.scotiabank.com
   response:
     status:
       code: 200
       message: OK
     headers:
-      Server:
-      - Sun-ONE-Web-Server/6.1
       Date:
-      - Wed, 04 Dec 2013 20:26:50 GMT
-      Content-Type:
-      - text/html; charset=UTF-8;
+      - Fri, 13 Jul 2018 07:35:31 GMT
+      Server:
+      - Apache
+      Access-Control-Allow-Origin:
+      - http://www.scotiabank.com
       Transfer-Encoding:
       - chunked
+      Content-Type:
+      - text/html; charset=UTF-8;
     body:
       encoding: UTF-8
       string: "<html>\n<head>\n        <title></title>\n</head>\n<body>\n<meta name=\"viewport\"
         content=\"width=device-width,initial-scale=1\" />\n<style type=\"text/css\">\n<!--\n\nbody
-        {text-align:center;}\n\ntable { border:1px solid #cc0000; font-family:arial,
+        {text-align:center; color: #666}\n\ntable { border:1px solid #cc0000; font-family:arial,
         verdana; font-size:12px;  text-align:center; vertical-align: bottom; margin:
         0 auto; }\ntd {padding:7px}\n\n\n.mtable {text-align: center;}\n#page {text-align:
         center;}\n\n\n#header {font-family:arial, verdana; font-size:16px; font-weight:bold;
         margin-bottom:15px}\n#footer {font-family:arial, verdana; font-size:11px;
-        text-align:left; margin: 0 auto; padding-top:15px}\n\n-->\n</style>\n<div>\n\t\n\n\t<div
+        text-align:center; margin: 0 auto; padding-top:15px}\n\n-->\n</style>\n<div>\n\t\n\n\t<div
         class='mtable' id=\"table867\">\n\t\t<table>\n\t\t<tr>\n\n\t\t<div id='header'>
-        <a name=\"forex\">Foreign Exchange<br />Jamaica - (Effective) December 4,
-        2013</a> </div>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td id='tb867row1col1cell2553'><b
+        <a name=\"forex\">Foreign Exchange<br />Jamaica - (Effective) July 12, 2018</a>
+        </div>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td id='tb867row1col1cell2553'><b
         style=\" color:#cc0000\">Currency</b></td>\n\t\t\n\t\t\n\t\t<td id='tb867row1col2cell2554'><b
         style=\" color:#cc0000\">Cash</b></td>\n\t\t\n\t\t\n\t\t<td id='tb867row1col3cell2555'><b
         style=\" color:#cc0000\">Cheque</b></td>\n\t\t\n\t\t\n\t\t<td id='tb867row1col4cell2556'><b
         style=\" color:#cc0000\">Cash & Cheque</b></td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
         id='tb867row2col1cell2549'></td>\n\t\t\n\t\t\n\t\t<td id='tb867row2col2cell2550'><b>BUY</b></td>\n\t\t\n\t\t\n\t\t<td
         id='tb867row2col3cell2551'><b>BUY</b></td>\n\t\t\n\t\t\n\t\t<td id='tb867row2col4cell2552'><b>SELL</b></td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
-        id='tb867row3col1cell2557'>USD</td>\n\t\t\n\t\t\n\t\t<td id='tb867row3col2cell2558'>101.30</td>\n\t\t\n\t\t\n\t\t<td
-        id='tb867row3col3cell2559'>103.30</td>\n\t\t\n\t\t\n\t\t<td id='tb867row3col4cell2560'>105.00</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
-        id='tb867row4col1cell2561'>GBP</td>\n\t\t\n\t\t\n\t\t<td id='tb867row4col2cell2562'>166.06</td>\n\t\t\n\t\t\n\t\t<td
-        id='tb867row4col3cell2563'>169.48</td>\n\t\t\n\t\t\n\t\t<td id='tb867row4col4cell2564'>173.16</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
-        id='tb867row5col1cell2565'>CAD</td>\n\t\t\n\t\t\n\t\t<td id='tb867row5col2cell2566'>94.30</td>\n\t\t\n\t\t\n\t\t<td
-        id='tb867row5col3cell2567'>96.71</td>\n\t\t\n\t\t\n\t\t<td id='tb867row5col4cell2568'>99.50</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
-        id='tb867row6col1cell2569'>EUR</td>\n\t\t\n\t\t\n\t\t<td id='tb867row6col2cell2570'>135.01</td>\n\t\t\n\t\t\n\t\t<td
-        id='tb867row6col3cell2571'>138.05</td>\n\t\t\n\t\t\n\t\t<td id='tb867row6col4cell2572'>143.82</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
-        id='tb867row7col1cell2573'>BBD</td>\n\t\t\n\t\t\n\t\t<td id='tb867row7col2cell2574'>46.23</td>\n\t\t\n\t\t\n\t\t<td
-        id='tb867row7col3cell2575'>50.25</td>\n\t\t\n\t\t\n\t\t<td id='tb867row7col4cell2576'>54.62</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
-        id='tb867row8col1cell2577'>KYD</td>\n\t\t\n\t\t\n\t\t<td id='tb867row8col2cell2578'>112.40</td>\n\t\t\n\t\t\n\t\t<td
-        id='tb867row8col3cell2579'>117.09</td>\n\t\t\n\t\t\n\t\t<td id='tb867row8col4cell2580'>127.13</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
-        id='tb867row9col1cell3853'>XCD</td>\n\t\t\n\t\t\n\t\t<td id='tb867row9col2cell3854'>34.59</td>\n\t\t\n\t\t\n\t\t<td
-        id='tb867row9col3cell3855'>36.41</td>\n\t\t\n\t\t\n\t\t<td id='tb867row9col4cell3856'>40.46</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
-        id='tb867row10col1cell4119'>JPY</td>\n\t\t\n\t\t\n\t\t<td id='tb867row10col2cell4120'>0.9341</td>\n\t\t\n\t\t\n\t\t<td
-        id='tb867row10col3cell4121'>0.9833</td>\n\t\t\n\t\t\n\t\t<td id='tb867row10col4cell4122'>1.0573</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
-        id='tb867row11col1cell3857'>CHF</td>\n\t\t\n\t\t\n\t\t<td id='tb867row11col2cell3858'>106.80</td>\n\t\t\n\t\t\n\t\t<td
-        id='tb867row11col3cell3859'>110.67</td>\n\t\t\n\t\t\n\t\t<td id='tb867row11col4cell3860'>119.64</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
-        id='tb867row12col1cell2589'>TTD</td>\n\t\t\n\t\t\n\t\t<td id='tb867row12col2cell2590'>15.26</td>\n\t\t\n\t\t\n\t\t<td
-        id='tb867row12col3cell2591'>16.06</td>\n\t\t\n\t\t\n\t\t<td id='tb867row12col4cell2592'>17.65</td>\n\t\t\n\t\t</tr>\n\t\t</table>\n\n\t\t<div
+        id='tb867row3col1cell2557'>USD</td>\n\t\t\n\t\t\n\t\t<td id='tb867row3col2cell2558'>114.33</td>\n\t\t\n\t\t\n\t\t<td
+        id='tb867row3col3cell2559'>126.73</td>\n\t\t\n\t\t\n\t\t<td id='tb867row3col4cell2560'>131.34</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
+        id='tb867row4col1cell2561'>GBP</td>\n\t\t\n\t\t\n\t\t<td id='tb867row4col2cell2562'>167.87</td>\n\t\t\n\t\t\n\t\t<td
+        id='tb867row4col3cell2563'>170.88</td>\n\t\t\n\t\t\n\t\t<td id='tb867row4col4cell2564'>175.90</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
+        id='tb867row5col1cell2565'>CAD</td>\n\t\t\n\t\t\n\t\t<td id='tb867row5col2cell2566'>95.38</td>\n\t\t\n\t\t\n\t\t<td
+        id='tb867row5col3cell2567'>97.82</td>\n\t\t\n\t\t\n\t\t<td id='tb867row5col4cell2568'>101.05</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
+        id='tb867row6col1cell2569'>EUR</td>\n\t\t\n\t\t\n\t\t<td id='tb867row6col2cell2570'>145.91</td>\n\t\t\n\t\t\n\t\t<td
+        id='tb867row6col3cell2571'>149.20</td>\n\t\t\n\t\t\n\t\t<td id='tb867row6col4cell2572'>155.43</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
+        id='tb867row7col1cell2573'>BBD</td>\n\t\t\n\t\t\n\t\t<td id='tb867row7col2cell2574'>51.23</td>\n\t\t\n\t\t\n\t\t<td
+        id='tb867row7col3cell2575'>-</td>\n\t\t\n\t\t\n\t\t<td id='tb867row7col4cell2576'>68.32</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
+        id='tb867row8col1cell2577'>KYD</td>\n\t\t\n\t\t\n\t\t<td id='tb867row8col2cell2578'>137.69</td>\n\t\t\n\t\t\n\t\t<td
+        id='tb867row8col3cell2579'>143.43</td>\n\t\t\n\t\t\n\t\t<td id='tb867row8col4cell2580'>155.90</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
+        id='tb867row9col1cell3853'>XCD</td>\n\t\t\n\t\t\n\t\t<td id='tb867row9col2cell3854'>43.27</td>\n\t\t\n\t\t\n\t\t<td
+        id='tb867row9col3cell3855'>45.55</td>\n\t\t\n\t\t\n\t\t<td id='tb867row9col4cell3856'>50.61</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
+        id='tb867row10col1cell4119'>JPY</td>\n\t\t\n\t\t\n\t\t<td id='tb867row10col2cell4120'>1.0655</td>\n\t\t\n\t\t\n\t\t<td
+        id='tb867row10col3cell4121'>1.1216</td>\n\t\t\n\t\t\n\t\t<td id='tb867row10col4cell4122'>1.2060</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
+        id='tb867row11col1cell3857'>CHF</td>\n\t\t\n\t\t\n\t\t<td id='tb867row11col2cell3858'>121.25</td>\n\t\t\n\t\t\n\t\t<td
+        id='tb867row11col3cell3859'>125.64</td>\n\t\t\n\t\t\n\t\t<td id='tb867row11col4cell3860'>135.83</td>\n\t\t\n\t\t\n\t\t</tr><tr>\n\t\t\n\t\t<td
+        id='tb867row12col1cell2589'>TTD</td>\n\t\t\n\t\t\n\t\t<td id='tb867row12col2cell2590'>-</td>\n\t\t\n\t\t\n\t\t<td
+        id='tb867row12col3cell2591'>18.58</td>\n\t\t\n\t\t\n\t\t<td id='tb867row12col4cell2592'>22.08</td>\n\t\t\n\t\t</tr>\n\t\t</table>\n\n\t\t<div
         id='footer'>The above foreign exchange rates are subject to change without
         notice, based on the availability of the funds and changes in the Foreign
         Exchange market.</div>\n\t</div>\n\t\n</div>\n\n</body>\n</html>\n"
     http_version: 
-  recorded_at: Wed, 04 Dec 2013 20:27:01 GMT
-recorded_with: VCR 2.8.0
+  recorded_at: Fri, 13 Jul 2018 07:35:31 GMT
+recorded_with: VCR 4.0.0
