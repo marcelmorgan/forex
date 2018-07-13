@@ -7,7 +7,7 @@ describe "Traders" do
       trader.fetch
 
       expect(trader.rates).not_to be_empty
-      expect(trader.rates).to be == expected_rates(short_name)
+      expect(trader.rates).to eq(expected_rates(short_name))
     end
   end
 
