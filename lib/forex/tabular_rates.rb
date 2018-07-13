@@ -45,7 +45,8 @@ module Forex
     def parse_currency_code(table_row, translations)
       return if table_row.empty?
 
-      currency_code = CurrencyCode.new(table_row[currency_column.to_i].content, translations)
+      content = table_row[currency_column.to_i].content.gsub(/\A[[:space:]]*(.*?)[[:space:]]*\z/) { $1 }
+      currency_code = CurrencyCode.new(content, translations)
       return if currency_code.invalid? ||
         cached_currencies.has_key?(parsed_currency_string = currency_code.to_s)
 
@@ -105,4 +106,3 @@ module Forex
     end
   end
 end
-

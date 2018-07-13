@@ -1,3 +1,5 @@
+require 'open-uri'
+
 module Forex
   CannotRedefineTrader = Class.new(StandardError)
 
@@ -38,7 +40,7 @@ module Forex
 
     # doc built from the endpoint
     def doc
-      Nokogiri::HTML(Client.new.get_response(endpoint).body)
+      @doc ||= open(endpoint) { |f| Nokogiri::HTML(f.read) }
     end
 
     reset

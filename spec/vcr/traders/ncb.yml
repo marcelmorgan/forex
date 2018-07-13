@@ -2,313 +2,705 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.jncb.com/rates
+    uri: https://www.jncb.com/Support/Help-Resources/Foreign-Exchange-Services
     body:
       encoding: US-ASCII
       string: ''
     headers:
       Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      - plain
       Accept:
       - "*/*"
       User-Agent:
       - Ruby
-      Host:
-      - www.jncb.com
   response:
     status:
       code: 200
       message: OK
     headers:
-      Date:
-      - Mon, 13 Apr 2015 01:12:55 GMT
-      Server:
-      - Apache
-      X-Frame-Options:
-      - SAMEORIGIN
-      Set-Cookie:
-      - c8c87e3eb43cb6380e08a4f6b7ee3e04=b871jeoltm9ebv9d78d694bh26; path=/; secure;
-        HttpOnly
-      P3p:
-      - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
-      Expires:
-      - Mon, 1 Jan 2001 00:00:00 GMT
-      Last-Modified:
-      - Mon, 13 Apr 2015 01:12:55 GMT
       Cache-Control:
-      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-      Pragma:
-      - no-cache
+      - private, no-store, must-revalidate
       Transfer-Encoding:
       - chunked
       Content-Type:
       - text/html; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - ASP.NET_SessionId=0foyvcokowa5nzffxrhq2rzu; path=/; secure; HttpOnly
+      - CMSCsrfCookie=gzxIamqSHr2mxfZw0VpaqMY30Q4P20qpixQqjSXM; path=/; secure; HttpOnly
+      - CMSPreferredCulture=en-JM; expires=Sat, 13-Jul-2019 07:17:59 GMT; path=/;
+        secure; HttpOnly
+      - Campaign=; expires=Thu, 13-Jul-2017 07:17:59 GMT; path=/; secure; HttpOnly
+      - CurrentContact=20af517f-a20a-42e2-8ca7-a7e77ad24c08; expires=Fri, 13-Jul-2068
+        07:17:59 GMT; path=/; secure; HttpOnly
+      - Source=; expires=Thu, 13-Jul-2017 07:17:59 GMT; path=/; secure; HttpOnly
+      X-Ua-Compatible:
+      - IE=Edge
+      Content-Security-Policy:
+      - default-src * 'unsafe-inline' 'unsafe-eval' data:;
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Date:
+      - Fri, 13 Jul 2018 07:18:00 GMT
     body:
       encoding: UTF-8
-      string: "<!DOCTYPE html>\r\n<!--[if IE 8]>\r\n\t<html class=\"no-js lt-ie9\"
-        lang=\"en\" > \r\n<![endif]-->\r\n<!--[if gt IE 8]>\r\n<!--> <html class=\"no-js\"
-        lang=\"en\" > <!--<![endif]-->\r\n\r\n<head>\r\n  <meta http-equiv=\"X-UA-Compatible\"
-        content=\"IE=9; IE=8; IE=7; IE=EDGE\" />\r\n\t<meta charset=\"utf-8\" />\r\n
-        \   <meta name=\"viewport\" content=\"width=device-width\" />\r\n\t  <base
-        href=\"https://www.jncb.com/rates\" />\n  <meta http-equiv=\"content-type\"
-        content=\"text/html; charset=utf-8\" />\n  <meta name=\"generator\" content=\"Kentico
-        CMS\" />\n  <title>National Commercial Bank - FX Rates</title>\n  <link href=\"/favicon.ico\"
-        rel=\"shortcut icon\" type=\"image/vnd.microsoft.icon\" />\n  <link href=\"https://www.jncb.com/component/search/?Itemid=331&amp;format=opensearch\"
-        rel=\"search\" title=\"Search National Commercial Bank\" type=\"application/opensearchdescription+xml\"
-        />\n\r\n    \r\n    <link rel=\"stylesheet\" href=\"/templates/ncb-jamaica/css/normalize.css\"
-        />\r\n    <link rel=\"stylesheet\" href=\"/templates/ncb-jamaica/css/fn.min.css\"
-        />\r\n    <link rel=\"stylesheet\" href=\"/templates/ncb-jamaica/css/jncb.css\"
-        />\r\n        \r\n    <script src=\"/templates/ncb-jamaica/js/modernizr.js\"></script>\r\n
-        \ \r\n      <!--[if lt IE 9]>\r\n        <script src=\"/templates/ncb-jamaica/js/ie/respond.js\"></script>\r\n
-        \       <script src=\"/templates/ncb-jamaica/js/ie/html5shiv.js\"></script>\r\n
-        \       <script src=\"/templates/ncb-jamaica/js/ie/nwmatcher.js\"></script>\r\n
-        \       <script src=\"/templates/ncb-jamaica/js/ie/selectivizr.js\"></script>\r\n
-        \     <![endif]-->\r\n      \t        <style>\r\n            .row {\r\n                max-width:
-        940px;\r\n            }\r\n        </style>\r\n                \r\n     \r\n
-        \     \r\n         \r\n    \r\n    </head>\r\n<body class=\" innerPage\">\r\n\r\n<div
-        id=\"container\">\r\n\t<header class=\"row header\">\r\n    <!-- Logo -->\r\n
-        \   <div class=\"large-3 small-12 columns small-centered large-uncentered
-        logoModule\">\r\n    <p><a title=\"National Commercial Bank\" href=\"/\"><img
-        class=\"logo\" title=\"National Commercial Bank, Jamaica Ltd\" src=\"/images/logos/logo.png\"
-        alt=\"National Commercial Bank, Jamaica Ltd\" /></a></p>\r\n    </div>\r\n
-        \   \r\n    \r\n    <div class=\"large-6 small-12 columns headerMenu\">\r\n\r\n
-        \   <section class=\"row\">\r\n    <a class=\"secondary radius button dropdown
-        \ small-centered onlinebanking\" href=\"https://www.ncbelink.com/\" target=\"_blank\"
-        data-dropdown=\"drop\" data-options=\"is_hover:true; hover_timeout:1500\">Online
-        Banking</a>\r\n\r\n<ul id=\"drop\" class=\"f-dropdown content medium\" style=\"position:
-        absolute; top: 26px; left: -99999px;\" data-dropdown-content=\"\">\r\n\r\n<div
-        class=\"row onlinebankingdropdown\">\r\n  <div class=\"large-6 columns\"><h4>Personal</h4>\r\n
-        \ \r\n   <ul class=\"no-bullet\">\r\n      <li><a href=\"/internetbanking.php?RetailLogin\">Login</a></li>\r\n
-        \     <li><a href=\"/internetbanking.php?RetailSignup\">Sign Up</a></li>\r\n
-        \     <li><a href=\"/bankingdemos\">Demo</a></li>\r\n\t<li><a href=\"/personalinternetlbankingmanuals\">Manuals
-        &amp; FAQs</a></li>\r\n\r\n    </ul>\r\n  \r\n  </div>\r\n  <div class=\"large-6
-        columns leftborder\"><h4>Business</h4>\r\n     <ul class=\"no-bullet\">\r\n
-        \     <li><a href=\"/internetbanking.php?CorporateLogin\">Login</a></li>\r\n
-        \     <li><a href=\"/internetbanking.php?CorporateSignup\">Sign Up</a></li>\r\n
-        \     <li><a href=\"/corporatebankingdemos\">Demo</a></li>\r\n\t<li><a href=\"/corporateinternetlbankingmanuals\">Manuals
-        &amp; FAQs</a></li>\r\n    </ul>\r\n  </div>\r\n</div>\r\n\r\n</ul>\r\n\r\n<div
-        class=\"search HeaderSearch\">\r\n    <form action=\"/rates\" method=\"post\"
-        class=\"form-inline\">\r\n      <div class=\"row\">\r\n      <div class=\"large-12
-        small-12 columns\">\r\n   \r\n    \t\t<label for=\"mod-search-searchword\"
-        class=\"element-invisible\">Search ...</label> <input name=\"searchword\"
-        id=\"mod-search-searchword\" maxlength=\"200\"  class=\"inputbox search-query\"
-        type=\"text\" size=\"30\" value=\"Search ...\"  onblur=\"if (this.value=='')
-        this.value='Search ...';\" onfocus=\"if (this.value=='Search ...') this.value='';\"
-        />    \t<input type=\"hidden\" name=\"task\" value=\"search\" />\r\n    \t<input
-        type=\"hidden\" name=\"option\" value=\"com_search\" />\r\n    \t<input type=\"hidden\"
-        name=\"Itemid\" value=\"331\" />\r\n        </div>\r\n        </div>\r\n    </form>\r\n</div>\r\n\r\n
-        \   </section>\r\n    </div>\r\n    \r\n    \r\n    <div class=\"large-3 hide-for-small
-        \  columns\">\r\n    <p class=\"today right\">Monday April 13, 2015</p>\r\n
-        \   </div>\r\n    </header>\r\n\r\n <div class=\"row main-navigation\">  \r\n
-        <div class=\"large-3  hide-for-small large-uncentered columns slogan \">\r\n
-        Put Your Best <span>Life</span> Forward\r\n </div>\r\n <div class=\"large-9
-        columns\">\r\n \t    \r\n            <!--aboverow--> \r\n            <!--
-        put style=\"siegeEngine\" back -->\r\n            \r\n<nav class=\"top-bar\"
-        data-topbar >\r\n <ul class=\"title-area\">\r\n    <!-- Title Area -->\r\n<li
-        class=\"name\">\r\n    </li>\r\n    <!-- Remove the class \"menu-icon\" to
-        get rid of menu icon. Take out \"Menu\" to just have icon alone -->\r\n    <li
-        class=\"toggle-topbar menu-icon\"><a href=\"#\"><span>Menu</span></a></li>\r\n
-        \ </ul>\r\n<section class=\"top-bar-section\">\r\n    <!-- Left Nav Section
-        -->\r\n    <ul class=\"left \">\r\n    <li class=\"item-101 deeper has-dropdown
-        parent\"><a href=\"/individuals\" >Individual</a><ul class=\"dropdown\"><li
-        class=\"item-113 deeper has-dropdown parent\"><a href=\"/individuals/banking\"
-        >Banking</a><ul class=\"dropdown\"><li class=\"item-187 deeper has-dropdown
-        parent\"><a href=\"/individuals/banking/deposits\" >Deposits</a><ul class=\"dropdown\"><li
-        class=\"item-198\"><a href=\"/individuals/banking/deposits/currentaccount\"
-        >Current Account</a></li><li class=\"item-199\"><a href=\"/individuals/banking/deposits/goldclub\"
-        >Gold Club</a></li><li class=\"item-200\"><a href=\"/individuals/banking/deposits/maxdeposit\"
-        >Max Deposit</a></li><li class=\"item-206\"><a href=\"/individuals/banking/deposits/regularsave\"
-        >Regular Save</a></li><li class=\"item-201\"><a href=\"/individuals/banking/deposits/start\"
-        >S.T.A.R.T.</a></li><li class=\"item-202\"><a href=\"/individuals/banking/deposits/sunshinesavers\"
-        >Sunshine Savers</a></li><li class=\"item-203\"><a href=\"/individuals/banking/deposits/specialoccasionssavingsplan\"
-        >Special Occasions Savings Plan</a></li></ul></li><li class=\"item-167 deeper
-        has-dropdown parent\"><a href=\"/individuals/banking/loans\" >Loans</a><ul
-        class=\"dropdown\"><li class=\"item-152\"><a href=\"/individuals/banking/loans/automobileloan\"
-        >Automobile Loan</a></li><li class=\"item-188\"><a href=\"/individuals/banking/loans/ncbmortgage\"
-        >NCB Mortgage</a></li><li class=\"item-189\"><a href=\"/individuals/banking/loans/securedloans\"
-        >NCB Secured Loans</a></li><li class=\"item-190\"><a href=\"/individuals/banking/loans/unsecuredloans\"
-        >NCB Unsecured Loans</a></li></ul></li><li class=\"item-185\"><a href=\"/individuals/banking/privatebanking\"
-        >Private Banking</a></li><li class=\"item-186\"><a href=\"/individuals/banking/foreignexchangeservices\"
-        >Foreign Exchange Services</a></li><li class=\"item-204 deeper has-dropdown
-        parent\"><a href=\"/individuals/banking/first-class\" >First Class</a><ul
-        class=\"dropdown\"><li class=\"item-205\"><a href=\"/individuals/banking/first-class/personalbankers\"
-        >Personal Bankers</a></li></ul></li></ul></li><li class=\"item-168\"><a href=\"/individuals/investments\"
-        >Investments</a></li><li class=\"item-171\"><a href=\"/individuals/insurance\"
-        >Insurance</a></li><li class=\"item-173 deeper has-dropdown parent\"><a href=\"/individuals/cards\"
-        >Cards</a><ul class=\"dropdown\"><li class=\"item-174 deeper has-dropdown
-        parent\"><a href=\"/individuals/cards/creditcards\" >Credit Cards</a><ul class=\"dropdown\"><li
-        class=\"item-191\"><a href=\"/individuals/cards/creditcards/classickeycard\"
-        >Classic Keycard</a></li><li class=\"item-192\"><a href=\"/individuals/cards/creditcards/lovebirdkeycard\"
-        >Lovebird Keycard</a></li><li class=\"item-193\"><a href=\"/individuals/cards/creditcards/goldkeycard\"
-        >Gold Keycard</a></li><li class=\"item-194\"><a href=\"/individuals/cards/creditcards/ncbtravelmaster\"
-        >NCB Travelmaster</a></li><li class=\"item-195\"><a href=\"/individuals/cards/creditcards/ncbvisa\"
-        >NCB Visa Classic</a></li><li class=\"item-196\"><a href=\"/individuals/cards/creditcards/visagold\"
-        >NCB Visa Gold</a></li><li class=\"item-197\"><a href=\"/individuals/cards/creditcards/visasignature\"
-        >NCB Visa Signature</a></li></ul></li><li class=\"item-175\"><a href=\"/individuals/cards/debitcard\"
-        >Debit Card</a></li><li class=\"item-176\"><a href=\"/individuals/cards/storedvaluecards\"
-        >Stored Value Cards</a></li><li class=\"item-250\"><a href=\"/individuals/cards/card-services-fee-guide\"
-        >Card Services Fee Guide</a></li></ul></li><li class=\"item-172 deeper has-dropdown
-        parent\"><a href=\"/individuals/bankonthego\" >Bank On The Go</a><ul class=\"dropdown\"><li
-        class=\"item-177\"><a href=\"/individuals/bankonthego/abms\" >ABMs</a></li><li
-        class=\"item-178\"><a href=\"/individuals/bankonthego/internet\" >Internet</a></li><li
-        class=\"item-179\"><a href=\"/individuals/bankonthego/telephone\" >Telephone</a></li></ul></li><li
-        class=\"item-344\"><a href=\"/individuals/feeguide\" >Fee Guide</a></li><li
-        class=\"item-352\"><a href=\"/individuals/accountopeningrequirements\" >Account
-        Opening Requirements</a></li></ul></li><li class=\"item-107 deeper has-dropdown
-        parent\"><a href=\"/business\" >Business</a><ul class=\"dropdown\"><li class=\"item-181
-        deeper has-dropdown parent\"><a href=\"/business/sme\" >Small and Medium Enterprises</a><ul
-        class=\"dropdown\"><li class=\"item-207\"><a href=\"/business/sme/businessvalueplans\"
-        >Value Plans</a></li><li class=\"item-208\"><a href=\"/business/sme/depositinvestmentservices\"
-        >Deposit &amp; Investment Services</a></li><li class=\"item-209\"><a href=\"/business/sme/businessloanscreditfacilities\"
-        >Loans &amp; Credit Facilities</a></li><li class=\"item-210\"><a href=\"/business/sme/businessloanrequirements\"
-        >Business Loan Requirements</a></li><li class=\"item-211\"><a href=\"/business/sme/businesscreditcards\"
-        >Business Credit Cards</a></li><li class=\"item-212\"><a href=\"/business/sme/nk\"
-        >Internet Banking</a></li><li class=\"item-213\"><a href=\"/business/sme/cardmerchantservices\"
-        >Card Merchant Services</a></li><li class=\"item-214\"><a href=\"/business/sme/businessbankers\"
-        >Business Bankers</a></li><li class=\"item-215\"><a href=\"/business/sme/ncbnationbuilders\"
-        >NCB Nation Builders</a></li></ul></li><li class=\"item-183\"><a href=\"/business/corporatebanking\"
-        >Corporate Banking</a></li><li class=\"item-184\"><a href=\"/business/treasury\"
-        >Treasury &amp; Correspondent Banking</a></li><li class=\"item-345\"><a href=\"/business/feeguide\"
-        >Fee Guide</a></li><li class=\"item-353\"><a href=\"/business/accountopeningrequirements\"
-        >Account Opening Requirements</a></li></ul></li><li class=\"item-108 deeper
-        has-dropdown parent\"><a href=\"#\" >Customer Support</a><ul class=\"dropdown\"><li
-        class=\"item-166\"><a href=\"/customersupport/kyc\" >Know Your Customer (KYC)</a></li><li
-        class=\"item-217\"><a href=\"/customersupport/onlinesecurityguarantee\" >Online
-        Security Guarantee</a></li><li class=\"item-218\"><a href=\"/customersupport/howtoprotectyourself\"
-        >How To Protect Yourself</a></li><li class=\"item-219\"><a href=\"/customersupport/howtoavoidfees\"
-        >How To Avoid Fees</a></li><li class=\"item-221\"><a href=\"/customersupport/servicestandards\"
-        >Service Standards</a></li><li class=\"item-222\"><a href=\"/customersupport/faq\"
-        >Frequently Asked Questions</a></li><li class=\"item-337\"><a href=\"/customersupport/reclaimedlisting\"
-        >Reclaimed Listing</a></li><li class=\"item-342\"><a href=\"/customersupport/ukpensionatncb\"
-        >UK Pension at NCB</a></li><li class=\"item-343\"><a href=\"/customersupport/forexservices\"
-        >Foreign Exchange Services</a></li><li class=\"item-346\"><a href=\"/customersupport/sponsorship\"
-        >Sponsorship</a></li><li class=\"item-348\"><a href=\"/customersupport/fatca\"
-        >FATCA</a></li><li class=\"item-349\"><a href=\"/customersupport/creditbureau\"
-        >Credit Bureau</a></li></ul></li><li class=\"item-110 deeper has-dropdown
-        parent\"><a href=\"/aboutus\" >About Us</a><ul class=\"dropdown\"><li class=\"item-225
-        deeper has-dropdown parent\"><a href=\"/aboutus/companyoverview\" >Company
-        Overview</a><ul class=\"dropdown\"><li class=\"item-226\"><a href=\"/aboutus/companyoverview/history\"
-        >History</a></li><li class=\"item-227\"><a href=\"/aboutus/companyoverview/boardofdirectors\"
-        >Board Of Directors</a></li><li class=\"item-271\"><a href=\"/aboutus/companyoverview/executivemanagement\"
-        >Executive Management</a></li><li class=\"item-272\"><a href=\"/aboutus/companyoverview/corporatesocialresponsibility\"
-        >Corporate Social Responsibility</a></li></ul></li><li class=\"item-273\"><a
-        href=\"/aboutus/ncbsubsidiaries\" >NCB Subsidiaries</a></li><li class=\"item-274\"><a
-        href=\"/aboutus/mediacommunicationprotocol\" >Media Communication Protocol</a></li><li
-        class=\"item-275 deeper has-dropdown parent\"><a href=\"/aboutus/investorrelations\"
-        >Investor Relations</a><ul class=\"dropdown\"><li class=\"item-276\"><a href=\"/aboutus/investorrelations/investorfaq\"
-        >Investor FAQs</a></li><li class=\"item-277\"><a href=\"http://www.jamstockex.com/controller.php?action=view_stock_charts&amp;StockCode=95\"
-        onclick=\"window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,');return
-        false;\" >Share Price - JSE</a></li><li class=\"item-278\"><a href=\"http://www.stockex.co.tt/controller.php?action=view_stock_charts&amp;StockCode=110\"
-        onclick=\"window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,');return
-        false;\" >Share Price - TTSE</a></li><li class=\"item-279\"><a href=\"/aboutus/investorrelations/annualreports\"
-        >Annual Reports</a></li><li class=\"item-281\"><a href=\"/aboutus/investorrelations/corporategovernance\"
-        >Corporate Governance and Nomination Committee Charter</a></li><li class=\"item-282\"><a
-        href=\"/aboutus/investorrelations/statisticalreview\" >Statistical Review</a></li></ul></li><li
-        class=\"item-158\"><a href=\"/aboutus/newsroom\" >Newsroom</a></li><li class=\"item-280\"><a
-        href=\"/aboutus/annuallearningreports\" >Annual Learning Reports</a></li><li
-        class=\"item-283\"><a href=\"/aboutus/ncbbrandmanual\" >NCB Brand Manual</a></li><li
-        class=\"item-253\"><a href=\"/aboutus/financials\" >Financials</a></li></ul></li></ul>\r\n
-        \     </section>\r\n</nav>\r\n        </div>\r\n        \r\n        </div>\r\n\r\n
-        \   \r\n    \r\n\r\n    \r\n\t\r\n\t\t\r\n    <div class=\"row\">\r\n    \t<!--mainrow-->\r\n
-        \       <div class=\"large-12 small-12 columns\">\r\n                <div
-        class=\"large-12 columns main\">\r\n        \t<!--mainrow-->\r\n                         \r\n\t\t\t
-        \r\n            \t<div id=\"system-message-container\">\n\t</div>\n  \r\n
-        \   \t\t\t\r\n<article>\r\n\t\t\t\t\r\n\t\t<header>\r\n\t\t\t\t</header>\r\n\t\r\n\t<footer>\r\n\t\t<ul
-        class=\"article-info inline\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>\r\n
-        \         \t</footer>\r\n\t\t\t\t\t\t\t\t\t \r\n <figure class=\"ArticleHeaderImage\"></figure>\r\n
-        \r\n\t\t\t<div class=\"article-body\">\r\n\t\t<h1>Foreign Exchange Rates</h1>\r\n\t\t\t<div
-        class=\"moduletable\">\n\t\t\t\t\t\t<p> Effective Date: April 10, 2015 (Rates
-        are subject to change) </p>\r\n <table class=\"fxratestable\" width=\"100%\">\r\n\t
-        \ <thead>\r\n\t    <tr>\r\n        <th>&nbsp; </th>\r\n\t    <th >Currency</th>\r\n\t
-        \    <th>Selling</th>\r\n \t    <th>Buy <br />(Cheque)</th>\r\n\t     <th>Buy
-        <br /> (Cash)</th>\r\n\t    </tr>\r\n\t  </thead>\r\n\t  <tbody>\r\n\r\n<tr></tr><tr><td
-        class=\"flagimg\" ><img src=\"/images/flags/USD.png\"/></td><td class=\"currencycodename\">USD</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">114.98</td><td align=\"center\"
-        class=\"fxcurrencyvalues\">113.50</td><td align=\"center\" class=\"fxcurrencyvalues\">112.50</td></tr><tr><td
-        class=\"flagimg\" ><img src=\"/images/flags/GBP.png\"/></td><td class=\"currencycodename\">GBP</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">169.20</td><td align=\"center\"
-        class=\"fxcurrencyvalues\">166.00</td><td align=\"center\" class=\"fxcurrencyvalues\">164.50</td></tr><tr><td
-        class=\"flagimg\" ><img src=\"/images/flags/CAD.png\"/></td><td class=\"currencycodename\">CAD</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">91.90</td><td align=\"center\"
-        class=\"fxcurrencyvalues\">90.00</td><td align=\"center\" class=\"fxcurrencyvalues\">89.00</td></tr><tr><td
-        class=\"flagimg\" ><img src=\"/images/flags/EUR.png\"/></td><td class=\"currencycodename\">EUR</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">123.00</td><td align=\"center\"
-        class=\"fxcurrencyvalues\">120.00</td><td align=\"center\" class=\"fxcurrencyvalues\">118.30</td></tr><tr><td
-        class=\"flagimg\" ><img src=\"/images/flags/KYD.png\"/></td><td class=\"currencycodename\">KYD</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">128.00</td><td align=\"center\"
-        class=\"fxcurrencyvalues\">0.00</td><td align=\"center\" class=\"fxcurrencyvalues\">109.00</td></tr><tr><td
-        class=\"flagimg\" ><img src=\"/images/flags/BBD.png\"/></td><td class=\"currencycodename\">BBD</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">0.00</td><td align=\"center\"
-        class=\"fxcurrencyvalues\">0.00</td><td align=\"center\" class=\"fxcurrencyvalues\">0.00</td></tr><tr><td
-        class=\"flagimg\" ><img src=\"/images/flags/BZD.png\"/></td><td class=\"currencycodename\">BZD</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">56.70</td><td align=\"center\"
-        class=\"fxcurrencyvalues\">54.00</td><td align=\"center\" class=\"fxcurrencyvalues\">0.00</td></tr><tr><td
-        class=\"flagimg\" ><img src=\"/images/flags/XCD.png\"/></td><td class=\"currencycodename\">XCD</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">0.00</td><td align=\"center\"
-        class=\"fxcurrencyvalues\">0.00</td><td align=\"center\" class=\"fxcurrencyvalues\">0.00</td></tr><tr><td
-        class=\"flagimg\" ><img src=\"/images/flags/TTD.png\"/></td><td class=\"currencycodename\">TTD</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">18.50</td><td align=\"center\"
-        class=\"fxcurrencyvalues\">16.30</td><td align=\"center\" class=\"fxcurrencyvalues\">14.50</td></tr><tr><td
-        class=\"flagimg\" ><img src=\"/images/flags/CHF.png\"/></td><td class=\"currencycodename\">CHF</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">118.42</td><td align=\"center\"
-        class=\"fxcurrencyvalues\">112.78</td><td align=\"center\" class=\"fxcurrencyvalues\">112.48</td></tr><tr><td
-        class=\"flagimg\" ><img src=\"/images/flags/JPY.png\"/></td><td class=\"currencycodename\">JPY</td><td
-        align=\"center\" class=\"fxcurrencyvalues\">0.95</td><td align=\"center\"
-        class=\"fxcurrencyvalues\">0.90</td><td align=\"center\" class=\"fxcurrencyvalues\">0.89</td></tr>\t</tbody>\r\n\r\n\t</table>\r\n
-        \   \t\t</div>\n\t\t</div>\r\n\t\t\t    \r\n\t\t</article>\r\n\t\t\r\n\r\n
-        \                           <section class=\"below-content\">\r\n                    <!--below-content-->\r\n
-        \                   \r\n                    \r\n                    \r\n<hr>\r\n
-        \                   <div class=\"row\">\r\n                    <div class=\"small-12
-        large-12 small-centered large-centered columns\">\r\n                   <ul
-        class=\"stack-for-small button-group even-3 radius\">\r\n\t<li>\r\n    \r\n\r\n\r\n
-        \       <a class=\"button small secondary ico-facebook\" href=\"http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.jncb.com%2Frates&t=National%20Commercial%20Bank%20-%20FX%20Rates\"
-        rel=\"nofollow\" target=\"_blank\">Share on Facebook</a>\r\n\t</li>\r\n\t<li
-        >\r\n\t\t<a class=\"button small secondary ico-twitter\" href=\"http://twitter.com/share?text=National%20Commercial%20Bank%20-%20FX%20Rates&url=https%3A%2F%2Fwww.jncb.com%2Frates\"
-        rel=\"nofollow\" target=\"_blank\">Share on Twitter</a>\r\n\t</li>\r\n\t<li
-        >\r\n\t\t<a class=\"button small secondary ico-google\" href=\"http://plus.google.com/share?url=https%3A%2F%2Fwww.jncb.com%2Frates\"
-        rel=\"nofollow\" target=\"_blank\">Share on Google+</a>\r\n\t</li>\r\n</ul>\r\n</div>\r\n</div>\r\n\r\n
-        \                   \r\n                    \t\t<div class=\"moduletable \">\r\n\r\n\t\t\r\n\t\t\t\n\n<div
-        class=\"custom\"  >\n\t</div>\n\t\t\r\n\t\t</div>\r\n\r\n\t\r\n                </section>\r\n
-        \              \t\t</div>\r\n\t\t    </div>\r\n\t</div>\r\n    \r\n        \r\n
-        \   \r\n    \t<section class=\"row\">\r\n    <div class=\"columns large-12
-        small-12 above footer\">\r\n    <p><span class=\"customercarenumber\"><span>Customer
-        Care Centre:</span> <span class=\"number\">1-888-NCB-FIRST (622-3477)</span></span><span
-        style=\"float: right;\">\r\n     <a class=\"webicon facebook small\" href=\"https://www.facebook.com/NCBJa\">
-        Like Us On Facebook</a>\r\n     <a class=\"webicon twitter small\" href=\"https://twitter.com/ncbja\">Follow
-        Us On Twitter</a> <a class=\"webicon googleplus small\" href=\"https://plus.google.com/117728075397534288990/posts\">Follow
-        Us On Google+</a>  <a class=\"webicon mail small\" href=\"mailto:ncbinfo@jncb.com\">Contact
-        Us Via E-Mail</a>   <a class=\"webicon instagram small\" href=\"https://www.instagram.com/ncbjamaica\">Instagram</a>
-        \ <a class=\"webicon linkedin small\" href=\"https://www.linkedin.com/company/national-commercial-bank-jamaica-limited\">
-        Add Us On LinkedIn</a>\r\n <a class=\"webicon youtube small\" href=\"https://www.youtube.com/user/ncbja\">Watch
-        Us On YouTube</a> </span></p>\r\n    </div>\r\n    \r\n    </section>\r\n
-        \  \r\n        <footer class=\"row siteFooter\">\r\n   <div class=\"columns
-        large-12 small-12 small-centered  footerMain\">\r\n   <div class=\"row\">\r\n
-        \ \t <div class=\"columns large-8 small-centered large-centered\">\r\n<ul
-        class=\"top-nav  bottommenu\">\r\n<li class=\"item-118\"><a href=\"/\" >Home</a></li><li
-        class=\"item-120\"><a href=\"/sitemap\" >Sitemap</a></li><li class=\"item-216\"><a
-        href=\"/privacysecuritypolicy\" >Privacy &amp; Security Policy</a></li><li
-        class=\"item-220\"><a href=\"/termsofuse\" >Terms Of Use</a></li><li class=\"item-123\"><a
-        href=\"/customersupport/onlinesecurityguarantee\" >Online Security Guarantee</a></li><li
-        class=\"item-114\"><a href=\"/lendingrates\" >Lending Rates</a></li><li class=\"item-310\"><a
-        href=\"/depositrates\" >Deposit Rates</a></li><li class=\"item-115 parent\"><a
-        href=\"/locations\" >Branch / ABMs</a></li><li class=\"item-330\"><a href=\"http://www.jncb.com/careers\"
-        >Careers</a></li><li class=\"item-117\"><a href=\"/contactus\" >Contact Us</a></li></ul>\r\n\r\n
-        \r\n\r\n   \t</div>\r\n   </div>\r\n\r\n<div class=\"row\">\r\n  \t <div class=\"columns
-        text-center large-10 small-centered large-centered footnote\">\r\n<p>&copy;
-        Copyright 1999 - 2015 NCB Jamaica. Ltd. All Rights Reserved.&nbsp;Member of
-        the <a href=\"http://www.jba.org.jm/\" title=\"Jamaica Bankers Association\">JBA</a>
-        &amp; <a href=\"http://www.jdic.org/\" title=\"Jamaica Deposit Insurance Corproation\">JDIC</a>&nbsp;</p>\r\n\r\n</div>\r\n</div>\r\n
-        \  </div>\r\n        </footer>\r\n\r\n\r\n\r\n    <script type=\"text/javascript\">\r\n
-        \       var ie = !(navigator.userAgent.indexOf(\"MSIE 8.0\") < 0);\r\n        if
-        (ie == false) {\r\n            document.write(\"<script src=\\\"/templates/ncb-jamaica/js/jquery2.js\\\"></scr\"
-        + \"ipt>\");\r\n\t\t\tdocument.write(\"<script src=\\\"/templates/ncb-jamaica/js/fn.min.js\\\"></scr\"
-        + \"ipt>\");\r\n        } else {\r\n            document.write(\"<script src=\\\"/templates/ncb-jamaica/js/jquery19.js\\\"></scr\"
-        + \"ipt>\");\r\n\t\t\tdocument.write(\"<script src=\\\"/templates/ncb-jamaica/js/fn4.min.js\\\"></scr\"
-        + \"ipt>\");\r\n        }\r\n    </script> \r\n<script>\r\n  $(function()
-        {$(document).foundation();});\r\n</script>\r\n\r\n  <!-- http://mths.be/aab
-        -->\r\n<script>\r\nvar _gaq=[['_setAccount','UA-47167941-1'],[\"_trackPageview\"]];\r\n(function(d,t){var
-        g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;\r\ng.src=(\"https:\"==location.protocol?\"//ssl\":\"//www\")+\".google-analytics.com/ga.js\";\r\ns.parentNode.insertBefore(g,s)}(document,\"script\"));\r\n</script>\r\n<noscript>JavaScript
-        is unavailable or disabled</noscript>\r\n</div>\r\n</body>\r\n</html>\r\n"
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html
+        xmlns=\"http://www.w3.org/1999/xhtml\" >\r\n<head id=\"head\"><title>\r\n\tForeign
+        Exchange Services | National Commercial Bank - NCB Jamaica Ltd.\r\n</title><meta
+        http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\" /> \n<meta
+        http-equiv=\"pragma\" content=\"no-cache\" /> \n<meta http-equiv=\"content-style-type\"
+        content=\"text/css\" /> \n<meta http-equiv=\"content-script-type\" content=\"text/javascript\"
+        /> \n<meta charset=\"utf-8\" content=\"text/html\" />\r\n<meta name=\"viewport\"
+        content=\"width=device-width, initial-scale=1\" />\r\n<link href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\"
+        type=\"text/css\" rel=\"stylesheet\" />\r\n<!--\r\n<link href=\"/CMSPages/GetResource.ashx?stylesheetfile=/Jncb/assets/css/concatenated.min.css\"
+        type=\"text/css\" rel=\"stylesheet\" />\r\n-->\r\n<link href=\"/CMSPages/GetResource.ashx?stylesheetfile=/Jncb/assets/css/src/bootstrap.min.css\"
+        type=\"text/css\" rel=\"stylesheet\" />\r\n<link href=\"/CMSPages/GetResource.ashx?stylesheetfile=/Jncb/assets/css/src/owl.theme.default.min.css\"
+        type=\"text/css\" rel=\"stylesheet\" />\r\n<link href=\"/CMSPages/GetResource.ashx?stylesheetfile=/Jncb/assets/css/src/eosMenu.css\"
+        type=\"text/css\" rel=\"stylesheet\" />\r\n<link href=\"/Jncb/assets/css/src/main.css\"
+        type=\"text/css\" rel=\"stylesheet\" />\r\n<link href=\"/CMSPages/GetResource.ashx?stylesheetfile=/Jncb/assets/css/src/owl.carousel.min.css\"
+        type=\"text/css\" rel=\"stylesheet\" />\r\n<link href=\"/CMSPages/GetResource.ashx?stylesheetfile=/Jncb/assets/css/src/magnific-popup.css\"
+        type=\"text/css\" rel=\"stylesheet\" />\r\n<link href=\"/CMSPages/GetResource.ashx?stylesheetfile=/Jncb/assets/css/src/royal.slider.css\"
+        \ type=\"text/css\" rel=\"stylesheet\"/>\r\n<script src=\"//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js\"
+        type=\"text/javascript\"></script>\r\n<script src=\"/CMSScripts/Bootstrap/bootstrap.min.js\"
+        type=\"text/javascript\"></script>\r\n<script src=\"/CMSScripts/Bootstrap/bootstrap.custom.js\"
+        type=\"text/javascript\"></script>\r\n<script type=\"text/javascript\" src=\"/CMSScripts/Custom/jquery.royalslider.min.js\"></script>\r\n<style>\r\n@import
+        url(https://fonts.googleapis.com/css?family=Roboto:400,300);\r\n</style>\r\n\r\n\r\n\r\n<script>\r\n
+        \ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n
+        \ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n
+        \ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n
+        \ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n
+        \ ga('create', 'UA-47167941-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>\r\n
+        \n<link href=\"/favicon.ico\" type=\"image/x-icon\" rel=\"shortcut icon\"/>
+        \n<link href=\"/favicon.ico\" type=\"image/x-icon\" rel=\"icon\"/> \n<link
+        href=\"/CMSPages/GetResource.ashx?_webparts=677\" type=\"text/css\" rel=\"stylesheet\"/>
+        \n</head>\r\n<body class=\"LTR ENJM ContentBody NotHomePage\" >\r\n    <form
+        method=\"post\" action=\"/Support/Help-Resources/Foreign-Exchange-Services\"
+        id=\"form\">\r\n<input type=\"hidden\" name=\"manScript_HiddenField\" id=\"manScript_HiddenField\"
+        value=\"\" />\r\n<input type=\"hidden\" name=\"__CMSCsrfToken\" id=\"__CMSCsrfToken\"
+        value=\"QcfxMzuE4kPiznQz6Lx+y1OA8VqJ4IEJr+t5ggFWRa9tiqIZcaQy9GERcHBK3aKaGWBbvX+TDz098ciem/49HjO5G64=\"
+        />\r\n\r\n\r\n<input type=\"hidden\" name=\"lng\" id=\"lng\" value=\"en-JM\"
+        />\r\n<script src=\"/CMSPages/GetResource.ashx?scriptfile=%7e%2fCMSScripts%2fWebServiceCall.js\"
+        type=\"text/javascript\"></script>\r\n<script type=\"text/javascript\">\r\n\t//<![CDATA[\n\r\nfunction
+        PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080);
+        } if(window.CMSContentManager) { CMSContentManager.allowSubmit = true; };
+        __doPostBack('m$am',param); }\r\nfunction PM_Callback(param, callback, ctx)
+        { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080);
+        }if (window.CMSContentManager) { CMSContentManager.storeContentChangedStatus();
+        };WebForm_DoCallback('m$am',param,callback,ctx,null,true); }\n//]]>\r\n</script>\r\n<script
+        src=\"/ScriptResource.axd?d=qph9tUZ6hGPLbkznkRkqTRGlbZ7YHMr_xR8QEVM4u4g-CMUO_PbbSoAGYEY94cTf3D3rpf631KWKwd2XDNt4N8fBoVuKGb5M_YnrDwzInuPT2fNS0&amp;t=7c776dc1\"
+        type=\"text/javascript\"></script>\r\n<script src=\"/ScriptResource.axd?d=Ph9KYRob2cmMiWgs3oahYmJj0uNVZA-AFjm5xSo4ZMlKR7cfhnibLs__7wRSsURx0rv45pExL8zLOnVoggSi9AdtjwkiTkMJ4mEyo1_PZPElPsDe0&amp;t=7c776dc1\"
+        type=\"text/javascript\"></script>\r\n<script src=\"/ScriptResource.axd?d=SCktwi-Z1SFGgmHzICetri17iiXEWa4NL4mHkbSL-CnmSbwuo553zf35UyQTRYP66QBD1ttjYvrFA9U0l6eQln_kWepjN1vDIgYAs4LZK_WNdFyqEQtscmYfpKYtrPnXXKE7og2&amp;t=7c776dc1\"
+        type=\"text/javascript\"></script>\r\n<script src=\"/ScriptResource.axd?d=FNlZi5ISb4gvFXGjCHC1XoVKo450NjAmM7X_cHNPH3NSQmnSnT-XCHMb7Bw5EfvR6kj3gW2hLYgFTS2WYZj2XleOBkQ6eXODGMRiQGN92iFOx2-4PvkB92Y1ewj3uB2FK3J70Q2&amp;t=7c776dc1\"
+        type=\"text/javascript\"></script>\r\n<script src=\"/ScriptResource.axd?d=lLG2MDu-Ss3CIkMUlqhv0dPqxdn5Y0VJ_T4-pguw2n-W8hj4K_U1KECAQzvfPxI1s0Po0L2Yuo9eZ0zWL6yxrM3EK8lNWB7rnNoIDQo8M5TMZ1aodHqo3bipnM3k0hRiuSWaRA2&amp;t=7c776dc1\"
+        type=\"text/javascript\"></script>\r\n<script type=\"text/javascript\">\r\n\t//<![CDATA[\n\r\nvar
+        CMS = CMS || {};\r\nCMS.Application = {\r\n  \"isRTL\": \"false\",\r\n  \"isDebuggingEnabled\":
+        false,\r\n  \"applicationUrl\": \"/\",\r\n  \"imagesUrl\": \"/CMSPages/GetResource.ashx?image=%5bImages.zip%5d%2f\",\r\n
+        \ \"isDialog\": false\r\n};\r\n\n//]]>\r\n</script>\r\n<input type=\"hidden\"
+        name=\"__VIEWSTATEGENERATOR\" id=\"__VIEWSTATEGENERATOR\" value=\"A5343185\"
+        />\r\n    \r\n    <div id=\"ctxM\">\r\n\r\n</div>\r\n    \r\n\r\n<!-- Top
+        Menu -->\r\n<div id=\"header-top\" role=\"menu-top\">\r\n  <div class=\"container\">\r\n
+        \   <div class=\"navbar-lg-rs\">\r\n      <ul>\r\n        <li class=\"link-singin\"><a
+        href=\"https://www.jncb.com/quisk\" target=\"blank\"><img src=\"/JNCB/media/Main-Librarie/quisk_logo_white_small.png\"></a></li>\r\n
+        \       <li class=\"link-singin\"><a href=\"https://loans.jncb.com\" target=\"blank\">Enter
+        Loan Offer Code</a></li>\r\n        <li class=\"border-right\"><a href=\"/internetbanking?rd=RetailLogon\"
+        onclick=\"ga('send','event',{'eventCategory':'NCB eLink Page','eventAction':'Sign
+        In','eventValue': 55});\" target=\"_blank\">Online Banking Sign In<span class=\"icon-login
+        library-ncb-icon-font\"><i class=\"icon-lock\"></i></span></a></li>\r\n        <li
+        class=\"border-right\"><a href=\"/activate\" onclick=\"ga('send','event',{'eventCategory':'Credit
+        Card Activation','eventAction':'Activation Page','eventLabel':'Link To Credit
+        Card Activation.','eventValue': 55});\" target=\"_blank\">Activate Your Credit
+        Card</a></li>\r\n        <li class=\"border-right\"><a href=\"/support/contact/contact-us\">Contact
+        Us</a></li>\r\n        <li><a href=\"/Support/Locate/Branches-ABMs\">Branches
+        &amp; ABMs</a></li>\r\n        <li><a href=\"/openaccountonline\" target=\"_blank\"
+        class=\"btn btn-warning\" type=\"button\">Open An Account</a></li>\r\n      </ul>\r\n
+        \   </div>\r\n  </div>\r\n</div>\r\n\r\n\r\n<!-- header -->\r\n<header role=\"banner\"
+        id=\"header\">\r\n  <div class=\"container\" id=\"container-mobile\">\r\n
+        \   <div class=\"row\">\r\n      <nav class=\"navbar navbar-default\" role=\"navigation\">\r\n
+        \       <div class=\"navbar-header\">\r\n          <div class=\"navbar-logo-box\">\r\n
+        \           <a class=\"navbar-brand\" href=\"/\"><img id=\"p_lt_ctl00_mainlogo_ucEditableImage_imgImage\"
+        title=\"JNCB\" class=\"img-responsive\" src=\"/JNCB/media/Main-Librarie/jncb-logo.png?ext=.png\"
+        alt=\"JNCB\" />\r\n\r\n</a>\r\n          </div>\r\n          <!-- Mobile Navigation
+        -->\r\n          <div class=\"navbar-mobile\">\r\n            \r\n <!--Menu
+        link less 480px-->\r\n  <div class=\"navbar-box-dx\">\r\n    <!--<div class=\"icon-login
+        library-ncb-icon-font\"><a class=\"navbar-login\" href=\"/internetbanking?rd=https%3A%2F%2Fwww.ncbelink.com\"
+        target=\"_blank\">-->\r\n      <div class=\"icon-login library-ncb-icon-font\"><a
+        class=\"navbar-login\" href=\"/internetbanking?rd=RetailLogon\" target=\"_blank\">\r\n
+        \     <i class=\"icon-lock\">&nbsp;</i>SIGN IN</a>\r\n    </div>\r\n  </div>\r\n<div
+        class=\"eos-menu\" id=\"menu\">\r\n \r\n  <!--Menu link from 480px to 768px-->\r\n
+        \ <div class=\"navbar-md-rs\">\r\n    <ul>\r\n      <!--<li><a href=\"/internetbanking?rd=https%3A%2F%2Fwww.ncbelink.com\"
+        target=\"_blank\">Sign In<span class=\"icon-login library-ncb-icon-font\"><i
+        class=\"icon-lock\">&nbsp;</i></span></a></li>-->\r\n      <li><a href=\"/internetbanking?rd=RetailLogon\"
+        target=\"_blank\">Sign In<span class=\"icon-login library-ncb-icon-font\"><i
+        class=\"icon-lock\">&nbsp;</i></span></a></li>\r\n      <li class=\"border-left\"><a
+        href=\"/support/contact/contact-us\">Contact Us</a></li>\r\n      <li class=\"border-left\"><a
+        href=\"/Support/Locate/Branches-ABMs\">Branches &amp; ABMs</a></li>\r\n      <li><a
+        class=\"btn btn-warning\" href=\"https://secure.jncb.com/pcas\" target=\"_blank\"
+        type=\"button\">Open An Account</a></li>\r\n    </ul>\r\n  </div>\r\n  <div
+        class=\"eos-menu-title\" id=\"btn-mobile\" onclick=\"overlay()\"><i aria-hidden=\"true\"
+        class=\"fa fa-bars fa-lg eos-pull-right\"></i><div class=\"eos-menu-label\">MENU</div></div>\r\n
+        \ \r\n  <div class=\"eos-menu-content\">\r\n    <ul>\r\n      <li class=\"eos-item
+        library-ncb-icon-font\"><a href=\"/\"><i aria-hidden=\"true\" class=\"icon-home\">&nbsp;</i>
+        Home</a></li>\r\n      <li class=\"eos-item library-ncb-icon-font\"><a href=\"/Support/Locate/Branches-ABMs\"><i
+        aria-hidden=\"true\" class=\"icon-home\">&nbsp;</i> Branches &amp; ABMs</a></li>\r\n
+        \     <li class=\"eos-item library-ncb-icon-font\"><a href=\"/support/contact/contact-us\"><i
+        aria-hidden=\"true\" class=\"icon-home\">&nbsp;</i> Contact Us</a></li>\r\n
+        \     <li class=\"eos-item library-ncb-icon-font\"><a href=\"https://www.jncb.com/activate\"
+        target=\"_blank\"><i aria-hidden=\"true\" class=\"icon-home\">&nbsp;</i> Activate
+        Your Credit Card</a></li>\r\n      <li class=\"eos-item library-ncb-icon-font\"><a
+        href=\"https://loans.jncb.com/\" target=\"_blank\"><i aria-hidden=\"true\"
+        class=\"icon-home\">&nbsp;</i> Enter Loan Offer Code</a></li>\r\n      <li
+        class=\"eos-quisk library-ncb-icon-font\"><a href=\"http://www.jncb.com/quisk\"
+        target=\"blank\"><i aria-hidden=\"true\" class=\"icon-home\">&nbsp;</i><img
+        src=\"/JNCB/media/Main-Librarie/quisk_logo_blue_small.png\" alt=\"quisk\"></a></li>\r\n
+        \   </ul><div class=\"eos-group-title\">Personal<i aria-hidden=\"true\" class=\"fa
+        fa-angle-right fa-lg eos-pull-right\">&nbsp;</i></div>\r\n<div class=\"eos-group-content\"><div
+        class=\"eos-group-title library-ncb-icon-font\">Payments</div>\r\n<ul>\r\n
+        \ <li class=\"eos-item\"><a href=\"/Personal/Cards/Debit-Cards\">Debit Card</a></li><li
+        class=\"eos-item\"><a href=\"/Personal/Cards/Credit-cards\">Credit Cards</a></li><li
+        class=\"eos-item\"><a href=\"/Personal/Cards/Prepaid-cards\">Prepaid Card</a></li><li
+        class=\"eos-item\"><a href=\"/Personal/Cards/Activate-Your-Credit-Card\">Activate
+        Your Credit Card</a></li><li class=\"eos-item\"><a href=\"/Personal/Cards/Quisk\">Quisk
+        from NCB</a></li></ul><span></span><div class=\"eos-group-title library-ncb-icon-font\">Banking</div>\r\n<ul>\r\n
+        \ <li class=\"eos-item\"><a href=\"/Personal/Banking/Chequing-Accounts\">Chequing
+        Account</a></li><li class=\"eos-item\"><a href=\"/Personal/Banking/Savings-Accounts\">Savings
+        Accounts</a></li><li class=\"eos-item\"><a href=\"/Personal/Banking/Special-Occasion-Savings-Plan\">Special
+        Occasion Savings Plan</a></li><li class=\"eos-item\"><a href=\"/Personal/Banking/Private-Banking-Services\">Private
+        Banking Services</a></li><li class=\"eos-item\"><a href=\"/Personal/Banking/Private-Banking\">Premium
+        Banking Services</a></li><li class=\"eos-item\"><a href=\"/Personal/Banking/Online-Banking\">Online
+        Banking</a></li><li class=\"eos-item\"><a href=\"/Personal/Banking/Online-Bank-Demos\">Online
+        Banking Demos</a></li></ul><span></span><div class=\"eos-group-title library-ncb-icon-font\">Loans
+        & Financing</div>\r\n<ul>\r\n  <li class=\"eos-item\"><a href=\"/Personal/Loans-Financing/Auto-Loans\">Auto
+        Loan</a></li><li class=\"eos-item\"><a href=\"/Personal/Loans-Financing/Mortgage\">Mortgage</a></li><li
+        class=\"eos-item\"><a href=\"/Personal/Loans-Financing/Personal-Loans\">Personal
+        Loans</a></li><li class=\"eos-item\"><a href=\"/Personal/Loans-Financing/Realtor-Incentive\">Realtor
+        Incentive Programme</a></li></ul><span></span><div class=\"eos-group-title
+        library-ncb-icon-font\">Investing</div>\r\n<ul>\r\n  <li class=\"eos-item\"><a
+        href=\"/Personal/Investing/Investment-Products\">Investment Products</a></li><li
+        class=\"eos-item\"><a href=\"/Personal/Investing/Retirement-Plans\">Retirement
+        Plans</a></li><li class=\"eos-item\"><a href=\"/Personal/Investing/Education-Investments\">Education
+        Investments</a></li><li class=\"eos-item\"><a href=\"/Personal/Investing/Advice-Planning\">Advice
+        & Planning</a></li><li class=\"eos-item\"><a href=\"/Personal/Investing/Research\">Research</a></li><li
+        class=\"eos-item\"><a href=\"/Personal/Investing/Wealth-Management\">Wealth
+        Management</a></li></ul><span></span><div class=\"eos-group-title library-ncb-icon-font\">Insurance</div>\r\n<ul>\r\n
+        \ <li class=\"eos-item\"><a href=\"/Personal/Insurance/Insurance-Plans-Overview\">Insurance
+        Plans Overview</a></li><li class=\"eos-item\"><a href=\"/Personal/Insurance/Omni-Grants\">Omni
+        Grants</a></li><li class=\"eos-item\"><a href=\"/Personal/Insurance/Report-a-Claim\">Report
+        a Claim</a></li></ul></div><span></span><div class=\"eos-group-title\">Business<i
+        aria-hidden=\"true\" class=\"fa fa-angle-right fa-lg eos-pull-right\">&nbsp;</i></div>\r\n<div
+        class=\"eos-group-content\"><div class=\"eos-group-title library-ncb-icon-font\">Credit
+        Cards</div>\r\n<ul>\r\n  <li class=\"eos-item\"><a href=\"/Business/Credit-Cards/Credit-Cards-for-Business\">Credit
+        Cards for Business</a></li></ul><span></span><div class=\"eos-group-title
+        library-ncb-icon-font\">Banking</div>\r\n<ul>\r\n  <li class=\"eos-item\"><a
+        href=\"/Business/Banking/Chequing-Account\">Chequing Account</a></li><li class=\"eos-item\"><a
+        href=\"/Business/Banking/Savings-Plans\">Savings Plans</a></li><li class=\"eos-item\"><a
+        href=\"/Business/Banking/Value-Plans\">Value Plans</a></li><li class=\"eos-item\"><a
+        href=\"/Business/Banking/Corporate-Banking\">Corporate Banking</a></li><li
+        class=\"eos-item\"><a href=\"/Business/Banking/Tresasury-Correspondent-Banking\">Treasury
+        & Correspondent Banking</a></li><li class=\"eos-item\"><a href=\"/Business/Banking/Online-Banking\">Online
+        Banking</a></li><li class=\"eos-item\"><a href=\"/Business/Banking/Online-Bank-Demos\">Online
+        Banking Demos</a></li></ul><span></span><div class=\"eos-group-title library-ncb-icon-font\">Loans
+        & Financing</div>\r\n<ul>\r\n  <li class=\"eos-item\"><a href=\"/Business/Loans-Financing/Mortgage-Calculator\">Mortgage
+        Calculator</a></li><li class=\"eos-item\"><a href=\"/Business/Loans-Financing/Quick-Cash-Flow\">Unsecured
+        Loans</a></li><li class=\"eos-item\"><a href=\"/Business/Loans-Financing/Commercial-Mortgage\">Secured
+        Loans</a></li><li class=\"eos-item\"><a href=\"/Business/Loans-Financing/Vehicle-Loans-Leases\">Auto
+        Loans</a></li></ul><span></span><div class=\"eos-group-title library-ncb-icon-font\">Investing</div>\r\n<ul>\r\n
+        \ <li class=\"eos-item\"><a href=\"/Business/Investing/Investment-Options\">Investment
+        Options</a></li><li class=\"eos-item\"><a href=\"/Business/Investing/Investment-Banking\">Investment
+        Banking</a></li><li class=\"eos-item\"><a href=\"/Business/Investing/Advice-Planning\">Advice
+        & Planning</a></li><li class=\"eos-item\"><a href=\"/Business/Investing/Research\">Research</a></li></ul><span></span><div
+        class=\"eos-group-title library-ncb-icon-font\">Benefits & Insurance</div>\r\n<ul>\r\n
+        \ <li class=\"eos-item\"><a href=\"/Business/Benefits-Insurance/Benefits-Insurance-Overview\">Benefits
+        & Insurance Overview</a></li><li class=\"eos-item\"><a href=\"/Business/Benefits-Insurance/Report-a-Claim\">Report
+        a Claim</a></li></ul><span></span><div class=\"eos-group-title library-ncb-icon-font\">Merchant
+        Services</div>\r\n<ul>\r\n  <li class=\"eos-item\"><a href=\"/Business/Merchant-Services/Products-Services\">Products
+        / Services</a></li><li class=\"eos-item\"><a href=\"/Business/Merchant-Services/Become-A-Merchant\">Become
+        A Merchant</a></li><li class=\"eos-item\"><a href=\"/Business/Merchant-Services/Merchant-Security\">Merchant
+        Security</a></li><li class=\"eos-item\"><a href=\"/Business/Merchant-Services/Merchant-Newslink\">Merchant
+        Newslink</a></li></ul></div><span></span><div class=\"eos-group-title\">About
+        Us<i aria-hidden=\"true\" class=\"fa fa-angle-right fa-lg eos-pull-right\">&nbsp;</i></div>\r\n<div
+        class=\"eos-group-content\"><div class=\"eos-group-title library-ncb-icon-font\">Corporate
+        Social Responsibility</div>\r\n<span></span><div class=\"eos-group-title library-ncb-icon-font\">Company
+        Overview</div>\r\n<ul>\r\n  <li class=\"eos-item\"><a href=\"/About-Us/Company-Overview/Who-We-Are\">Who
+        We Are</a></li><li class=\"eos-item\"><a href=\"/About-Us/Company-Overview/History\">History</a></li><li
+        class=\"eos-item\"><a href=\"/About-Us/Company-Overview/Management-Team\">Management
+        Team</a></li><li class=\"eos-item\"><a href=\"/About-Us/Company-Overview/Board-of-Directors\">Board
+        Of Directors</a></li><li class=\"eos-item\"><a href=\"/About-Us/Company-Overview/Awards\">Awards</a></li></ul><span></span><div
+        class=\"eos-group-title library-ncb-icon-font\">NCB Opportunities</div>\r\n<ul>\r\n
+        \ <li class=\"eos-item\"><a href=\"/About-Us/NCB-Opportunities/Annual-Learning-Reports\">Annual
+        Learning Reports</a></li><li class=\"eos-item\"><a href=\"/About-Us/NCB-Opportunities/Careers-Site\">Careers
+        Site</a></li></ul><span></span><div class=\"eos-group-title library-ncb-icon-font\">News
+        Room</div>\r\n<ul>\r\n  <li class=\"eos-item\"><a href=\"/About-Us/News-Room/Customer-Satisfaction-Survey\">Customer
+        Satisfaction Survey</a></li><li class=\"eos-item\"><a href=\"/About-Us/News-Room/News\">News</a></li><li
+        class=\"eos-item\"><a href=\"/About-Us/News-Room/Brand-Media-Guides\">Brand
+        & Media Guides</a></li></ul><span></span><div class=\"eos-group-title library-ncb-icon-font\">Investor
+        Relations</div>\r\n<ul>\r\n  <li class=\"eos-item\"><a href=\"/About-Us/Reports/Information\">Information</a></li><li
+        class=\"eos-item\"><a href=\"/About-Us/Reports/Annual-Reports\">Annual Reports</a></li><li
+        class=\"eos-item\"><a href=\"/About-Us/Reports/Quarterly-Reports\">Quarterly
+        Reports</a></li><li class=\"eos-item\"><a href=\"/About-Us/Reports/Statistical-Review\">Statistical
+        Review</a></li></ul></div><span></span><div class=\"eos-group-title\">Support<i
+        aria-hidden=\"true\" class=\"fa fa-angle-right fa-lg eos-pull-right\">&nbsp;</i></div>\r\n<div
+        class=\"eos-group-content\"><div class=\"eos-group-title library-ncb-icon-font\">Security</div>\r\n<ul>\r\n
+        \ <li class=\"eos-item\"><a href=\"/Support/Security/RSA\">RSA</a></li><li
+        class=\"eos-item\"><a href=\"/Support/Security/Security-Guarantee\">Security
+        Guarantee</a></li><li class=\"eos-item\"><a href=\"/Support/Security/Protecting-Yourself\">Protecting
+        Yourself</a></li><li class=\"eos-item\"><a href=\"/Support/Security/Security-Certificate-Test\">Security
+        Certificate Test</a></li></ul><span></span><div class=\"eos-group-title library-ncb-icon-font\">Customer
+        Service</div>\r\n<ul>\r\n  <li class=\"eos-item\"><a href=\"/Support/Requirements/Service-Standards\">Service
+        Standards</a></li><li class=\"eos-item\"><a href=\"/Support/Requirements/Complaint-Management-Standard-Operating-Guidelin\">Complaint
+        Management - Standard Operating Guideline</a></li><li class=\"eos-item\"><a
+        href=\"/Support/Requirements/Customer-Service-Charter\">Customer Service Charter</a></li><li
+        class=\"eos-item\"><a href=\"/Support/Requirements/Electronic-Dispute-Form\">Electronic
+        Dispute Form</a></li></ul><span></span><div class=\"eos-group-title library-ncb-icon-font\">Help
+        & Resources</div>\r\n<ul>\r\n  <li class=\"eos-item\"><a href=\"/Support/Help-Resources/Deposit-Rates\">Deposit
+        Rates</a></li><li class=\"eos-item\"><a href=\"/Support/Help-Resources/Deposit-Rates-1\">Lending
+        Rates</a></li><li class=\"eos-item\"><a href=\"/Support/Help-Resources/Loan-Calculators\">Loan
+        Calculator</a></li><li class=\"eos-item\"><a href=\"/Support/Help-Resources/Foreign-Exchange-Services\">Foreign
+        Exchange Services</a></li><li class=\"eos-item\"><a href=\"/Support/Help-Resources/FAQ\">FAQ</a></li><li
+        class=\"eos-item\"><a href=\"/Support/Help-Resources/All-Form-Downloads\">All
+        Form Downloads</a></li><li class=\"eos-item\"><a href=\"/Support/Help-Resources/Fees\">Fees</a></li><li
+        class=\"eos-item\"><a href=\"/Support/Help-Resources/Insurance-Claims\">Insurance
+        Claims</a></li><li class=\"eos-item\"><a href=\"/Support/Help-Resources/Reclaimed-Listings\">Reclaimed
+        Listings</a></li><li class=\"eos-item\"><a href=\"/Support/Help-Resources/How-to-Avoid-Fees\">How
+        to Avoid Fees</a></li><li class=\"eos-item\"><a href=\"/Support/Help-Resources/Sponsorship\">Sponsorship</a></li><li
+        class=\"eos-item\"><a href=\"/Support/Help-Resources/E-statements\">E-statements</a></li></ul><span></span><div
+        class=\"eos-group-title library-ncb-icon-font\">Contact</div>\r\n<span></span><div
+        class=\"eos-group-title library-ncb-icon-font\">Locate</div>\r\n</div></div></div>\r\n<div
+        id=\"menu-overlay\" class=\"modal-hidden\"></div>\r\n\r\n          </div>\r\n
+        \         <!-- End Mobile Navigation -->\r\n        </div>\r\n        <!--
+        Navigation -->\r\n        <div class=\"searchBox-home\"><div id=\"p_lt_ctl02_SmartSearchBox_pnlSearch\"
+        class=\"searchBox\">\r\n\t\r\n    <label for=\"p_lt_ctl02_SmartSearchBox_txtWord\"
+        id=\"p_lt_ctl02_SmartSearchBox_lblSearch\">Search for:</label>\r\n    <input
+        type=\"hidden\" name=\"p$lt$ctl02$SmartSearchBox$txtWord_exWatermark_ClientState\"
+        id=\"p_lt_ctl02_SmartSearchBox_txtWord_exWatermark_ClientState\" /><input
+        name=\"p$lt$ctl02$SmartSearchBox$txtWord\" type=\"text\" maxlength=\"1000\"
+        id=\"p_lt_ctl02_SmartSearchBox_txtWord\" class=\"form-control\" />\r\n    <input
+        type=\"submit\" name=\"p$lt$ctl02$SmartSearchBox$btnSearch\" value=\"Search\"
+        id=\"p_lt_ctl02_SmartSearchBox_btnSearch\" class=\"btn btn-default\" />\r\n
+        \   \r\n    <div id=\"p_lt_ctl02_SmartSearchBox_pnlPredictiveResultsHolder\"
+        class=\"predictiveSearchHolder\">\r\n\r\n\t</div>\r\n\r\n</div>\r\n</div>\r\n<div
+        id=\"navbar\" class=\"navbar-collapse collapse\">\r\n  <ul class=\"nav navbar-nav
+        navbar-right\">\r\n    <li class=\"homeIcon library-ncb-icon-font\"><a href=\"/\"><i
+        aria-hidden=\"true\" class=\"icon-home\">&nbsp;</i></a></li>\r\n    <li class=\"dropdown\"><a
+        class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"/Personal\">\r\n
+        \ <span class=\"library-ncb-icon-font\">\r\n    Personal\r\n    <b class=\"icon-chevron-down\"></b>\r\n
+        \ </span>\r\n</a><div>\r\n  <div class=\"container\">\r\n    <div class=\"nav-column\"><h3
+        class=\"yellow\">Payments</h3>\r\n<ul>\r\n  <li class=\"first-submenu\"><a
+        href=\"/Personal/Cards/Debit-Cards\">Debit Card</a>\r\n</li><li><a href=\"/Personal/Cards/Credit-cards\">Credit
+        Cards</a>\r\n</li><li><a href=\"/Personal/Cards/Prepaid-cards\">Prepaid Card</a>\r\n</li><li><a
+        href=\"/Personal/Cards/Activate-Your-Credit-Card\">Activate Your Credit Card</a>\r\n</li><li><a
+        href=\"/Personal/Cards/Quisk\">Quisk from NCB</a>\r\n</li></ul></div>\r\n<div
+        class=\"nav-column\"><h3 class=\"yellow\">Banking</h3>\r\n<ul>\r\n  <li class=\"first-submenu\"><a
+        href=\"/Personal/Banking/Chequing-Accounts\">Chequing Account</a>\r\n</li><li><a
+        href=\"/Personal/Banking/Savings-Accounts\">Savings Accounts</a>\r\n</li><li><a
+        href=\"/Personal/Banking/Special-Occasion-Savings-Plan\">Special Occasion
+        Savings Plan</a>\r\n</li><li><a href=\"/Personal/Banking/Private-Banking-Services\">Private
+        Banking Services</a>\r\n</li><li><a href=\"/Personal/Banking/Private-Banking\">Premium
+        Banking Services</a>\r\n</li><li><a href=\"/Personal/Banking/Online-Banking\">Online
+        Banking</a>\r\n</li><li><a href=\"/Personal/Banking/Online-Bank-Demos\">Online
+        Banking Demos</a>\r\n</li></ul></div>\r\n<div class=\"nav-column\"><h3 class=\"yellow\">Loans
+        & Financing</h3>\r\n<ul>\r\n  <li class=\"first-submenu\"><a href=\"/Personal/Loans-Financing/Auto-Loans\">Auto
+        Loan</a>\r\n</li><li><a href=\"/Personal/Loans-Financing/Mortgage\">Mortgage</a>\r\n</li><li><a
+        href=\"/Personal/Loans-Financing/Personal-Loans\">Personal Loans</a>\r\n</li><li><a
+        href=\"/Personal/Loans-Financing/Realtor-Incentive\">Realtor Incentive Programme</a>\r\n</li></ul></div>\r\n<div
+        class=\"nav-column\"><h3 class=\"yellow\">Investing</h3>\r\n<ul>\r\n  <li
+        class=\"first-submenu\"><a href=\"/Personal/Investing/Investment-Products\">Investment
+        Products</a>\r\n</li><li><a href=\"/Personal/Investing/Retirement-Plans\">Retirement
+        Plans</a>\r\n</li><li><a href=\"/Personal/Investing/Education-Investments\">Education
+        Investments</a>\r\n</li><li><a href=\"/Personal/Investing/Advice-Planning\">Advice
+        & Planning</a>\r\n</li><li><a href=\"/Personal/Investing/Research\">Research</a>\r\n</li><li><a
+        href=\"/Personal/Investing/Wealth-Management\">Wealth Management</a>\r\n</li></ul></div>\r\n<div
+        class=\"nav-column\"><h3 class=\"yellow\">Insurance</h3>\r\n<ul>\r\n  <li
+        class=\"first-submenu\"><a href=\"/Personal/Insurance/Insurance-Plans-Overview\">Insurance
+        Plans Overview</a>\r\n</li><li><a href=\"/Personal/Insurance/Omni-Grants\">Omni
+        Grants</a>\r\n</li><li><a href=\"/Personal/Insurance/Report-a-Claim\">Report
+        a Claim</a>\r\n</li></ul></div></div> </li><li class=\"dropdown\"><a class=\"dropdown-toggle\"
+        data-toggle=\"dropdown\" href=\"/Business\">\r\n  <span class=\"library-ncb-icon-font\">\r\n
+        \   Business\r\n    <b class=\"icon-chevron-down\"></b>\r\n  </span>\r\n</a><div>\r\n
+        \ <div class=\"container\">\r\n    <div class=\"nav-column\"><h3 class=\"yellow\">Credit
+        Cards</h3>\r\n<ul>\r\n  <li class=\"first-submenu\"><a href=\"/Business/Credit-Cards/Credit-Cards-for-Business\">Credit
+        Cards for Business</a>\r\n</li></ul></div>\r\n<div class=\"nav-column\"><h3
+        class=\"yellow\">Banking</h3>\r\n<ul>\r\n  <li class=\"first-submenu\"><a
+        href=\"/Business/Banking/Chequing-Account\">Chequing Account</a>\r\n</li><li><a
+        href=\"/Business/Banking/Savings-Plans\">Savings Plans</a>\r\n</li><li><a
+        href=\"/Business/Banking/Value-Plans\">Value Plans</a>\r\n</li><li><a href=\"/Business/Banking/Corporate-Banking\">Corporate
+        Banking</a>\r\n</li><li><a href=\"/Business/Banking/Tresasury-Correspondent-Banking\">Treasury
+        & Correspondent Banking</a>\r\n</li><li><a href=\"/Business/Banking/Online-Banking\">Online
+        Banking</a>\r\n</li><li><a href=\"/Business/Banking/Online-Bank-Demos\">Online
+        Banking Demos</a>\r\n</li></ul></div>\r\n<div class=\"nav-column\"><h3 class=\"yellow\">Loans
+        & Financing</h3>\r\n<ul>\r\n  <li class=\"first-submenu\"><a href=\"/Business/Loans-Financing/Mortgage-Calculator\">Mortgage
+        Calculator</a>\r\n</li><li><a href=\"/Business/Loans-Financing/Quick-Cash-Flow\">Unsecured
+        Loans</a>\r\n</li><li><a href=\"/Business/Loans-Financing/Commercial-Mortgage\">Secured
+        Loans</a>\r\n</li><li><a href=\"/Business/Loans-Financing/Vehicle-Loans-Leases\">Auto
+        Loans</a>\r\n</li></ul></div>\r\n<div class=\"nav-column\"><h3 class=\"yellow\">Investing</h3>\r\n<ul>\r\n
+        \ <li class=\"first-submenu\"><a href=\"/Business/Investing/Investment-Options\">Investment
+        Options</a>\r\n</li><li><a href=\"/Business/Investing/Investment-Banking\">Investment
+        Banking</a>\r\n</li><li><a href=\"/Business/Investing/Advice-Planning\">Advice
+        & Planning</a>\r\n</li><li><a href=\"/Business/Investing/Research\">Research</a>\r\n</li></ul></div>\r\n<div
+        class=\"nav-column\"><h3 class=\"yellow\">Benefits & Insurance</h3>\r\n<ul>\r\n
+        \ <li class=\"first-submenu\"><a href=\"/Business/Benefits-Insurance/Benefits-Insurance-Overview\">Benefits
+        & Insurance Overview</a>\r\n</li><li><a href=\"/Business/Benefits-Insurance/Report-a-Claim\">Report
+        a Claim</a>\r\n</li></ul></div>\r\n<div class=\"nav-column\"><h3 class=\"yellow\">Merchant
+        Services</h3>\r\n<ul>\r\n  <li class=\"first-submenu\"><a href=\"/Business/Merchant-Services/Products-Services\">Products
+        / Services</a>\r\n</li><li><a href=\"/Business/Merchant-Services/Become-A-Merchant\">Become
+        A Merchant</a>\r\n</li><li><a href=\"/Business/Merchant-Services/Merchant-Security\">Merchant
+        Security</a>\r\n</li><li><a href=\"/Business/Merchant-Services/Merchant-Newslink\">Merchant
+        Newslink</a>\r\n</li></ul></div></div> </li><li class=\"dropdown\"><a class=\"dropdown-toggle\"
+        data-toggle=\"dropdown\" href=\"/About-Us\">\r\n  <span class=\"library-ncb-icon-font\">\r\n
+        \   About Us\r\n    <b class=\"icon-chevron-down\"></b>\r\n  </span>\r\n</a><div>\r\n
+        \ <div class=\"container\">\r\n    <div class=\"nav-column\"><h3 class=\"yellow\">Corporate
+        Social Responsibility</h3>\r\n<img alt=\"CORPORATE SOCIAL RESPONSIBILITY\"
+        src=\"/JNCB/media/Main-Librarie/img-menu-about.jpg\" style=\"width:206px;\"
+        />\r\n<ul>\r\n\t<li class=\"first-submenu\"><a href=\"/About-Us/Corporate-Social-Responsibility\">CORPORATE
+        SOCIAL RESPONSIBILITY &gt;</a></li>\r\n</ul>\r\n</div>\r\n<div class=\"nav-column\"><h3
+        class=\"yellow\">Company Overview</h3>\r\n<ul>\r\n  <li class=\"first-submenu\"><a
+        href=\"/About-Us/Company-Overview/Who-We-Are\">Who We Are</a>\r\n</li><li><a
+        href=\"/About-Us/Company-Overview/History\">History</a>\r\n</li><li><a href=\"/About-Us/Company-Overview/Management-Team\">Management
+        Team</a>\r\n</li><li><a href=\"/About-Us/Company-Overview/Board-of-Directors\">Board
+        Of Directors</a>\r\n</li><li><a href=\"/About-Us/Company-Overview/Awards\">Awards</a>\r\n</li></ul></div>\r\n<div
+        class=\"nav-column\"><h3 class=\"yellow\">NCB Opportunities</h3>\r\n<ul>\r\n
+        \ <li class=\"first-submenu\"><a href=\"/About-Us/NCB-Opportunities/Annual-Learning-Reports\">Annual
+        Learning Reports</a>\r\n</li><li><a href=\"/About-Us/NCB-Opportunities/Careers-Site\">Careers
+        Site</a>\r\n</li></ul></div>\r\n<div class=\"nav-column\"><h3 class=\"yellow\">News
+        Room</h3>\r\n<ul>\r\n  <li class=\"first-submenu\"><a href=\"/About-Us/News-Room/Customer-Satisfaction-Survey\">Customer
+        Satisfaction Survey</a>\r\n</li><li><a href=\"/About-Us/News-Room/News\">News</a>\r\n</li><li><a
+        href=\"/About-Us/News-Room/Brand-Media-Guides\">Brand & Media Guides</a>\r\n</li></ul></div>\r\n<div
+        class=\"nav-column\"><h3 class=\"yellow\">Investor Relations</h3>\r\n<ul>\r\n
+        \ <li class=\"first-submenu\"><a href=\"/About-Us/Reports/Information\">Information</a>\r\n</li><li><a
+        href=\"/About-Us/Reports/Annual-Reports\">Annual Reports</a>\r\n</li><li><a
+        href=\"/About-Us/Reports/Quarterly-Reports\">Quarterly Reports</a>\r\n</li><li><a
+        href=\"/About-Us/Reports/Statistical-Review\">Statistical Review</a>\r\n</li></ul></div></div>
+        </li><li class=\"dropdown\"><a class=\"dropdown-toggle\" data-toggle=\"dropdown\"
+        href=\"/Support\">\r\n  <span class=\"library-ncb-icon-font\">\r\n    Support\r\n
+        \   <b class=\"icon-chevron-down\"></b>\r\n  </span>\r\n</a><div>\r\n  <div
+        class=\"container\">\r\n    <div class=\"nav-column\"><h3 class=\"yellow\">Security</h3>\r\n<ul>\r\n
+        \ <li class=\"first-submenu\"><a href=\"/Support/Security/RSA\">RSA</a>\r\n</li><li><a
+        href=\"/Support/Security/Security-Guarantee\">Security Guarantee</a>\r\n</li><li><a
+        href=\"/Support/Security/Protecting-Yourself\">Protecting Yourself</a>\r\n</li><li><a
+        href=\"/Support/Security/Security-Certificate-Test\">Security Certificate
+        Test</a>\r\n</li></ul></div>\r\n<div class=\"nav-column\"><h3 class=\"yellow\">Customer
+        Service</h3>\r\n<ul>\r\n  <li class=\"first-submenu\"><a href=\"/Support/Requirements/Service-Standards\">Service
+        Standards</a>\r\n</li><li><a href=\"/Support/Requirements/Complaint-Management-Standard-Operating-Guidelin\">Complaint
+        Management - Standard Operating Guideline</a>\r\n</li><li><a href=\"/Support/Requirements/Customer-Service-Charter\">Customer
+        Service Charter</a>\r\n</li><li><a href=\"/Support/Requirements/Electronic-Dispute-Form\">Electronic
+        Dispute Form</a>\r\n</li></ul></div>\r\n<div class=\"nav-column\"><h3 class=\"yellow\">Help
+        & Resources</h3>\r\n<ul>\r\n  <li class=\"first-submenu\"><a href=\"/Support/Help-Resources/Deposit-Rates\">Deposit
+        Rates</a>\r\n</li><li><a href=\"/Support/Help-Resources/Deposit-Rates-1\">Lending
+        Rates</a>\r\n</li><li><a href=\"/Support/Help-Resources/Loan-Calculators\">Loan
+        Calculator</a>\r\n</li><li><a href=\"/Support/Help-Resources/Foreign-Exchange-Services\">Foreign
+        Exchange Services</a>\r\n</li><li><a href=\"/Support/Help-Resources/FAQ\">FAQ</a>\r\n</li><li><a
+        href=\"/Support/Help-Resources/All-Form-Downloads\">All Form Downloads</a>\r\n</li><li><a
+        href=\"/Support/Help-Resources/Fees\">Fees</a>\r\n</li><li><a href=\"/Support/Help-Resources/Insurance-Claims\">Insurance
+        Claims</a>\r\n</li><li><a href=\"/Support/Help-Resources/Reclaimed-Listings\">Reclaimed
+        Listings</a>\r\n</li><li><a href=\"/Support/Help-Resources/How-to-Avoid-Fees\">How
+        to Avoid Fees</a>\r\n</li><li><a href=\"/Support/Help-Resources/Sponsorship\">Sponsorship</a>\r\n</li><li><a
+        href=\"/Support/Help-Resources/E-statements\">E-statements</a>\r\n</li></ul></div>\r\n<div
+        class=\"nav-column\"><h3 class=\"yellow\">Contact</h3>\r\n<ul>\r\n\t<li class=\"first-submenu\"><a
+        href=\"/support/contact/contact-us\"><span class=\"library-ncb-icon-font\"><i
+        class=\"icon-users\">&nbsp;</i></span><span class=\"contact-menu-item\">Contact
+        Us<br />\r\n\tDepartment Listings</span></a></li>\r\n\t<li><a href=\"tel:1-888-622-3477\"><span
+        class=\"library-ncb-icon-font\"><i class=\"icon-headset\">&nbsp;</i></span><span
+        class=\"contact-menu-item\">Customer Care<br />\r\n\t1-888-622-3477</span></a></li>\r\n\t<li><a
+        href=\"tel:929-4622\"><span class=\"library-ncb-icon-font\"><i class=\"icon-phone\">&nbsp;</i></span><span
+        class=\"contact-menu-item\">Branch Services<br />\r\n\t876-929-4622</span></a></li>\r\n</ul>\r\n</div>\r\n<div
+        class=\"nav-column\"><h3 class=\"yellow\">Locate</h3>\r\n<div class=\"google-map-menu\"><a
+        href=\"/Support/Locate/Branches-ABMs\"><img class=\"img-responsive\" src=\"/JNCB/media/Main-Librarie/maps-nav.jpg\"
+        /></a></div>\r\n\r\n<ul>\r\n\t<li class=\"first-submenu\"><a href=\"/Support/Locate/Branches-ABMs\"><span
+        class=\"library-ncb-icon-font\"><i class=\"icon-location\">&nbsp;</i></span><span
+        class=\"contact-menu-item\"><b>Branches &amp; ABMs</b><br />\r\n\tFind a Branch
+        Near You</span></a></li>\r\n</ul>\r\n</div></div> </li></ul></div>\r\n\r\n
+        \     </nav>\r\n    </div>\r\n  </div>\r\n</header>\r\n\r\n\r\n<!-- Content
+        -->\r\n<div class=\"mainContent\">\r\n  \r\n\r\n<div id=\"exchange-page\">\r\n
+        \   <div class=\"container sidebar-bg\">\r\n      <div class=\"row\"> \r\n
+        \       <section class=\"breadcrumbs\">\r\n          <div class=\"col-sm-12
+        breadcrumbs-box\">\r\n<div class=\"bc-preview breadcrumbs-title\">\r\n<!--<div
+        class=\"col-md-8\">\r\n<div class=\"bc-general-page breadcrumbs-title\">--><a
+        href=\"#\" onclick=\"return false;\" class=\"CMSBreadCrumbsLink\">Support</a>
+        &gt; <a href=\"#\" onclick=\"return false;\" class=\"CMSBreadCrumbsLink\">Help
+        &amp; Resources</a> &gt; <span  class=\"CMSBreadCrumbsCurrentItem\">Foreign
+        Exchange Services</span>\r\n</div>\r\n</div>     \r\n        </section>\r\n
+        \       <div class=\"col-md-8\">\r\n        <section class=\"general-content\">\r\n
+        \         <h1>Foreign Exchange Rates</h1>Effective Date: July 13, 2018 2:06
+        AM (Rates are subject to change) \r\n<!-- Effective Date: July 13, 2018 03:06
+        AM (Rates are subject to change) --> <table class=\"table table-responsive\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th>Currency</th>\r\n\t\t\t<th>Sell</th>\r\n\t\t\t<th>Buy
+        (Cheque)</th>\r\n\t\t\t<th>Buy (Cash)</th>\r\n\t\t</tr>\r\n\t</thead>\r\n\t<tbody
+        class=\"FxRContainer\">\r\n\t<tr>\r\n  <td><img src=\"/JNCB/media/Main-Librarie/Flags/USD.png\"
+        />&nbsp;&nbsp;&nbsp;USD</td>\r\n  <td>127.50</td>\r\n  <td>122.50</td>\r\n
+        \ <td>111.40</td>\r\n</tr><tr>\r\n  <td><img src=\"/JNCB/media/Main-Librarie/Flags/GBP.png\"
+        />&nbsp;&nbsp;&nbsp;GBP</td>\r\n  <td>169.90</td>\r\n  <td>164.80</td>\r\n
+        \ <td>161.30</td>\r\n</tr><tr>\r\n  <td><img src=\"/JNCB/media/Main-Librarie/Flags/CAD.png\"
+        />&nbsp;&nbsp;&nbsp;CAD</td>\r\n  <td>97.60</td>\r\n  <td>94.70</td>\r\n  <td>92.20</td>\r\n</tr><tr>\r\n
+        \ <td><img src=\"/JNCB/media/Main-Librarie/Flags/EUR.png\" />&nbsp;&nbsp;&nbsp;EUR</td>\r\n
+        \ <td>150.20</td>\r\n  <td>144.20</td>\r\n  <td>141.20</td>\r\n</tr><tr>\r\n
+        \ <td><img src=\"/JNCB/media/Main-Librarie/Flags/KYD.png\" />&nbsp;&nbsp;&nbsp;KYD</td>\r\n
+        \ <td>135.70</td>\r\n  <td>0.00</td>\r\n  <td>116.70</td>\r\n</tr><tr>\r\n
+        \ <td><img src=\"/JNCB/media/Main-Librarie/Flags/TTD.png\" />&nbsp;&nbsp;&nbsp;TTD</td>\r\n
+        \ <td>19.20</td>\r\n  <td>0.00</td>\r\n  <td>0.00</td>\r\n</tr><tr>\r\n  <td><img
+        src=\"/JNCB/media/Main-Librarie/Flags/JPY.png\" />&nbsp;&nbsp;&nbsp;JPY</td>\r\n
+        \ <td>1.13</td>\r\n  <td>1.07</td>\r\n  <td>1.06</td>\r\n</tr> </tbody>\r\n</table><div
+        class=\"converter-wrapper\">\r\n<h3>Currency Converter</h3>\r\n\r\n<script
+        type=\"text/javascript\">\r\n\r\n    var DataJSArray = {\"USD\": 127.5, \"GBP\":
+        169.9, \"CAD\": 97.6, \"EUR\": 150.2, \"KYD\": 135.7, \"TTD\": 19.2, \"JPY\":
+        1.13, \"JMD\": 1};\r\n\r\n    function CalculateCurrency(txtbox1) {\r\n        //source
+        currency\r\n        var SourceCurrKey = document.getElementById('ForeignExchangeServicesCurrencyConverterCurrentRate').value;\r\n
+        \       var SourceCurrValRate = DataJSArray[SourceCurrKey]; \r\n        \r\n
+        \       //get target curr vars\r\n        var SourceTargetKey = document.getElementById('ForeignExchangeServicesCurrencyConverterTargetRate').value;\r\n
+        \       var SourceTargetValRate = DataJSArray[SourceTargetKey]; \r\n\r\n        var
+        txt1 = document.getElementById('ForeignExchangeServicesCurrencyConverterTextBox1').value\r\n
+        \       var txt2 = document.getElementById('ForeignExchangeServicesCurrencyConverterTextBox2').value\r\n
+        \       \r\n        var result;\r\n\r\n        if (txtbox1 === 1) {\r\n            //calculate\r\n
+        \           result = (SourceCurrValRate / SourceTargetValRate * txt1).toFixed(2)\r\n
+        \                    \r\n            ForeignExchangeServicesCurrencyConverterLabel1.innerHTML
+        = \"1 \" + SourceCurrKey + \" equals\"\r\n            ForeignExchangeServicesCurrencyConverterLabel2.innerHTML
+        = (SourceCurrValRate / SourceTargetValRate).toFixed(4) + \" \" + SourceTargetKey\r\n
+        \          \r\n            //update txtbox       \r\n            ForeignExchangeServicesCurrencyConverterTextBox2.value
+        = result;\r\n        }\r\n        else {\r\n            //calculate\r\n            result
+        = (SourceTargetValRate / SourceCurrValRate * txt2).toFixed(2)\r\n\r\n            ForeignExchangeServicesCurrencyConverterLabel1.innerHTML
+        = \"1 \" + SourceTargetKey + \" equals\"\r\n            ForeignExchangeServicesCurrencyConverterLabel2.innerHTML
+        = (SourceTargetValRate / SourceCurrValRate).toFixed(4) + \" \" + SourceCurrKey\r\n
+        \           \r\n            //update txtbox\r\n            ForeignExchangeServicesCurrencyConverterTextBox1.value
+        = result    \r\n        }\r\n    }\r\n\r\n</script>\r\n<script>\r\n    document.addEventListener(\"DOMContentLoaded\",
+        function() {\r\n        CalculateCurrency(1);\r\n        \r\n        var textbox
+        = document.getElementById('ForeignExchangeServicesCurrencyConverterTextBox1')\r\n
+        \       \r\n        textbox.focus();\r\n\r\n    });\r\n</script>\r\n\r\n\r\n<div
+        id=\"\">\r\n\t\r\n<div class=\"converter_box\">\r\n    <div class=\"row\">\r\n
+        \     <div class=\"col-xs-12 col-md-4 col-md-push-8\">\r\n        <div class=\"converter_label\">\r\n
+        \         <span id=\"ForeignExchangeServicesCurrencyConverterLabel1\"></span>\r\n
+        \       </div>\r\n      </div>\r\n        <div class=\"col-xs-6 col-md-4 col-md-pull-4\">\r\n
+        \           <input name=\"p$lt$ctl03$pageplaceholder$p$lt$ctl01$CurrencyConverter$ForeignExchangeServicesCurrencyConverterTextBox1\"
+        type=\"text\" value=\"1\" id=\"ForeignExchangeServicesCurrencyConverterTextBox1\"
+        onfocus=\"this.value = this.value;\" onkeyup=\"CalculateCurrency(1)\" />\r\n
+        \           \r\n        </div>\r\n        <div class=\"col-xs-6 col-md-4 col-md-pull-4\">\r\n
+        \           <select name=\"p$lt$ctl03$pageplaceholder$p$lt$ctl01$CurrencyConverter$ForeignExchangeServicesCurrencyConverterCurrentRate\"
+        id=\"ForeignExchangeServicesCurrencyConverterCurrentRate\" onchange=\"javascript:CalculateCurrency(1)\">\r\n\t\t<option
+        value=\"USD\">USD</option>\r\n\t\t<option value=\"GBP\">GBP</option>\r\n\t\t<option
+        value=\"CAD\">CAD</option>\r\n\t\t<option value=\"EUR\">EUR</option>\r\n\t\t<option
+        value=\"KYD\">KYD</option>\r\n\t\t<option value=\"TTD\">TTD</option>\r\n\t\t<option
+        value=\"JPY\">JPY</option>\r\n\t\t<option selected=\"selected\" value=\"JMD\">JMD</option>\r\n\r\n\t</select>\r\n
+        \       </div>\r\n        \r\n    </div>\r\n    <div class=\"row\">\r\n      <div
+        class=\"col-xs-12 col-md-4 col-md-push-8\">\r\n        <div class=\"converter_label\">\r\n
+        \         <span id=\"ForeignExchangeServicesCurrencyConverterLabel2\"></span>\r\n
+        \       </div>\r\n      </div>\r\n        <div class=\"col-xs-6 col-md-4 col-md-pull-4\">\r\n
+        \           <input name=\"p$lt$ctl03$pageplaceholder$p$lt$ctl01$CurrencyConverter$ForeignExchangeServicesCurrencyConverterTextBox2\"
+        type=\"text\" id=\"ForeignExchangeServicesCurrencyConverterTextBox2\" onkeyup=\"CalculateCurrency(0)\"
+        />\r\n            \r\n        </div>\r\n        <div class=\"col-xs-6 col-md-4
+        col-md-pull-4\">\r\n            <select name=\"p$lt$ctl03$pageplaceholder$p$lt$ctl01$CurrencyConverter$ForeignExchangeServicesCurrencyConverterTargetRate\"
+        id=\"ForeignExchangeServicesCurrencyConverterTargetRate\" onchange=\"javascript:CalculateCurrency(0)\">\r\n\t\t<option
+        selected=\"selected\" value=\"USD\">USD</option>\r\n\t\t<option value=\"GBP\">GBP</option>\r\n\t\t<option
+        value=\"CAD\">CAD</option>\r\n\t\t<option value=\"EUR\">EUR</option>\r\n\t\t<option
+        value=\"KYD\">KYD</option>\r\n\t\t<option value=\"TTD\">TTD</option>\r\n\t\t<option
+        value=\"JPY\">JPY</option>\r\n\t\t<option value=\"JMD\">JMD</option>\r\n\r\n\t</select>\r\n
+        \       </div>\r\n        \r\n    </div>\r\n</div>\r\n    \r\n</div>\r\n</div>\r\n<h2>Foreign
+        Exchange Services</h2><p>NCB offers its customers services in any of the four
+        major hard currencies, the United States Dollar, the Canadian Dollar, Euro
+        and the Pound Sterling.</p>\r\n\r\n<p>Services offered include:</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td
+        valign=\"top\" width=\"60%\">\r\n\t\t\t<ul>\r\n\t\t\t\t<li>Cash transactions</li>\r\n\t\t\t\t<li>Bank
+        Drafts</li>\r\n\t\t\t\t<li>Telegraphic Transfers</li>\r\n\t\t\t\t<li>Bills
+        for Collection</li>\r\n\t\t\t</ul>\r\n\t\t\t</td>\r\n\t\t\t<td valign=\"top\"
+        width=\"60%\">\r\n\t\t\t<ul>\r\n\t\t\t\t<li>Letters of Credit</li>\r\n\t\t\t\t<li>Cash
+        Advances</li>\r\n\t\t\t\t<li>Credit Card Payment</li>\r\n\t\t\t</ul>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<h2>Application
+        for Telegraphic Transfer</h2>\r\n\r\n<ol>\r\n\t<li>All relevant sections of
+        the application form must be completed.</li>\r\n\t<li>Completed application
+        form must be printed and signed by the applicant.</li>\r\n\t<li>Completed
+        and signed application form may subsequently be sent to the bank for processing
+        using one of the following options:&nbsp;\r\n\t<ul>\r\n\t\t<li>Scanned and
+        submitted via regular electronic mail&nbsp;<strong>or</strong>&nbsp;faxed
+        to account holding branch&nbsp;<strong>provided&nbsp;</strong>indemnity (Authority
+        and Indemnity for Electronic Mail and Facsimile Instructions) for submission
+        of requests via email/fax has been completed , signed and is being held by
+        the branch</li>\r\n\t\t<li>Sent via regular mail/courier to account holding
+        branch</li>\r\n\t</ul>\r\n\t</li>\r\n</ol>\r\n\r\n\r\n\r\n\r\n<div class=\"pdf-container\">\r\n
+        \ <div class=\"pdf-wrap pdf-link-wrap\">\r\n    <a style=\"display: inline-block;
+        float: left;\" href=\"#\"><span class=\"library-ncb-icon-font\"><i class=\"icon-document\"></i></span>\r\n
+        \     <span class=\"pdf-title\">\r\n        <a href=\"/JNCB/media/Main-Librarie/Forms/Request-for-Telegraphic-Transfer_2.xls\"
+        target=\"_blank\"  style=\"display: inline-block; float: left; line-height:
+        30px;\">Telegraphic Transfer form (45 KB)</a>\r\n      </span>\r\n    </a>\r\n
+        \ </div>\r\n  <div class=\"pdf-wrap pdf-button-wrap\">\r\n    <a  class=\"btn
+        btn-warning pdf-button\" href=\"/JNCB/media/Main-Librarie/Forms/Request-for-Telegraphic-Transfer_2.xls\"
+        >DOWNLOAD</a>\r\n  </div>\r\n</div>       \r\n        </section>\r\n        </div>\r\n
+        \     <div class=\"col-md-4 sidebar-right\">\r\n        <aside class=\"sidebar-general\">\r\n
+        \         <div class=\"question-box\">\r\n<h3 class=\"title-box\">F.A.Q.</h3>\r\n
+        \ <div class=\"panel-group\" id=\"accordion\" role=\"tablist\" aria-multiselectable=\"true\">\r\n
+        \ \r\n<div class=\"panel panel-default\">\r\n  <div class=\"panel-heading\"
+        role=\"tab\" id=\"headingOne\">\r\n    <h4 class=\"panel-title\">\r\n      <a
+        role=\"button\" data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapse147\"
+        aria-expanded=\"true\" aria-controls=\"collapse147\" class=\"accordion-toggle
+        collapsed\">\r\n        Am I subject to tax on my investment as an overseas
+        resident?               \r\n      </a>\r\n    </h4>\r\n  </div>\r\n  <div
+        id=\"collapse147\" class=\"panel-collapse collapse\" role=\"tabpanel\" aria-labelledby=\"heading147\">\r\n
+        \   <div class=\"panel-body\">\r\n      <p>Yes you are. However, if you are
+        domiciled outside of Jamaica, you may be eligible for a reduced rate of taxation.
+        The rate is determined by the taxation treaty, which exists between your country
+        and Jamaica. Country Rate United States 12.5% Canada 15% The United Kingdom
+        15% CARICOM 15%. Please contact our client relations officer or your wealth
+        advisor for other countries.</p>\r\n\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<div
+        class=\"panel panel-default\">\r\n  <div class=\"panel-heading\" role=\"tab\"
+        id=\"headingOne\">\r\n    <h4 class=\"panel-title\">\r\n      <a role=\"button\"
+        data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapse148\"
+        aria-expanded=\"true\" aria-controls=\"collapse148\" class=\"accordion-toggle
+        collapsed\">\r\n        Do you accept cash?   \r\n      </a>\r\n    </h4>\r\n
+        \ </div>\r\n  <div id=\"collapse148\" class=\"panel-collapse collapse\" role=\"tabpanel\"
+        aria-labelledby=\"heading148\">\r\n    <div class=\"panel-body\">\r\n      <p>Cash
+        lodgments are facilitated through National Commercial Bank branches island-wide.
+        Please be sure to indicate to the bank representative the type of investments
+        (stocks, money market or bonds) in which you are interested, so that the correct
+        account may be credited.</p>\r\n\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<div
+        class=\"panel panel-default\">\r\n  <div class=\"panel-heading\" role=\"tab\"
+        id=\"headingOne\">\r\n    <h4 class=\"panel-title\">\r\n      <a role=\"button\"
+        data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapse149\"
+        aria-expanded=\"true\" aria-controls=\"collapse149\" class=\"accordion-toggle
+        collapsed\">\r\n        How can I get a printed copy of your Annual Report?\r\n
+        \     </a>\r\n    </h4>\r\n  </div>\r\n  <div id=\"collapse149\" class=\"panel-collapse
+        collapse\" role=\"tabpanel\" aria-labelledby=\"heading149\">\r\n    <div class=\"panel-body\">\r\n
+        \     <p>Current and historic&nbsp;<a href=\"https://www.myncb.com/Investor-Relations/Reports/Annual-Reports\"
+        target=\"_blank\">Annual Reports</a>&nbsp;can be downloaded from our website.
+        However, if you are unable to view these files, then you can request a copy
+        be mailed to you by emailing our Registrar, NCB Nominees at&nbsp;<a href=\"mailto:ncbinfo@jncb.com\">ncbinfo@jncb.com</a>.</p>\r\n\r\n
+        \   </div>\r\n  </div>\r\n</div>\r\n\r\n<div class=\"panel panel-default\">\r\n
+        \ <div class=\"panel-heading\" role=\"tab\" id=\"headingOne\">\r\n    <h4
+        class=\"panel-title\">\r\n      <a role=\"button\" data-toggle=\"collapse\"
+        data-parent=\"#accordion\" href=\"#collapse150\" aria-expanded=\"true\" aria-controls=\"collapse150\"
+        class=\"accordion-toggle collapsed\">\r\n        How can I invest in your
+        company's stocks?\r\n      </a>\r\n    </h4>\r\n  </div>\r\n  <div id=\"collapse150\"
+        class=\"panel-collapse collapse\" role=\"tabpanel\" aria-labelledby=\"heading150\">\r\n
+        \   <div class=\"panel-body\">\r\n      <p>National Commercial Bank Jamaica
+        Limited is listed on the Jamaica Stock Exchange and the Trinidad and Tobago
+        Stock Exchange.</p>\r\n\r\n<p>Potential investors should be able to acquire
+        shares through their stockbrokers. If you do not have a stockbroker, it is
+        possible to buy shares from our investment and stockbrokerage subsidiary NCB
+        Capital Markets Limited. Visit their website at&nbsp;<a href=\"http://www.ncbcapitalmarkets.com/\">www.ncbcapitalmarkets.com</a>.</p>\r\n\r\n
+        \   </div>\r\n  </div>\r\n</div>\r\n\r\n<div class=\"panel panel-default\">\r\n
+        \ <div class=\"panel-heading\" role=\"tab\" id=\"headingOne\">\r\n    <h4
+        class=\"panel-title\">\r\n      <a role=\"button\" data-toggle=\"collapse\"
+        data-parent=\"#accordion\" href=\"#collapse151\" aria-expanded=\"true\" aria-controls=\"collapse151\"
+        class=\"accordion-toggle collapsed\">\r\n        How could I have a summary
+        of financial results for the past 10 years?\r\n      </a>\r\n    </h4>\r\n
+        \ </div>\r\n  <div id=\"collapse151\" class=\"panel-collapse collapse\" role=\"tabpanel\"
+        aria-labelledby=\"heading151\">\r\n    <div class=\"panel-body\">\r\n      <p>A
+        financial Statistical Review Summary is listed in every annual report. However
+        for ease of reference a pdf version is available via the&nbsp;Financial Statistical
+        Review.</p>\r\n\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n\r\n\r\n</div>\r\n</div>\r\n<br
+        />\r\n<a href=\"/Support/Help-Resources/FAQ\" class=\"btn btn-primary btn-lg\"
+        type=\"button\">ALL FAQs</a><div class=\"contact-box\">\r\n  <h3 class=\"title-box\">Contact</h3>\r\n
+        \ \r\n<ul>\r\n  <div class=\"desc\"><span class=\"library-ncb-icon-font\"><i
+        class=\"icon-email\"></i></span><li><a href=\"/Support/Contact/Contact-us\">SEND
+        A MESSAGE</a></li></div>\r\n  <div class=\"desc\"><span class=\"library-ncb-icon-font\"><i
+        class=\"icon-phone\"></i></span><li><a href=\"tel:929-4622\">BRANCH SERVICES<br><span
+        class=\"contact-number\">929-4622</span></a></li></div>\r\n  <div class=\"desc\"><span
+        class=\"library-ncb-icon-font\"><i class=\"icon-headset\"></i></span><li><a
+        href=\"tel:1-888-622-3477\">CUSTOMER CARE<br><span class=\"contact-number\">1-888-622-3477<pan></pan></span></a></li></div>\r\n
+        \ <div class=\"desc\"><span class=\"library-ncb-icon-font\"><i class=\"icon-location\"></i></span><li><a
+        href=\"/Support/Locate/Branches-ABMs\">BRANCHES &amp; ABMs</a></li></div>\r\n</ul>\r\n</div>
+        \   \r\n        </aside>\r\n      </div>\r\n      </div>\r\n      <div class=\"row\">\r\n
+        \     <section class=\"something-else\">\r\n             \r\n      </section>\r\n
+        \   </div>\r\n    </div>\r\n</div>\r\n</div>\r\n\r\n<!-- Footer -->\r\n<footer
+        id=\"footer\">\r\n  <div class=\"container\">\r\n    <div class=\"row footer-top\">\r\n
+        \     <h2  class=\"title-section text-center white\">Put Your Best Life Forward\r\n\r\n\r\n\r\n</h2><div
+        class=\"col-xs-6 col-sm-4 col-md-2\"><div class=\"nav-column-footer\">\r\n<h5
+        class=\"yellow\">support</h5>\r\n\r\n<ul>\r\n\t<li><a href=\"/Support/Help-Resources/FAQ\">FAQ</a></li>\r\n\t<li><a
+        href=\"/support/contact/contact-us\">Contact Us</a></li>\r\n\t<li><a href=\"/Support/Locate/Branches-ABMs\">Branches
+        &amp; ABMs</a></li>\r\n\t<li><a href=\"/Support/Help-Resources/Insurance-Claims\">Insurance
+        Claims</a></li>\r\n\t<li><a href=\"/Support/Help-Resources/All-Form-Downloads\">All
+        Form Downloads</a></li>\r\n\t<li><a href=\"/Special-Pages/Site-Map\">Site
+        Map</a></li>\r\n</ul>\r\n</div>\r\n</div><div class=\"nav-column-no col-xs-6
+        col-sm-4 col-md-2\"><div class=\"nav-column-footer\">\r\n<h5 class=\"yellow\">about
+        us</h5>\r\n\r\n<ul>\r\n\t<li><a href=\"/About-Us/Company-Overview/Who-We-Are\">Who
+        We Are</a></li>\r\n\t<li><a href=\"/About-Us/Company-Overview/History\">History</a></li>\r\n\t<li><a
+        href=\"/About-Us/Corporate-Social-Responsibility\">Corporate Social Responsibility</a></li>\r\n\t<li><a
+        href=\"/About-Us/Company-Overview/Awards\">Awards</a></li>\r\n\t<li><a href=\"/About-Us/NCB-Opportunities/Careers-Site\">Careers
+        Site</a></li>\r\n\t<li><a href=\"/About-Us/News-Room/News\">News</a></li>\r\n\t<li><a
+        href=\"/About-Us/News-Room/Brand-Media-Guides\">Brand &amp; Media Guides</a></li>\r\n\t<li><a
+        href=\"/About-Us/Company-Overview/Management-Team\" target=\"_blank\">Management
+        Team</a><a href=\"/About-Us/Investor-Relations/Investor-Relations\" target=\"_blank\">&nbsp;</a></li>\r\n\t<li><a
+        href=\"/About-Us/Investor-Relations/Investor-Relations\" target=\"_blank\">Investor
+        Relations</a></li>\r\n</ul>\r\n</div>\r\n</div><div class=\"col-xs-6 col-sm-4
+        col-md-2\"><div class=\"nav-column-footer\">\r\n<h5 class=\"yellow\">security</h5>\r\n\r\n<ul>\r\n\t<li><a
+        href=\"/Support/Security/Security-Guarantee\">Security Guarantee</a></li>\r\n\t<li><a
+        href=\"/Support/Security/Protecting-Yourself\">Protect Yourself</a></li>\r\n</ul>\r\n</div>\r\n</div><div
+        class=\"col-xs-6 col-sm-4 col-md-2\"><div class=\"nav-column-footer\">\r\n<h5
+        class=\"yellow\">fees &amp; rates</h5>\r\n\r\n<ul>\r\n\t<li><a href=\"/Support/Help-Resources/Fees\">Fee
+        Guide</a></li>\r\n\t<li><a href=\"/Support/Help-Resources/How-to-Avoid-Fees\"
+        target=\"_blank\">How to Avoid Fees</a></li>\r\n\t<li><a href=\"/Personal/Banking/Foreign-Exchange-Rates-Services\"
+        target=\"_blank\">Foreign Exchange Rates</a></li>\r\n\t<li><a href=\"/Support/Help-Resources/Deposit-Rates/Lending-Rates\"
+        target=\"_blank\">Lending Rates</a></li>\r\n\t<li><a href=\"/Support/Help-Resources/Deposit-Rates/Savings-Local\"
+        target=\"_blank\">Saving Rates</a></li>\r\n</ul>\r\n</div>\r\n</div><div class=\"col-xs-6
+        col-sm-4 col-md-2\">\r\n<div class=\"nav-column-footer\"><h5 class=\"yellow\">affiliate
+        sites</h5>\r\n\r\n<ul>\r\n\t<li><a href=\"https://www.advantagegeneral.com\"
+        target=\"_blank\">Advantage General Insurance </a></li>\r\n\t<li><a href=\"http://www.ncbcayman.com/\"
+        target=\"_blank\">NCB Cayman</a></li>\r\n\t<li><a href=\"http://ncbcapitalmarkets.com/\"
+        target=\"_blank\">NCB Capital Markets</a></li>\r\n\t<li><a href=\"/About-Us/Corporate-Social-Responsibility\"
+        target=\"_blank\">NCB Foundation</a></li>\r\n\t<li><a href=\"/Support/Locate/Branches-ABMs?page=41\"
+        target=\"_blank\">NCB United Kingdom</a></li>\r\n\t<li><a href=\"http://ncbinsurance.com/\"
+        target=\"_blank\">NCB Insurance Company </a></li>\r\n\t<li><a href=\"http://ncbglobalfinance.com/\"
+        target=\"_blank\">NCB Global Finance</a></li>\r\n<li><a href=\"https://www.myncb.com\"
+        target=\"_blank\">NCB Financial Group</a></li>\r\n\t<li><a href=\"https://www.myncb.com/Special-Pages/NCB-Capital-Markets-Barbados-Limited\"
+        target=\"_blank\">NCB Capital Markets (Barbados)</a></li>\r\n</ul>\r\n</div>\r\n</div><div
+        class=\"col-xs-12 col-sm-4 col-md-2\"><div class=\"nav-column-footer\">\r\n<h5
+        class=\"yellow\">follow us</h5>\r\n\r\n<ul class=\"nav-social-icons\">\r\n\t<li><a
+        href=\"https://www.linkedin.com/company/national-commercial-bank-jamaica-limited\"
+        target=\"_blank\"><img alt=\"\" src=\"/JNCB/media/Main-Librarie/linkedin.png\"
+        /></a></li>\r\n\t<li><a href=\"https://www.facebook.com/NCBJa\" target=\"_blank\"><img
+        alt=\"\" src=\"/JNCB/media/Main-Librarie/facebook.png\" /></a></li>\r\n\t<li><a
+        href=\"https://twitter.com/ncbja\" target=\"_blank\"><img alt=\"\" src=\"/JNCB/media/Main-Librarie/twitter.png\"
+        /></a></li>\r\n\t<li><a href=\"https://plus.google.com/+Jncbfinancial\" target=\"_blank\"><img
+        alt=\"\" src=\"/JNCB/media/Main-Librarie/google-plus.png\" /></a></li>\r\n\t<li><a
+        href=\"https://www.instagram.com/ncbjamaica/\" target=\"_blank\"><img alt=\"~\"
+        src=\"/JNCB/media/Main-Librarie/instagram.png\" /></a></li>\r\n\t<li><a href=\"https://www.youtube.com/user/ncbja\"
+        target=\"_blank\"><img alt=\"\" src=\"/JNCB/media/Main-Librarie/you-tube.png\"
+        /></a></li>\r\n</ul>\r\n</div>\r\n</div>\r\n    </div>\r\n    <div class=\"row
+        footer-down\">\r\n      <div class=\"col-xs-6 col-sm-4\">\r\n  <div class=\"contact-column-footer
+        text-center\">\r\n<div class=\"contact-icon-footer library-ncb-icon-font\"><a
+        href=\"/Support/Locate/Branches-ABMs\"><i class=\"icon-location\">&nbsp;</i></a></div>\r\n\r\n<div
+        class=\"contact-info-footer\">\r\n<h5 class=\"contact-title-footer white\"><a
+        href=\"/Support/Locate/Branches-ABMs\">branches &amp; abms</a></h5>\r\n<a
+        href=\"/Support/Locate/Branches-ABMs\"><b>Locations &amp; Hours</b></a></div>\r\n</div>\r\n\r\n</div><div
+        class=\"col-xs-6 col-sm-4\">\r\n  <div class=\"contact-column-footer text-center\">\r\n<div
+        class=\"contact-icon-footer library-ncb-icon-font\"><a href=\"tel:888-622-3477\"><i
+        class=\"icon-headset\">&nbsp;</i></a></div>\r\n\r\n<div class=\"contact-info-footer\">\r\n<h5
+        class=\"contact-title-footer white\"><a href=\"tel:888-622-3477\">customer
+        care</a></h5>\r\n<a href=\"tel:888-622-3477\"><b>888-622-3477</b></a></div>\r\n</div>\r\n\r\n</div><div
+        class=\"col-xs-6 col-sm-4\">\r\n  <div class=\"contact-column-footer text-center\">\r\n<div
+        class=\"contact-icon-footer library-ncb-icon-font\"><a href=\"tel:876-929-4622\"><i
+        class=\"icon-phone\">&nbsp;</i></a></div>\r\n\r\n<div class=\"contact-info-footer\">\r\n<h5
+        class=\"contact-title-footer white\"><a href=\"tel:876-929-4622\">branch services</a></h5>\r\n<a
+        href=\"tel:876-929-4622\"><b>876-929-4622</b> </a></div>\r\n</div>\r\n\r\n</div>\r\n
+        \   </div>\r\n  </div>\r\n  <div class=\"footer-bottom\">\r\n    <div class=\"container\">\r\n
+        \     <div class=\"row\">\r\n        <div class=\"col-sm-4 col-md-4 text-left\">\r\n
+        \ &copy; Copyright 1999-2018 NCB Jamaica. All Rights Reserved.\r\n</div><div
+        class=\"col-sm-4 col-md-4 text-center\">\r\n  <a href=\"/Special-Pages/Privacy-Policy\">Privacy
+        Policy</a> | <a href=\"/Special-Pages/Terms-of-use\">Terms of use</a>\r\n</div><div
+        class=\"col-sm-4 col-md-4 text-right\">\r\n  Member of:&nbsp;<a href=\"http://www.jba.org.jm/\"
+        target=\"_blank\"><img alt=\"jba-logo\" src=\"/JNCB/media/Main-Librarie/jba-logo-white.png\"
+        style=\"width: 59px; height: 31px;\" title=\"jba\" /></a>&nbsp;&nbsp;<a href=\"
+        http://www.jdic.org/\" target=\"_blank\"><img alt=\"jdic\" src=\"/JNCB/media/Main-Librarie/jdic.png\"
+        style=\"width: 36px; height: 39px;\" title=\"jdic\" /></a>\r\n</div>\r\n      </div>\r\n
+        \   </div>\r\n  </div>\r\n</footer>\r\n\r\n<script src=\"/CMSPages/GetResource.ashx?scriptfile=/Jncb/assets/js/concatenated.min.js\"
+        type=\"text/javascript\"></script>\r\n<!--<script src=\"/CMSPages/GetResource.ashx?scriptfile=/Jncb/js/bootstrap.min.js\"
+        type=\"text/javascript\"></script>-->\r\n\r\n<!-- Google Analytics -->\r\n<script>\r\n
+        \ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n
+        \ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n
+        \ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n
+        \ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n
+        \ ga('create', 'UA-47167941-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>\r\n
+        \   \r\n    \r\n\r\n<script type=\"text/javascript\">\r\n\t//<![CDATA[\nWebServiceCall('/cmsapi/webanalytics',
+        'LogHit', '{\"NodeAliasPath\":\"/Support/Help-Resources/Foreign-Exchange-Services\",\"DocumentCultureCode\":\"en-JM\",\"UrlReferrer\":\"\"}')\n//]]>\r\n</script><script>\r\n
+        \ $(\"#menu\").eosMenu();\r\n  \r\n  // Get the button that opens the modal\r\n
+        \ function overlay() {\r\n    var modal = document.getElementById('menu-overlay');\r\n
+        \ if (modal.style.display === 'block') {\r\n    modal.style.display = 'none';\r\n
+        \ } else {\r\n    modal.style.display = 'block';\r\n  }\r\n}\r\n</script>\r\n\r\n<script
+        type=\"text/javascript\">\r\n//<![CDATA[\r\nSys.Application.add_init(function()
+        {\r\n    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {\"ClientStateFieldID\":\"p_lt_ctl02_SmartSearchBox_txtWord_exWatermark_ClientState\",\"WatermarkText\":\"Loans,
+        Credit Cards, Insurance...\",\"id\":\"p_lt_ctl02_SmartSearchBox_txtWord_exWatermark\"},
+        null, null, $get(\"p_lt_ctl02_SmartSearchBox_txtWord\"));\r\n});\r\nSys.Application.add_init(function()
+        {\r\n    $create(Sys.Extended.UI.FilteredTextBoxBehavior, {\"FilterType\":3,\"ValidChars\":\".,\",\"id\":\"\"},
+        null, null, $get(\"ForeignExchangeServicesCurrencyConverterTextBox2\"));\r\n});\r\nSys.Application.add_init(function()
+        {\r\n    $create(Sys.Extended.UI.FilteredTextBoxBehavior, {\"FilterType\":3,\"ValidChars\":\".,\",\"id\":\"\"},
+        null, null, $get(\"ForeignExchangeServicesCurrencyConverterTextBox2\"));\r\n});\r\n//]]>\r\n</script>\r\n
+        \ <input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"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\"
+        />\r\n  <script type=\"text/javascript\"> \r\n      //<![CDATA[\r\n      if
+        (window.WebForm_InitCallback) { \r\n        __theFormPostData = '';\r\n        __theFormPostCollection
+        = new Array();\r\n        window.WebForm_InitCallback(); \r\n      }\r\n      //]]>\r\n
+        \   </script>\r\n  </form>\r\n</body>\r\n</html>\r\n"
     http_version: 
-  recorded_at: Mon, 13 Apr 2015 01:13:45 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Fri, 13 Jul 2018 07:18:02 GMT
+recorded_with: VCR 4.0.0
