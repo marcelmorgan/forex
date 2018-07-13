@@ -13,629 +13,284 @@ http_interactions:
       - "*/*"
       User-Agent:
       - Ruby
-      Host:
-      - www.fxtrader.gkmsonline.com
   response:
     status:
       code: 200
       message: OK
     headers:
-      Date:
-      - Sun, 22 Mar 2015 14:58:24 GMT
       Server:
-      - Apache
-      X-Powered-By:
-      - PHP/5.2.10-2ubuntu6.5
-      Expires:
-      - Sun, 19 Nov 1978 05:00:00 GMT
-      Cache-Control:
-      - no-cache, must-revalidate, post-check=0, pre-check=0
+      - nginx/1.14.0
+      Date:
+      - Fri, 13 Jul 2018 08:04:53 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Drupal-Cache:
+      - HIT
       Etag:
-      - '"1427036304"'
+      - '"1531456011-1"'
       Content-Language:
       - en
       X-Generator:
       - Drupal 7 (http://drupal.org)
-      Last-Modified:
-      - Sun, 22 Mar 2015 14:58:24 GMT
+      Cache-Control:
+      - public, max-age=0
+      Expires:
+      - Sun, 19 Nov 1978 05:00:00 GMT
       Vary:
-      - Accept-Encoding
-      Content-Length:
-      - '4916'
-      Content-Type:
-      - text/html; charset=utf-8
+      - Cookie,Accept-Encoding,User-Agent
+      Last-Modified:
+      - Fri, 13 Jul 2018 04:26:51 GMT
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        PCFET0NUWVBFIGh0bWwgUFVCTElDICItLy9XM0MvL0RURCBYSFRNTCtSREZh
-        IDEuMC8vRU4iCiAgImh0dHA6Ly93d3cudzMub3JnL01hcmtVcC9EVEQveGh0
-        bWwtcmRmYS0xLmR0ZCI+CjxodG1sIHhtbG5zPSJodHRwOi8vd3d3LnczLm9y
-        Zy8xOTk5L3hodG1sIiB4bWw6bGFuZz0iZW4iIHZlcnNpb249IlhIVE1MK1JE
-        RmEgMS4wIiBkaXI9Imx0ciI+Cgo8aGVhZCBwcm9maWxlPSJodHRwOi8vd3d3
-        LnczLm9yZy8xOTk5L3hodG1sL3ZvY2FiIj4KICA8bWV0YSBodHRwLWVxdWl2
-        PSJDb250ZW50LVR5cGUiIGNvbnRlbnQ9InRleHQvaHRtbDsgY2hhcnNldD11
-        dGYtOCIgLz4KPG1ldGEgbmFtZT0iR2VuZXJhdG9yIiBjb250ZW50PSJEcnVw
-        YWwgNyAoaHR0cDovL2RydXBhbC5vcmcpIiAvPgogIDx0aXRsZT5DaGVxdWUv
-        Q2FzaCBkYWlseSBleGNoYW5nZSByYXRlcyB8IEZYIFRyYWRlciBKYW1haWNh
-        IHwgR3JhY2UgS2VubmVkeSBNb25leSBTZXJ2aWNlczwvdGl0bGU+CiAgPHN0
-        eWxlIHR5cGU9InRleHQvY3NzIiBtZWRpYT0iYWxsIj4KQGltcG9ydCB1cmwo
-        Imh0dHA6Ly93d3cuZnh0cmFkZXIuZ2ttc29ubGluZS5jb20vbW9kdWxlcy9z
-        eXN0ZW0vc3lzdGVtLmJhc2UuY3NzP25rcDJuNCIpOwpAaW1wb3J0IHVybCgi
-        aHR0cDovL3d3dy5meHRyYWRlci5na21zb25saW5lLmNvbS9tb2R1bGVzL3N5
-        c3RlbS9zeXN0ZW0ubWVudXMuY3NzP25rcDJuNCIpOwpAaW1wb3J0IHVybCgi
-        aHR0cDovL3d3dy5meHRyYWRlci5na21zb25saW5lLmNvbS9tb2R1bGVzL3N5
-        c3RlbS9zeXN0ZW0ubWVzc2FnZXMuY3NzP25rcDJuNCIpOwpAaW1wb3J0IHVy
-        bCgiaHR0cDovL3d3dy5meHRyYWRlci5na21zb25saW5lLmNvbS9tb2R1bGVz
-        L3N5c3RlbS9zeXN0ZW0udGhlbWUuY3NzP25rcDJuNCIpOwo8L3N0eWxlPgo8
-        c3R5bGUgdHlwZT0idGV4dC9jc3MiIG1lZGlhPSJhbGwiPgpAaW1wb3J0IHVy
-        bCgiaHR0cDovL3d3dy5meHRyYWRlci5na21zb25saW5lLmNvbS9zaXRlcy9h
-        bGwvbW9kdWxlcy9kYXRlL2RhdGVfYXBpL2RhdGUuY3NzP25rcDJuNCIpOwpA
-        aW1wb3J0IHVybCgiaHR0cDovL3d3dy5meHRyYWRlci5na21zb25saW5lLmNv
-        bS9zaXRlcy9hbGwvbW9kdWxlcy9kYXRlL2RhdGVfcG9wdXAvdGhlbWVzL2Rh
-        dGVwaWNrZXIuMS43LmNzcz9ua3AybjQiKTsKQGltcG9ydCB1cmwoImh0dHA6
-        Ly93d3cuZnh0cmFkZXIuZ2ttc29ubGluZS5jb20vbW9kdWxlcy9maWVsZC90
-        aGVtZS9maWVsZC5jc3M/bmtwMm40Iik7CkBpbXBvcnQgdXJsKCJodHRwOi8v
-        d3d3LmZ4dHJhZGVyLmdrbXNvbmxpbmUuY29tL21vZHVsZXMvbm9kZS9ub2Rl
-        LmNzcz9ua3AybjQiKTsKQGltcG9ydCB1cmwoImh0dHA6Ly93d3cuZnh0cmFk
-        ZXIuZ2ttc29ubGluZS5jb20vbW9kdWxlcy9zZWFyY2gvc2VhcmNoLmNzcz9u
-        a3AybjQiKTsKQGltcG9ydCB1cmwoImh0dHA6Ly93d3cuZnh0cmFkZXIuZ2tt
-        c29ubGluZS5jb20vc2l0ZXMvYWxsL21vZHVsZXMvc2ltcGxlYWRzL3NpbXBs
-        ZWFkcy5jc3M/bmtwMm40Iik7CkBpbXBvcnQgdXJsKCJodHRwOi8vd3d3LmZ4
-        dHJhZGVyLmdrbXNvbmxpbmUuY29tL21vZHVsZXMvdXNlci91c2VyLmNzcz9u
-        a3AybjQiKTsKQGltcG9ydCB1cmwoImh0dHA6Ly93d3cuZnh0cmFkZXIuZ2tt
-        c29ubGluZS5jb20vc2l0ZXMvYWxsL21vZHVsZXMvY2FsZW5kYXIvY3NzL2Nh
-        bGVuZGFyX211bHRpZGF5LmNzcz9ua3AybjQiKTsKQGltcG9ydCB1cmwoImh0
-        dHA6Ly93d3cuZnh0cmFkZXIuZ2ttc29ubGluZS5jb20vc2l0ZXMvYWxsL21v
-        ZHVsZXMvdmlld3MvY3NzL3ZpZXdzLmNzcz9ua3AybjQiKTsKPC9zdHlsZT4K
-        PHN0eWxlIHR5cGU9InRleHQvY3NzIiBtZWRpYT0iYWxsIj4KQGltcG9ydCB1
-        cmwoImh0dHA6Ly93d3cuZnh0cmFkZXIuZ2ttc29ubGluZS5jb20vc2l0ZXMv
-        YWxsL21vZHVsZXMvY3Rvb2xzL2Nzcy9jdG9vbHMuY3NzP25rcDJuNCIpOwpA
-        aW1wb3J0IHVybCgiaHR0cDovL3d3dy5meHRyYWRlci5na21zb25saW5lLmNv
-        bS9zaXRlcy9hbGwvbW9kdWxlcy9saWdodGJveDIvY3NzL2xpZ2h0Ym94LmNz
-        cz9ua3AybjQiKTsKQGltcG9ydCB1cmwoImh0dHA6Ly93d3cuZnh0cmFkZXIu
-        Z2ttc29ubGluZS5jb20vc2l0ZXMvYWxsL21vZHVsZXMvbmljZV9tZW51cy9j
-        c3MvbmljZV9tZW51cy5jc3M/bmtwMm40Iik7CkBpbXBvcnQgdXJsKCJodHRw
-        Oi8vd3d3LmZ4dHJhZGVyLmdrbXNvbmxpbmUuY29tL3NpdGVzL2FsbC9tb2R1
-        bGVzL25pY2VfbWVudXMvY3NzL25pY2VfbWVudXNfZGVmYXVsdC5jc3M/bmtw
-        Mm40Iik7Cjwvc3R5bGU+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyIgbWVkaWE9
-        ImFsbCI+CkBpbXBvcnQgdXJsKCJodHRwOi8vd3d3LmZ4dHJhZGVyLmdrbXNv
-        bmxpbmUuY29tL3NpdGVzL2FsbC90aGVtZXMvZnhfdHJhZGVyL2Nzcy9odG1s
-        LXJlc2V0LmNzcz9ua3AybjQiKTsKQGltcG9ydCB1cmwoImh0dHA6Ly93d3cu
-        Znh0cmFkZXIuZ2ttc29ubGluZS5jb20vc2l0ZXMvYWxsL3RoZW1lcy9meF90
-        cmFkZXIvY3NzL3dpcmVmcmFtZXMuY3NzP25rcDJuNCIpOwpAaW1wb3J0IHVy
-        bCgiaHR0cDovL3d3dy5meHRyYWRlci5na21zb25saW5lLmNvbS9zaXRlcy9h
-        bGwvdGhlbWVzL2Z4X3RyYWRlci9jc3MvbGF5b3V0LWZpeGVkLmNzcz9ua3Ay
-        bjQiKTsKQGltcG9ydCB1cmwoImh0dHA6Ly93d3cuZnh0cmFkZXIuZ2ttc29u
-        bGluZS5jb20vc2l0ZXMvYWxsL3RoZW1lcy9meF90cmFkZXIvY3NzL3BhZ2Ut
-        YmFja2dyb3VuZHMuY3NzP25rcDJuNCIpOwpAaW1wb3J0IHVybCgiaHR0cDov
-        L3d3dy5meHRyYWRlci5na21zb25saW5lLmNvbS9zaXRlcy9hbGwvdGhlbWVz
-        L2Z4X3RyYWRlci9jc3MvdGFicy5jc3M/bmtwMm40Iik7CkBpbXBvcnQgdXJs
-        KCJodHRwOi8vd3d3LmZ4dHJhZGVyLmdrbXNvbmxpbmUuY29tL3NpdGVzL2Fs
-        bC90aGVtZXMvZnhfdHJhZGVyL2Nzcy9wYWdlcy5jc3M/bmtwMm40Iik7CkBp
-        bXBvcnQgdXJsKCJodHRwOi8vd3d3LmZ4dHJhZGVyLmdrbXNvbmxpbmUuY29t
-        L3NpdGVzL2FsbC90aGVtZXMvZnhfdHJhZGVyL2Nzcy9ibG9ja3MuY3NzP25r
-        cDJuNCIpOwpAaW1wb3J0IHVybCgiaHR0cDovL3d3dy5meHRyYWRlci5na21z
-        b25saW5lLmNvbS9zaXRlcy9hbGwvdGhlbWVzL2Z4X3RyYWRlci9jc3MvbmF2
-        aWdhdGlvbi5jc3M/bmtwMm40Iik7CkBpbXBvcnQgdXJsKCJodHRwOi8vd3d3
-        LmZ4dHJhZGVyLmdrbXNvbmxpbmUuY29tL3NpdGVzL2FsbC90aGVtZXMvZnhf
-        dHJhZGVyL2Nzcy92aWV3cy1zdHlsZXMuY3NzP25rcDJuNCIpOwpAaW1wb3J0
-        IHVybCgiaHR0cDovL3d3dy5meHRyYWRlci5na21zb25saW5lLmNvbS9zaXRl
-        cy9hbGwvdGhlbWVzL2Z4X3RyYWRlci9jc3Mvbm9kZXMuY3NzP25rcDJuNCIp
-        OwpAaW1wb3J0IHVybCgiaHR0cDovL3d3dy5meHRyYWRlci5na21zb25saW5l
-        LmNvbS9zaXRlcy9hbGwvdGhlbWVzL2Z4X3RyYWRlci9jc3MvY29tbWVudHMu
-        Y3NzP25rcDJuNCIpOwpAaW1wb3J0IHVybCgiaHR0cDovL3d3dy5meHRyYWRl
-        ci5na21zb25saW5lLmNvbS9zaXRlcy9hbGwvdGhlbWVzL2Z4X3RyYWRlci9j
-        c3MvZm9ybXMuY3NzP25rcDJuNCIpOwpAaW1wb3J0IHVybCgiaHR0cDovL3d3
-        dy5meHRyYWRlci5na21zb25saW5lLmNvbS9zaXRlcy9hbGwvdGhlbWVzL2Z4
-        X3RyYWRlci9jc3MvZmllbGRzLmNzcz9ua3AybjQiKTsKQGltcG9ydCB1cmwo
-        Imh0dHA6Ly93d3cuZnh0cmFkZXIuZ2ttc29ubGluZS5jb20vc2l0ZXMvYWxs
-        L3RoZW1lcy9meF90cmFkZXIvY3NzL3N0eWxlLmNzcz9ua3AybjQiKTsKPC9z
-        dHlsZT4KPHN0eWxlIHR5cGU9InRleHQvY3NzIiBtZWRpYT0icHJpbnQiPgpA
-        aW1wb3J0IHVybCgiaHR0cDovL3d3dy5meHRyYWRlci5na21zb25saW5lLmNv
-        bS9zaXRlcy9hbGwvdGhlbWVzL2Z4X3RyYWRlci9jc3MvcHJpbnQuY3NzP25r
-        cDJuNCIpOwo8L3N0eWxlPgoKPCEtLVtpZiBsdGUgSUUgN10+CjxzdHlsZSB0
-        eXBlPSJ0ZXh0L2NzcyIgbWVkaWE9ImFsbCI+CkBpbXBvcnQgdXJsKCJodHRw
-        Oi8vd3d3LmZ4dHJhZGVyLmdrbXNvbmxpbmUuY29tL3NpdGVzL2FsbC90aGVt
-        ZXMvZnhfdHJhZGVyL2Nzcy9pZTcuY3NzP25rcDJuNCIpOwo8L3N0eWxlPgo8
-        IVtlbmRpZl0tLT4KCjwhLS1baWYgbHRlIElFIDZdPgo8c3R5bGUgdHlwZT0i
-        dGV4dC9jc3MiIG1lZGlhPSJhbGwiPgpAaW1wb3J0IHVybCgiaHR0cDovL3d3
-        dy5meHRyYWRlci5na21zb25saW5lLmNvbS9zaXRlcy9hbGwvdGhlbWVzL2Z4
-        X3RyYWRlci9jc3MvaWU2LmNzcz9ua3AybjQiKTsKPC9zdHlsZT4KPCFbZW5k
-        aWZdLS0+CiAgPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0i
-        aHR0cDovL3d3dy5meHRyYWRlci5na21zb25saW5lLmNvbS9taXNjL2pxdWVy
-        eS5qcz92PTEuNC40Ij48L3NjcmlwdD4KPHNjcmlwdCB0eXBlPSJ0ZXh0L2ph
-        dmFzY3JpcHQiIHNyYz0iaHR0cDovL3d3dy5meHRyYWRlci5na21zb25saW5l
-        LmNvbS9taXNjL2pxdWVyeS5vbmNlLmpzP3Y9MS4yIj48L3NjcmlwdD4KPHNj
-        cmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cDovL3d3dy5m
-        eHRyYWRlci5na21zb25saW5lLmNvbS9taXNjL2RydXBhbC5qcz9ua3AybjQi
-        Pjwvc2NyaXB0Pgo8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3Jj
-        PSJodHRwOi8vd3d3LmZ4dHJhZGVyLmdrbXNvbmxpbmUuY29tL3NpdGVzL2Fs
-        bC9tb2R1bGVzL25pY2VfbWVudXMvanMvanF1ZXJ5LmJnaWZyYW1lLmpzP3Y9
-        Mi4xIj48L3NjcmlwdD4KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQi
-        IHNyYz0iaHR0cDovL3d3dy5meHRyYWRlci5na21zb25saW5lLmNvbS9zaXRl
-        cy9hbGwvbW9kdWxlcy9uaWNlX21lbnVzL2pzL2pxdWVyeS5ob3ZlckludGVu
-        dC5qcz92PTAuNSI+PC9zY3JpcHQ+CjxzY3JpcHQgdHlwZT0idGV4dC9qYXZh
-        c2NyaXB0IiBzcmM9Imh0dHA6Ly93d3cuZnh0cmFkZXIuZ2ttc29ubGluZS5j
-        b20vc2l0ZXMvYWxsL21vZHVsZXMvbmljZV9tZW51cy9qcy9zdXBlcmZpc2gu
-        anM/dj0xLjQuOCI+PC9zY3JpcHQ+CjxzY3JpcHQgdHlwZT0idGV4dC9qYXZh
-        c2NyaXB0IiBzcmM9Imh0dHA6Ly93d3cuZnh0cmFkZXIuZ2ttc29ubGluZS5j
-        b20vc2l0ZXMvYWxsL21vZHVsZXMvbmljZV9tZW51cy9qcy9uaWNlX21lbnVz
-        LmpzP3Y9MS4wIj48L3NjcmlwdD4KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFz
-        Y3JpcHQiIHNyYz0iaHR0cDovL3d3dy5meHRyYWRlci5na21zb25saW5lLmNv
-        bS9zaXRlcy9hbGwvbW9kdWxlcy9zaW1wbGVhZHMvc2ltcGxlYWRzLmpzP25r
-        cDJuNCI+PC9zY3JpcHQ+CjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0
-        IiBzcmM9Imh0dHA6Ly93d3cuZnh0cmFkZXIuZ2ttc29ubGluZS5jb20vc2l0
-        ZXMvYWxsL21vZHVsZXMvbGlnaHRib3gyL2pzL2xpZ2h0Ym94LmpzPzE0Mjcw
-        MzYzMDQiPjwvc2NyaXB0Pgo8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlw
-        dCI+CjwhLS0vLy0tPjwhW0NEQVRBWy8vPjwhLS0Kd2luZG93LkNLRURJVE9S
-        X0JBU0VQQVRIID0gJy9zaXRlcy9hbGwvbGlicmFyaWVzL2NrZWRpdG9yLycK
-        Ly8tLT48IV1dPgo8L3NjcmlwdD4KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFz
-        Y3JpcHQiPgo8IS0tLy8tLT48IVtDREFUQVsvLz48IS0tCmpRdWVyeS5leHRl
-        bmQoRHJ1cGFsLnNldHRpbmdzLCB7ImJhc2VQYXRoIjoiXHUwMDJGIiwgInBh
-        dGhQcmVmaXgiOiIiLCAiYWpheFBhZ2VTdGF0ZSI6eyJ0aGVtZSI6ImZ4X3Ry
-        YWRlciIsICJ0aGVtZV90b2tlbiI6IkltOW1zNFZYRTF1M2I3bFh4d1B4dEV1
-        MG14VTFNb1dBVFdIZ0c4bk9NSmMiLCAianMiOnsibWlzY1x1MDAyRmpxdWVy
-        eS5qcyI6MSwgIm1pc2NcdTAwMkZqcXVlcnkub25jZS5qcyI6MSwgIm1pc2Nc
-        dTAwMkZkcnVwYWwuanMiOjEsICJzaXRlc1x1MDAyRmFsbFx1MDAyRm1vZHVs
-        ZXNcdTAwMkZuaWNlX21lbnVzXHUwMDJGanNcdTAwMkZqcXVlcnkuYmdpZnJh
-        bWUuanMiOjEsICJzaXRlc1x1MDAyRmFsbFx1MDAyRm1vZHVsZXNcdTAwMkZu
-        aWNlX21lbnVzXHUwMDJGanNcdTAwMkZqcXVlcnkuaG92ZXJJbnRlbnQuanMi
-        OjEsICJzaXRlc1x1MDAyRmFsbFx1MDAyRm1vZHVsZXNcdTAwMkZuaWNlX21l
-        bnVzXHUwMDJGanNcdTAwMkZzdXBlcmZpc2guanMiOjEsICJzaXRlc1x1MDAy
-        RmFsbFx1MDAyRm1vZHVsZXNcdTAwMkZuaWNlX21lbnVzXHUwMDJGanNcdTAw
-        MkZuaWNlX21lbnVzLmpzIjoxLCAic2l0ZXNcdTAwMkZhbGxcdTAwMkZtb2R1
-        bGVzXHUwMDJGc2ltcGxlYWRzXHUwMDJGc2ltcGxlYWRzLmpzIjoxLCAic2l0
-        ZXNcdTAwMkZhbGxcdTAwMkZtb2R1bGVzXHUwMDJGbGlnaHRib3gyXHUwMDJG
-        anNcdTAwMkZsaWdodGJveC5qcyI6MSwgIjAiOjF9LCAiY3NzIjp7Im1vZHVs
-        ZXNcdTAwMkZzeXN0ZW1cdTAwMkZzeXN0ZW0uYmFzZS5jc3MiOjEsICJtb2R1
-        bGVzXHUwMDJGc3lzdGVtXHUwMDJGc3lzdGVtLm1lbnVzLmNzcyI6MSwgIm1v
-        ZHVsZXNcdTAwMkZzeXN0ZW1cdTAwMkZzeXN0ZW0ubWVzc2FnZXMuY3NzIjox
-        LCAibW9kdWxlc1x1MDAyRnN5c3RlbVx1MDAyRnN5c3RlbS50aGVtZS5jc3Mi
-        OjEsICJzaXRlc1x1MDAyRmFsbFx1MDAyRm1vZHVsZXNcdTAwMkZkYXRlXHUw
-        MDJGZGF0ZV9hcGlcdTAwMkZkYXRlLmNzcyI6MSwgInNpdGVzXHUwMDJGYWxs
-        XHUwMDJGbW9kdWxlc1x1MDAyRmRhdGVcdTAwMkZkYXRlX3BvcHVwXHUwMDJG
-        dGhlbWVzXHUwMDJGZGF0ZXBpY2tlci4xLjcuY3NzIjoxLCAibW9kdWxlc1x1
-        MDAyRmZpZWxkXHUwMDJGdGhlbWVcdTAwMkZmaWVsZC5jc3MiOjEsICJtb2R1
-        bGVzXHUwMDJGbm9kZVx1MDAyRm5vZGUuY3NzIjoxLCAibW9kdWxlc1x1MDAy
-        RnNlYXJjaFx1MDAyRnNlYXJjaC5jc3MiOjEsICJzaXRlc1x1MDAyRmFsbFx1
-        MDAyRm1vZHVsZXNcdTAwMkZzaW1wbGVhZHNcdTAwMkZzaW1wbGVhZHMuY3Nz
-        IjoxLCAibW9kdWxlc1x1MDAyRnVzZXJcdTAwMkZ1c2VyLmNzcyI6MSwgInNp
-        dGVzXHUwMDJGYWxsXHUwMDJGbW9kdWxlc1x1MDAyRmNhbGVuZGFyXHUwMDJG
-        Y3NzXHUwMDJGY2FsZW5kYXJfbXVsdGlkYXkuY3NzIjoxLCAic2l0ZXNcdTAw
-        MkZhbGxcdTAwMkZtb2R1bGVzXHUwMDJGdmlld3NcdTAwMkZjc3NcdTAwMkZ2
-        aWV3cy5jc3MiOjEsICJzaXRlc1x1MDAyRmFsbFx1MDAyRm1vZHVsZXNcdTAw
-        MkZjdG9vbHNcdTAwMkZjc3NcdTAwMkZjdG9vbHMuY3NzIjoxLCAic2l0ZXNc
-        dTAwMkZhbGxcdTAwMkZtb2R1bGVzXHUwMDJGbGlnaHRib3gyXHUwMDJGY3Nz
-        XHUwMDJGbGlnaHRib3guY3NzIjoxLCAic2l0ZXNcdTAwMkZhbGxcdTAwMkZt
-        b2R1bGVzXHUwMDJGbmljZV9tZW51c1x1MDAyRmNzc1x1MDAyRm5pY2VfbWVu
-        dXMuY3NzIjoxLCAic2l0ZXNcdTAwMkZhbGxcdTAwMkZtb2R1bGVzXHUwMDJG
-        bmljZV9tZW51c1x1MDAyRmNzc1x1MDAyRm5pY2VfbWVudXNfZGVmYXVsdC5j
-        c3MiOjEsICJzaXRlc1x1MDAyRmFsbFx1MDAyRnRoZW1lc1x1MDAyRmZ4X3Ry
-        YWRlclx1MDAyRmNzc1x1MDAyRmh0bWwtcmVzZXQuY3NzIjoxLCAic2l0ZXNc
-        dTAwMkZhbGxcdTAwMkZ0aGVtZXNcdTAwMkZmeF90cmFkZXJcdTAwMkZjc3Nc
-        dTAwMkZ3aXJlZnJhbWVzLmNzcyI6MSwgInNpdGVzXHUwMDJGYWxsXHUwMDJG
-        dGhlbWVzXHUwMDJGZnhfdHJhZGVyXHUwMDJGY3NzXHUwMDJGbGF5b3V0LWZp
-        eGVkLmNzcyI6MSwgInNpdGVzXHUwMDJGYWxsXHUwMDJGdGhlbWVzXHUwMDJG
-        ZnhfdHJhZGVyXHUwMDJGY3NzXHUwMDJGcGFnZS1iYWNrZ3JvdW5kcy5jc3Mi
-        OjEsICJzaXRlc1x1MDAyRmFsbFx1MDAyRnRoZW1lc1x1MDAyRmZ4X3RyYWRl
-        clx1MDAyRmNzc1x1MDAyRnRhYnMuY3NzIjoxLCAic2l0ZXNcdTAwMkZhbGxc
-        dTAwMkZ0aGVtZXNcdTAwMkZmeF90cmFkZXJcdTAwMkZjc3NcdTAwMkZwYWdl
-        cy5jc3MiOjEsICJzaXRlc1x1MDAyRmFsbFx1MDAyRnRoZW1lc1x1MDAyRmZ4
-        X3RyYWRlclx1MDAyRmNzc1x1MDAyRmJsb2Nrcy5jc3MiOjEsICJzaXRlc1x1
-        MDAyRmFsbFx1MDAyRnRoZW1lc1x1MDAyRmZ4X3RyYWRlclx1MDAyRmNzc1x1
-        MDAyRm5hdmlnYXRpb24uY3NzIjoxLCAic2l0ZXNcdTAwMkZhbGxcdTAwMkZ0
-        aGVtZXNcdTAwMkZmeF90cmFkZXJcdTAwMkZjc3NcdTAwMkZ2aWV3cy1zdHls
-        ZXMuY3NzIjoxLCAic2l0ZXNcdTAwMkZhbGxcdTAwMkZ0aGVtZXNcdTAwMkZm
-        eF90cmFkZXJcdTAwMkZjc3NcdTAwMkZub2Rlcy5jc3MiOjEsICJzaXRlc1x1
-        MDAyRmFsbFx1MDAyRnRoZW1lc1x1MDAyRmZ4X3RyYWRlclx1MDAyRmNzc1x1
-        MDAyRmNvbW1lbnRzLmNzcyI6MSwgInNpdGVzXHUwMDJGYWxsXHUwMDJGdGhl
-        bWVzXHUwMDJGZnhfdHJhZGVyXHUwMDJGY3NzXHUwMDJGZm9ybXMuY3NzIjox
-        LCAic2l0ZXNcdTAwMkZhbGxcdTAwMkZ0aGVtZXNcdTAwMkZmeF90cmFkZXJc
-        dTAwMkZjc3NcdTAwMkZmaWVsZHMuY3NzIjoxLCAic2l0ZXNcdTAwMkZhbGxc
-        dTAwMkZ0aGVtZXNcdTAwMkZmeF90cmFkZXJcdTAwMkZjc3NcdTAwMkZzdHls
-        ZS5jc3MiOjEsICJzaXRlc1x1MDAyRmFsbFx1MDAyRnRoZW1lc1x1MDAyRmZ4
-        X3RyYWRlclx1MDAyRmNzc1x1MDAyRnByaW50LmNzcyI6MSwgInNpdGVzXHUw
-        MDJGYWxsXHUwMDJGdGhlbWVzXHUwMDJGZnhfdHJhZGVyXHUwMDJGY3NzXHUw
-        MDJGaWU3LmNzcyI6MSwgInNpdGVzXHUwMDJGYWxsXHUwMDJGdGhlbWVzXHUw
-        MDJGZnhfdHJhZGVyXHUwMDJGY3NzXHUwMDJGaWU2LmNzcyI6MX19LCAibGln
-        aHRib3gyIjp7InJ0bCI6MCwgImZpbGVfcGF0aCI6Ilx1MDAyRihcdTAwNUN3
-        XHUwMDVDd1x1MDAyRilwdWJsaWM6XHUwMDJGIiwgImRlZmF1bHRfaW1hZ2Ui
-        OiJcdTAwMkZzaXRlc1x1MDAyRmFsbFx1MDAyRm1vZHVsZXNcdTAwMkZsaWdo
-        dGJveDJcdTAwMkZpbWFnZXNcdTAwMkZicm9rZW5pbWFnZS5qcGciLCAiYm9y
-        ZGVyX3NpemUiOjEwLCAiZm9udF9jb2xvciI6IjAwMCIsICJib3hfY29sb3Ii
-        OiJmZmYiLCAidG9wX3Bvc2l0aW9uIjoiIiwgIm92ZXJsYXlfb3BhY2l0eSI6
-        IjAuOCIsICJvdmVybGF5X2NvbG9yIjoiMDAwIiwgImRpc2FibGVfY2xvc2Vf
-        Y2xpY2siOjEsICJyZXNpemVfc2VxdWVuY2UiOjAsICJyZXNpemVfc3BlZWQi
-        OjQwMCwgImZhZGVfaW5fc3BlZWQiOjQwMCwgInNsaWRlX2Rvd25fc3BlZWQi
-        OjYwMCwgInVzZV9hbHRfbGF5b3V0IjowLCAiZGlzYWJsZV9yZXNpemUiOjAs
-        ICJkaXNhYmxlX3pvb20iOjAsICJmb3JjZV9zaG93X25hdiI6MCwgInNob3df
-        Y2FwdGlvbiI6MSwgImxvb3BfaXRlbXMiOjAsICJub2RlX2xpbmtfdGV4dCI6
-        IiIsICJub2RlX2xpbmtfdGFyZ2V0IjowLCAiaW1hZ2VfY291bnQiOiJJbWFn
-        ZSAhY3VycmVudCBvZiAhdG90YWwiLCAidmlkZW9fY291bnQiOiJWaWRlbyAh
-        Y3VycmVudCBvZiAhdG90YWwiLCAicGFnZV9jb3VudCI6IlBhZ2UgIWN1cnJl
-        bnQgb2YgIXRvdGFsIiwgImxpdGVfcHJlc3NfeF9jbG9zZSI6InByZXNzIFx1
-        MDAzQ2EgaHJlZj1cdTAwMjIjXHUwMDIyIG9uY2xpY2s9XHUwMDIyaGlkZUxp
-        Z2h0Ym94KCk7IHJldHVybiBGQUxTRTtcdTAwMjJcdTAwM0VcdTAwM0NrYmRc
-        dTAwM0V4XHUwMDNDXHUwMDJGa2JkXHUwMDNFXHUwMDNDXHUwMDJGYVx1MDAz
-        RSB0byBjbG9zZSIsICJkb3dubG9hZF9saW5rX3RleHQiOiIiLCAiZW5hYmxl
-        X2xvZ2luIjpmYWxzZSwgImVuYWJsZV9jb250YWN0IjpmYWxzZSwgImtleXNf
-        Y2xvc2UiOiJjIHggMjciLCAia2V5c19wcmV2aW91cyI6InAgMzciLCAia2V5
-        c19uZXh0IjoibiAzOSIsICJrZXlzX3pvb20iOiJ6IiwgImtleXNfcGxheV9w
-        YXVzZSI6IjMyIiwgImRpc3BsYXlfaW1hZ2Vfc2l6ZSI6Im9yaWdpbmFsIiwg
-        ImltYWdlX25vZGVfc2l6ZXMiOiIoKSIsICJ0cmlnZ2VyX2xpZ2h0Ym94X2Ns
-        YXNzZXMiOiIiLCAidHJpZ2dlcl9saWdodGJveF9ncm91cF9jbGFzc2VzIjoi
-        IiwgInRyaWdnZXJfc2xpZGVzaG93X2NsYXNzZXMiOiIiLCAidHJpZ2dlcl9s
-        aWdodGZyYW1lX2NsYXNzZXMiOiIiLCAidHJpZ2dlcl9saWdodGZyYW1lX2dy
-        b3VwX2NsYXNzZXMiOiIiLCAiY3VzdG9tX2NsYXNzX2hhbmRsZXIiOjAsICJj
-        dXN0b21fdHJpZ2dlcl9jbGFzc2VzIjoiIiwgImRpc2FibGVfZm9yX2dhbGxl
-        cnlfbGlzdHMiOnRydWUsICJkaXNhYmxlX2Zvcl9hY2lkZnJlZV9nYWxsZXJ5
-        X2xpc3RzIjp0cnVlLCAiZW5hYmxlX2FjaWRmcmVlX3ZpZGVvcyI6dHJ1ZSwg
-        InNsaWRlc2hvd19pbnRlcnZhbCI6NTAwMCwgInNsaWRlc2hvd19hdXRvbWF0
-        aWNfc3RhcnQiOnRydWUsICJzbGlkZXNob3dfYXV0b21hdGljX2V4aXQiOnRy
-        dWUsICJzaG93X3BsYXlfcGF1c2UiOnRydWUsICJwYXVzZV9vbl9uZXh0X2Ns
-        aWNrIjpmYWxzZSwgInBhdXNlX29uX3ByZXZpb3VzX2NsaWNrIjp0cnVlLCAi
-        bG9vcF9zbGlkZXMiOmZhbHNlLCAiaWZyYW1lX3dpZHRoIjo2MDAsICJpZnJh
-        bWVfaGVpZ2h0Ijo0MDAsICJpZnJhbWVfYm9yZGVyIjoxLCAiZW5hYmxlX3Zp
-        ZGVvIjowfSwgIm5pY2VfbWVudXNfb3B0aW9ucyI6eyJkZWxheSI6IjAiLCAi
-        c3BlZWQiOiJub3JtYWwifX0pOwovLy0tPjwhXV0+Cjwvc2NyaXB0Pgo8L2hl
-        YWQ+Cjxib2R5IGNsYXNzPSJodG1sIG5vdC1mcm9udCBub3QtbG9nZ2VkLWlu
-        IG9uZS1zaWRlYmFyIHNpZGViYXItc2Vjb25kIHBhZ2UtcmF0ZXMgc2VjdGlv
-        bi1yYXRlcyBwYWdlLXZpZXdzIiA+CiAgICAgIDxkaXYgaWQ9InNraXAtbGlu
-        ayI+CiAgICAgIDxhIGhyZWY9IiNtYWluLW1lbnUiIGNsYXNzPSJlbGVtZW50
-        LWludmlzaWJsZSBlbGVtZW50LWZvY3VzYWJsZSI+SnVtcCB0byBuYXZpZ2F0
-        aW9uPC9hPgogICAgPC9kaXY+CiAgICAgIDxkaXYgaWQ9ImhlYWRlci10b3At
-        d3JhcHBlciI+CiAgPGRpdiBpZD0iaGVhZGVyLXRvcCI+ICAgPGRpdiBjbGFz
-        cz0icmVnaW9uIHJlZ2lvbi1oZWFkZXItdG9wIj4KICAgIDxkaXYgaWQ9ImJs
-        b2NrLW5pY2UtbWVudXMtMiIgY2xhc3M9ImJsb2NrIGJsb2NrLW5pY2UtbWVu
-        dXMgZmlyc3QgbGFzdCBvZGQiPgoKICAgICAgCiAgPGRpdiBjbGFzcz0iY29u
-        dGVudCI+CiAgICA8dWwgY2xhc3M9Im5pY2UtbWVudSBuaWNlLW1lbnUtZG93
-        biBuaWNlLW1lbnUtbWVudS10b3AtbWVudSIgaWQ9Im5pY2UtbWVudS0yIj48
-        bGkgY2xhc3M9Im1lbnUtMjExMiBtZW51cGFyZW50ICBtZW51LXBhdGgtZnh0
-        cmFkZXJna21zb25saW5lY29tIGZpcnN0IG9kZCAiPjxhIGhyZWY9Imh0dHA6
-        Ly93d3cuZnh0cmFkZXIuZ2ttc29ubGluZS5jb20iIHRpdGxlPSIiPkNob29z
-        ZSBhIHNlcnZpY2U8L2E+PHVsPjxsaSBjbGFzcz0ibWVudS0yMTE1IG1lbnUt
-        cGF0aC1iaWxsZXhwcmVzc2drbXNvbmxpbmVjb20gZmlyc3Qgb2RkICI+PGEg
-        aHJlZj0iaHR0cDovL3d3dy5iaWxsZXhwcmVzcy5na21zb25saW5lLmNvbSIg
-        dGl0bGU9IiI+QmlsbCBFeHByZXNzPC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVu
-        dS0yMTEzIG1lbnUtcGF0aC1na21zb25saW5lY29tLSAgZXZlbiAiPjxhIGhy
-        ZWY9Imh0dHA6Ly93d3cuZ2ttc29ubGluZS5jb20vIiB0aXRsZT0iIj5HS01T
-        PC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS0yMTE0IG1lbnUtcGF0aC13ZXN0
-        ZXJudW5pb25na21zb25saW5lY29tLSAgb2RkIGxhc3QiPjxhIGhyZWY9Imh0
-        dHA6Ly93d3cud2VzdGVybnVuaW9uLmdrbXNvbmxpbmUuY29tLyIgdGl0bGU9
-        IiI+V2VzdGVybiBVbmlvbjwvYT48L2xpPgo8L3VsPjwvbGk+CjxsaSBjbGFz
-        cz0ibWVudS0yMTM1IG1lbnUtcGF0aC1ub2RlLTYgIGV2ZW4gbGFzdCI+PGEg
-        aHJlZj0iL2NvbnRhY3QtdXMiIHRpdGxlPSIiPkNvbnRhY3QgVXM8L2E+PC9s
-        aT4KPC91bD4KICA8L2Rpdj4KCjwvZGl2PjwhLS0gLy5ibG9jayAtLT4KICA8
-        L2Rpdj48IS0tIC8ucmVnaW9uIC0tPgogPC9kaXY+CjwvZGl2Pgo8ZGl2IGlk
-        PSJoZWFkZXItd3JhcHBlciI+CiAgPGRpdiBpZD0iaGVhZGVyIj48ZGl2IGNs
-        YXNzPSJzZWN0aW9uIGNsZWFyZml4Ij4KCiAgICAKICAgIAogICAgCiAgICAg
-        IDxkaXYgY2xhc3M9InJlZ2lvbiByZWdpb24taGVhZGVyIj4KICAgIDxkaXYg
-        aWQ9ImJsb2NrLWJsb2NrLTQiIGNsYXNzPSJibG9jayBibG9jay1ibG9jayBm
-        aXJzdCBvZGQiPgoKICAgICAgCiAgPGRpdiBjbGFzcz0iY29udGVudCI+CiAg
-        ICA8ZGl2IGlkPSJmeC1sb2dvIj4KCTxhIGhyZWY9Ii8iPjxpbWcgc3JjPSIv
-        c2l0ZXMvYWxsL3RoZW1lcy9meF90cmFkZXIvaW1hZ2VzL2Z4LWxvZ28ucG5n
-        IiAvPjwvYT48L2Rpdj4KICA8L2Rpdj4KCjwvZGl2PjwhLS0gLy5ibG9jayAt
-        LT4KPGRpdiBpZD0iYmxvY2stc2VhcmNoLWZvcm0iIGNsYXNzPSJibG9jayBi
-        bG9jay1zZWFyY2ggZXZlbiI+CgogICAgICAKICA8ZGl2IGNsYXNzPSJjb250
-        ZW50Ij4KICAgIDxmb3JtIGFjdGlvbj0iL3JhdGVzIiBtZXRob2Q9InBvc3Qi
-        IGlkPSJzZWFyY2gtYmxvY2stZm9ybSIgYWNjZXB0LWNoYXJzZXQ9IlVURi04
-        Ij48ZGl2PjxkaXYgY2xhc3M9ImNvbnRhaW5lci1pbmxpbmUiPgogICAgICA8
-        aDIgY2xhc3M9ImVsZW1lbnQtaW52aXNpYmxlIj5TZWFyY2ggZm9ybTwvaDI+
-        CiAgICA8ZGl2IGNsYXNzPSJmb3JtLWl0ZW0gZm9ybS10eXBlLXRleHRmaWVs
-        ZCBmb3JtLWl0ZW0tc2VhcmNoLWJsb2NrLWZvcm0iPgogIDxsYWJlbCBjbGFz
-        cz0iZWxlbWVudC1pbnZpc2libGUiIGZvcj0iZWRpdC1zZWFyY2gtYmxvY2st
-        Zm9ybS0tMiI+U2VhcmNoIDwvbGFiZWw+CiA8aW5wdXQgdGl0bGU9IkVudGVy
-        IHRoZSB0ZXJtcyB5b3Ugd2lzaCB0byBzZWFyY2ggZm9yLiIgdHlwZT0idGV4
-        dCIgaWQ9ImVkaXQtc2VhcmNoLWJsb2NrLWZvcm0tLTIiIG5hbWU9InNlYXJj
-        aF9ibG9ja19mb3JtIiB2YWx1ZT0iIiBzaXplPSIxNSIgbWF4bGVuZ3RoPSIx
-        MjgiIGNsYXNzPSJmb3JtLXRleHQiIC8+CjwvZGl2Pgo8ZGl2IGNsYXNzPSJm
-        b3JtLWFjdGlvbnMgZm9ybS13cmFwcGVyIiBpZD0iZWRpdC1hY3Rpb25zIj48
-        aW5wdXQgdHlwZT0ic3VibWl0IiBpZD0iZWRpdC1zdWJtaXQiIG5hbWU9Im9w
-        IiB2YWx1ZT0iU2VhcmNoIiBjbGFzcz0iZm9ybS1zdWJtaXQiIC8+PC9kaXY+
-        PGlucHV0IHR5cGU9ImhpZGRlbiIgbmFtZT0iZm9ybV9idWlsZF9pZCIgdmFs
-        dWU9ImZvcm0tRmVOR1g0c3FGempPOXpVSUVCMENtdk5VelNDWkVseENGa3Zx
-        VF9lS00xVSIgLz4KPGlucHV0IHR5cGU9ImhpZGRlbiIgbmFtZT0iZm9ybV9p
-        ZCIgdmFsdWU9InNlYXJjaF9ibG9ja19mb3JtIiAvPgo8L2Rpdj4KPC9kaXY+
-        PC9mb3JtPiAgPC9kaXY+Cgo8L2Rpdj48IS0tIC8uYmxvY2sgLS0+CjxkaXYg
-        aWQ9ImJsb2NrLWJsb2NrLTEyIiBjbGFzcz0iYmxvY2sgYmxvY2stYmxvY2sg
-        b2RkIj4KCiAgICAgIAogIDxkaXYgY2xhc3M9ImNvbnRlbnQiPgogICAgPGRp
-        diBpZD0ic29jaWFsLW1lZGlhIj4KPGRpdiBpZD0iZmFjZWJvb2siPgoJCTxh
-        IGhyZWY9Imh0dHA6Ly93d3cuZmFjZWJvb2suY29tL3BhZ2VzL0dyYWNlS2Vu
-        bmVkeS1Nb25leS1TZXJ2aWNlcy8yMTUxNzcwMDg1MzM0NjciIHRhcmdldD0i
-        X2JsYW5rIj48aW1nIHNyYz0iL3NpdGVzL2FsbC90aGVtZXMvZnhfdHJhZGVy
-        L2ltYWdlcy9mYWNlYm9vay5wbmciIC8+PC9hPjwvZGl2Pgo8ZGl2IGlkPSJ5
-        b3V0dWJlIj4KCQk8YSBocmVmPSJodHRwOi8vd3d3LnlvdXR1YmUuY29tL0dL
-        TW9uZXlTZXJ2aWNlcyIgdGFyZ2V0PSJfYmxhbmsiPjxpbWcgc3JjPSIvc2l0
-        ZXMvYWxsL3RoZW1lcy9meF90cmFkZXIvaW1hZ2VzL3lvdXR1YmUucG5nIiAv
-        PjwvYT48L2Rpdj4KPC9kaXY+CiAgPC9kaXY+Cgo8L2Rpdj48IS0tIC8uYmxv
-        Y2sgLS0+CjxkaXYgaWQ9ImJsb2NrLW5pY2UtbWVudXMtMSIgY2xhc3M9ImJs
-        b2NrIGJsb2NrLW5pY2UtbWVudXMgbGFzdCBldmVuIj4KCiAgICAgIAogIDxk
-        aXYgY2xhc3M9ImNvbnRlbnQiPgogICAgPHVsIGNsYXNzPSJuaWNlLW1lbnUg
-        bmljZS1tZW51LWRvd24gbmljZS1tZW51LW1haW4tbWVudSIgaWQ9Im5pY2Ut
-        bWVudS0xIj48bGkgY2xhc3M9Im1lbnUtMTIyMiBtZW51LXBhdGgtbm9kZSBm
-        aXJzdCBvZGQgIj48YSBocmVmPSIvbm9kZSIgdGl0bGU9IiI+SG9tZTwvYT48
-        L2xpPgo8bGkgY2xhc3M9Im1lbnUtMjQ1MCBtZW51LXBhdGgtbm9kZS00NiAg
-        ZXZlbiAiPjxhIGhyZWY9Ii9hYm91dC90cmluaWRhZC10b2JhZ28vNDYiIHRp
-        dGxlPSJBYm91dCBVcyI+QWJvdXQ8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51
-        LTEyMDMgbWVudXBhcmVudCAgbWVudS1wYXRoLXNlcnZpY2VzIGFjdGl2ZS10
-        cmFpbCAgb2RkICI+PGEgaHJlZj0iL3NlcnZpY2VzIj5TZXJ2aWNlczwvYT48
-        dWw+PGxpIGNsYXNzPSJtZW51LTExOTYgbWVudS1wYXRoLXJhdGVzIGFjdGl2
-        ZS10cmFpbCBmaXJzdCBvZGQgbGFzdCI+PGEgaHJlZj0iL3JhdGVzIiBjbGFz
-        cz0iYWN0aXZlIj5SYXRlczwvYT48L2xpPgo8L3VsPjwvbGk+CjxsaSBjbGFz
-        cz0ibWVudS0xMTkzIG1lbnVwYXJlbnQgIG1lbnUtcGF0aC1uZXdzICBldmVu
-        ICI+PGEgaHJlZj0iL25ld3MiPk5ld3M8L2E+PHVsPjxsaSBjbGFzcz0ibWVu
-        dS00MTQ1IG1lbnUtcGF0aC1uZXdzLWFyY2hpdmUgZmlyc3Qgb2RkIGxhc3Qi
-        PjxhIGhyZWY9Ii9uZXdzL2FyY2hpdmUiIHRpdGxlPSIiPkFyY2hpdmU8L2E+
-        PC9saT4KPC91bD48L2xpPgo8bGkgY2xhc3M9Im1lbnUtMTE4MSBtZW51LXBh
-        dGgtbG9jYXRpb25zICBvZGQgIj48YSBocmVmPSIvbG9jYXRpb25zIj5Mb2Nh
-        dGlvbnM8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LTEwMTQgbWVudS1wYXRo
-        LWZhcSAgZXZlbiAiPjxhIGhyZWY9Ii9mYXEiPkZBUTwvYT48L2xpPgo8bGkg
-        Y2xhc3M9Im1lbnUtMjE2OSBtZW51cGFyZW50ICBtZW51LXBhdGgtcHJvbW90
-        aW9ucy1ldmVudHMgIG9kZCAiPjxhIGhyZWY9Ii9wcm9tb3Rpb25zL2V2ZW50
-        cyIgdGl0bGU9IiI+UHJvbW90aW9uczwvYT48dWw+PGxpIGNsYXNzPSJtZW51
-        LTIyNzUgbWVudS1wYXRoLXByb21vdGlvbnMtZXZlbnRzIGZpcnN0IG9kZCAi
-        PjxhIGhyZWY9Ii9wcm9tb3Rpb25zL2V2ZW50cyIgdGl0bGU9IiI+U3BvbnNv
-        cnNoaXBzPC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS0yMjMxIG1lbnUtcGF0
-        aC1wcm9tb3Rpb25zLWFyY2hpdmUgIGV2ZW4gbGFzdCI+PGEgaHJlZj0iL3By
-        b21vdGlvbnMvYXJjaGl2ZSI+QXJjaGl2ZTwvYT48L2xpPgo8L3VsPjwvbGk+
-        CjxsaSBjbGFzcz0ibWVudS0yODA5IG1lbnUtcGF0aC1idXNpbmVzcy1zb2x1
-        dGlvbnMgIGV2ZW4gbGFzdCI+PGEgaHJlZj0iL2J1c2luZXNzLXNvbHV0aW9u
-        cyI+QnVzaW5lc3MgU29sdXRpb25zPC9hPjwvbGk+CjwvdWw+CiAgPC9kaXY+
-        Cgo8L2Rpdj48IS0tIC8uYmxvY2sgLS0+CiAgPC9kaXY+PCEtLSAvLnJlZ2lv
-        biAtLT4KCiAgPC9kaXY+PC9kaXY+PCEtLSAvLnNlY3Rpb24sIC8jaGVhZGVy
-        IC0tPgo8L2Rpdj4KPGRpdiBpZD0icGFnZS13cmFwcGVyIj48ZGl2IGlkPSJw
-        YWdlIj4KCiAgPGRpdiBpZD0ibWFpbi13cmFwcGVyIj48ZGl2IGlkPSJtYWlu
-        IiBjbGFzcz0iY2xlYXJmaXggd2l0aC1uYXZpZ2F0aW9uIj4KCiAgICA8ZGl2
-        IGlkPSJjb250ZW50IiBjbGFzcz0iY29sdW1uIj48ZGl2IGNsYXNzPSJzZWN0
-        aW9uIj4KICAgICAgICAgICAgICAgICAgPGEgaWQ9Im1haW4tY29udGVudCI+
-        PC9hPgogICAgICAgICAgICAgICAgICAgIDxoMSBjbGFzcz0idGl0bGUiIGlk
-        PSJwYWdlLXRpdGxlIj5DaGVxdWUvQ2FzaCBkYWlseSBleGNoYW5nZSByYXRl
-        czwvaDE+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
-        ICAgICAgPGRpdiBjbGFzcz0icmVnaW9uIHJlZ2lvbi1jb250ZW50Ij4KICAg
-        IDxkaXYgaWQ9ImJsb2NrLXN5c3RlbS1tYWluIiBjbGFzcz0iYmxvY2sgYmxv
-        Y2stc3lzdGVtIGZpcnN0IGxhc3Qgb2RkIj4KCiAgICAgIAogIDxkaXYgY2xh
-        c3M9ImNvbnRlbnQiPgogICAgPGRpdiBjbGFzcz0idmlldyB2aWV3LUZYVHJh
-        ZGVyUmF0ZXMgdmlldy1pZC1GWFRyYWRlclJhdGVzIHZpZXctZGlzcGxheS1p
-        ZC1wYWdlXzEgdmlldy1kb20taWQtYTk0ZDliNzllM2EyYmFhYzExZTAyZmM5
-        NjdjNmU5ODAiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJ2aWV3LWhlYWRl
-        ciI+CiAgICAgIDwhLS08ZGl2PjxzcGFuIHN0eWxlPSJmbG9hdDogcmlnaHQ7
-        Ij48P3BocCAvL2VjaG8gZGF0ZSgiRiBqLCBZIikgPz48L3NwYW4+PC9kaXY+
-        LS0+ICAgIDwvZGl2PgogIAogIAogIAogICAgICA8ZGl2IGNsYXNzPSJ2aWV3
-        LWNvbnRlbnQiPgogICAgICAgIDxoMz5KYW1haWNhPC9oMz4KICA8ZGl2IGNs
-        YXNzPSJ2aWV3cy1yb3cgdmlld3Mtcm93LTEgdmlld3Mtcm93LW9kZCB2aWV3
-        cy1yb3ctZmlyc3Qgdmlld3Mtcm93LWxhc3QiPgogICAgICAKICA8ZGl2IGNs
-        YXNzPSJ2aWV3cy1maWVsZCB2aWV3cy1maWVsZC1jcmVhdGVkIj4gICAgICAg
-        IDxzcGFuIGNsYXNzPSJmaWVsZC1jb250ZW50Ij5EYXRlIEVmZmVjdGl2ZTog
-        MjAtMDMtMjAxNSA8L3NwYW4+ICA8L2Rpdj4gIAogIDxkaXYgY2xhc3M9InZp
-        ZXdzLWZpZWxkIHZpZXdzLWZpZWxkLXRpdGxlIj4gICAgICAgIDxzcGFuIGNs
-        YXNzPSJmaWVsZC1jb250ZW50Ij5DYXNoIFJhdGVzPC9zcGFuPiAgPC9kaXY+
-        ICAKICA8ZGl2IGNsYXNzPSJ2aWV3cy1maWVsZCB2aWV3cy1maWVsZC10aXRs
-        ZS0xIj4gICAgICAgIDxzcGFuIGNsYXNzPSJmaWVsZC1jb250ZW50Ij5DaGVx
-        dWUgUmF0ZXM8L3NwYW4+ICA8L2Rpdj4gIAogIDxkaXYgY2xhc3M9InZpZXdz
-        LWZpZWxkIHZpZXdzLWZpZWxkLWZpZWxkLWZ4LXRyYWRlci1jdXJyZW5jeS1s
-        YWJlbCI+ICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZC1jb250ZW50Ij5DdXJy
-        ZW5jeTwvZGl2PiAgPC9kaXY+ICAKICA8ZGl2IGNsYXNzPSJ2aWV3cy1maWVs
-        ZCB2aWV3cy1maWVsZC1maWVsZC1meC10cmFkZXItYnV5aW5nLWxhYmVsIj4g
-        ICAgICAgIDxkaXYgY2xhc3M9ImZpZWxkLWNvbnRlbnQiPkJ1eWluZzwvZGl2
-        PiAgPC9kaXY+ICAKICA8ZGl2IGNsYXNzPSJ2aWV3cy1maWVsZCB2aWV3cy1m
-        aWVsZC1maWVsZC1meC10cmFkZXItc2VsbGluZy1sYWJlbCI+ICAgICAgICA8
-        ZGl2IGNsYXNzPSJmaWVsZC1jb250ZW50Ij5TZWxsaW5nPC9kaXY+ICA8L2Rp
-        dj4gIAogIDxkaXYgY2xhc3M9InZpZXdzLWZpZWxkIHZpZXdzLWZpZWxkLWZp
-        ZWxkLWZ4LXRyYWRlci1jdXJyZW5jeS1sYWJlbC0xIj4gICAgICAgIDxkaXYg
-        Y2xhc3M9ImZpZWxkLWNvbnRlbnQiPkN1cnJlbmN5PC9kaXY+ICA8L2Rpdj4g
-        IAogIDxkaXYgY2xhc3M9InZpZXdzLWZpZWxkIHZpZXdzLWZpZWxkLWZpZWxk
-        LWZ4LXRyYWRlci1idXlpbmctbGFiZWwtMSI+ICAgICAgICA8ZGl2IGNsYXNz
-        PSJmaWVsZC1jb250ZW50Ij5CdXlpbmc8L2Rpdj4gIDwvZGl2PiAgCiAgPGRp
-        diBjbGFzcz0idmlld3MtZmllbGQgdmlld3MtZmllbGQtZmllbGQtZngtdHJh
-        ZGVyLXNlbGxpbmctbGFiZWwtMSI+ICAgICAgICA8ZGl2IGNsYXNzPSJmaWVs
-        ZC1jb250ZW50Ij5TZWxsaW5nPC9kaXY+ICA8L2Rpdj4gIAogIDxkaXYgY2xh
-        c3M9InZpZXdzLWZpZWxkIHZpZXdzLWZpZWxkLWZpZWxkLWZ4LXRyYWRlci1j
-        dXJyZW5jeS0xIj4gICAgICAgIDxkaXYgY2xhc3M9ImZpZWxkLWNvbnRlbnQi
-        PlVTRDwvZGl2PiAgPC9kaXY+ICAKICA8ZGl2IGNsYXNzPSJ2aWV3cy1maWVs
-        ZCB2aWV3cy1maWVsZC1maWVsZC1meC10cmFkZXItYnV5aW5nLTEiPiAgICAg
-        ICAgPGRpdiBjbGFzcz0iZmllbGQtY29udGVudCI+MTEzLjAwPC9kaXY+ICA8
-        L2Rpdj4gIAogIDxkaXYgY2xhc3M9InZpZXdzLWZpZWxkIHZpZXdzLWZpZWxk
-        LWZpZWxkLWZ4LXRyYWRlci1zZWxsaW5nLTEiPiAgICAgICAgPGRpdiBjbGFz
-        cz0iZmllbGQtY29udGVudCI+MTE1LjI1PC9kaXY+ICA8L2Rpdj4gIAogIDxk
-        aXYgY2xhc3M9InZpZXdzLWZpZWxkIHZpZXdzLWZpZWxkLWZpZWxkLWZ4LXRy
-        YWRlci1jdXJyZW5jeS0xLTEiPiAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQt
-        Y29udGVudCI+VVNEPC9kaXY+ICA8L2Rpdj4gIAogIDxkaXYgY2xhc3M9InZp
-        ZXdzLWZpZWxkIHZpZXdzLWZpZWxkLWZpZWxkLWZ4LXRyYWRlci1idXlpbmct
-        MS1iIj4gICAgICAgIDxkaXYgY2xhc3M9ImZpZWxkLWNvbnRlbnQiPjExNC4x
-        NTwvZGl2PiAgPC9kaXY+ICAKICA8ZGl2IGNsYXNzPSJ2aWV3cy1maWVsZCB2
-        aWV3cy1maWVsZC1maWVsZC1meC10cmFkZXItc2VsbGluZy0xLWIiPiAgICAg
-        ICAgPGRpdiBjbGFzcz0iZmllbGQtY29udGVudCI+MTE1LjQwPC9kaXY+ICA8
-        L2Rpdj4gIAogIDxkaXYgY2xhc3M9InZpZXdzLWZpZWxkIHZpZXdzLWZpZWxk
-        LWZpZWxkLWZ4LXRyYWRlci1jdXJyZW5jeS0yIj4gICAgICAgIDxkaXYgY2xh
-        c3M9ImZpZWxkLWNvbnRlbnQiPkNBRDwvZGl2PiAgPC9kaXY+ICAKICA8ZGl2
-        IGNsYXNzPSJ2aWV3cy1maWVsZCB2aWV3cy1maWVsZC1maWVsZC1meC10cmFk
-        ZXItYnV5aW5nLTIiPiAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQtY29udGVu
-        dCI+ODcuNDU8L2Rpdj4gIDwvZGl2PiAgCiAgPGRpdiBjbGFzcz0idmlld3Mt
-        ZmllbGQgdmlld3MtZmllbGQtZmllbGQtZngtdHJhZGVyLXNlbGxpbmctMiI+
-        ICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZC1jb250ZW50Ij45MC4zMDwvZGl2
-        PiAgPC9kaXY+ICAKICA8ZGl2IGNsYXNzPSJ2aWV3cy1maWVsZCB2aWV3cy1m
-        aWVsZC1maWVsZC1meC10cmFkZXItY3VycmVuY3ktMi0xIj4gICAgICAgIDxk
-        aXYgY2xhc3M9ImZpZWxkLWNvbnRlbnQiPkNBRDwvZGl2PiAgPC9kaXY+ICAK
-        ICA8ZGl2IGNsYXNzPSJ2aWV3cy1maWVsZCB2aWV3cy1maWVsZC1maWVsZC1m
-        eC10cmFkZXItYnV5aW5nLTItYiI+ICAgICAgICA8ZGl2IGNsYXNzPSJmaWVs
-        ZC1jb250ZW50Ij44Ny45MDwvZGl2PiAgPC9kaXY+ICAKICA8ZGl2IGNsYXNz
-        PSJ2aWV3cy1maWVsZCB2aWV3cy1maWVsZC1maWVsZC1meC10cmFkZXItc2Vs
-        bGluZy0yLWIiPiAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQtY29udGVudCI+
-        OTEuMjA8L2Rpdj4gIDwvZGl2PiAgCiAgPGRpdiBjbGFzcz0idmlld3MtZmll
-        bGQgdmlld3MtZmllbGQtZmllbGQtZngtdHJhZGVyLWN1cnJlbmN5LTMtMSI+
-        ICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZC1jb250ZW50Ij5HQlA8L2Rpdj4g
-        IDwvZGl2PiAgCiAgPGRpdiBjbGFzcz0idmlld3MtZmllbGQgdmlld3MtZmll
-        bGQtZmllbGQtZngtdHJhZGVyLWJ1eWluZy0zIj4gICAgICAgIDxkaXYgY2xh
-        c3M9ImZpZWxkLWNvbnRlbnQiPjE2Ni40MDwvZGl2PiAgPC9kaXY+ICAKICA8
-        ZGl2IGNsYXNzPSJ2aWV3cy1maWVsZCB2aWV3cy1maWVsZC1maWVsZC1meC10
-        cmFkZXItc2VsbGluZy0zIj4gICAgICAgIDxkaXYgY2xhc3M9ImZpZWxkLWNv
-        bnRlbnQiPjE3MC42MDwvZGl2PiAgPC9kaXY+ICAKICA8ZGl2IGNsYXNzPSJ2
-        aWV3cy1maWVsZCB2aWV3cy1maWVsZC1maWVsZC1meC10cmFkZXItY3VycmVu
-        Y3ktMyI+ICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZC1jb250ZW50Ij5HQlA8
-        L2Rpdj4gIDwvZGl2PiAgCiAgPGRpdiBjbGFzcz0idmlld3MtZmllbGQgdmll
-        d3MtZmllbGQtZmllbGQtZngtdHJhZGVyLWJ1eWluZy0zLWIiPiAgICAgICAg
-        PGRpdiBjbGFzcz0iZmllbGQtY29udGVudCI+MTY2LjgwPC9kaXY+ICA8L2Rp
-        dj4gIAogIDxkaXYgY2xhc3M9InZpZXdzLWZpZWxkIHZpZXdzLWZpZWxkLWZp
-        ZWxkLWZ4LXRyYWRlci1zZWxsaW5nLTMtYiI+ICAgICAgICA8ZGl2IGNsYXNz
-        PSJmaWVsZC1jb250ZW50Ij4xNzEuNDU8L2Rpdj4gIDwvZGl2PiAgCiAgPGRp
-        diBjbGFzcz0idmlld3MtZmllbGQgdmlld3MtZmllbGQtZmllbGQtZngtdHJh
-        ZGVyLWN1cnJlbmN5LTQtMSI+ICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZC1j
-        b250ZW50Ij5LWUQ8L2Rpdj4gIDwvZGl2PiAgCiAgPGRpdiBjbGFzcz0idmll
-        d3MtZmllbGQgdmlld3MtZmllbGQtZmllbGQtZngtdHJhZGVyLWJ1eWluZy00
-        Ij4gICAgICAgIDxkaXYgY2xhc3M9ImZpZWxkLWNvbnRlbnQiPjExMS43MDwv
-        ZGl2PiAgPC9kaXY+ICAKICA8ZGl2IGNsYXNzPSJ2aWV3cy1maWVsZCB2aWV3
-        cy1maWVsZC1maWVsZC1meC10cmFkZXItc2VsbGluZy00Ij4gICAgICAgIDxk
-        aXYgY2xhc3M9ImZpZWxkLWNvbnRlbnQiPjEyNC43MDwvZGl2PiAgPC9kaXY+
-        ICAKICA8ZGl2IGNsYXNzPSJ2aWV3cy1maWVsZCB2aWV3cy1maWVsZC1maWVs
-        ZC1meC10cmFkZXItY3VycmVuY3ktNCI+ICAgICAgICA8ZGl2IGNsYXNzPSJm
-        aWVsZC1jb250ZW50Ij5LWUQ8L2Rpdj4gIDwvZGl2PiAgCiAgPGRpdiBjbGFz
-        cz0idmlld3MtZmllbGQgdmlld3MtZmllbGQtZmllbGQtZngtdHJhZGVyLWJ1
-        eWluZy00LWIiPiAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQtY29udGVudCI+
-        MC4wMDwvZGl2PiAgPC9kaXY+ICAKICA8ZGl2IGNsYXNzPSJ2aWV3cy1maWVs
-        ZCB2aWV3cy1maWVsZC1maWVsZC1meC10cmFkZXItc2VsbGluZy01LWIiPiAg
-        ICAgICAgPGRpdiBjbGFzcz0iZmllbGQtY29udGVudCI+MC4wMDwvZGl2PiAg
-        PC9kaXY+ICAKICA8ZGl2IGNsYXNzPSJ2aWV3cy1maWVsZCB2aWV3cy1maWVs
-        ZC1maWVsZC1meC10cmFkZXItY3VycmVuY3ktNSI+ICAgICAgICA8ZGl2IGNs
-        YXNzPSJmaWVsZC1jb250ZW50Ij5FVVJPPC9kaXY+ICA8L2Rpdj4gIAogIDxk
-        aXYgY2xhc3M9InZpZXdzLWZpZWxkIHZpZXdzLWZpZWxkLWZpZWxkLWZ4LXRy
-        YWRlci1idXlpbmctNSI+ICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZC1jb250
-        ZW50Ij4xMTcuMDU8L2Rpdj4gIDwvZGl2PiAgCiAgPGRpdiBjbGFzcz0idmll
-        d3MtZmllbGQgdmlld3MtZmllbGQtZmllbGQtZngtdHJhZGVyLXNlbGxpbmct
-        NSI+ICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZC1jb250ZW50Ij4xMjMuMDU8
-        L2Rpdj4gIDwvZGl2PiAgCiAgPGRpdiBjbGFzcz0idmlld3MtZmllbGQgdmll
-        d3MtZmllbGQtZmllbGQtZngtdHJhZGVyLWN1cnJlbmN5LTUtMSI+ICAgICAg
-        ICA8ZGl2IGNsYXNzPSJmaWVsZC1jb250ZW50Ij5FVVJPPC9kaXY+ICA8L2Rp
-        dj4gIAogIDxkaXYgY2xhc3M9InZpZXdzLWZpZWxkIHZpZXdzLWZpZWxkLWZp
-        ZWxkLWZ4LXRyYWRlci1idXlpbmctNS1iIj4gICAgICAgIDxkaXYgY2xhc3M9
-        ImZpZWxkLWNvbnRlbnQiPjAuMDA8L2Rpdj4gIDwvZGl2PiAgCiAgPGRpdiBj
-        bGFzcz0idmlld3MtZmllbGQgdmlld3MtZmllbGQtZmllbGQtZngtdHJhZGVy
-        LXNlbGxpbmctNC1iIj4gICAgICAgIDxkaXYgY2xhc3M9ImZpZWxkLWNvbnRl
-        bnQiPjAuMDA8L2Rpdj4gIDwvZGl2PiAgPC9kaXY+CiAgICA8L2Rpdj4KICAK
-        ICAKICAgICAgPGRpdiBjbGFzcz0iYXR0YWNobWVudCBhdHRhY2htZW50LWFm
-        dGVyIj4KICAgICAgPGRpdiBjbGFzcz0idmlldyB2aWV3LUZYVHJhZGVyUmF0
-        ZXMgdmlldy1pZC1GWFRyYWRlclJhdGVzIHZpZXctZGlzcGxheS1pZC1hdHRh
-        Y2htZW50XzEiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJ2aWV3LWhlYWRl
-        ciI+CiAgICAgIDwhLS08ZGl2PjxzcGFuIHN0eWxlPSJmbG9hdDogcmlnaHQ7
-        Ij48P3BocCAvL2VjaG8gZGF0ZSgiRiBqLCBZIikgPz48L3NwYW4+PC9kaXY+
-        LS0+ICAgIDwvZGl2PgogIAogIAogIAogICAgICA8ZGl2IGNsYXNzPSJ2aWV3
-        LWNvbnRlbnQiPgogICAgICAgIDxoMz5UcmluaWRhZCAmYW1wOyBUb2JhZ288
-        L2gzPgogIDxkaXYgY2xhc3M9InZpZXdzLXJvdyB2aWV3cy1yb3ctMSB2aWV3
-        cy1yb3ctb2RkIHZpZXdzLXJvdy1maXJzdCB2aWV3cy1yb3ctbGFzdCI+CiAg
-        ICAgIAogIDxkaXYgY2xhc3M9InZpZXdzLWZpZWxkIHZpZXdzLWZpZWxkLWNy
-        ZWF0ZWQiPiAgICAgICAgPHNwYW4gY2xhc3M9ImZpZWxkLWNvbnRlbnQiPkRh
-        dGUgRWZmZWN0aXZlOiAyMC0wMy0yMDE1PC9zcGFuPiAgPC9kaXY+ICAKICA8
-        ZGl2IGNsYXNzPSJ2aWV3cy1maWVsZCB2aWV3cy1maWVsZC10aXRsZS0xIj4g
-        ICAgICAgIDxzcGFuIGNsYXNzPSJmaWVsZC1jb250ZW50Ij5DYXNoIFJhdGVz
-        PC9zcGFuPiAgPC9kaXY+ICAKICA8ZGl2IGNsYXNzPSJ2aWV3cy1maWVsZCB2
-        aWV3cy1maWVsZC10aXRsZS0yIj4gICAgICAgIDxzcGFuIGNsYXNzPSJmaWVs
-        ZC1jb250ZW50Ij5DaGVxdWUgUmF0ZXM8L3NwYW4+ICA8L2Rpdj4gIAogIDxk
-        aXYgY2xhc3M9InZpZXdzLWZpZWxkIHZpZXdzLWZpZWxkLWZpZWxkLWZ4LXRy
-        YWRlci1jdXJyZW5jeS1sYWJlbCI+ICAgICAgICA8ZGl2IGNsYXNzPSJmaWVs
-        ZC1jb250ZW50Ij5DdXJyZW5jeTwvZGl2PiAgPC9kaXY+ICAKICA8ZGl2IGNs
-        YXNzPSJ2aWV3cy1maWVsZCB2aWV3cy1maWVsZC1maWVsZC1meC10cmFkZXIt
-        YnV5aW5nLWxhYmVsIj4gICAgICAgIDxkaXYgY2xhc3M9ImZpZWxkLWNvbnRl
-        bnQiPkJ1eWluZzwvZGl2PiAgPC9kaXY+ICAKICA8ZGl2IGNsYXNzPSJ2aWV3
-        cy1maWVsZCB2aWV3cy1maWVsZC1maWVsZC1meC10cmFkZXItc2VsbGluZy1s
-        YWJlbCI+ICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZC1jb250ZW50Ij5TZWxs
-        aW5nPC9kaXY+ICA8L2Rpdj4gIAogIDxkaXYgY2xhc3M9InZpZXdzLWZpZWxk
-        IHZpZXdzLWZpZWxkLWZpZWxkLWZ4LXRyYWRlci1jdXJyZW5jeS0xIj4gICAg
-        ICAgIDxkaXYgY2xhc3M9ImZpZWxkLWNvbnRlbnQiPlVTRDwvZGl2PiAgPC9k
-        aXY+ICAKICA8ZGl2IGNsYXNzPSJ2aWV3cy1maWVsZCB2aWV3cy1maWVsZC1m
-        aWVsZC1meC10cmFkZXItYnV5aW5nLTEiPiAgICAgICAgPGRpdiBjbGFzcz0i
-        ZmllbGQtY29udGVudCI+Ni4yNTwvZGl2PiAgPC9kaXY+ICAKICA8ZGl2IGNs
-        YXNzPSJ2aWV3cy1maWVsZCB2aWV3cy1maWVsZC1maWVsZC1meC10cmFkZXIt
-        c2VsbGluZy0xIj4gICAgICAgIDxkaXYgY2xhc3M9ImZpZWxkLWNvbnRlbnQi
-        PjYuNTk8L2Rpdj4gIDwvZGl2PiAgCiAgPGRpdiBjbGFzcz0idmlld3MtZmll
-        bGQgdmlld3MtZmllbGQtZmllbGQtZngtdHJhZGVyLWN1cnJlbmN5LTIiPiAg
-        ICAgICAgPGRpdiBjbGFzcz0iZmllbGQtY29udGVudCI+Q0FEPC9kaXY+ICA8
-        L2Rpdj4gIAogIDxkaXYgY2xhc3M9InZpZXdzLWZpZWxkIHZpZXdzLWZpZWxk
-        LWZpZWxkLWZ4LXRyYWRlci1idXlpbmctMiI+ICAgICAgICA8ZGl2IGNsYXNz
-        PSJmaWVsZC1jb250ZW50Ij40LjU2PC9kaXY+ICA8L2Rpdj4gIAogIDxkaXYg
-        Y2xhc3M9InZpZXdzLWZpZWxkIHZpZXdzLWZpZWxkLWZpZWxkLWZ4LXRyYWRl
-        ci1zZWxsaW5nLTIiPiAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQtY29udGVu
-        dCI+NS4xNDwvZGl2PiAgPC9kaXY+ICAKICA8ZGl2IGNsYXNzPSJ2aWV3cy1m
-        aWVsZCB2aWV3cy1maWVsZC1maWVsZC1meC10cmFkZXItY3VycmVuY3ktMyI+
-        ICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZC1jb250ZW50Ij5HQlA8L2Rpdj4g
-        IDwvZGl2PiAgCiAgPGRpdiBjbGFzcz0idmlld3MtZmllbGQgdmlld3MtZmll
-        bGQtZmllbGQtZngtdHJhZGVyLWJ1eWluZy0zIj4gICAgICAgIDxkaXYgY2xh
-        c3M9ImZpZWxkLWNvbnRlbnQiPjguNDk8L2Rpdj4gIDwvZGl2PiAgCiAgPGRp
-        diBjbGFzcz0idmlld3MtZmllbGQgdmlld3MtZmllbGQtZmllbGQtZngtdHJh
-        ZGVyLXNlbGxpbmctMyI+ICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZC1jb250
-        ZW50Ij45LjY1PC9kaXY+ICA8L2Rpdj4gIAogIDxkaXYgY2xhc3M9InZpZXdz
-        LWZpZWxkIHZpZXdzLWZpZWxkLWZpZWxkLWZ4LXRyYWRlci1jdXJyZW5jeS00
-        Ij4gICAgICAgIDxkaXYgY2xhc3M9ImZpZWxkLWNvbnRlbnQiPktZRDwvZGl2
-        PiAgPC9kaXY+ICAKICA8ZGl2IGNsYXNzPSJ2aWV3cy1maWVsZCB2aWV3cy1m
-        aWVsZC1maWVsZC1meC10cmFkZXItYnV5aW5nLTQiPiAgICAgICAgPGRpdiBj
-        bGFzcz0iZmllbGQtY29udGVudCI+MC4wMDwvZGl2PiAgPC9kaXY+ICAKICA8
-        ZGl2IGNsYXNzPSJ2aWV3cy1maWVsZCB2aWV3cy1maWVsZC1maWVsZC1meC10
-        cmFkZXItc2VsbGluZy00Ij4gICAgICAgIDxkaXYgY2xhc3M9ImZpZWxkLWNv
-        bnRlbnQiPjAuMDA8L2Rpdj4gIDwvZGl2PiAgCiAgPGRpdiBjbGFzcz0idmll
-        d3MtZmllbGQgdmlld3MtZmllbGQtZmllbGQtZngtdHJhZGVyLWN1cnJlbmN5
-        LTUiPiAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQtY29udGVudCI+RVVSTzwv
-        ZGl2PiAgPC9kaXY+ICAKICA8ZGl2IGNsYXNzPSJ2aWV3cy1maWVsZCB2aWV3
-        cy1maWVsZC1maWVsZC1meC10cmFkZXItYnV5aW5nLTUiPiAgICAgICAgPGRp
-        diBjbGFzcz0iZmllbGQtY29udGVudCI+NS45ODwvZGl2PiAgPC9kaXY+ICAK
-        ICA8ZGl2IGNsYXNzPSJ2aWV3cy1maWVsZCB2aWV3cy1maWVsZC1maWVsZC1m
-        eC10cmFkZXItc2VsbGluZy01Ij4gICAgICAgIDxkaXYgY2xhc3M9ImZpZWxk
-        LWNvbnRlbnQiPjcuMDA8L2Rpdj4gIDwvZGl2PiAgPC9kaXY+CiAgICA8L2Rp
-        dj4KICAKICAKICAKICAKICAKICAKPC9kaXY+ICAgIDwvZGl2PgogIAogIAog
-        IAogIAo8L2Rpdj4gIDwvZGl2PgoKPC9kaXY+PCEtLSAvLmJsb2NrIC0tPgog
-        IDwvZGl2PjwhLS0gLy5yZWdpb24gLS0+CiAgICAgICAgICA8L2Rpdj48L2Rp
-        dj48IS0tIC8uc2VjdGlvbiwgLyNjb250ZW50IC0tPgoKICAgCgogICAgCiAg
-        ICAgIDxkaXYgY2xhc3M9InJlZ2lvbiByZWdpb24tc2lkZWJhci1zZWNvbmQg
-        Y29sdW1uIHNpZGViYXIiPjxkaXYgY2xhc3M9InNlY3Rpb24iPgogICAgPGRp
-        diBpZD0iYmxvY2stYmxvY2stNSIgY2xhc3M9ImJsb2NrIGJsb2NrLWJsb2Nr
-        IGZpcnN0IG9kZCI+CgogICAgICAKICA8ZGl2IGNsYXNzPSJjb250ZW50Ij4K
-        ICAgIDxkaXY+Cgk8YSBocmVmPSIvbG9jYXRpb25zIj4gPC9hPgo8aDI+CgkJ
-        PGEgaHJlZj0iL2xvY2F0aW9ucyI+RmluZCBhbiBBZ2VudDwvYT48L2gyPgo8
-        cD4JPGEgaHJlZj0iL2xvY2F0aW9ucyI+PGltZyBpZD0ibWFwIiBzcmM9Ii9z
-        aXRlcy9hbGwvdGhlbWVzL2Z4X3RyYWRlci9pbWFnZXMvY2FyaWJiZWFuMy5q
-        cGciIC8+PC9hPjwvcD48L2Rpdj4KICA8L2Rpdj4KCjwvZGl2PjwhLS0gLy5i
-        bG9jayAtLT4KPGRpdiBpZD0iYmxvY2stc2ltcGxlYWRzLWFkLWdyb3Vwcy02
-        NiIgY2xhc3M9ImJsb2NrIGJsb2NrLXNpbXBsZWFkcyBldmVuIj4KCiAgICAg
-        IAogIDxkaXYgY2xhc3M9ImNvbnRlbnQiPgogICAgPGRpdiBjbGFzcz0iaGVh
-        ZGVyIj4KICA8ZGl2IGNsYXNzPSJhZC1saW5rIj48L2Rpdj4KPC9kaXY+Cjxk
-        aXYgY2xhc3M9ImFkc2xpc3QiPgogIDxzY3JpcHQgdHlwZT0idGV4dC9qYXZh
-        c2NyaXB0Ij4KICAgIF9zaW1wZWxhZHNfbG9hZCgnLnNpbXBsZWFkcy02Nics
-        IDY2LCAyKTsKICA8L3NjcmlwdD4KICAgIDxkaXYgY2xhc3M9InNpbXBsZWFk
-        cy02NiI+PC9kaXY+CgogICAgCjwvZGl2PgogIDwvZGl2PgoKPC9kaXY+PCEt
-        LSAvLmJsb2NrIC0tPgo8ZGl2IGlkPSJibG9jay1ibG9jay03IiBjbGFzcz0i
-        YmxvY2sgYmxvY2stYmxvY2sgbGFzdCBvZGQiPgoKICAgICAgCiAgPGRpdiBj
-        bGFzcz0iY29udGVudCI+CiAgICA8ZGl2IGNsYXNzPSJibG9jayBibG9jay1t
-        YWlsY2hpbXAgcmVnaW9uLW9kZCBldmVuIHJlZ2lvbi1jb3VudC0zIGNvdW50
-        LTEwIiBpZD0iYmxvY2stbWFpbGNoaW1wLTMzMzNjMWYzYzgiPgo8ZGl2IGNs
-        YXNzPSJjb250ZW50Ij4KPGgyIGNsYXNzPSJ0aXRsZSI+CgkJCVdhbnQgdG8g
-        a25vdyBtb3JlIGFib3V0IG91ciBzcGVjaWFsIG9mZmVycz88L2gyPgo8Zm9y
-        bSBhY2NlcHQtY2hhcnNldD0iVVRGLTgiIGFjdGlvbj0iLyIgaWQ9Im1haWxj
-        aGltcF9zdWJzY3JpYmVfYW5vbl9mb3JtXzMzMzNjMWYzYzgiIG1ldGhvZD0i
-        cG9zdCI+CjxkaXY+CjxkaXYgY2xhc3M9ImZvcm0taXRlbSIgaWQ9ImVkaXQt
-        bWFpbGNoaW1wLWxpc3RzLTMzMzNjMWYzYzgtRU1BSUwtd3JhcHBlciI+CgkJ
-        CQkJPGxhYmVsIGZvcj0iZWRpdC1tYWlsY2hpbXAtbGlzdHMtMzMzM2MxZjNj
-        OC1FTUFJTCI+UGxlYXNlIGVudGVyIHlvdXIgZW1haWwgYWRkcmVzczogPHNw
-        YW4gY2xhc3M9ImZvcm0tcmVxdWlyZWQiIHRpdGxlPSJUaGlzIGZpZWxkIGlz
-        IHJlcXVpcmVkLiI+Kjwvc3Bhbj48L2xhYmVsPiA8aW5wdXQgY2xhc3M9ImZv
-        cm0tdGV4dCByZXF1aXJlZCIgaWQ9ImVkaXQtbWFpbGNoaW1wLWxpc3RzLTMz
-        MzNjMWYzYzgtRU1BSUwiIG1heGxlbmd0aD0iMTI4IiBuYW1lPSJtYWlsY2hp
-        bXBfbGlzdHNbMzMzM2MxZjNjOF1bRU1BSUxdIiBzaXplPSIxNSIgdHlwZT0i
-        dGV4dCIgdmFsdWU9IiIgLz48L2Rpdj4KPHA+CQkJCTxpbnB1dCBjbGFzcz0i
-        Zm9ybS1zdWJtaXQiIGlkPSJlZGl0LXN1Ym1pdCIgbmFtZT0ib3AiIHR5cGU9
-        InN1Ym1pdCIgdmFsdWU9IlNpZ24gVXAhIiAvPjwvcD48L2Rpdj4KPC9mb3Jt
-        Pgo8L2Rpdj4KPC9kaXY+CjxwPsKgPC9wPgogIDwvZGl2PgoKPC9kaXY+PCEt
-        LSAvLmJsb2NrIC0tPgogIDwvZGl2PjwvZGl2PjwhLS0gLy5zZWN0aW9uLCAv
-        LnJlZ2lvbiAtLT4KCiAgPC9kaXY+PC9kaXY+PCEtLSAvI21haW4sIC8jbWFp
-        bi13cmFwcGVyIC0tPgoKICAgIDxkaXYgY2xhc3M9InJlZ2lvbiByZWdpb24t
-        Zm9vdGVyIj4KICAgIDxkaXYgaWQ9ImJsb2NrLWJsb2NrLTE1IiBjbGFzcz0i
-        YmxvY2sgYmxvY2stYmxvY2sgZmlyc3QgbGFzdCBvZGQiPgoKICAgICAgCiAg
-        PGRpdiBjbGFzcz0iY29udGVudCI+CiAgICA8IS0tPHNwYW4gY2xhc3M9Imdr
-        SG9tZSI+PGEgaHJlZj0iaHR0cDovL3d3dy5na21zb25saW5lLmNvbSI+PGlt
-        ZyBzcmM9Ii9zaXRlcy9hbGwvdGhlbWVzL3dlc3Rlcm5fdW5pb24vaW1hZ2Vz
-        L2dyYWNlRm9vdGVyLmdpZiIgLz48L2E+PC9zcGFuPi0tPjxwPjxzcGFuIGNs
-        YXNzPSJmb290ZXJUZXh0Ij5HcmFjZUtlbm5lZHkgTGltaXRlZC4gQWxsIHJp
-        Z2h0cyByZXNlcnZlZC4gPGEgaHJlZj0ibWFpbHRvOmdrbXNAZ2tjby5jb20i
-        PmdrbXNAZ2tjby5jb208L2E+PC9zcGFuPjwvcD4KICA8L2Rpdj4KCjwvZGl2
-        PjwhLS0gLy5ibG9jayAtLT4KICA8L2Rpdj48IS0tIC8ucmVnaW9uIC0tPgoK
-        PC9kaXY+PC9kaXY+PCEtLSAvI3BhZ2UsIC8jcGFnZS13cmFwcGVyIC0tPgoK
-        ICA8L2JvZHk+CjwvaHRtbD4K
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML+RDFa 1.0//EN\"\n  \"http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd\">\n<html
+        xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" version=\"XHTML+RDFa
+        1.0\" dir=\"ltr\">\n\n<head profile=\"http://www.w3.org/1999/xhtml/vocab\">\n
+        \ <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<meta
+        name=\"Generator\" content=\"Drupal 7 (http://drupal.org)\" />\n  <title>Cheque/Cash
+        daily exchange rates | FX Trader Jamaica | Grace Kennedy Money Services</title>\n
+        \ <style type=\"text/css\" media=\"all\">\n@import url(\"http://www.fxtrader.gkmsonline.com/modules/system/system.base.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/modules/system/system.menus.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/modules/system/system.messages.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/modules/system/system.theme.css?p1qj2s\");\n</style>\n<style
+        type=\"text/css\" media=\"all\">\n@import url(\"http://www.fxtrader.gkmsonline.com/sites/all/modules/date/date_api/date.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/modules/field/theme/field.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/modules/node/node.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/modules/search/search.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/modules/simpleads/simpleads.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/modules/user/user.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/modules/calendar/css/calendar_multiday.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/modules/views/css/views.css?p1qj2s\");\n</style>\n<style
+        type=\"text/css\" media=\"all\">\n@import url(\"http://www.fxtrader.gkmsonline.com/sites/all/modules/ctools/css/ctools.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/modules/lightbox2/css/lightbox.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/modules/nice_menus/css/nice_menus.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/modules/nice_menus/css/nice_menus_default.css?p1qj2s\");\n</style>\n<style
+        type=\"text/css\" media=\"all\">\n@import url(\"http://www.fxtrader.gkmsonline.com/sites/all/themes/fx_trader/css/html-reset.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/themes/fx_trader/css/wireframes.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/themes/fx_trader/css/layout-fixed.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/themes/fx_trader/css/page-backgrounds.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/themes/fx_trader/css/tabs.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/themes/fx_trader/css/pages.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/themes/fx_trader/css/blocks.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/themes/fx_trader/css/navigation.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/themes/fx_trader/css/views-styles.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/themes/fx_trader/css/nodes.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/themes/fx_trader/css/comments.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/themes/fx_trader/css/forms.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/themes/fx_trader/css/fields.css?p1qj2s\");\n@import
+        url(\"http://www.fxtrader.gkmsonline.com/sites/all/themes/fx_trader/css/style.css?p1qj2s\");\n</style>\n<style
+        type=\"text/css\" media=\"print\">\n@import url(\"http://www.fxtrader.gkmsonline.com/sites/all/themes/fx_trader/css/print.css?p1qj2s\");\n</style>\n\n<!--[if
+        lte IE 7]>\n<style type=\"text/css\" media=\"all\">\n@import url(\"http://www.fxtrader.gkmsonline.com/sites/all/themes/fx_trader/css/ie7.css?p1qj2s\");\n</style>\n<![endif]-->\n\n<!--[if
+        lte IE 6]>\n<style type=\"text/css\" media=\"all\">\n@import url(\"http://www.fxtrader.gkmsonline.com/sites/all/themes/fx_trader/css/ie6.css?p1qj2s\");\n</style>\n<![endif]-->\n
+        \ <script type=\"text/javascript\" src=\"http://www.fxtrader.gkmsonline.com/misc/jquery.js?v=1.4.4\"></script>\n<script
+        type=\"text/javascript\" src=\"http://www.fxtrader.gkmsonline.com/misc/jquery.once.js?v=1.2\"></script>\n<script
+        type=\"text/javascript\" src=\"http://www.fxtrader.gkmsonline.com/misc/drupal.js?p1qj2s\"></script>\n<script
+        type=\"text/javascript\" src=\"http://www.fxtrader.gkmsonline.com/sites/all/modules/nice_menus/js/jquery.bgiframe.js?v=2.1\"></script>\n<script
+        type=\"text/javascript\" src=\"http://www.fxtrader.gkmsonline.com/sites/all/modules/nice_menus/js/jquery.hoverIntent.js?v=0.5\"></script>\n<script
+        type=\"text/javascript\" src=\"http://www.fxtrader.gkmsonline.com/sites/all/modules/nice_menus/js/superfish.js?v=1.4.8\"></script>\n<script
+        type=\"text/javascript\" src=\"http://www.fxtrader.gkmsonline.com/sites/all/modules/nice_menus/js/nice_menus.js?v=1.0\"></script>\n<script
+        type=\"text/javascript\" src=\"http://www.fxtrader.gkmsonline.com/sites/all/modules/simpleads/simpleads.js?p1qj2s\"></script>\n<script
+        type=\"text/javascript\" src=\"http://www.fxtrader.gkmsonline.com/sites/all/modules/lightbox2/js/lightbox.js?1531456011\"></script>\n<script
+        type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nwindow.CKEDITOR_BASEPATH
+        = '/sites/all/libraries/ckeditor/'\n//--><!]]>\n</script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\njQuery.extend(Drupal.settings,
+        {\"basePath\":\"\\/\",\"pathPrefix\":\"\",\"ajaxPageState\":{\"theme\":\"fx_trader\",\"theme_token\":\"GxPYTw6BnDHbpabXjEKaivBkR8QqEHHzS7vRIgqwKlc\",\"js\":{\"misc\\/jquery.js\":1,\"misc\\/jquery.once.js\":1,\"misc\\/drupal.js\":1,\"sites\\/all\\/modules\\/nice_menus\\/js\\/jquery.bgiframe.js\":1,\"sites\\/all\\/modules\\/nice_menus\\/js\\/jquery.hoverIntent.js\":1,\"sites\\/all\\/modules\\/nice_menus\\/js\\/superfish.js\":1,\"sites\\/all\\/modules\\/nice_menus\\/js\\/nice_menus.js\":1,\"sites\\/all\\/modules\\/simpleads\\/simpleads.js\":1,\"sites\\/all\\/modules\\/lightbox2\\/js\\/lightbox.js\":1,\"0\":1},\"css\":{\"modules\\/system\\/system.base.css\":1,\"modules\\/system\\/system.menus.css\":1,\"modules\\/system\\/system.messages.css\":1,\"modules\\/system\\/system.theme.css\":1,\"sites\\/all\\/modules\\/date\\/date_api\\/date.css\":1,\"sites\\/all\\/modules\\/date\\/date_popup\\/themes\\/datepicker.1.7.css\":1,\"modules\\/field\\/theme\\/field.css\":1,\"modules\\/node\\/node.css\":1,\"modules\\/search\\/search.css\":1,\"sites\\/all\\/modules\\/simpleads\\/simpleads.css\":1,\"modules\\/user\\/user.css\":1,\"sites\\/all\\/modules\\/calendar\\/css\\/calendar_multiday.css\":1,\"sites\\/all\\/modules\\/views\\/css\\/views.css\":1,\"sites\\/all\\/modules\\/ctools\\/css\\/ctools.css\":1,\"sites\\/all\\/modules\\/lightbox2\\/css\\/lightbox.css\":1,\"sites\\/all\\/modules\\/nice_menus\\/css\\/nice_menus.css\":1,\"sites\\/all\\/modules\\/nice_menus\\/css\\/nice_menus_default.css\":1,\"sites\\/all\\/themes\\/fx_trader\\/css\\/html-reset.css\":1,\"sites\\/all\\/themes\\/fx_trader\\/css\\/wireframes.css\":1,\"sites\\/all\\/themes\\/fx_trader\\/css\\/layout-fixed.css\":1,\"sites\\/all\\/themes\\/fx_trader\\/css\\/page-backgrounds.css\":1,\"sites\\/all\\/themes\\/fx_trader\\/css\\/tabs.css\":1,\"sites\\/all\\/themes\\/fx_trader\\/css\\/pages.css\":1,\"sites\\/all\\/themes\\/fx_trader\\/css\\/blocks.css\":1,\"sites\\/all\\/themes\\/fx_trader\\/css\\/navigation.css\":1,\"sites\\/all\\/themes\\/fx_trader\\/css\\/views-styles.css\":1,\"sites\\/all\\/themes\\/fx_trader\\/css\\/nodes.css\":1,\"sites\\/all\\/themes\\/fx_trader\\/css\\/comments.css\":1,\"sites\\/all\\/themes\\/fx_trader\\/css\\/forms.css\":1,\"sites\\/all\\/themes\\/fx_trader\\/css\\/fields.css\":1,\"sites\\/all\\/themes\\/fx_trader\\/css\\/style.css\":1,\"sites\\/all\\/themes\\/fx_trader\\/css\\/print.css\":1,\"sites\\/all\\/themes\\/fx_trader\\/css\\/ie7.css\":1,\"sites\\/all\\/themes\\/fx_trader\\/css\\/ie6.css\":1}},\"lightbox2\":{\"rtl\":0,\"file_path\":\"\\/(\\\\w\\\\w\\/)public:\\/\",\"default_image\":\"\\/sites\\/all\\/modules\\/lightbox2\\/images\\/brokenimage.jpg\",\"border_size\":10,\"font_color\":\"000\",\"box_color\":\"fff\",\"top_position\":\"\",\"overlay_opacity\":\"0.8\",\"overlay_color\":\"000\",\"disable_close_click\":1,\"resize_sequence\":0,\"resize_speed\":400,\"fade_in_speed\":400,\"slide_down_speed\":600,\"use_alt_layout\":0,\"disable_resize\":0,\"disable_zoom\":0,\"force_show_nav\":0,\"show_caption\":1,\"loop_items\":0,\"node_link_text\":\"\",\"node_link_target\":0,\"image_count\":\"Image
+        !current of !total\",\"video_count\":\"Video !current of !total\",\"page_count\":\"Page
+        !current of !total\",\"lite_press_x_close\":\"press \\u003Ca href=\\u0022#\\u0022
+        onclick=\\u0022hideLightbox(); return FALSE;\\u0022\\u003E\\u003Ckbd\\u003Ex\\u003C\\/kbd\\u003E\\u003C\\/a\\u003E
+        to close\",\"download_link_text\":\"\",\"enable_login\":false,\"enable_contact\":false,\"keys_close\":\"c
+        x 27\",\"keys_previous\":\"p 37\",\"keys_next\":\"n 39\",\"keys_zoom\":\"z\",\"keys_play_pause\":\"32\",\"display_image_size\":\"original\",\"image_node_sizes\":\"()\",\"trigger_lightbox_classes\":\"\",\"trigger_lightbox_group_classes\":\"\",\"trigger_slideshow_classes\":\"\",\"trigger_lightframe_classes\":\"\",\"trigger_lightframe_group_classes\":\"\",\"custom_class_handler\":0,\"custom_trigger_classes\":\"\",\"disable_for_gallery_lists\":true,\"disable_for_acidfree_gallery_lists\":true,\"enable_acidfree_videos\":true,\"slideshow_interval\":5000,\"slideshow_automatic_start\":true,\"slideshow_automatic_exit\":true,\"show_play_pause\":true,\"pause_on_next_click\":false,\"pause_on_previous_click\":true,\"loop_slides\":false,\"iframe_width\":600,\"iframe_height\":400,\"iframe_border\":1,\"enable_video\":0},\"nice_menus_options\":{\"delay\":\"0\",\"speed\":\"normal\"}});\n//--><!]]>\n</script>\n</head>\n<body
+        class=\"html not-front not-logged-in one-sidebar sidebar-second page-rates
+        section-rates page-views\" >\n      <div id=\"skip-link\">\n      <a href=\"#main-menu\"
+        class=\"element-invisible element-focusable\">Jump to navigation</a>\n    </div>\n
+        \     <div id=\"header-top-wrapper\">\n  <div id=\"header-top\">   <div class=\"region
+        region-header-top\">\n    <div id=\"block-nice-menus-2\" class=\"block block-nice-menus
+        first last odd\">\n\n      \n  <div class=\"content\">\n    <ul class=\"nice-menu
+        nice-menu-down nice-menu-menu-top-menu\" id=\"nice-menu-2\"><li class=\"menu-2112
+        menuparent  menu-path-fxtradergkmsonlinecom first odd \"><a href=\"http://www.fxtrader.gkmsonline.com\"
+        title=\"\">Choose a service</a><ul><li class=\"menu-2115 menu-path-billexpressgkmsonlinecom
+        first odd \"><a href=\"http://www.billexpress.gkmsonline.com\" title=\"\">Bill
+        Express</a></li>\n<li class=\"menu-2113 menu-path-gkmsonlinecom-  even \"><a
+        href=\"http://www.gkmsonline.com/\" title=\"\">GKMS</a></li>\n<li class=\"menu-2114
+        menu-path-westernuniongkmsonlinecom-  odd last\"><a href=\"http://www.westernunion.gkmsonline.com/\"
+        title=\"\">Western Union</a></li>\n</ul></li>\n<li class=\"menu-2135 menu-path-node-6
+        \ even last\"><a href=\"/contact-us\" title=\"\">Contact Us</a></li>\n</ul>\n
+        \ </div>\n\n</div><!-- /.block -->\n  </div><!-- /.region -->\n </div>\n</div>\n<div
+        id=\"header-wrapper\">\n  <div id=\"header\"><div class=\"section clearfix\">\n\n
+        \   \n    \n    \n      <div class=\"region region-header\">\n    <div id=\"block-block-4\"
+        class=\"block block-block first odd\">\n\n      \n  <div class=\"content\">\n
+        \   <div id=\"fx-logo\">\n\t<a href=\"/\"><img src=\"/sites/all/themes/fx_trader/images/fx-logo.png\"
+        /></a></div>\n  </div>\n\n</div><!-- /.block -->\n<div id=\"block-search-form\"
+        class=\"block block-search even\">\n\n      \n  <div class=\"content\">\n
+        \   <form action=\"/rates\" method=\"post\" id=\"search-block-form\" accept-charset=\"UTF-8\"><div><div
+        class=\"container-inline\">\n      <h2 class=\"element-invisible\">Search
+        form</h2>\n    <div class=\"form-item form-type-textfield form-item-search-block-form\">\n
+        \ <label class=\"element-invisible\" for=\"edit-search-block-form--2\">Search
+        </label>\n <input title=\"Enter the terms you wish to search for.\" type=\"text\"
+        id=\"edit-search-block-form--2\" name=\"search_block_form\" value=\"\" size=\"15\"
+        maxlength=\"128\" class=\"form-text\" />\n</div>\n<div class=\"form-actions
+        form-wrapper\" id=\"edit-actions\"><input type=\"submit\" id=\"edit-submit\"
+        name=\"op\" value=\"Search\" class=\"form-submit\" /></div><input type=\"hidden\"
+        name=\"form_build_id\" value=\"form-K_xtx8E_UGEfHXM5Sn_u21JYlxrzy1coPeqeLWMuSig\"
+        />\n<input type=\"hidden\" name=\"form_id\" value=\"search_block_form\" />\n</div>\n</div></form>
+        \ </div>\n\n</div><!-- /.block -->\n<div id=\"block-block-12\" class=\"block
+        block-block odd\">\n\n      \n  <div class=\"content\">\n    <div id=\"social-media\">\n<div
+        id=\"facebook\">\n\t\t<a href=\"https://www.facebook.com/BillExpressJamaica/\"
+        target=\"_blank\"><img src=\"/sites/all/themes/fx_trader/images/facebook.png\"
+        /></a></div>\n<div id=\"youtube\">\n\t\t<a href=\"https://www.youtube.com/channel/UCKA4rW1U6A67sL1TamlLbIA
+        \" target=\"_blank\"><img src=\"/sites/all/themes/fx_trader/images/youtube.png\"
+        /></a></div>\n</div>\n  </div>\n\n</div><!-- /.block -->\n<div id=\"block-nice-menus-1\"
+        class=\"block block-nice-menus last even\">\n\n      \n  <div class=\"content\">\n
+        \   <ul class=\"nice-menu nice-menu-down nice-menu-main-menu\" id=\"nice-menu-1\"><li
+        class=\"menu-1222 menu-path-node first odd \"><a href=\"/node\" title=\"\">Home</a></li>\n<li
+        class=\"menu-2450 menu-path-node-46  even \"><a href=\"/about/trinidad-tobago/46\"
+        title=\"About Us\">About</a></li>\n<li class=\"menu-1203 menuparent  menu-path-services
+        active-trail  odd \"><a href=\"/services\">Services</a><ul><li class=\"menu-1196
+        menu-path-rates active-trail first odd last\"><a href=\"/rates\" class=\"active\">Rates</a></li>\n</ul></li>\n<li
+        class=\"menu-1193 menuparent  menu-path-news  even \"><a href=\"/news\">News</a><ul><li
+        class=\"menu-4145 menu-path-news-archive first odd last\"><a href=\"/news/archive\"
+        title=\"\">Archive</a></li>\n</ul></li>\n<li class=\"menu-1181 menu-path-locations
+        \ odd \"><a href=\"/locations\">Locations</a></li>\n<li class=\"menu-1014
+        menu-path-faq  even \"><a href=\"/faq\">FAQ</a></li>\n<li class=\"menu-2169
+        menuparent  menu-path-promotions-events  odd \"><a href=\"/promotions/events\"
+        title=\"\">Promotions</a><ul><li class=\"menu-2231 menu-path-promotions-archive
+        first odd last\"><a href=\"/promotions/archive\">Archive</a></li>\n</ul></li>\n<li
+        class=\"menu-2809 menu-path-business-solutions  even last\"><a href=\"/business-solutions\">Business
+        Solutions</a></li>\n</ul>\n  </div>\n\n</div><!-- /.block -->\n  </div><!--
+        /.region -->\n\n  </div></div><!-- /.section, /#header -->\n</div>\n<div id=\"page-wrapper\"><div
+        id=\"page\">\n\n  <div id=\"main-wrapper\"><div id=\"main\" class=\"clearfix
+        with-navigation\">\n\n    <div id=\"content\" class=\"column\"><div class=\"section\">\n
+        \                 <a id=\"main-content\"></a>\n                    <h1 class=\"title\"
+        id=\"page-title\">Cheque/Cash daily exchange rates</h1>\n                                            <div
+        class=\"region region-content\">\n    <div id=\"block-system-main\" class=\"block
+        block-system first last odd\">\n\n      \n  <div class=\"content\">\n    <div
+        class=\"view view-FXTraderRates view-id-FXTraderRates view-display-id-page_1
+        view-dom-id-6ff63099fea722eb987e9104265859e4\">\n            <div class=\"view-header\">\n
+        \     <!--<div><span style=\"float: right;\"><?php //echo date(\"F j, Y\")
+        ?></span></div>-->    </div>\n  \n  \n  \n      <div class=\"view-content\">\n
+        \       <h3>Jamaica</h3>\n  <div class=\"views-row views-row-1 views-row-odd
+        views-row-first views-row-last\">\n      \n  <div class=\"views-field views-field-created\">
+        \       <span class=\"field-content\">Date Effective: 12-07-2018 </span>  </div>
+        \ \n  <div class=\"views-field views-field-title\">        <span class=\"field-content\">Cash
+        Rates</span>  </div>  \n  <div class=\"views-field views-field-title-1\">
+        \       <span class=\"field-content\">Cheque Rates</span>  </div>  \n  <div
+        class=\"views-field views-field-field-fx-trader-currency-label\">        <div
+        class=\"field-content\">Currency</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-buying-label\">        <div class=\"field-content\">Buying</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-selling-label\">
+        \       <div class=\"field-content\">Selling</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-currency-label-1\">        <div class=\"field-content\">Currency</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-buying-label-1\">
+        \       <div class=\"field-content\">Buying</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-selling-label-1\">        <div class=\"field-content\">Selling</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-currency-1\">
+        \       <div class=\"field-content\">USD</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-buying-1\">        <div class=\"field-content\">122.00</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-selling-1\">
+        \       <div class=\"field-content\">129.00</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-currency-1-1\">        <div class=\"field-content\">USD</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-buying-1-b\">
+        \       <div class=\"field-content\"></div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-selling-1-b\">        <div class=\"field-content\"></div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-currency-2\">
+        \       <div class=\"field-content\">CAD</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-buying-2\">        <div class=\"field-content\">92.95</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-selling-2\">
+        \       <div class=\"field-content\">98.65</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-currency-2-1\">        <div class=\"field-content\">CAD</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-buying-2-b\">
+        \       <div class=\"field-content\"></div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-selling-2-b\">        <div class=\"field-content\"></div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-currency-3-1\">
+        \       <div class=\"field-content\">GBP</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-buying-3\">        <div class=\"field-content\">162.70</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-selling-3\">
+        \       <div class=\"field-content\">170.30</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-currency-3\">        <div class=\"field-content\">GBP</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-buying-3-b\">
+        \       <div class=\"field-content\"></div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-selling-3-b\">        <div class=\"field-content\"></div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-currency-4-1\">
+        \       <div class=\"field-content\">KYD</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-buying-4\">        <div class=\"field-content\">128.40</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-selling-4\">
+        \       <div class=\"field-content\">138.40</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-currency-4\">        <div class=\"field-content\">KYD</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-buying-4-b\">
+        \       <div class=\"field-content\">-</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-selling-5-b\">        <div class=\"field-content\">-</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-currency-5\">
+        \       <div class=\"field-content\">EURO</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-buying-5\">        <div class=\"field-content\">142.95</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-selling-5\">
+        \       <div class=\"field-content\">149.45</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-currency-5-1\">        <div class=\"field-content\">EURO</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-buying-5-b\">
+        \       <div class=\"field-content\">-</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-selling-4-b\">        <div class=\"field-content\">-</div>
+        \ </div>  </div>\n    </div>\n  \n  \n      <div class=\"attachment attachment-after\">\n
+        \     <div class=\"view view-FXTraderRates view-id-FXTraderRates view-display-id-attachment_1\">\n
+        \           <div class=\"view-header\">\n      <!--<div><span style=\"float:
+        right;\"><?php //echo date(\"F j, Y\") ?></span></div>-->    </div>\n  \n
+        \ \n  \n      <div class=\"view-content\">\n        <h3>Trinidad &amp; Tobago</h3>\n
+        \ <div class=\"views-row views-row-1 views-row-odd views-row-first views-row-last\">\n
+        \     \n  <div class=\"views-field views-field-created\">        <span class=\"field-content\">Date
+        Effective: 12-07-2018</span>  </div>  \n  <div class=\"views-field views-field-title-1\">
+        \       <span class=\"field-content\">Cash Rates</span>  </div>  \n  <div
+        class=\"views-field views-field-title-2\">        <span class=\"field-content\">Cheque
+        Rates</span>  </div>  \n  <div class=\"views-field views-field-field-fx-trader-currency-label\">
+        \       <div class=\"field-content\">Currency</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-buying-label\">        <div class=\"field-content\">Buying</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-selling-label\">
+        \       <div class=\"field-content\">Selling</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-currency-1\">        <div class=\"field-content\">USD</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-buying-1\">
+        \       <div class=\"field-content\">6.80</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-selling-1\">        <div class=\"field-content\">7.75</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-currency-2\">
+        \       <div class=\"field-content\">CAD</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-buying-2\">        <div class=\"field-content\">4.85</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-selling-2\">
+        \       <div class=\"field-content\">5.45</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-currency-3\">        <div class=\"field-content\">GBP</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-buying-3\">
+        \       <div class=\"field-content\">8.45</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-selling-3\">        <div class=\"field-content\">9.45</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-currency-4\">
+        \       <div class=\"field-content\">KYD</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-buying-4\">        <div class=\"field-content\">-</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-selling-4\">
+        \       <div class=\"field-content\">-</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-currency-5\">        <div class=\"field-content\">EURO</div>
+        \ </div>  \n  <div class=\"views-field views-field-field-fx-trader-buying-5\">
+        \       <div class=\"field-content\">7.50</div>  </div>  \n  <div class=\"views-field
+        views-field-field-fx-trader-selling-5\">        <div class=\"field-content\">8.35</div>
+        \ </div>  </div>\n    </div>\n  \n  \n  \n  \n  \n  \n</div>    </div>\n  \n
+        \ \n  \n  \n</div>  </div>\n\n</div><!-- /.block -->\n  </div><!-- /.region
+        -->\n          </div></div><!-- /.section, /#content -->\n\n   \n\n    \n
+        \     <div class=\"region region-sidebar-second column sidebar\"><div class=\"section\">\n
+        \   <div id=\"block-block-5\" class=\"block block-block first odd\">\n\n      \n
+        \ <div class=\"content\">\n    <div>\n\t<a href=\"/locations\"> </a>\n<h2>\n\t\t<a
+        href=\"/locations\">Find an Agent</a></h2>\n<p>\t<a href=\"/locations\"><img
+        id=\"map\" src=\"/sites/all/themes/fx_trader/images/caribbean3.jpg\" /></a></p></div>\n
+        \ </div>\n\n</div><!-- /.block -->\n<div id=\"block-simpleads-ad-groups-66\"
+        class=\"block block-simpleads last even\">\n\n      \n  <div class=\"content\">\n
+        \   <div class=\"header\">\n  <div class=\"ad-link\"></div>\n</div>\n<div
+        class=\"adslist\">\n  <script type=\"text/javascript\">\n    _simpelads_load('.simpleads-66',
+        66, 2);\n  </script>\n    <div class=\"simpleads-66\"></div>\n\n    \n</div>\n
+        \ </div>\n\n</div><!-- /.block -->\n  </div></div><!-- /.section, /.region
+        -->\n\n  </div></div><!-- /#main, /#main-wrapper -->\n\n    <div class=\"region
+        region-footer\">\n    <div id=\"block-block-15\" class=\"block block-block
+        first last odd\">\n\n      \n  <div class=\"content\">\n    <!--<span class=\"gkHome\"><a
+        href=\"http://www.gkmsonline.com\"><img src=\"/sites/all/themes/western_union/images/graceFooter.gif\"
+        /></a></span>--><p><span class=\"footerText\">GraceKennedy Limited. All rights
+        reserved. <a href=\"mailto:gkms@gkco.com\">gkms@gkco.com</a></span></p>\n<script
+        src=\"http://popupmonkey.com/popup/1798/2369.js\"></script>  </div>\n\n</div><!--
+        /.block -->\n  </div><!-- /.region -->\n\n</div></div><!-- /#page, /#page-wrapper
+        -->\n\n  </body>\n</html>\n"
     http_version: 
-  recorded_at: Sun, 22 Mar 2015 14:58:25 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Fri, 13 Jul 2018 08:04:53 GMT
+recorded_with: VCR 4.0.0

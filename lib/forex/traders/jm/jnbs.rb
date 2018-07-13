@@ -1,8 +1,8 @@
 Forex::Trader.define "JNBS" do |t|
   t.base_currency   = "JMD"
-  t.name            = "Jamaica National Building Society"
+  t.name            = 'JN Bank'
   t.twitter_handle  = "@JamaicaNational"
-  t.endpoint        = "http://www.jnbs.com/fx-rates-2"
+  t.endpoint        = 'https://www.jnbank.com/fx-rates/'
 
   t.rates_parser = ->(doc) do # doc is a nokogiri document
 
@@ -12,9 +12,8 @@ Forex::Trader.define "JNBS" do |t|
       buy_draft: 1,
     }
 
-    table = doc.css(".fx-full").first
+    tbody = doc.css('#fx-big-table tbody').first
 
-    Forex::TabularRates.new(table, options).parse_rates
+    Forex::TabularRates.new(tbody, options).parse_rates
   end
 end
-
