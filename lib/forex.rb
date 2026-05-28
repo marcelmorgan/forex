@@ -1,5 +1,6 @@
 require 'nokogiri'
 require 'active_support/core_ext/string'
+require 'active_support/core_ext/object/blank'
 
 require "forex/version"
 require "forex/tabular_rates"

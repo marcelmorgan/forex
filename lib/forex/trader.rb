@@ -1,3 +1,4 @@
+require 'openssl'
 require 'open-uri'
 
 module Forex
@@ -40,7 +41,7 @@ module Forex
 
     # doc built from the endpoint
     def doc
-      @doc ||= open(endpoint) { |f| Nokogiri::HTML(f.read) }
+      @doc ||= URI.open(endpoint, "User-Agent" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36", ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE) { |f| Nokogiri::HTML(f.read) }
     end
 
     reset
