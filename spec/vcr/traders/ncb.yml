@@ -63,273 +63,29 @@ http_interactions:
       - 9ff38b83d9c0ef4d-LHR
     body:
       encoding: ASCII-8BIT
-      string: "\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <!--
-        Google Tag Manager -->\r\n    <script>\r\n        (function (w, d, s, l, i)
-        {\r\n            w[l] = w[l] || []; w[l].push({\r\n                'gtm.start':\r\n
-        \                   new Date().getTime(), event: 'gtm.js'\r\n            });
-        var f = d.getElementsByTagName(s)[0],\r\n                j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =\r\n                    'https://www.googletagmanager.com/gtm.js?id='
-        + i + dl; f.parentNode.insertBefore(j, f);\r\n        })(window, document,
-        'script', 'dataLayer', 'GTM-TWPLK2W');</script>\r\n    <!-- End Google Tag
-        Manager -->\r\n\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html;
-        charset=UTF-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width,
-        initial-scale=1.0\" />\r\n    <title>Home | National Commercial Bank - NCB
-        Jamaica</title>\r\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.ico\">\r\n
-        \   <meta name=\"description\" content=\"\" />\r\n    <meta name=\"keywords\"
-        content=\"\" />\r\n\r\n    <!-- OpenGraph -->\r\n    <meta property=\"og:title\"
-        content=\"Home | National Commercial Bank - NCB Jamaica\" />\r\n\r\n    <!--
-        CSS  -->\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300&display=swap\"
-        rel=\"stylesheet\" />\r\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css\"
-        integrity=\"sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==\"
-        crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\r\n\r\n    <!--
-        pre-load the scripts -->\r\n    <link rel=\"preload\" as=\"script\" crossorigin=\"anonymous\"
-        href=\"/assets/application-5ba5570b.js\" />\r\n\r\n    <link rel=\"stylesheet\"
-        href=\"/assets/aos.css\">\r\n    <link rel=\"stylesheet\" href=\"/assets/foundation.min.css\">\r\n
-        \   <link rel=\"stylesheet\" href=\"/assets/lity.min.css\">\r\n    <link rel=\"stylesheet\"
-        href=\"/assets/owl.theme.default.min.css\">\r\n    <link rel=\"stylesheet\"
-        href=\"/assets/owl.carousel.css\">\r\n\r\n    <link rel=\"stylesheet\" href=\"/assets/modules-fe3b76e7.css\"
-        />\r\n\r\n\r\n\r\n<link href=\"/_content/Kentico.Content.Web.Rcl/Content/Bundles/Public/systemPageComponents.min.css\"
-        rel=\"stylesheet\" />\r\n    \r\n\r\n    <!--------------------------- Live
-        chat  -------------------------->\r\n    <!-- Start SmartBanner configuration
-        -->\r\n    <meta name=\"smartbanner:title\" content=\"NCB Mobile App\">\r\n
-        \   <meta name=\"smartbanner:author\" content=\"National Commercial Bank Ltd.\">\r\n
-        \   <meta name=\"smartbanner:price\" content=\"FREE\">\r\n    <meta name=\"smartbanner:price-suffix-apple\"
-        content=\" - On the App Store\">\r\n    <meta name=\"smartbanner:price-suffix-google\"
-        content=\" - On the Play Store\">\r\n    <meta name=\"smartbanner:icon-apple\"
-        content=\"/JNCB/media/Main-Librarie/icons/AppleNCB.png\">\r\n    <meta name=\"smartbanner:icon-google\"
-        content=\"/JNCB/media/Main-Librarie/icons/AndroidNCB.png\">\r\n    <meta name=\"smartbanner:button\"
-        content=\"VIEW\">\r\n    <meta name=\"smartbanner:button-url-apple\" content=\"https://itunes.apple.com/us/app/ncb-mobile/id1435405040?mt=8\">\r\n
-        \   <meta name=\"smartbanner:button-url-google\" content=\"https://play.google.com/store/apps/details?id=com.jncb.mobile\">\r\n
-        \   <meta name=\"smartbanner:enabled-platforms\" content=\"android,ios\">\r\n
-        \   <meta name=\"smartbanner:close-label\" content=\"Close\">\r\n    <!--
-        End SmartBanner configuration -->\r\n    <link href=\"/CMSPages/GetResource.ashx?_webparts=677\"
-        type=\"text/css\" rel=\"stylesheet\">\r\n    <script type=\"module\" src=\"https://livechat.jncb.com/ncb-live-chat.js\"></script>\r\n
-        \   <script type=\"text/javascript\">\r\n\r\n        function hideCustomBotButtonsNcb()
-        {\r\n            document.getElementById(\"custom_bot_buttons_container\").style.display
-        = \"none\";\r\n            if (document.getElementById(\"chat_bot_msg_open\"))
-        {\r\n                document.getElementById(\"chat_bot_msg_open\").style.display
-        = \"none\";\r\n            }\r\n        }\r\n\r\n        function hideLiveChat()
-        {\r\n            document.querySelector('.ncb-live-chat').classList.add('hide');\r\n
-        \       }\r\n\r\n        function openLiveChat() {\r\n            hideCustomBotButtonsNcb();\r\n
-        \           document.querySelector('.ncb-live-chat').classList.remove('hide');\r\n
-        \           // window.open(\"https://livechat.jncb.com/\", \"_blank\")\r\n
-        \       }\r\n\r\n        customElements.whenDefined('ncb-live-chat').then(function
-        () {\r\n            document.querySelector('.ncb-live-chat').addEventListener('ncb-live-chat-close',
-        hideLiveChat);\r\n            document.querySelector('.ncb-live-chat').addEventListener('ncb-live-chat-minimize',
-        hideLiveChat);\r\n        });\r\n\r\n        let scriptElem = document.createElement(\"SCRIPT\");\r\n
-        \       let dateElem = new Date();\r\n        scriptElem.type = 'text/javascript';\r\n
-        \       scriptElem.setAttribute('id', 'chatbotscript');\r\n        scriptElem.setAttribute('startbotid',
-        '48');\r\n        scriptElem.setAttribute('botisactive', 'false');\r\n        scriptElem.setAttribute('mobileavatar',
-        '60');\r\n        scriptElem.setAttribute('desktopavatar', '100');\r\n        scriptElem.setAttribute('flowname',
-        'web-loan-flow');\r\n        scriptElem.setAttribute('reserved', 'x');\r\n
-        \       scriptElem.setAttribute('welcomemsg', 'Hello, I\\'m Simone. How may
-        I help you today? </br> Click Here');\r\n        scriptElem.setAttribute('clientid',
-        'https://jncb.fluidaibot.com');\r\n        scriptElem.src = `https://jncb.fluidaibot.com/js/integration/ncb_fluidaibot_integrations.js?t=${dateElem.getTime()}`;\r\n
-        \       scriptElem.setAttribute('custom_bot', 'true');\r\n        scriptElem.setAttribute('product_button_text',
-        'Need a Loan? </br></br> Click Here');\r\n        scriptElem.setAttribute('service_button_text',
-        'Need Customer Care Assistance? </br></br> Click Here');\r\n        scriptElem.setAttribute('product_button_onclick',
-        'loadchat');\r\n        scriptElem.setAttribute('service_button_onclick',
-        'openLiveChat');\r\n        scriptElem.setAttribute('custom_bot_script_file',
-        'https://livechat.jncb.com/ncb-live-chat.js');\r\n        document.getElementsByTagName('head')[0].appendChild(scriptElem);\r\n\r\n\r\n
-        \   </script>\r\n\r\n    <style type=\"text/css\">\r\n        html {\r\n            font-size:
-        unset;\r\n        }\r\n\r\n        .ncb-live-chat {\r\n            z-index:
-        121000;\r\n        }\r\n\r\n            .ncb-live-chat.hide {\r\n                display:
-        none;\r\n            }\r\n    </style>\r\n    <ncb-live-chat class=\"ncb-live-chat
-        hide\"></ncb-live-chat>\r\n    <script type=\"text/javascript\" id=\"chatbotscript\"
-        startbotid=\"48\" botisactive=\"false\" mobileavatar=\"60\" desktopavatar=\"100\"
-        flowname=\"web-loan-flow\" reserved=\"x\" welcomemsg=\"Hello, I'm Simone.
-        How may I help you today? </br> Click Here\" clientid=\"https://jncb.fluidaibot.com\"
-        src=\"https://jncb.fluidaibot.com/js/integration/ncb_fluidaibot_integrations.js?t=1707331638786\"
-        custom_bot=\"true\" product_button_text=\"Need a Loan? </br></br> Click Here\"
-        service_button_text=\"Need Customer Care Assistance? </br></br> Click Here\"
-        product_button_onclick=\"loadchat\" service_button_onclick=\"openLiveChat\"
-        custom_bot_script_file=\"https://livechat.jncb.com/ncb-live-chat.js\"></script>\r\n
-        \   <style>\r\n        .eos-menu {\r\n            font-size: 14px;\r\n            color:
-        #004989;\r\n        }\r\n\r\n            .eos-menu .eos-item a {\r\n                color:
-        #004989;\r\n            }\r\n\r\n            .eos-menu .eos-menu-content {\r\n
-        \               z-index: 10;\r\n            }\r\n\r\n                .eos-menu
-        .eos-menu-content .eos-item {\r\n                    background: #f4f4f4;\r\n
-        \               }\r\n\r\n                .eos-menu .eos-menu-content .eos-group-title
-        {\r\n                    color: #fff;\r\n                    border-color:
-        #004989;\r\n                    text-transform: capitalize;\r\n                }\r\n\r\n
-        \           .eos-menu .eos-group-content .eos-item {\r\n                background:
-        #f4f4f4;\r\n                text-transform: capitalize;\r\n            }\r\n\r\n
-        \           .eos-menu .eos-group-content > .eos-group-title {\r\n                background:
-        #d7d7d7;\r\n                color: #363636;\r\n                border-color:
-        #c2c2c2;\r\n                text-transform: uppercase;\r\n            }\r\n\r\n
-        \           .eos-menu .eos-group-title, .eos-menu .eos-item {\r\n                height:
-        40px;\r\n                line-height: 40px;\r\n                background:
-        #004989;\r\n                border-color: #e6e6e6;\r\n            }\r\n\r\n
-        \           .eos-menu .eos-menu-title {\r\n                height: 50px;\r\n
-        \               line-height: 50px;\r\n                background: #fff;\r\n
-        \           }\r\n\r\n            .eos-menu .eos-group-title .fa, .eos-menu
-        .eos-item .fa {\r\n                line-height: 40px;\r\n            }\r\n\r\n
-        \           .eos-menu .eos-menu-title .fa {\r\n                line-height:
-        40px;\r\n            }\r\n\r\n            .eos-menu .eos-menu-title:hover,
-        .eos-menu .eos-item:hover {\r\n                color: #eee;\r\n                background:
-        #293744;\r\n                border-color: #293744;\r\n            }\r\n\r\n
-        \           .eos-menu .eos-item a:hover {\r\n                color: #eee;\r\n
-        \           }</style>\r\n    <script type=\"text/javascript\" async=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972130873/?random=1707331639254&amp;cv=11&amp;fst=1707331639254&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He4250v850454456za200&amp;gcd=13l3l3l3l1&amp;dma=0&amp;u_w=1280&amp;u_h=720&amp;url=https%3A%2F%2Fwww.jncb.com%2F&amp;label=i-m0CIb7qpYDELmUxs8D&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Home%20%7C%20National%20Commercial%20Bank%20-%20NCB%20Jamaica%20Ltd.&amp;npa=0&amp;pscdl=noapi&amp;auid=922036844.1701315543&amp;uaa=x86&amp;uab=64&amp;uafvl=Not%2520A(Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B121.0.6167.140%7CChromium%3B121.0.6167.140&amp;uamb=0&amp;uap=Windows&amp;uapv=10.0.0&amp;uaw=1&amp;fledge=1&amp;rfmt=3&amp;fmt=4\"></script>\r\n
-        \   <script type=\"text/javascript\" async=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972130873/?random=1707331639287&amp;cv=11&amp;fst=1707331639287&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be4250za200&amp;gcd=13l3l3l3l1&amp;dma=0&amp;u_w=1280&amp;u_h=720&amp;url=https%3A%2F%2Fwww.jncb.com%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Home%20%7C%20National%20Commercial%20Bank%20-%20NCB%20Jamaica%20Ltd.&amp;npa=0&amp;pscdl=noapi&amp;auid=922036844.1701315543&amp;uaa=x86&amp;uab=64&amp;uafvl=Not%2520A(Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B121.0.6167.140%7CChromium%3B121.0.6167.140&amp;uamb=0&amp;uap=Windows&amp;uapv=10.0.0&amp;uaw=1&amp;fledge=1&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4\"></script>\r\n
-        \   <style>\r\n        html, body {\r\n            height: 100%;\r\n            margin:
-        0;\r\n        }\r\n\r\n        #custom_chat_bot_msg_open button, .custom_bot_buttons_container_header
-        button {\r\n            padding: 1px 8px;\r\n            margin: 0;\r\n        }\r\n\r\n
-        \       // #bodymappeddiv {\r\n            background-color: white;\r\n            background-image:
-        url(/image/loading_gif_5.gif);\r\n            background-attachment: fixed;\r\n
-        \           display: none;\r\n            background-position: center;\r\n
-        \           background-repeat: no-repeat;\r\n            position: fixed;\r\n
-        \           width: 100%;\r\n            height: 100%;\r\n            top:
-        0px;\r\n            left: 0px;\r\n            z-index: 120000;\r\n        }\r\n\r\n
-        \       #bodymappeddiv {\r\n            background-attachment: fixed;\r\n
-        \           display: none;\r\n            background-position: center;\r\n
-        \           background-repeat: no-repeat;\r\n            position: fixed;\r\n
-        \           width: 100%;\r\n            height: 100%;\r\n            top:
-        0px;\r\n            left: 0px;\r\n            z-index: 12;\r\n            max-height:
-        100%;\r\n            overflow-y: auto;\r\n        }\r\n            /**Scroll
-        Bar*/ #bodymappeddiv::-webkit-scrollbar {\r\n                width: 10px;\r\n
-        \               padding: 0px !important;\r\n                margin: 0px !important;\r\n
-        \           }\r\n            /* Track */ #bodymappeddiv::-webkit-scrollbar-track
-        {\r\n                background: #f1f1f1;\r\n                padding: 0px
-        !important;\r\n                margin: 0px !important;\r\n            }\r\n
-        \           /* Handle */ #bodymappeddiv::-webkit-scrollbar-thumb {\r\n                background:
-        #888;\r\n                border-radius: 10px;\r\n            }\r\n                /*
-        Handle on hover */ #bodymappeddiv::-webkit-scrollbar-thumb:hover {\r\n                    background:
-        #555;\r\n                }\r\n\r\n        object {\r\n            background-color:
-        white;\r\n            background-image: url(/image/loading_gif_5.gif);\r\n
-        \           width: 100%;\r\n            min-height: 100%;\r\n            background-attachment:
-        fixed;\r\n            background-position: center;\r\n            background-repeat:
-        no-repeat;\r\n        }\r\n\r\n        .loaderDiv {\r\n            opacity:
-        0;\r\n            transition: all 3s ease-out;\r\n            z-index: 120000
-        !important;\r\n            visibility: hidden;\r\n            background-image:
-        url('https://jncb.fluidaibot.com/image/loading_gif_5.gif');\r\n            background-attachment:
-        fixed;\r\n            background-position: center;\r\n            background-repeat:
-        no-repeat;\r\n            position: fixed;\r\n            width: 100%;\r\n
-        \           height: 100%;\r\n            top: 0px;\r\n            left: 0px;\r\n
-        \           z-index: 0;\r\n        }\r\n\r\n        // #bodymappeddiv > object
-        {\r\n            position: fixed;\r\n            width: 100%;\r\n            height:
-        100%;\r\n            top: 0px;\r\n            left: 0px;\r\n            z-index:
-        1;\r\n        }\r\n\r\n        .darkOverlay {\r\n            position: fixed;\r\n
-        \           z-index: 120000 !important;\r\n            visibility: hidden;\r\n
-        \           width: 100%;\r\n            height: 100%;\r\n            top:
-        0;\r\n            left: 0;\r\n            opacity: 0;\r\n            right:
-        0;\r\n            bottom: 0;\r\n            background-color: rgba(0,0,0,
-        0.7);\r\n            z-index: 0;\r\n            transition: all 1.5s ease-out;\r\n
-        \       }\r\n\r\n        .MoveChatBotDown {\r\n            background: transparent;\r\n
-        \           z-index: 120000 !important;\r\n            right: 30px;\r\n            width:
-        400px;\r\n            height: 550px;\r\n            max-height: calc(100vh
-        - 46px);\r\n            position: fixed;\r\n            border-radius: 5px;\r\n
-        \           animation-name: botContainer;\r\n            animation-duration:
-        1s;\r\n            animation-iteration-count: 1;\r\n            animation-fill-mode:
-        forwards;\r\n            animation-timing-function: ease;\r\n            box-shadow:
-        -2px -2px 14px 0px rgba(0, 0, 0, 0.1)\r\n        }\r\n\r\n        @keyframes
-        MoveUpDown {\r\n            0% {\r\n                bottom: 80px;\r\n            }\r\n\r\n
-        \           10% {\r\n                bottom: 80px;\r\n            }\r\n\r\n
-        \           20% {\r\n                bottom: 90px;\r\n            }\r\n\r\n
-        \           30% {\r\n                bottom: 80px;\r\n            }\r\n\r\n
-        \           40% {\r\n                bottom: 80px;\r\n            }\r\n\r\n
-        \           50% {\r\n                bottom: 40px;\r\n            }\r\n\r\n
-        \           60% {\r\n                bottom: 40px;\r\n            }\r\n\r\n
-        \           70% {\r\n                bottom: 45px;\r\n            }\r\n\r\n
-        \           80% {\r\n                bottom: 40px;\r\n            }\r\n\r\n
-        \           90% {\r\n                bottom: 60px;\r\n            }\r\n\r\n
-        \           100% {\r\n                bottom: 70px;\r\n            }\r\n        }\r\n\r\n
-        \       @keyframes MoveUpDownMobile {\r\n            0% {\r\n                bottom:
-        50px;\r\n            }\r\n\r\n            10% {\r\n                bottom:
-        50px;\r\n            }\r\n\r\n            20% {\r\n                bottom:
-        60px;\r\n            }\r\n\r\n            30% {\r\n                bottom:
-        50px;\r\n            }\r\n\r\n            40% {\r\n                bottom:
-        50px;\r\n            }\r\n\r\n            50% {\r\n                bottom:
-        10px;\r\n            }\r\n\r\n            60% {\r\n                bottom:
-        10px;\r\n            }\r\n\r\n            70% {\r\n                bottom:
-        15px;\r\n            }\r\n\r\n            80% {\r\n                bottom:
-        10px;\r\n            }\r\n\r\n            90% {\r\n                bottom:
-        30px;\r\n            }\r\n\r\n            100% {\r\n                bottom:
-        40px;\r\n            }\r\n        }\r\n\r\n        @keyframes MoveUpDownReopen
-        {\r\n            0% {\r\n                top: 60%\r\n            }\r\n\r\n
-        \           10% {\r\n                top: 60%\r\n            }\r\n\r\n            20%
-        {\r\n                top: 58%\r\n            }\r\n\r\n            30% {\r\n
-        \               top: 60%\r\n            }\r\n\r\n            40% {\r\n                top:
-        60%\r\n            }\r\n\r\n            50% {\r\n                top: 65%\r\n
-        \           }\r\n\r\n            60% {\r\n                top: 65%\r\n            }\r\n\r\n
-        \           70% {\r\n                top: 62%\r\n            }\r\n\r\n            80%
-        {\r\n                top: 65%\r\n            }\r\n\r\n            90% {\r\n
-        \               top: 60%\r\n            }\r\n\r\n            100% {\r\n                top:
-        58%\r\n            }\r\n        }\r\n\r\n        @keyframes botContainer {\r\n
-        \           from {\r\n                bottom: -700px;\r\n                opacity:
-        0.2;\r\n                display: none;\r\n            }\r\n\r\n            to
-        {\r\n                bottom: 30px;\r\n                opacity: 1;\r\n                display:
-        block;\r\n            }\r\n        }\r\n\r\n        @keyframes hidebotContainer
-        {\r\n            from {\r\n                bottom: 30px;\r\n                opacity:
-        1;\r\n                display: block;\r\n            }\r\n\r\n            to
-        {\r\n                bottom: -700px;\r\n                opacity: 0.2;\r\n
-        \               display: none !important;\r\n            }\r\n        }\r\n\r\n
-        \       #mediaSection {\r\n            background-attachment: fixed;\r\n            min-width:
-        30%;\r\n            z-index: 120006 !important;\r\n            min-height:
-        50%; /*max-height: 90%;*/ /*overflow-y: auto;*/\r\n            background-position:
-        center;\r\n            display: none;\r\n            background-repeat: no-repeat;\r\n
-        \           position: fixed;\r\n            width: 42%;\r\n            height:
-        auto;\r\n            top: 40px;\r\n            left: 61px;\r\n            z-index:
-        12; /*background-color: #0f6c97; padding: 10px; box-shadow: 5px 10px #8787878c;
-        border-radius: 8px; */\r\n        }\r\n        /*\tthe CSS  for Tablet like
-        UI*/\r\n        /* The device with borders */\r\n        .media-screen-tablet-portrait
-        {\r\n            background-color: white;\r\n            margin: auto;\r\n
-        \           border: 16px black solid;\r\n            border-top-width: 60px;\r\n
-        \           border-bottom-width: 60px;\r\n            border-radius: 36px;\r\n
-        \       }\r\n\r\n        .media-screen-tablet-landscape {\r\n            background-color:
-        white;\r\n            margin: auto;\r\n            border: 16px black solid;\r\n
-        \           border-left-width: 60px;\r\n            border-right-width: 60px;\r\n
-        \           border-radius: 36px;\r\n        }\r\n\r\n        /* The horizontal
-        line on the top of the device */\r\n        .media-screen-tablet-portrait:before
-        {\r\n            content: '';\r\n            display: block;\r\n            width:
-        60px;\r\n            height: 10px;\r\n            position: absolute;\r\n
-        \           top: -30px;\r\n            left: 50%;\r\n            transform:
-        translate(-50%, -50%);\r\n            background: #333;\r\n            border-radius:
-        10px;\r\n        }\r\n\r\n        .media-screen-tablet-portrait-nocontent:before
-        {\r\n            content: none;\r\n        }\r\n\r\n        .media-screen-tablet-landscape:before
-        {\r\n            content: '';\r\n            display: block;\r\n            width:
-        60px;\r\n            height: 10px;\r\n            position: absolute;\r\n
-        \           top: 50%;\r\n            left: -60px;\r\n            transform:
-        translate(-50%, -50%);\r\n            background: #333;\r\n            border-radius:
-        10px;\r\n            transform: rotate(90deg);\r\n        }\r\n\r\n        .media-screen-tablet-landscape-nocontent:before
-        {\r\n            content: none;\r\n        }\r\n\r\n        /* The circle
-        on the bottom of the device */\r\n        .media-screen-tablet-portrait:after
-        {\r\n            content: '';\r\n            display: block;\r\n            width:
-        35px;\r\n            height: 35px;\r\n            position: absolute;\r\n
-        \           left: 50%;\r\n            bottom: -65px;\r\n            transform:
-        translate(-50%, -50%);\r\n            background: #333;\r\n            border-radius:
-        50%;\r\n        }\r\n\r\n        .media-screen-tablet-portrait-nocontent:after
-        {\r\n            content: none;\r\n        }\r\n\r\n        .media-screen-tablet-landscape:after
-        {\r\n            content: '';\r\n            display: block;\r\n            width:
-        35px;\r\n            height: 35px;\r\n            position: absolute;\r\n
-        \           top: 50%;\r\n            right: -65px;\r\n            transform:
-        translate(-50%, -50%);\r\n            background: #333;\r\n            border-radius:
-        50%;\r\n        }\r\n\r\n        .media-screen-tablet-landscape:after-nocontent
-        {\r\n            content: none;\r\n        }\r\n\r\n        .media-screen-mobile
-        {\r\n            background-color: white;\r\n            margin: auto;\r\n
-        \           border: 10px black solid;\r\n        }\r\n    </style>\r\n    <script
-        src=\"https://jncb.fluidaibot.com/js/pdfjs-dist/build/pdf.js\"></script>\r\n
-        \   <script src=\"https://livechat.jncb.com/ncb-live-chat.js\"></script>\r\n
-        \   <script src=\"https://www.googletagmanager.com/gtag/js?id=G-GPSYF53EK3\"
-        async=\"\"></script>\r\n\r\n    <!--------------------------- end Live chat
-        \ -------------------------->\r\n</head>\r\n<body>\r\n    <!-- Google Tag
-        Manager (noscript) -->\r\n    <noscript>\r\n        <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-TWPLK2W\"\r\n
-        \               height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\r\n
-        \   </noscript>\r\n    <!-- End Google Tag Manager (noscript) -->\r\n    <div
-        class=\"page\">\r\n\r\n        \r\n\r\n<div class=\"menu\">\r\n    <div class=\"overlay\"></div>\r\n\r\n
-        \   <!-- TopBar -->\r\n    <div class=\"topbar\" data-aos=\"fade-down\">\r\n
-        \       <div class=\"container\">\r\n            <div class=\"items\">\r\n
-        \               <span class=\"super links\">Enter Offer Codes <i class=\"icon
-        caret\"></i></span>\r\n                <div class=\"dropdown\">\r\n                    <a
-        href=\"https://loans.jncb.com/\" target=\"_blank\" class=\"links\">Loan Offer
-        Code</a>\r\n                    <a href=\"https://creditcard.jncb.com/personal\"
+      string: "<!DOCTYPE html>\n<html lang=\"en\">\r\n<head>\n<meta http-equiv=\"Content-Type\"
+        content=\"text/html; charset=UTF-8\">\r\n    \r\n    \r\n    \r\n\r\n    \r\n
+        \   \r\n    <title>Home | National Commercial Bank - NCB Jamaica</title>\r\n
+        \   \r\n    \r\n    \r\n\r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n
+        \   \r\n    \r\n\r\n    \r\n    \r\n    \r\n    \r\n    \r\n\r\n    \r\n\r\n\r\n\r\n\r\n
+        \   \r\n\r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n
+        \   \r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n\r\n
+        \   \r\n    <ncb-live-chat class=\"ncb-live-chat hide\"></ncb-live-chat>\r\n
+        \   \r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n\r\n    \r\n</head>\r\n<body>\r\n
+        \   \r\n    \r\n    \r\n    <div class=\"page\">\r\n\r\n        \r\n\r\n<div
+        class=\"menu\">\r\n    <div class=\"overlay\"></div>\r\n\r\n    \r\n    <div
+        class=\"topbar\" data-aos=\"fade-down\">\r\n        <div class=\"container\">\r\n
+        \           <div class=\"items\">\r\n                <span class=\"super links\">Enter
+        Offer Codes <i class=\"icon caret\"></i></span>\r\n                <div class=\"dropdown\">\r\n
+        \                   <a href=\"https://loans.jncb.com/\" target=\"_blank\"
+        class=\"links\">Loan Offer Code</a>\r\n                    <a href=\"https://creditcard.jncb.com/personal\"
         target=\"_blank\" class=\"links\">Personal Credit Card Offer Code</a>\r\n
         \                   <a href=\"https://creditcard.jncb.com/business\" target=\"_blank\"
         class=\"links\">Business Credit Card Offer Code</a>\r\n                </div>\r\n
         \           </div>\r\n            <div class=\"items border-right\">\r\n                <a
         href=\"/internetbanking?rd=RetailLogon\" target=\"_blank\">\r\n                    <span
         class=\"links\">\r\n                        Online Banking Sign In <i class=\"fas
-        fa-lock\"\r\n                                                  style=\"font-size:
-        10px; margin-left: 3px\"></i>\r\n                    </span>\r\n                </a>\r\n
+        fa-lock\"></i>\r\n                    </span>\r\n                </a>\r\n
         \           </div>\r\n            <div class=\"items\">\r\n                <span
         class=\"super links\">Credit Card Services <i class=\"icon caret\"></i></span>\r\n
         \               <div class=\"dropdown\">\r\n                    <a href=\"https://activate.jncb.com/Activate/step-1\"
@@ -341,35 +97,29 @@ http_interactions:
         href=\"/support/contact/contact\" target=\"_blank\" class=\"links\">Contact
         Us</a>\r\n            </div>\r\n            <div class=\"items border-right\">\r\n
         \               <a href=\"/support/locate/branches\" target=\"_blank\" class=\"links\">Branches
-        & ABMs</a>\r\n            </div>\r\n            <div class=\"items border-right\">\r\n
-        \               <a href=\"https://app.qtrac.com/scheduler-execution?c-id=f8e307b4-ccd1-4b98-9060-a61b67de611c&s-id=7ca8e35b-69d1-41c4-a289-823728503252&type=ABS\"
+        &amp; ABMs</a>\r\n            </div>\r\n            <div class=\"items border-right\">\r\n
+        \               <a href=\"https://app.qtrac.com/scheduler-execution?c-id=f8e307b4-ccd1-4b98-9060-a61b67de611c&amp;s-id=7ca8e35b-69d1-41c4-a289-823728503252&amp;type=ABS\"
         target=\"_blank\" class=\"links\">Book Your Branch Appointment</a>\r\n\r\n
-        \           </div>\r\n        </div>\r\n    </div>\r\n\r\n    <!-- TopBar
-        -->\r\n    <!-- NavBar -->\r\n    <div class=\"navbar\">\r\n        <div class=\"container\">\r\n
-        \           <!-- Hamburger -->\r\n            <span class=\"hamburger\" onclick=\"myFunction()\">\r\n
-        \               <i class=\"fas fa-bars\"></i>\r\n                <span>MENU</span>\r\n
-        \           </span>\r\n            <!-- Hamburger -->\r\n            <!--
-        Logo -->\r\n            <a href=\"/\" data-aos=\"fade-right\">\r\n                <img
-        src=\"/img/logo.png\" class=\"logo\" alt=\"Company logo\" loading=\"lazy\"
-        width=\"10\"\r\n                     height=\"60\" />\r\n            </a>\r\n
-        \           <!-- Logo -->\r\n            <!-- Navigation -->\r\n            <nav
-        class=\"navigation\" id=\"navbar\">\r\n                <a href=\"/\" class=\"links\">\r\n
-        \                   <img src=\"/img/home.png\" alt=\"home\" loading=\"lazy\"
-        class=\"home_nav_icon\"\r\n                         width=\"15\" height=\"20\"
-        />\r\n                </a>\r\n                <div class=\"tablet-navbar\">\r\n
+        \           </div>\r\n        </div>\r\n    </div>\r\n\r\n    \r\n    \r\n
+        \   <div class=\"navbar\">\r\n        <div class=\"container\">\r\n            \r\n
+        \           <span class=\"hamburger\">\r\n                <i class=\"fas fa-bars\"></i>\r\n
+        \               <span>MENU</span>\r\n            </span>\r\n            \r\n
+        \           \r\n            <a href=\"/\" data-aos=\"fade-right\">\r\n                \r\n
+        \           </a>\r\n            \r\n            \r\n            <nav class=\"navigation\"
+        id=\"navbar\">\r\n                <a href=\"/\" class=\"links\">\r\n                    \r\n
+        \               </a>\r\n                <div class=\"tablet-navbar\">\r\n
         \                   <div class=\"links link-hover\">\r\n                        <a
         href=\"/\">\r\n                            <i class=\"fas fa-home\"></i>\r\n
         \                           Home\r\n                        </a>\r\n                    </div>\r\n
-        \                   <!-- <hr class=\"content-seperate\" /> -->\r\n                    <div
-        class=\"links link-hover\">\r\n                        <a href=\"/support/locate/branches\"
-        target=\"_blank\">\r\n                            <i class=\"fas fa-home\"></i>\r\n
-        \                           Branches & ABMs\r\n                        </a>\r\n
-        \                   </div>\r\n                    <!-- <hr class=\"content-seperate\"
-        /> -->\r\n\r\n                    <div class=\"links link-hover\">\r\n                        <a
-        href=\"/support/contact/contact\" target=\"_blank\">\r\n                            <i
-        class=\"fas fa-home\"></i>\r\n                            Contact Us\r\n                        </a>\r\n
-        \                   </div>\r\n\r\n                    <div class=\"links link-hover\">\r\n
-        \                       <a href=\"https://activate.jncb.com/Activate/step-1\"
+        \                   \r\n                    <div class=\"links link-hover\">\r\n
+        \                       <a href=\"/support/locate/branches\" target=\"_blank\">\r\n
+        \                           <i class=\"fas fa-home\"></i>\r\n                            Branches
+        &amp; ABMs\r\n                        </a>\r\n                    </div>\r\n
+        \                   \r\n\r\n                    <div class=\"links link-hover\">\r\n
+        \                       <a href=\"/support/contact/contact\" target=\"_blank\">\r\n
+        \                           <i class=\"fas fa-home\"></i>\r\n                            Contact
+        Us\r\n                        </a>\r\n                    </div>\r\n\r\n                    <div
+        class=\"links link-hover\">\r\n                        <a href=\"https://activate.jncb.com/Activate/step-1\"
         target=\"_blank\">\r\n                            <i class=\"fas fa-home\"></i>\r\n
         \                           Activate Your Credit Card\r\n                        </a>\r\n
         \                   </div>\r\n\r\n                    <div class=\"links link-hover\">\r\n
@@ -394,48 +144,46 @@ http_interactions:
         class=\"links link-hover\">\r\n                        <a href=\"https://www.jncb.com/openaccountonline/\"
         target=\"_blank\">\r\n                            <i class=\"fas fa-home\"></i>\r\n
         \                           Continue Opening Account\r\n                        </a>\r\n
-        \                   </div>\r\n\r\n                    <!-- Tablet Sub Menu
-        -->\r\n                    <div class=\"tablet-navbar_sub-menu\">\r\n\r\n\r\n\r\n\r\n<div
-        class=\"sub-menu_links-container\">\r\n    <div class=\"sub-menu_links link-hover\">\r\n
-        \       <span> Personal </span>\r\n        <i class=\"fas fa-chevron-right\"></i>\r\n
-        \   </div>\r\n\r\n    <div class=\"tablet-dropdown\">\r\n                <h4>Banking</h4>\r\n
-        \                       <div class=\"links link-hover\">\r\n                            <a
-        href=\"/personal/banking/account-opening-requirements\">Account Opening Requirements
-        </a>\r\n                        </div>\r\n                        <div class=\"links
-        link-hover\">\r\n                            <a href=\"/personal/banking/bank-accounts\">Bank
+        \                   </div>\r\n\r\n                    \r\n                    <div
+        class=\"tablet-navbar_sub-menu\">\r\n\r\n\r\n\r\n\r\n<div class=\"sub-menu_links-container\">\r\n
+        \   <div class=\"sub-menu_links link-hover\">\r\n        <span> Personal </span>\r\n
+        \       <i class=\"fas fa-chevron-right\"></i>\r\n    </div>\r\n\r\n    <div
+        class=\"tablet-dropdown\">\r\n                <h4>Banking</h4>\r\n                        <div
+        class=\"links link-hover\">\r\n                            <a href=\"/personal/banking/account-opening-requirements\">Account
+        Opening Requirements </a>\r\n                        </div>\r\n                        <div
+        class=\"links link-hover\">\r\n                            <a href=\"/personal/banking/bank-accounts\">Bank
         Accounts </a>\r\n                        </div>\r\n                        <div
         class=\"links link-hover\">\r\n                            <a href=\"/personal/banking/online-banking\">Personal
         Online Banking </a>\r\n                        </div>\r\n                        <div
         class=\"links link-hover\">\r\n                                <a href=\"https://www.jncb.com/app/\"
-        target=\"_blank\" >Mobile App</a>\r\n                        </div>\r\n                <h4>Cards</h4>\r\n
+        target=\"_blank\">Mobile App</a>\r\n                        </div>\r\n                <h4>Cards</h4>\r\n
         \                       <div class=\"links link-hover\">\r\n                                <a
-        href=\"https://www.jncb.com/visadebit/\" target=\"_blank\" >Debit Card</a>\r\n
+        href=\"https://www.jncb.com/visadebit/\" target=\"_blank\">Debit Card</a>\r\n
         \                       </div>\r\n                        <div class=\"links
         link-hover\">\r\n                                <a href=\"https://creditcard.jncb.com/personal\"
-        target=\"_blank\" >Credit Cards</a>\r\n                        </div>\r\n
-        \                       <div class=\"links link-hover\">\r\n                                <a
-        href=\"https://creditcard.jncb.com/cards/prepaid\" target=\"_blank\" >Prepaid
-        Card</a>\r\n                        </div>\r\n                        <div
+        target=\"_blank\">Credit Cards</a>\r\n                        </div>\r\n                        <div
+        class=\"links link-hover\">\r\n                                <a href=\"https://creditcard.jncb.com/cards/prepaid\"
+        target=\"_blank\">Prepaid Card</a>\r\n                        </div>\r\n                        <div
         class=\"links link-hover\">\r\n                                <a href=\"https://activate.jncb.com/Activate/step-1\"
-        target=\"_blank\" >Activate Your Credit Card</a>\r\n                        </div>\r\n
+        target=\"_blank\">Activate Your Credit Card</a>\r\n                        </div>\r\n
         \               <h4>Loans</h4>\r\n                        <div class=\"links
         link-hover\">\r\n                            <a href=\"/personal/loans/digital-loans\">Digital
         Loans </a>\r\n                        </div>\r\n                        <div
         class=\"links link-hover\">\r\n                            <a href=\"/personal/loans/branch-loans\">Branch
         Loans </a>\r\n                        </div>\r\n                        <div
         class=\"links link-hover\">\r\n                                <a href=\"https://drive.jncb.com/\"
-        target=\"_blank\" >Auto Loan</a>\r\n                        </div>\r\n                        <div
+        target=\"_blank\">Auto Loan</a>\r\n                        </div>\r\n                        <div
         class=\"links link-hover\">\r\n                                <a href=\"https://myhome.jncb.com/\"
-        target=\"_blank\" >Mortgage</a>\r\n                        </div>\r\n                <h4>Calculators</h4>\r\n
+        target=\"_blank\">Mortgage</a>\r\n                        </div>\r\n                <h4>Calculators</h4>\r\n
         \                       <div class=\"links link-hover\">\r\n                            <a
         href=\"/personal/calculators/loan-calculator\">Loan Calculator </a>\r\n                        </div>\r\n
         \                       <div class=\"links link-hover\">\r\n                                <a
-        href=\"https://loans.jncb.com/\" target=\"_blank\" >Digital Loan Calculator</a>\r\n
+        href=\"https://loans.jncb.com/\" target=\"_blank\">Digital Loan Calculator</a>\r\n
         \                       </div>\r\n                        <div class=\"links
         link-hover\">\r\n                                <a href=\"https://myhome.jncb.com/mortgageCalculator\"
-        target=\"_blank\" >Mortgage Calculator</a>\r\n                        </div>\r\n
+        target=\"_blank\">Mortgage Calculator</a>\r\n                        </div>\r\n
         \                       <div class=\"links link-hover\">\r\n                                <a
-        href=\"https://drive.jncb.com/home\" target=\"_blank\" >Auto Loan Calculator</a>\r\n
+        href=\"https://drive.jncb.com/home\" target=\"_blank\">Auto Loan Calculator</a>\r\n
         \                       </div>\r\n\r\n</div>\r\n    </div>\r\n\r\n      \r\n\r\n\r\n\r\n<div
         class=\"sub-menu_links-container\">\r\n    <div class=\"sub-menu_links link-hover\">\r\n
         \       <span> Business </span>\r\n        <i class=\"fas fa-chevron-right\"></i>\r\n
@@ -452,13 +200,13 @@ http_interactions:
         class=\"links link-hover\">\r\n                            <a href=\"/business/banking/treasury-correspondent-banking\">Treasury
         &amp; Correspondent Banking </a>\r\n                        </div>\r\n                        <div
         class=\"links link-hover\">\r\n                                <a href=\"https://ncbj.ca1.qualtrics.com/jfe/form/SV_39MIRYP95qDjxCS\"
-        target=\"_blank\" >Business Online Banking Feedback</a>\r\n                        </div>\r\n
+        target=\"_blank\">Business Online Banking Feedback</a>\r\n                        </div>\r\n
         \               <h4>Cards</h4>\r\n                        <div class=\"links
         link-hover\">\r\n                                <a href=\"https://creditcard.jncb.com/cards/business\"
-        target=\"_blank\" >Business Credit Cards</a>\r\n                        </div>\r\n
+        target=\"_blank\">Business Credit Cards</a>\r\n                        </div>\r\n
         \                       <div class=\"links link-hover\">\r\n                                <a
         href=\"/getmedia/8343382d-176f-40c6-bdd8-8a657212c867/Boost-Your-Business-Terms-and-Condition.pdf\"
-        target=\"_blank\" >Visa Boost Terms &amp; Conditions</a>\r\n                        </div>\r\n
+        target=\"_blank\">Visa Boost Terms &amp; Conditions</a>\r\n                        </div>\r\n
         \               <h4>Loans</h4>\r\n                        <div class=\"links
         link-hover\">\r\n                            <a href=\"/business/loans-financing/unsecured-loans\">Unsecured
         Loans </a>\r\n                        </div>\r\n                        <div
@@ -472,11 +220,11 @@ http_interactions:
         class=\"links link-hover\">\r\n                            <a href=\"/business/merchant-services/point-of-sale\">Point
         of Sale (POS) </a>\r\n                        </div>\r\n                        <div
         class=\"links link-hover\">\r\n                                <a href=\"https://www.jncb.com/mpos/\"
-        target=\"_blank\" >NCB mPOS</a>\r\n                        </div>\r\n                        <div
+        target=\"_blank\">NCB mPOS</a>\r\n                        </div>\r\n                        <div
         class=\"links link-hover\">\r\n                                <a href=\"https://merchantleads.jncb.com/\"
-        target=\"_blank\" >NCB ePOS</a>\r\n                        </div>\r\n                        <div
+        target=\"_blank\">NCB ePOS</a>\r\n                        </div>\r\n                        <div
         class=\"links link-hover\">\r\n                                <a href=\"https://www.jncb.com/ecommerce/\"
-        target=\"_blank\" >eCommerce</a>\r\n                        </div>\r\n                        <div
+        target=\"_blank\">eCommerce</a>\r\n                        </div>\r\n                        <div
         class=\"links link-hover\">\r\n                            <a href=\"/business/merchant-services/paysmart\">PaySmart
         </a>\r\n                        </div>\r\n\r\n</div>\r\n    </div>\r\n\r\n
         \     \r\n\r\n\r\n\r\n<div class=\"sub-menu_links-container\">\r\n    <div
@@ -488,7 +236,7 @@ http_interactions:
         class=\"links link-hover\">\r\n                            <a href=\"/wealth/banking/private-banking\">Private
         Banking </a>\r\n                        </div>\r\n                        <div
         class=\"links link-hover\">\r\n                                <a href=\"https://www.jncb.com/ascend/\"
-        target=\"_blank\" >Ascend Services</a>\r\n                        </div>\r\n
+        target=\"_blank\">Ascend Services</a>\r\n                        </div>\r\n
         \               <h4>Investments</h4>\r\n                        <div class=\"links
         link-hover\">\r\n                            <a href=\"/wealth/investments/invest-differently\">Invest
         Differently </a>\r\n                        </div>\r\n                <h4>Insurance
@@ -523,9 +271,9 @@ http_interactions:
         class=\"links link-hover\">\r\n                            <a href=\"/about-us/ncb-opportunities/sponsorship\">Sponsorship
         </a>\r\n                        </div>\r\n                        <div class=\"links
         link-hover\">\r\n                                <a href=\"https://www.jncb.com/careers/\"
-        target=\"_blank\" >Careers Site</a>\r\n                        </div>\r\n
-        \               <h4>Investor Relations</h4>\r\n                        <div
-        class=\"links link-hover\">\r\n                            <a href=\"/about-us/investor-relations/annual-reports\">Annual
+        target=\"_blank\">Careers Site</a>\r\n                        </div>\r\n                <h4>Investor
+        Relations</h4>\r\n                        <div class=\"links link-hover\">\r\n
+        \                           <a href=\"/about-us/investor-relations/annual-reports\">Annual
         Reports </a>\r\n                        </div>\r\n                        <div
         class=\"links link-hover\">\r\n                            <a href=\"/about-us/investor-relations/quarterly-reports\">Quarterly
         Reports </a>\r\n                        </div>\r\n                        <div
@@ -540,7 +288,7 @@ http_interactions:
         link-hover\">\r\n                            <a href=\"/support/security/privacy-security\">Privacy
         &amp; Security </a>\r\n                        </div>\r\n                        <div
         class=\"links link-hover\">\r\n                                <a href=\"https://www.jncb.com/rsa/\"
-        target=\"_blank\" >RSA Security Token</a>\r\n                        </div>\r\n
+        target=\"_blank\">RSA Security Token</a>\r\n                        </div>\r\n
         \                       <div class=\"links link-hover\">\r\n                            <a
         href=\"/support/security/account-status\">Account Status </a>\r\n                        </div>\r\n
         \                       <div class=\"links link-hover\">\r\n                            <a
@@ -553,12 +301,12 @@ http_interactions:
         class=\"links link-hover\">\r\n                            <a href=\"/support/customer-service/customer-satisfaction-survey\">Customer
         Satisfaction Survey </a>\r\n                        </div>\r\n                        <div
         class=\"links link-hover\">\r\n                                <a href=\"https://ejed.fa.em2.oraclecloud.com/fscmUI/faces/PrcPosRegisterSupplier?prcBuId=300000001498015&amp;busRel=o9yYn03s9Z8TA5w6NmNDA1m9Upwi%2Fb%2BeSA%3D%3D&amp;_afrLoop=16308984212400290&amp;_afrWindowMode=0&amp;_afrWind\"
-        target=\"_blank\" >New Supplier Registration</a>\r\n                        </div>\r\n
+        target=\"_blank\">New Supplier Registration</a>\r\n                        </div>\r\n
         \                       <div class=\"links link-hover\">\r\n                                <a
         href=\"https://ejed.fa.em2.oraclecloud.com/supplierPortal/faces/FndOverview?fndGlobalItemNodeId=itemNode_supplier_portal_supplier_portal\"
-        target=\"_blank\" >Existing Supplier Login</a>\r\n                        </div>\r\n
+        target=\"_blank\">Existing Supplier Login</a>\r\n                        </div>\r\n
         \                       <div class=\"links link-hover\">\r\n                                <a
-        href=\"https://consent.jncb.com/\" target=\"_blank\" >Consent Management System
+        href=\"https://consent.jncb.com/\" target=\"_blank\">Consent Management System
         (CMS)</a>\r\n                        </div>\r\n                        <div
         class=\"links link-hover\">\r\n                            <a href=\"/support/customer-service/data-subject-request-forms\">Data
         Subject Request Forms </a>\r\n                        </div>\r\n                <h4>Help
@@ -727,41 +475,40 @@ http_interactions:
         class=\"\">Branches &amp; ABMs</a></span>\r\n            </div>\r\n        </div>\r\n
         \   </div>\r\n</div>\r\n\r\n\r\n\r\n                <div class=\"formSearch\">\r\n
         \                   <input type=\"text\" class=\"searchField\" placeholder=\"Loans,
-        Credit Cards, Insurance...\" />\r\n                    <button class=\"searchSubmit\">Search</button>\r\n
-        \               </div>\r\n            </nav>\r\n            <!-- Navigation
-        -->\r\n        </div>\r\n        <div class=\"tablet-navigation\">\r\n            <div
-        class=\"links\">\r\n                <a href=\"https://retail.ncbelink.com/corp/AuthenticationController?__START_TRAN_FLAG__=Y&FORMSGROUP_ID__=AuthenticationFG&__EVENT_ID__=LOAD&FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=077&LANGUAGE_ID=001\">Sign
+        Credit Cards, Insurance...\">\r\n                    <button class=\"searchSubmit\">Search</button>\r\n
+        \               </div>\r\n            </nav>\r\n            \r\n        </div>\r\n
+        \       <div class=\"tablet-navigation\">\r\n            <div class=\"links\">\r\n
+        \               <a href=\"https://retail.ncbelink.com/corp/AuthenticationController?__START_TRAN_FLAG__=Y&amp;FORMSGROUP_ID__=AuthenticationFG&amp;__EVENT_ID__=LOAD&amp;FG_BUTTONS__=LOAD&amp;ACTION.LOAD=Y&amp;AuthenticationFG.LOGIN_FLAG=1&amp;BANK_ID=077&amp;LANGUAGE_ID=001\">Sign
         In</a>\r\n                <i class=\"fas fa-lock\"></i>\r\n            </div>\r\n
         \           <div class=\"links\">\r\n                <a href=\"/support/contact/contact\">Contact
         Us</a>\r\n            </div>\r\n            <div class=\"links\">\r\n                <a
-        href=\"/support/locate/branches\">Branches & ABMs</a>\r\n            </div>\r\n
+        href=\"/support/locate/branches\">Branches &amp; ABMs</a>\r\n            </div>\r\n
         \           <button id=\"openAccountBtnNav\" class=\"orange\">Open An Account</button>\r\n
         \           <div id=\"signUpFormNav\" class=\"enquiryformwrap modal\" data-id=\"productdetail\"
-        class=\"form__control\" hidden=\"hidden\">\r\n                <div class=\"modal-content\">\r\n
-        \                   <span class=\"modalClose\"><img src=\"/img/closeBtn.png\"
-        alt=\"close button icon\"></span>\r\n                    <div class=\"modalContainer\">\r\n
-        \                       <div class=\"content main\" style=\"background-color:white\">\r\n
-        \                           <div class=\"col\">\r\n                                <h3>New
-        NCB Customer?</h3>\r\n                                <p>Jamaican Residents
-        and Non-Residents opening a new deposit, loan, credit card or investment account?</p>\r\n
-        \                               <a href=\"https://www.jncb.com/openaccountonline\"
-        class=\"popupBtn\">Open Now</a>\r\n                            </div>\r\n
-        \                           <div class=\"col\">\r\n                                <h3>Already
-        an NCB Customer?</h3>\r\n                                <p>\r\n                                    Open
-        your new account by selecting \"New Account\" under Quick Links in Online
-        Banking.\r\n                                    </br>\r\n                                    Don't
-        Have Online Banking? <a href=\"#\">Register</a>\r\n                                </p>\r\n
-        \                               <a href=\"https://www.jncb.com/internetbanking?rd=RetailLogon\"
-        class=\"popupBtn\">Open in Online Banking</a>\r\n                            </div>\r\n
-        \                           <div class=\"col\">\r\n                                <h3>Updating
-        Your Contact Details?</h3>\r\n                                <p>\r\n                                    Have
+        hidden=\"hidden\">\r\n                <div class=\"modal-content\">\r\n                    <span
+        class=\"modalClose\"></span>\r\n                    <div class=\"modalContainer\">\r\n
+        \                       <div class=\"content main\">\r\n                            <div
+        class=\"col\">\r\n                                <h3>New NCB Customer?</h3>\r\n
+        \                               <p>Jamaican Residents and Non-Residents opening
+        a new deposit, loan, credit card or investment account?</p>\r\n                                <a
+        href=\"https://www.jncb.com/openaccountonline\" class=\"popupBtn\">Open Now</a>\r\n
+        \                           </div>\r\n                            <div class=\"col\">\r\n
+        \                               <h3>Already an NCB Customer?</h3>\r\n                                <p>\r\n
+        \                                   Open your new account by selecting \"New
+        Account\" under Quick Links in Online Banking.\r\n                                    \r\n
+        \                                   Don't Have Online Banking? <a href=\"#\">Register</a>\r\n
+        \                               </p>\r\n                                <a
+        href=\"https://www.jncb.com/internetbanking?rd=RetailLogon\" class=\"popupBtn\">Open
+        in Online Banking</a>\r\n                            </div>\r\n                            <div
+        class=\"col\">\r\n                                <h3>Updating Your Contact
+        Details?</h3>\r\n                                <p>\r\n                                    Have
         any of your details changed?\r\n                                    Update
         your account details here.\r\n                                </p>\r\n                                <a
         href=\"https://remoteonboarding.jncb.com/\" class=\"popupBtn\">Update Now</a>\r\n
         \                           </div>\r\n                        </div>\r\n                    </div>\r\n
         \               </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n
-        \   <!-- NavBar -->\r\n</div>\r\n\r\n\r\n\r\n        \r\n<main>\r\n    <div>\r\n
-        \       <div class=\"login\" data-aos=\"fade-left\">\r\n            <div class=\"tabs\">\r\n
+        \   \r\n</div>\r\n\r\n\r\n\r\n        \r\n<main>\r\n    <div>\r\n        <div
+        class=\"login\" data-aos=\"fade-left\">\r\n            <div class=\"tabs\">\r\n
         \               <span class=\"personal active\">Personal</span>\r\n                <span
         class=\"business\">Business</span>\r\n            </div>\r\n            <div
         class=\"tabContent personal active\">\r\n                <span class=\"title\">Online
@@ -773,11 +520,10 @@ http_interactions:
         \               <hr>\r\n                <a id=\"openAccountBtn\" href=\"https://openaccount.jncb.com/login\"
         class=\"button openAccount\">Open / Update An Account</a>\r\n                <div
         id=\"signUpForm\" class=\"enquiryformwrap modal\" data-id=\"productdetail\"
-        class=\"form__control\" hidden=\"hidden\">\r\n                    <div class=\"modal-content\">\r\n
-        \                       <span class=\"modalClose\"><img src=\"/img/closeBtn.png\"
-        alt=\"close button icon\"></span>\r\n                        <div class=\"modalContainer\">\r\n
-        \                           <div class=\"content main\" style=\"background-color:white\">\r\n
-        \                               <div class=\"col\">\r\n                                    <h3>New
+        hidden=\"hidden\">\r\n                    <div class=\"modal-content\">\r\n
+        \                       <span class=\"modalClose\"></span>\r\n                        <div
+        class=\"modalContainer\">\r\n                            <div class=\"content
+        main\">\r\n                                <div class=\"col\">\r\n                                    <h3>New
         NCB Customer?</h3>\r\n                                    <p>Jamaican Residents
         and Non-Residents opening a new deposit, loan, credit card or investment account?</p>\r\n
         \                                   <a href=\"https://www.jncb.com/openaccountonline\"
@@ -785,7 +531,7 @@ http_interactions:
         \                               <div class=\"col\">\r\n                                    <h3>Already
         an NCB Customer?</h3>\r\n                                    <p>\r\n                                        Open
         your new account by selecting \"New Account\" under Quick Links in Online
-        Banking.\r\n                                        </br>\r\n                                        Don't
+        Banking.\r\n                                        \r\n                                        Don't
         Have Online Banking? <a href=\"#\">Register</a>\r\n                                    </p>\r\n
         \                                   <a href=\"https://www.jncb.com/internetbanking?rd=RetailLogon\"
         class=\"popupBtn\">Open in Online Banking</a>\r\n                                </div>\r\n
@@ -806,192 +552,154 @@ http_interactions:
         \           </div>\r\n        </div>\r\n        \r\n    <div>\r\n        \r\n\r\n\r\n\r\n\r\n\r\n<div
         class=\"homeBanner\">\r\n    <div class=\"Hero-slider owl-carousel owl-theme\">\r\n
         \       <div class=\"hero-slider-item-container\">\r\n            <div class=\"container\">\r\n
-        \               <div class=\"info-block\">\r\n                    <h3 style=\"color:#ffffff;\">Branches
-        &amp; ABM Availability</h3>\r\n                    <p style=\"color:#ffffff;\">See
-        which branches and ABMs are currently available</p>\r\n                    <!--<button
-        class=\"orange aos-init aos-animate\" data-aos onclick=\"https://www.jncb.com/abm-status\">Learn
-        more</button>-->\r\n                <a  href=\"https://www.jncb.com/abm-status\"
-        target=\"_blank\"><button class=\"orange aos-init aos-animate\" data-aos>Learn
-        more</button></a>\r\n                </div>\r\n            </div>\r\n            <img
-        src=\"/getattachment/b7179c8c-69a0-4b71-9c53-38c673e6def9/Image.img\" alt=\"\"
-        loading=\"lazy\" width=\"0\" />\r\n        </div>\r\n        <div class=\"hero-slider-item-container\">\r\n
+        \               <div class=\"info-block\">\r\n                    <h3>Branches
+        &amp; ABM Availability</h3>\r\n                    <p>See which branches and
+        ABMs are currently available</p>\r\n                    \r\n                <a
+        href=\"https://www.jncb.com/abm-status\" target=\"_blank\"><button class=\"orange
+        aos-init aos-animate\" data-aos>Learn more</button></a>\r\n                </div>\r\n
+        \           </div>\r\n            \r\n        </div>\r\n        <div class=\"hero-slider-item-container\">\r\n
         \           <div class=\"container\">\r\n                <div class=\"info-block\">\r\n
-        \                   <h3 style=\"color:#015294;\">Ready to book your branch
-        appointment?</h3>\r\n                    <p style=\"color:#015294;\">The main
-        appointment scheduler is currently unavailable. Click the button below to
-        book your branch appointment.</p>\r\n                    <!--<button class=\"orange
-        aos-init aos-animate\" data-aos onclick=\"https://app.qtrac.com/scheduler-execution?c-id=f8e307b4-ccd1-4b98-9060-a61b67de611c&amp;s-id=7ca8e35b-69d1-41c4-a289-823728503252&amp;type=ABS\">Book
-        An Appointment</button>-->\r\n                <a  href=\"https://app.qtrac.com/scheduler-execution?c-id=f8e307b4-ccd1-4b98-9060-a61b67de611c&amp;s-id=7ca8e35b-69d1-41c4-a289-823728503252&amp;type=ABS\"
+        \                   <h3>Ready to book your branch appointment?</h3>\r\n                    <p>The
+        main appointment scheduler is currently unavailable. Click the button below
+        to book your branch appointment.</p>\r\n                    \r\n                <a
+        href=\"https://app.qtrac.com/scheduler-execution?c-id=f8e307b4-ccd1-4b98-9060-a61b67de611c&amp;s-id=7ca8e35b-69d1-41c4-a289-823728503252&amp;type=ABS\"
         target=\"_blank\"><button class=\"orange aos-init aos-animate\" data-aos>Book
         An Appointment</button></a>\r\n                </div>\r\n            </div>\r\n
-        \           <img src=\"/getattachment/c46b5689-bc6f-4989-9e67-d5fb5dfc79d9/Image.img\"
-        alt=\"\" loading=\"lazy\" width=\"0\" />\r\n        </div>\r\n        <div
-        class=\"hero-slider-item-container\">\r\n            <div class=\"container\">\r\n
-        \               <div class=\"info-block\">\r\n                    <h3 style=\"color:#ffffff;\">We&#x2019;re
-        Serious About Your Security</h3>\r\n                    <p style=\"color:#ffffff;\">Worried
-        you might have accidentally compromised your NCB account?</p>\r\n                    <!--<button
-        class=\"orange aos-init aos-animate\" data-aos onclick=\"https://www.jncb.com/support/security/privacy-and-security\">Report
-        It</button>-->\r\n                <a  href=\"https://www.jncb.com/support/security/privacy-and-security\"
+        \           \r\n        </div>\r\n        <div class=\"hero-slider-item-container\">\r\n
+        \           <div class=\"container\">\r\n                <div class=\"info-block\">\r\n
+        \                   <h3>We’re Serious About Your Security</h3>\r\n                    <p>Worried
+        you might have accidentally compromised your NCB account?</p>\r\n                    \r\n
+        \               <a href=\"https://www.jncb.com/support/security/privacy-and-security\"
         target=\"_blank\"><button class=\"orange aos-init aos-animate\" data-aos>Report
-        It</button></a>\r\n                </div>\r\n            </div>\r\n            <img
-        src=\"/getattachment/dd98286b-2bc3-4585-8b9a-accd09696b9c/Image.img\" alt=\"\"
-        loading=\"lazy\" width=\"0\" />\r\n        </div>\r\n        <div class=\"hero-slider-item-container\">\r\n
-        \           <div class=\"container\">\r\n                <div class=\"info-block\">\r\n
-        \                   <h3 style=\"color:#015294;\">Extra $$$ For All Your Purchases</h3>\r\n
-        \                   <p style=\"color:#015294;\">You could have extra money
-        waiting</p>\r\n                    <!--<button class=\"orange aos-init aos-animate\"
-        data-aos onclick=\"https://loans.jncb.com\">Check Now</button>-->\r\n                <a
-        \ href=\"https://loans.jncb.com\" target=\"_blank\"><button class=\"orange
-        aos-init aos-animate\" data-aos>Check Now</button></a>\r\n                </div>\r\n
-        \           </div>\r\n            <img src=\"/getattachment/55d05e57-0879-4aef-91fe-8e659420b29a/Image.img\"
-        alt=\"\" loading=\"lazy\" width=\"0\" />\r\n        </div>\r\n        <div
-        class=\"hero-slider-item-container\">\r\n            <div class=\"container\">\r\n
-        \               <div class=\"info-block\">\r\n                    <h3 style=\"color:#015294;\">More
-        Spending Power? Yes Please!</h3>\r\n                    <p style=\"color:#015294;\">Add
-        an NCB credit card to your wallet today</p>\r\n                    <!--<button
-        class=\"orange aos-init aos-animate\" data-aos onclick=\"https://creditcard.jncb.com/?utm_source=jncb%2Bbanner&amp;utm_medium=traffic&amp;utm_campaign=rwr%2Bcards%2Bweb%2Bbanner\">Claim
-        Now!</button>-->\r\n                <a  href=\"https://creditcard.jncb.com/?utm_source=jncb%2Bbanner&amp;utm_medium=traffic&amp;utm_campaign=rwr%2Bcards%2Bweb%2Bbanner\"
+        It</button></a>\r\n                </div>\r\n            </div>\r\n            \r\n
+        \       </div>\r\n        <div class=\"hero-slider-item-container\">\r\n            <div
+        class=\"container\">\r\n                <div class=\"info-block\">\r\n                    <h3>Extra
+        $$$ For All Your Purchases</h3>\r\n                    <p>You could have extra
+        money waiting</p>\r\n                    \r\n                <a href=\"https://loans.jncb.com\"
+        target=\"_blank\"><button class=\"orange aos-init aos-animate\" data-aos>Check
+        Now</button></a>\r\n                </div>\r\n            </div>\r\n            \r\n
+        \       </div>\r\n        <div class=\"hero-slider-item-container\">\r\n            <div
+        class=\"container\">\r\n                <div class=\"info-block\">\r\n                    <h3>More
+        Spending Power? Yes Please!</h3>\r\n                    <p>Add an NCB credit
+        card to your wallet today</p>\r\n                    \r\n                <a
+        href=\"https://creditcard.jncb.com/?utm_source=jncb%2Bbanner&amp;utm_medium=traffic&amp;utm_campaign=rwr%2Bcards%2Bweb%2Bbanner\"
         target=\"_blank\"><button class=\"orange aos-init aos-animate\" data-aos>Claim
-        Now!</button></a>\r\n                </div>\r\n            </div>\r\n            <img
-        src=\"/getattachment/8223ab25-851b-4164-ad1c-29f7720e62b7/Image.img\" alt=\"\"
-        loading=\"lazy\" width=\"0\" />\r\n        </div>\r\n        <div class=\"hero-slider-item-container\">\r\n
+        Now!</button></a>\r\n                </div>\r\n            </div>\r\n            \r\n
+        \       </div>\r\n        <div class=\"hero-slider-item-container\">\r\n            <div
+        class=\"container\">\r\n                <div class=\"info-block\">\r\n                    <h3>More
+        Ways To Accept Payments with NCB ePOS</h3>\r\n                    <p>Let us
+        help you to Never Miss A Sale!</p>\r\n                    \r\n                <a
+        href=\"https://www.jncb.com/epos/\" target=\"_blank\"><button class=\"orange
+        aos-init aos-animate\" data-aos>Get Started</button></a>\r\n                </div>\r\n
+        \           </div>\r\n            \r\n        </div>\r\n        <div class=\"hero-slider-item-container\">\r\n
         \           <div class=\"container\">\r\n                <div class=\"info-block\">\r\n
-        \                   <h3 style=\"color:#ffffff;\">More Ways To Accept Payments
-        with NCB ePOS</h3>\r\n                    <p style=\"color:#ffffff;\">Let
-        us help you to Never Miss A Sale!</p>\r\n                    <!--<button class=\"orange
-        aos-init aos-animate\" data-aos onclick=\"https://www.jncb.com/epos/\">Get
-        Started</button>-->\r\n                <a  href=\"https://www.jncb.com/epos/\"
-        target=\"_blank\"><button class=\"orange aos-init aos-animate\" data-aos>Get
-        Started</button></a>\r\n                </div>\r\n            </div>\r\n            <img
-        src=\"/getattachment/475fcd14-b27e-4d4d-b20f-13aad65998db/Image.img\" alt=\"\"
-        loading=\"lazy\" width=\"0\" />\r\n        </div>\r\n        <div class=\"hero-slider-item-container\">\r\n
-        \           <div class=\"container\">\r\n                <div class=\"info-block\">\r\n
-        \                   <h3 style=\"color:#3D70B2;\">Taxes, But Make It Rewarding</h3>\r\n
-        \                   <p style=\"color:#3D70B2;\">Pay your business taxes using
-        your NCB Business Credit Card and reap rewards</p>\r\n                    <!--<button
-        class=\"orange aos-init aos-animate\" data-aos onclick=\"https://www.jncb.com/BusinessCards\">Sign
-        Up Here</button>-->\r\n                <a  href=\"https://www.jncb.com/BusinessCards\"
+        \                   <h3>Taxes, But Make It Rewarding</h3>\r\n                    <p>Pay
+        your business taxes using your NCB Business Credit Card and reap rewards</p>\r\n
+        \                   \r\n                <a href=\"https://www.jncb.com/BusinessCards\"
         target=\"_blank\"><button class=\"orange aos-init aos-animate\" data-aos>Sign
-        Up Here</button></a>\r\n                </div>\r\n            </div>\r\n            <img
-        src=\"/getattachment/719cd3bc-78b5-465c-8d7f-c713f125edbe/Image.img\" alt=\"\"
-        loading=\"lazy\" width=\"0\" />\r\n        </div>\r\n        <div class=\"hero-slider-item-container\">\r\n
-        \           <div class=\"container\">\r\n                <div class=\"info-block\">\r\n
-        \                   <h3 style=\"color:#ffffff;\">Repossessed Assets</h3>\r\n
-        \                   <p style=\"color:#ffffff;\">View the current list of motor
-        vehicles and properties available</p>\r\n                    <!--<button class=\"orange
-        aos-init aos-animate\" data-aos onclick=\"https://www.jncb.com/reclaimedlistings\">Learn
-        More</button>-->\r\n                <a  href=\"https://www.jncb.com/reclaimedlistings\"
-        target=\"_blank\"><button class=\"orange aos-init aos-animate\" data-aos>Learn
-        More</button></a>\r\n                </div>\r\n            </div>\r\n            <img
-        src=\"/getattachment/3c1151c4-6a1d-40e1-8c8d-639b4c3f0d35/Image.img\" alt=\"\"
-        loading=\"lazy\" width=\"0\" />\r\n        </div>\r\n    </div>\r\n</div>
-        \r\n\r\n    \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    <div class=\"landingHelpSection\">\r\n
-        \       <div class=\"container\">\r\n            <div class=\"header\">\r\n
-        \               <div class=\"title\" data-aos=\"fade-down\">How Can We Help
-        You?</div>\r\n\r\n                <div class=\"tabs\" data-aos=\"fade-down\"><span
-        class=\"active personal\">Personal</span><span class=\"business\">Business</span></div>\r\n
+        Up Here</button></a>\r\n                </div>\r\n            </div>\r\n            \r\n
+        \       </div>\r\n        <div class=\"hero-slider-item-container\">\r\n            <div
+        class=\"container\">\r\n                <div class=\"info-block\">\r\n                    <h3>Repossessed
+        Assets</h3>\r\n                    <p>View the current list of motor vehicles
+        and properties available</p>\r\n                    \r\n                <a
+        href=\"https://www.jncb.com/reclaimedlistings\" target=\"_blank\"><button
+        class=\"orange aos-init aos-animate\" data-aos>Learn More</button></a>\r\n
+        \               </div>\r\n            </div>\r\n            \r\n        </div>\r\n
+        \   </div>\r\n</div> \r\n\r\n    \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    <div
+        class=\"landingHelpSection\">\r\n        <div class=\"container\">\r\n            <div
+        class=\"header\">\r\n                <div class=\"title\" data-aos=\"fade-down\">How
+        Can We Help You?</div>\r\n\r\n                <div class=\"tabs\" data-aos=\"fade-down\">\n<span
+        class=\"active personal\">Personal</span><span class=\"business\">Business</span>\n</div>\r\n
         \           </div>\r\n\r\n            <div class=\"helpBody\" data-aos=\"fade-up\">\r\n
         \               <div class=\"tabHolder personal active\">\r\n                    <div
         class=\"help-slider owl-carousel owl-theme slider1\">\r\n                            <div
-        class=\"ctaCard\">\r\n                                <div class=\"image\"
-        style=\"background-image: url(/getattachment/92cc3963-23f1-4377-8db2-d4e17272234e/Image.img);\">\r\n
+        class=\"ctaCard\">\r\n                                <div class=\"image\">\r\n
         \                                   <span class=\"cover\"></span>\r\n                                    <span
         class=\"title\">\r\n                                        <a href=\"https://loans.jncb.com/checkForOffer?utm_source=jncb&amp;utm_medium=small%20banner\">Get
         Extra Money In Minutes!</a>\r\n                                    </span>\r\n
         \                               </div>\r\n\r\n                                <div
         class=\"content\">\r\n                                    <span class=\"list\">Borrow
-        up to 100K with Pay Advance Plus. It&#x2019;s interest free-just a flat fee,
-        no branch visits required and you get the money in your account in jus...</span>\r\n
+        up to 100K with Pay Advance Plus. It’s interest free-just a flat fee, no branch
+        visits required and you get the money in your account in jus...</span>\r\n
         \                               </div>\r\n\r\n                                <div
-        class=\"footerCTA\">\r\n                                    <button onclick=\"location.href
-        = 'https://loans.jncb.com/checkForOffer?utm_source=jncb&amp;utm_medium=small%20banner';\">View
+        class=\"footerCTA\">\r\n                                    <button>View More</button>\r\n
+        \                               </div>\r\n                            </div>\r\n
+        \                           <div class=\"ctaCard\">\r\n                                <div
+        class=\"image\">\r\n                                    <span class=\"cover\"></span>\r\n
+        \                                   <span class=\"title\">\r\n                                        <a
+        href=\"https://myhome.jncb.com/\">Buy A Home</a>\r\n                                    </span>\r\n
+        \                               </div>\r\n\r\n                                <div
+        class=\"content\">\r\n                                    <span class=\"list\">Buying
+        a home is one of the most important decisions you will ever make. We'll help
+        you on your way to opening that door.</span>\r\n                                </div>\r\n\r\n
+        \                               <div class=\"footerCTA\">\r\n                                    <button>View
         More</button>\r\n                                </div>\r\n                            </div>\r\n
         \                           <div class=\"ctaCard\">\r\n                                <div
-        class=\"image\" style=\"background-image: url(/getattachment/a0fb3c59-9b1b-49f9-9b8d-672c092635bd/Image.img);\">\r\n
-        \                                   <span class=\"cover\"></span>\r\n                                    <span
-        class=\"title\">\r\n                                        <a href=\"https://myhome.jncb.com/\">Buy
-        A Home</a>\r\n                                    </span>\r\n                                </div>\r\n\r\n
-        \                               <div class=\"content\">\r\n                                    <span
-        class=\"list\">Buying a home is one of the most important decisions you will
-        ever make. We&#x27;ll help you on your way to opening that door.</span>\r\n
-        \                               </div>\r\n\r\n                                <div
-        class=\"footerCTA\">\r\n                                    <button onclick=\"location.href
-        = 'https://myhome.jncb.com/';\">View More</button>\r\n                                </div>\r\n
-        \                           </div>\r\n                            <div class=\"ctaCard\">\r\n
-        \                               <div class=\"image\" style=\"background-image:
-        url(/getattachment/20f1deef-cdc9-482a-aee2-a4d58a3d4df8/Image.img);\">\r\n
-        \                                   <span class=\"cover\"></span>\r\n                                    <span
-        class=\"title\">\r\n                                        <a href=\"https://creditcard.jncb.com/personal\">Choose
-        A Credit Card</a>\r\n                                    </span>\r\n                                </div>\r\n\r\n
+        class=\"image\">\r\n                                    <span class=\"cover\"></span>\r\n
+        \                                   <span class=\"title\">\r\n                                        <a
+        href=\"https://creditcard.jncb.com/personal\">Choose A Credit Card</a>\r\n
+        \                                   </span>\r\n                                </div>\r\n\r\n
         \                               <div class=\"content\">\r\n                                    <span
         class=\"list\">Shop, Travel or do the things you enjoy  with the convenience
         and security of an  NCB credit card. </span>\r\n                                </div>\r\n\r\n
-        \                               <div class=\"footerCTA\">\r\n                                    <button
-        onclick=\"location.href = 'https://creditcard.jncb.com/personal';\">View More</button>\r\n
-        \                               </div>\r\n                            </div>\r\n
+        \                               <div class=\"footerCTA\">\r\n                                    <button>View
+        More</button>\r\n                                </div>\r\n                            </div>\r\n
         \                           <div class=\"ctaCard\">\r\n                                <div
-        class=\"image\" style=\"background-image: url(/getattachment/6ec4c77c-8dd0-4f11-9ce4-5d4372fd815a/Image.img);\">\r\n
-        \                                   <span class=\"cover\"></span>\r\n                                    <span
-        class=\"title\">\r\n                                        <a href=\"https://www.jncb.com/Personal/Banking/Online-Banking\">Pay
-        Your Bills Online</a>\r\n                                    </span>\r\n                                </div>\r\n\r\n
+        class=\"image\">\r\n                                    <span class=\"cover\"></span>\r\n
+        \                                   <span class=\"title\">\r\n                                        <a
+        href=\"https://www.jncb.com/Personal/Banking/Online-Banking\">Pay Your Bills
+        Online</a>\r\n                                    </span>\r\n                                </div>\r\n\r\n
         \                               <div class=\"content\">\r\n                                    <span
         class=\"list\">Pay your credit card bills, utility bills, NHT mortgage and
         more at your convenience, anywhere at any time</span>\r\n                                </div>\r\n\r\n
-        \                               <div class=\"footerCTA\">\r\n                                    <button
-        onclick=\"location.href = 'https://www.jncb.com/Personal/Banking/Online-Banking';\">View
+        \                               <div class=\"footerCTA\">\r\n                                    <button>View
         More</button>\r\n                                </div>\r\n                            </div>\r\n
         \                           <div class=\"ctaCard\">\r\n                                <div
-        class=\"image\" style=\"background-image: url(/getattachment/40aba98c-fe6b-40c7-8905-079c01f541cd/Image.img);\">\r\n
-        \                                   <span class=\"cover\"></span>\r\n                                    <span
-        class=\"title\">\r\n                                        <a href=\"https://www.ncbinsurance.com/Products/Guardian-Life-Limited-Individual-Life-Insurance\">Save
-        For Your Child&#x27;s College Education</a>\r\n                                    </span>\r\n
+        class=\"image\">\r\n                                    <span class=\"cover\"></span>\r\n
+        \                                   <span class=\"title\">\r\n                                        <a
+        href=\"https://www.ncbinsurance.com/Products/Guardian-Life-Limited-Individual-Life-Insurance\">Save
+        For Your Child's College Education</a>\r\n                                    </span>\r\n
         \                               </div>\r\n\r\n                                <div
         class=\"content\">\r\n                                    <span class=\"list\">Start
-        building your child&#x27;s college education  fund and we will reward you
-        with tax-free interest and 35% grant.</span>\r\n                                </div>\r\n\r\n
-        \                               <div class=\"footerCTA\">\r\n                                    <button
-        onclick=\"location.href = 'https://www.ncbinsurance.com/Products/Guardian-Life-Limited-Individual-Life-Insurance';\">View
+        building your child's college education  fund and we will reward you with
+        tax-free interest and 35% grant.</span>\r\n                                </div>\r\n\r\n
+        \                               <div class=\"footerCTA\">\r\n                                    <button>View
         More</button>\r\n                                </div>\r\n                            </div>\r\n
         \                           <div class=\"ctaCard\">\r\n                                <div
-        class=\"image\" style=\"background-image: url(/getattachment/e700c2d5-9f6f-4ea3-9f08-807ee348b1fd/Image.img);\">\r\n
-        \                                   <span class=\"cover\"></span>\r\n                                    <span
-        class=\"title\">\r\n                                        <a href=\"https://www.jncb.com/wealth/investments/invest-differently\">Start
+        class=\"image\">\r\n                                    <span class=\"cover\"></span>\r\n
+        \                                   <span class=\"title\">\r\n                                        <a
+        href=\"https://www.jncb.com/wealth/investments/invest-differently\">Start
         Investing</a>\r\n                                    </span>\r\n                                </div>\r\n\r\n
         \                               <div class=\"content\">\r\n                                    <span
         class=\"list\">Make your money work for you by having investment as part of
         your financial holdings </span>\r\n                                </div>\r\n\r\n
-        \                               <div class=\"footerCTA\">\r\n                                    <button
-        onclick=\"location.href = 'https://www.jncb.com/wealth/investments/invest-differently';\">View
+        \                               <div class=\"footerCTA\">\r\n                                    <button>View
         More</button>\r\n                                </div>\r\n                            </div>\r\n
         \                           <div class=\"ctaCard\">\r\n                                <div
-        class=\"image\" style=\"background-image: url(/getattachment/1d133f75-2be9-4285-a686-da7ca807afc5/Image.img);\">\r\n
-        \                                   <span class=\"cover\"></span>\r\n                                    <span
-        class=\"title\">\r\n                                        <a href=\"https://drive.jncb.com/\">Buy
-        A Car</a>\r\n                                    </span>\r\n                                </div>\r\n\r\n
-        \                               <div class=\"content\">\r\n                                    <span
-        class=\"list\">Planning on buying a car? We&#x27;ll help you get the car of
-        your dreams. It&#x27;s quick, easy and you can get approved now!</span>\r\n
-        \                               </div>\r\n\r\n                                <div
-        class=\"footerCTA\">\r\n                                    <button onclick=\"location.href
-        = 'https://drive.jncb.com/';\">View More</button>\r\n                                </div>\r\n
-        \                           </div>\r\n                    </div>\r\n                </div>\r\n\r\n
-        \               <div class=\"tabHolder business\">\r\n                    <div
-        class=\"help-slider owl-carousel owl-theme slider2\">\r\n                            <div
-        class=\"ctaCard\">\r\n\r\n                                <div class=\"image\"
-        style=\"background-image: url(/getattachment/475200b0-ea06-435f-8010-cd22bd63bae9/Image.img)\"
-        );\">\r\n                                    <span class=\"cover\"></span>\r\n
+        class=\"image\">\r\n                                    <span class=\"cover\"></span>\r\n
         \                                   <span class=\"title\">\r\n                                        <a
-        href=\"https://creditcard.jncb.com/business\">Choose A Business Credit Card</a>\r\n
-        \                                   </span>\r\n                                </div>\r\n\r\n
-        \                               <div class=\"content\">\r\n                                    <span
-        class=\"list\">Find the NCB credit card to fit your business needs. Select
-        the card that rewards and help you manage your cash flow</span>\r\n                                </div>\r\n\r\n
-        \                               <div class=\"footerCTA\">\r\n                                    <button
-        onclick=\"location.href = 'https://creditcard.jncb.com/business';\">View More</button>\r\n
-        \                               </div>\r\n\r\n                            </div>\r\n
+        href=\"https://drive.jncb.com/\">Buy A Car</a>\r\n                                    </span>\r\n
+        \                               </div>\r\n\r\n                                <div
+        class=\"content\">\r\n                                    <span class=\"list\">Planning
+        on buying a car? We'll help you get the car of your dreams. It's quick, easy
+        and you can get approved now!</span>\r\n                                </div>\r\n\r\n
+        \                               <div class=\"footerCTA\">\r\n                                    <button>View
+        More</button>\r\n                                </div>\r\n                            </div>\r\n
+        \                   </div>\r\n                </div>\r\n\r\n                <div
+        class=\"tabHolder business\">\r\n                    <div class=\"help-slider
+        owl-carousel owl-theme slider2\">\r\n                            <div class=\"ctaCard\">\r\n\r\n
+        \                               <div class=\"image\">\r\n                                    <span
+        class=\"cover\"></span>\r\n                                    <span class=\"title\">\r\n
+        \                                       <a href=\"https://creditcard.jncb.com/business\">Choose
+        A Business Credit Card</a>\r\n                                    </span>\r\n
+        \                               </div>\r\n\r\n                                <div
+        class=\"content\">\r\n                                    <span class=\"list\">Find
+        the NCB credit card to fit your business needs. Select the card that rewards
+        and help you manage your cash flow</span>\r\n                                </div>\r\n\r\n
+        \                               <div class=\"footerCTA\">\r\n                                    <button>View
+        More</button>\r\n                                </div>\r\n\r\n                            </div>\r\n
         \                           <div class=\"ctaCard\">\r\n\r\n                                <div
-        class=\"image\" style=\"background-image: url(/getattachment/4dac0928-784c-437b-a372-328cf5979909/Image.img)\"
-        );\">\r\n                                    <span class=\"cover\"></span>\r\n
+        class=\"image\">\r\n                                    <span class=\"cover\"></span>\r\n
         \                                   <span class=\"title\">\r\n                                        <a
         href=\"https://www.jncb.com/business/loans-financing/unsecured-loans\">Grow
         Your business</a>\r\n                                    </span>\r\n                                </div>\r\n\r\n
@@ -999,12 +707,10 @@ http_interactions:
         class=\"list\">Need working capital for your business or to refinance debt?
         We can help you grow your business with one of unsecured loans. </span>\r\n
         \                               </div>\r\n\r\n                                <div
-        class=\"footerCTA\">\r\n                                    <button onclick=\"location.href
-        = 'https://www.jncb.com/business/loans-financing/unsecured-loans';\">View
-        More</button>\r\n                                </div>\r\n\r\n                            </div>\r\n
+        class=\"footerCTA\">\r\n                                    <button>View More</button>\r\n
+        \                               </div>\r\n\r\n                            </div>\r\n
         \                           <div class=\"ctaCard\">\r\n\r\n                                <div
-        class=\"image\" style=\"background-image: url(/getattachment/af321903-9198-4469-ad47-3d7bc5e11649/Image.img)\"
-        );\">\r\n                                    <span class=\"cover\"></span>\r\n
+        class=\"image\">\r\n                                    <span class=\"cover\"></span>\r\n
         \                                   <span class=\"title\">\r\n                                        <a
         href=\"/business/merchant-services/become-a-merchant\">Expand Your Payment
         Options</a>\r\n                                    </span>\r\n                                </div>\r\n\r\n
@@ -1012,24 +718,20 @@ http_interactions:
         class=\"list\">NCB point-of-sales provide faster credit, debit and prepaid
         card processing. Manage your business efficiently with our electronic payments
         solutions.</span>\r\n                                </div>\r\n\r\n                                <div
-        class=\"footerCTA\">\r\n                                    <button onclick=\"location.href
-        = '/business/merchant-services/become-a-merchant';\">View More</button>\r\n
+        class=\"footerCTA\">\r\n                                    <button>View More</button>\r\n
         \                               </div>\r\n\r\n                            </div>\r\n
         \                           <div class=\"ctaCard\">\r\n\r\n                                <div
-        class=\"image\" style=\"background-image: url(/getattachment/382cd505-b812-4db9-96e1-f20d8282a9af/Image.img)\"
-        );\">\r\n                                    <span class=\"cover\"></span>\r\n
+        class=\"image\">\r\n                                    <span class=\"cover\"></span>\r\n
         \                                   <span class=\"title\">\r\n                                        <a
         href=\"/business/banking/online-banking\">Connect To Your Accounts Whenever</a>\r\n
         \                                   </span>\r\n                                </div>\r\n\r\n
         \                               <div class=\"content\">\r\n                                    <span
         class=\"list\">Manage your business accounts at your convenience with secure
         Online Business Banking</span>\r\n                                </div>\r\n\r\n
-        \                               <div class=\"footerCTA\">\r\n                                    <button
-        onclick=\"location.href = '/business/banking/online-banking';\">View More</button>\r\n
-        \                               </div>\r\n\r\n                            </div>\r\n
+        \                               <div class=\"footerCTA\">\r\n                                    <button>View
+        More</button>\r\n                                </div>\r\n\r\n                            </div>\r\n
         \                           <div class=\"ctaCard\">\r\n\r\n                                <div
-        class=\"image\" style=\"background-image: url(/getattachment/4244a286-4af0-4301-8fc7-e924fed68584/Image.img)\"
-        );\">\r\n                                    <span class=\"cover\"></span>\r\n
+        class=\"image\">\r\n                                    <span class=\"cover\"></span>\r\n
         \                                   <span class=\"title\">\r\n                                        <a
         href=\"https://www.jncb.com/business/banking/business-accounts\">Select The
         Right Business Package</a>\r\n                                    </span>\r\n
@@ -1037,8 +739,7 @@ http_interactions:
         class=\"content\">\r\n                                    <span class=\"list\">Enjoy
         the benefits of customised business solutions that will save you time and
         money.</span>\r\n                                </div>\r\n\r\n                                <div
-        class=\"footerCTA\">\r\n                                    <button onclick=\"location.href
-        = 'https://www.jncb.com/business/banking/business-accounts';\">View More</button>\r\n
+        class=\"footerCTA\">\r\n                                    <button>View More</button>\r\n
         \                               </div>\r\n\r\n                            </div>\r\n
         \                   </div>\r\n                </div>\r\n            </div>\r\n
         \       </div>\r\n    </div> \r\n    \r\n\r\n\r\n    </div>\r\n\r\n\r\n<div
@@ -1052,73 +753,70 @@ http_interactions:
         \           <table>\r\n                <tr>\r\n                    <th>Currency</th>\r\n
         \                   <th>Sell</th>\r\n                    <th>Buy (Cheque)</th>\r\n
         \                   <th>Buy (Cash)</th>\r\n                </tr>\r\n                    <tr>\r\n
-        \                       <td>\r\n                            <span><img src=\"/img/USD.png\"
-        alt=\"\" /> USD</span>\r\n                        </td>\r\n                        <td>158.90</td>\r\n
+        \                       <td>\r\n                            <span> USD</span>\r\n
+        \                       </td>\r\n                        <td>158.90</td>\r\n
         \                       <td>151.90</td>\r\n                        <td>139.40</td>\r\n
         \                   </tr>\r\n                    <tr>\r\n                        <td>\r\n
-        \                           <span><img src=\"/img/GBP.png\" alt=\"\" /> GBP</span>\r\n
-        \                       </td>\r\n                        <td>215.20</td>\r\n
-        \                       <td>208.60</td>\r\n                        <td>205.10</td>\r\n
-        \                   </tr>\r\n                    <tr>\r\n                        <td>\r\n
-        \                           <span><img src=\"/img/CAD.png\" alt=\"\" /> CAD</span>\r\n
+        \                           <span> GBP</span>\r\n                        </td>\r\n
+        \                       <td>215.20</td>\r\n                        <td>208.60</td>\r\n
+        \                       <td>205.10</td>\r\n                    </tr>\r\n                    <tr>\r\n
+        \                       <td>\r\n                            <span> CAD</span>\r\n
         \                       </td>\r\n                        <td>117.30</td>\r\n
         \                       <td>110.80</td>\r\n                        <td>107.80</td>\r\n
         \                   </tr>\r\n                    <tr>\r\n                        <td>\r\n
-        \                           <span><img src=\"/img/EUR.png\" alt=\"\" /> EUR</span>\r\n
-        \                       </td>\r\n                        <td>187.50</td>\r\n
-        \                       <td>180.00</td>\r\n                        <td>177.00</td>\r\n
-        \                   </tr>\r\n\r\n            </table>\r\n\r\n        </div>\r\n
-        \   </div>\r\n    <p class=\"smallerText\">\r\n        Effective Date: May
-        20, 2026 09:16  AM (Rates are subject to change)\r\n    </p>\r\n</div>\r\n\r\n\r\n
-        \   \r\n\r\n\r\n            </div>\r\n            <div class=\"right_panel\">\r\n
-        \               \r\n\r\n\r\n\r\n\r\n\r\n    <div class=\"faq-section\">\r\n
-        \     <div class=\"title\">F.A.Q.</div>\r\n\r\n        <div class=\"faq\">\r\n
-        \           <div class=\"container\">\r\n                <div class=\"tabs\">\r\n
-        \                   <div class=\"containerTabs\">\r\n                            <div
+        \                           <span> EUR</span>\r\n                        </td>\r\n
+        \                       <td>187.50</td>\r\n                        <td>180.00</td>\r\n
+        \                       <td>177.00</td>\r\n                    </tr>\r\n\r\n
+        \           </table>\r\n\r\n        </div>\r\n    </div>\r\n    <p class=\"smallerText\">\r\n
+        \       Effective Date: May 20, 2026 09:16  AM (Rates are subject to change)\r\n
+        \   </p>\r\n</div>\r\n\r\n\r\n    \r\n\r\n\r\n            </div>\r\n            <div
+        class=\"right_panel\">\r\n                \r\n\r\n\r\n\r\n\r\n\r\n    <div
+        class=\"faq-section\">\r\n      <div class=\"title\">F.A.Q.</div>\r\n\r\n
+        \       <div class=\"faq\">\r\n            <div class=\"container\">\r\n                <div
+        class=\"tabs\">\r\n                    <div class=\"containerTabs\">\r\n                            <div
         class=\"tab\">\r\n                                <input type=\"checkbox\"
-        id=\"How-can-I-open-a-bank-account-online-without-visiting-branch-?\" class=\"checkboxAccord\"
-        />\r\n                                <label class=\"tab-label\" for=\"How-can-I-open-a-bank-account-online-without-visiting-branch-?\"><span>How
+        id=\"How-can-I-open-a-bank-account-online-without-visiting-branch-?\" class=\"checkboxAccord\">\r\n
+        \                               <label class=\"tab-label\" for=\"How-can-I-open-a-bank-account-online-without-visiting-branch-?\"><span>How
         can I open a bank account online without visiting branch ?</span></label>\r\n
         \                               <div class=\"tab-content\">Are you new to
-        NCB? You may open a Regular Save savings account at&nbsp;<a href=\"http://www.jncb.com/openaccountonline/\">www.jncb.com/openaccountonline</a>.
-        &nbsp;<br />\r\n<br />\r\nIf you are an existing customer, you may open any
-        savings account via&nbsp;<a href=\"https://www.jncb.com/internetbanking?rd=RetailLogon\">Personal
-        Online Banking</a>&nbsp; -&nbsp;<strong>Under Quick Links --&gt; New Account.</strong>&nbsp;</div>\r\n
+        NCB? You may open a Regular Save savings account at <a href=\"http://www.jncb.com/openaccountonline/\">www.jncb.com/openaccountonline</a>.
+         <br>\r\n<br>\r\nIf you are an existing customer, you may open any savings
+        account via <a href=\"https://www.jncb.com/internetbanking?rd=RetailLogon\">Personal
+        Online Banking</a>  - <strong>Under Quick Links --&gt; New Account.</strong> </div>\r\n
         \                           </div>\r\n                            <div class=\"tab\">\r\n
         \                               <input type=\"checkbox\" id=\"What-are-the-requirements-to-open-a-bank-account?\"
-        class=\"checkboxAccord\" />\r\n                                <label class=\"tab-label\"
+        class=\"checkboxAccord\">\r\n                                <label class=\"tab-label\"
         for=\"What-are-the-requirements-to-open-a-bank-account?\"><span>What are the
         requirements to open a bank account?</span></label>\r\n                                <div
         class=\"tab-content\">You may open an account online or at any NCB Branch.
-        You will find the requirements at&nbsp;&nbsp;<a href=\"https://www.jncb.com/personal/banking/account-opening-requirements\">Personal
+        You will find the requirements at  <a href=\"https://www.jncb.com/personal/banking/account-opening-requirements\">Personal
         Account Requirements</a>.</div>\r\n                            </div>\r\n
         \                           <div class=\"tab\">\r\n                                <input
         type=\"checkbox\" id=\"I-have-lost-my-Share-Certificates,-how-can-I-redeem-them?\"
-        class=\"checkboxAccord\" />\r\n                                <label class=\"tab-label\"
+        class=\"checkboxAccord\">\r\n                                <label class=\"tab-label\"
         for=\"I-have-lost-my-Share-Certificates,-how-can-I-redeem-them?\"><span>I
         have lost my Share Certificates, how can I redeem them?</span></label>\r\n
-        \                               <div class=\"tab-content\">Please&nbsp;<a
-        href=\"http://www.ncbcapitalmarkets.com/index.php/contact-us\">contact</a><a
-        href=\"http://www.ncbcapitalmarkets.com/index.php/contact-us\" target=\"_blank\">&nbsp;</a>your
+        \                               <div class=\"tab-content\">Please <a href=\"http://www.ncbcapitalmarkets.com/index.php/contact-us\">contact</a><a
+        href=\"http://www.ncbcapitalmarkets.com/index.php/contact-us\" target=\"_blank\"> </a>your
         NCB Capital Markets Wealth Advisor to assist you with redeeming your Share
         Certificates.</div>\r\n                            </div>\r\n                            <div
         class=\"tab\">\r\n                                <input type=\"checkbox\"
-        id=\"What-is-the-minimum-to-open-an-account?\" class=\"checkboxAccord\" />\r\n
+        id=\"What-is-the-minimum-to-open-an-account?\" class=\"checkboxAccord\">\r\n
         \                               <label class=\"tab-label\" for=\"What-is-the-minimum-to-open-an-account?\"><span>What
         is the minimum to open an account?</span></label>\r\n                                <div
         class=\"tab-content\">The minimum amount required to open an account varies
         based on product. Please contact your Wealth Advisor for more details.</div>\r\n
         \                           </div>\r\n                            <div class=\"tab\">\r\n
         \                               <input type=\"checkbox\" id=\"What-rates-are-you-paying-on-your-accounts?-\"
-        class=\"checkboxAccord\" />\r\n                                <label class=\"tab-label\"
+        class=\"checkboxAccord\">\r\n                                <label class=\"tab-label\"
         for=\"What-rates-are-you-paying-on-your-accounts?-\"><span>What rates are
         you paying on your accounts? </span></label>\r\n                                <div
-        class=\"tab-content\">Market conditions may cause rates to vary. Please&nbsp;<a
-        href=\"https://www.ncbcapitalmarkets.com/index.php/contactus\">contact</a>&nbsp;our
+        class=\"tab-content\">Market conditions may cause rates to vary. Please <a
+        href=\"https://www.ncbcapitalmarkets.com/index.php/contactus\">contact</a> our
         customer service representatives or your wealth manager for this information.</div>\r\n
         \                           </div>\r\n                            <div class=\"tab\">\r\n
         \                               <input type=\"checkbox\" id=\"Why-do-I-need-investment-advice?\"
-        class=\"checkboxAccord\" />\r\n                                <label class=\"tab-label\"
+        class=\"checkboxAccord\">\r\n                                <label class=\"tab-label\"
         for=\"Why-do-I-need-investment-advice?\"><span>Why do I need investment advice?</span></label>\r\n
         \                               <div class=\"tab-content\">An informed investor
         is a successful investor. Successful wealth creation requires an intimate
@@ -1127,7 +825,7 @@ http_interactions:
         house research department spends each day monitoring the financial markets
         both locally and overseas. Any of our wealth managers will be able to provide
         you with timely relevant information that will help you build the ideal portfolio
-        for your wealth objectives.&nbsp;</div>\r\n                            </div>\r\n
+        for your wealth objectives. </div>\r\n                            </div>\r\n
         \                   </div>\r\n\r\n                </div>\r\n            </div>\r\n
         \       </div>\r\n        <a href=\"/support/help-resources/faq/\"> <button
         class=\"{{colorClass}}\" data-aos=\"fade-left\">All FAQs</button></a>\r\n\r\n
@@ -1135,52 +833,48 @@ http_interactions:
         \   </div>\r\n</div>\r\n\r\n<div class=\"ourSecurity\">\r\n    <div class=\"container\"
         data-aos=\"fade-down\">\r\n        <span class=\"title\">Online Security Guarantee</span>\r\n\r\n
         \       <div class=\"grid\">\r\n            \r\n\r\n\r\n\r\n\r\n\r\n<div class=\"infoBlock\"
-        data-aos=\"fade-up\">\r\n    <span class=\"ncb-icon\">\r\n        <img src=\"/getmedia/a6cc42b4-88e7-4fd1-b76e-09216da03764/commitment\"
-        alt=\"Our Commitment\" loading=\"lazy\" />\r\n    </span>\r\n    <span class=\"title-features\">Our
-        Commitment</span>\r\n    <p>National Commercial Bank Jamaica Limited is a
-        strong and secure organization committed to serving its customers' financial
-        needs. This commitment extends to the services offered on our online internet
-        banking platform; tested and proven to secure your personal information.</p>\r\n</div>\r\n
-        \   \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<div class=\"infoBlock\" data-aos=\"fade-up\">\r\n
-        \   <span class=\"ncb-icon\">\r\n        <img src=\"/getmedia/ed8624e7-85ef-454d-8186-3aa841115d71/security\"
-        alt=\"Your Security\" loading=\"lazy\" />\r\n    </span>\r\n    <span class=\"title-features\">Your
-        Security</span>\r\n    <p>We are serious about protecting your privacy and
-        the security of your banking information. NCB uses advanced technology to
-        protect the confidentiality of your financial activities while you are transacting
-        business online.</p>\r\n</div>\r\n    \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<div
+        data-aos=\"fade-up\">\r\n    <span class=\"ncb-icon\">\r\n        \r\n    </span>\r\n
+        \   <span class=\"title-features\">Our Commitment</span>\r\n    <p>National
+        Commercial Bank Jamaica Limited is a strong and secure organization committed
+        to serving its customers' financial needs. This commitment extends to the
+        services offered on our online internet banking platform; tested and proven
+        to secure your personal information.</p>\r\n</div>\r\n    \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<div
         class=\"infoBlock\" data-aos=\"fade-up\">\r\n    <span class=\"ncb-icon\">\r\n
-        \       <img src=\"/getmedia/43471dca-7ded-4060-9f57-222984a083be/guarantee\"
-        alt=\"Our Guarantee\" loading=\"lazy\" />\r\n    </span>\r\n    <span class=\"title-features\">Our
+        \       \r\n    </span>\r\n    <span class=\"title-features\">Your Security</span>\r\n
+        \   <p>We are serious about protecting your privacy and the security of your
+        banking information. NCB uses advanced technology to protect the confidentiality
+        of your financial activities while you are transacting business online.</p>\r\n</div>\r\n
+        \   \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<div class=\"infoBlock\" data-aos=\"fade-up\">\r\n
+        \   <span class=\"ncb-icon\">\r\n        \r\n    </span>\r\n    <span class=\"title-features\">Our
         Guarantee</span>\r\n    <p>We guarantee full reimbursement of funds removed
         from your NCB accounts in the unlikely event that through no fault of yours
         someone you have not authorized or provided with your login information, removes
         those funds through our online services.</p>\r\n</div>\r\n    \r\n\r\n\r\n
-        \               <button class=\"aos-init aos-animate\" data-aos=\"fade-up\"
-        onclick=\"location.href='/Support/Security/Security-Guarantee';\">View More</button>\r\n
-        \       </div>\r\n    </div>\r\n</div>\r\n    </div>\r\n</main>\r\n        <div
-        class=\"footer\">\r\n    <div class=\"container\">\r\n        <div class=\"footer-title\"
-        data-aos=\"fade-down\">Put Your Best Life Forward</div>\r\n    </div>\r\n
-        \   <div class=\"container footer-links\">\r\n        <div class=\"col-1 cols\">\r\n
-        \           <h2 data-aos=\"fade-up\">SUPPORT</h2>\r\n            <span class=\"links\"
-        data-aos=\"fade-up\"><a href=\"/support/help-resources/faq\" target=\"_blank\">FAQ</a></span>\r\n
-        \           <span class=\"links\" data-aos=\"fade-up\"><a href=\"/support/contact/contact\"
-        target=\"_blank\">Contact Us</a></span>\r\n            <span class=\"links\"
-        data-aos=\"fade-up\"><a href=\"/support/locate/branches\" target=\"_blank\">Branches
-        & ABMs</a></span>            \r\n            <span class=\"links\" data-aos=\"fade-up\"><a
-        href=\"/support/help-resources/documents\" target=\"_blank\">All Form Downloads</a></span>\r\n
-        \       </div>\r\n\r\n        <div class=\"col-2 cols\">\r\n            <h2
-        data-aos=\"fade-up\">ABOUT US</h2>\r\n            <span class=\"links\" data-aos=\"fade-up\"><a
-        href=\"/About-Us/Company-Overview/Who-We-Are\" target=\"_blank\">Who We Are</a></span>\r\n
-        \           <span class=\"links\" data-aos=\"fade-up\"><a href=\"/About-Us/Company-Overview/History\"
-        target=\"_blank\">History</a></span>\r\n            <span class=\"links\"
-        data-aos=\"fade-up\"><a href=\"/about-us/corporate-social-responsibility/corporate-social-responsibility\"
+        \               <button class=\"aos-init aos-animate\" data-aos=\"fade-up\">View
+        More</button>\r\n        </div>\r\n    </div>\r\n</div>\r\n    </div>\r\n</main>\r\n
+        \       <div class=\"footer\">\r\n    <div class=\"container\">\r\n        <div
+        class=\"footer-title\" data-aos=\"fade-down\">Put Your Best Life Forward</div>\r\n
+        \   </div>\r\n    <div class=\"container footer-links\">\r\n        <div class=\"col-1
+        cols\">\r\n            <h2 data-aos=\"fade-up\">SUPPORT</h2>\r\n            <span
+        class=\"links\" data-aos=\"fade-up\"><a href=\"/support/help-resources/faq\"
+        target=\"_blank\">FAQ</a></span>\r\n            <span class=\"links\" data-aos=\"fade-up\"><a
+        href=\"/support/contact/contact\" target=\"_blank\">Contact Us</a></span>\r\n
+        \           <span class=\"links\" data-aos=\"fade-up\"><a href=\"/support/locate/branches\"
+        target=\"_blank\">Branches &amp; ABMs</a></span>            \r\n            <span
+        class=\"links\" data-aos=\"fade-up\"><a href=\"/support/help-resources/documents\"
+        target=\"_blank\">All Form Downloads</a></span>\r\n        </div>\r\n\r\n
+        \       <div class=\"col-2 cols\">\r\n            <h2 data-aos=\"fade-up\">ABOUT
+        US</h2>\r\n            <span class=\"links\" data-aos=\"fade-up\"><a href=\"/About-Us/Company-Overview/Who-We-Are\"
+        target=\"_blank\">Who We Are</a></span>\r\n            <span class=\"links\"
+        data-aos=\"fade-up\"><a href=\"/About-Us/Company-Overview/History\" target=\"_blank\">History</a></span>\r\n
+        \           <span class=\"links\" data-aos=\"fade-up\"><a href=\"/about-us/corporate-social-responsibility/corporate-social-responsibility\"
         target=\"_blank\">Corporate Social Responsibility</a></span>\r\n            <span
         class=\"links\" data-aos=\"fade-up\"><a href=\"/about-us/company-overview/awards\"
         target=\"_blank\">Awards</a></span>\r\n            <span class=\"links\" data-aos=\"fade-up\"><a
         href=\"/careers/\" target=\"_blank\">Careers Site</a></span>\r\n            <span
         class=\"links\" data-aos=\"fade-up\"><a href=\"/About-Us/News-Room/News\"
         target=\"_blank\">News</a></span>\r\n            <span class=\"links\" data-aos=\"fade-up\"><a
-        href=\"/about-us/news-room/brand-media-guides\" target=\"_blank\">Brand &
+        href=\"/about-us/news-room/brand-media-guides\" target=\"_blank\">Brand &amp;
         Media Guides</a></span>\r\n            <span class=\"links\" data-aos=\"fade-up\"><a
         href=\"/About-Us/Company-Overview/Management-Team\" target=\"_blank\">Management
         Team </a></span>\r\n            <span class=\"links\" data-aos=\"fade-up\"><a
@@ -1193,11 +887,10 @@ http_interactions:
         \           <span class=\"links\" data-aos=\"fade-up\"><a href=\"/support/security/report-fraud\"
         target=\"_blank\">Report Fraud</a></span>\r\n            <span class=\"links\"
         data-aos=\"fade-up\"><a href=\"/special-pages/ncb-cookie-policy\">Cookie Policy</a></span>\r\n
-        \           <!-- OneTrust Cookies Settings button start -->\r\n            <span
-        class=\"links\" data-aos=\"fade-up\"><a href=\"#\" class=\"ot-sdk-show-settings\">Cookie
-        Settings</a></span>\r\n            <!-- OneTrust Cookies Settings button end
-        -->\r\n        </div>\r\n\r\n        <div class=\"col-4 cols\">\r\n            <h2
-        data-aos=\"fade-up\">FEES & RATES</h2>\r\n            <span class=\"links\"
+        \           \r\n            <span class=\"links\" data-aos=\"fade-up\"><a
+        href=\"#\" class=\"ot-sdk-show-settings\">Cookie Settings</a></span>\r\n            \r\n
+        \       </div>\r\n\r\n        <div class=\"col-4 cols\">\r\n            <h2
+        data-aos=\"fade-up\">FEES &amp; RATES</h2>\r\n            <span class=\"links\"
         data-aos=\"fade-up\"><a href=\"/support/help-resources/fees\" target=\"_blank\">Fee
         Guide</a></span>\r\n            <span class=\"links\" data-aos=\"fade-up\"><a
         href=\"/support/help-resources/how-to-avoid-fees\" target=\"_blank\">How to
@@ -1212,12 +905,12 @@ http_interactions:
         data-aos=\"fade-up\"><a href=\"https://ncbcapitalmarkets.com/\" target=\"_blank\">NCB
         Capital Markets</a></span>           \r\n            <span class=\"links\"
         data-aos=\"fade-up\"><a href=\"https://www.ncbinsurance.com/\" target=\"_blank\">NCB
-        Insurance Agency & Fund Managers Limited</a></span>\r\n            <span class=\"links\"
-        data-aos=\"fade-up\"><a href=\"https://ncbmerchantbanktt.com/\" target=\"_blank\">NCB
-        Merchant Bank (Trinidad and Tobago) Limited</a></span>\r\n            <span
-        class=\"links\" data-aos=\"fade-up\"><a href=\"https://www.myncb.com/\" target=\"_blank\">NCB
-        Financial Group</a></span>            \r\n        </div>\r\n\r\n        <div
-        class=\"col-6 cols\">\r\n            <h2>FOLLOW US</h2>\r\n            <div
+        Insurance Agency &amp; Fund Managers Limited</a></span>\r\n            <span
+        class=\"links\" data-aos=\"fade-up\"><a href=\"https://ncbmerchantbanktt.com/\"
+        target=\"_blank\">NCB Merchant Bank (Trinidad and Tobago) Limited</a></span>\r\n
+        \           <span class=\"links\" data-aos=\"fade-up\"><a href=\"https://www.myncb.com/\"
+        target=\"_blank\">NCB Financial Group</a></span>            \r\n        </div>\r\n\r\n
+        \       <div class=\"col-6 cols\">\r\n            <h2>FOLLOW US</h2>\r\n            <div
         class=\"grid\">\r\n                <a href=\"https://www.linkedin.com/company/national-commercial-bank-jamaica-limited\"
         target=\"_blank\" class=\"socialLinks\" aria-label=\"linedin\"><i class=\"fab
         fa-linkedin-in\"></i></a>\r\n                <a href=\"https://www.facebook.com/NCBJa\"
@@ -1231,45 +924,32 @@ http_interactions:
         fa-youtube\"></i></a>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n
         \   <div class=\"footer-contact\">\r\n        <div class=\"container\">\r\n
         \           <div class=\"contact-item\">\r\n                <div class=\"contact-icon\">\r\n
-        \                   <a href=\"#\" aria-label=\"branches\"><img src=\"/img/branches.png\"
-        alt=\"branches\" loading=\"lazy\" width=\"50\" height=\"50\" /></a>\r\n                </div>\r\n
+        \                   <a href=\"#\" aria-label=\"branches\"></a>\r\n                </div>\r\n
         \               <div class=\"contact-text\">\r\n                    <a href=\"/support/locate/branches\"
-        class=\"link\" aria-label=\"branches and abms\">BRANCHES & ABMS</a>\r\n                    <a
-        href=\"/support/locate/branches\" class=\"link\" aria-label=\"location\">Locations
-        & Hours</a>\r\n                </div>\r\n            </div>\r\n            <div
+        class=\"link\" aria-label=\"branches and abms\">BRANCHES &amp; ABMS</a>\r\n
+        \                   <a href=\"/support/locate/branches\" class=\"link\" aria-label=\"location\">Locations
+        &amp; Hours</a>\r\n                </div>\r\n            </div>\r\n            <div
         class=\"contact-item\">\r\n                <div class=\"contact-icon\">\r\n
-        \                   <a href=\"#\" aria-label=\"customer care icon\"><img src=\"/img/customercare.png\"
-        alt=\"customer care\" loading=\"lazy\" width=\"50\" height=\"50\" /></a>\r\n
+        \                   <a href=\"#\" aria-label=\"customer care icon\"></a>\r\n
         \               </div>\r\n                <div class=\"contact-text\">\r\n
         \                   <a href=\"tel:8886223477\" class=\"link\" aria-label=\"customer
         care\">CUSTOMER CARE</a>\r\n                    <a href=\"tel:8886223477\"
         class=\"link\" aria-label=\"customer number\">888-622-3477</a>\r\n                </div>\r\n
         \           </div>\r\n            <div class=\"contact-item\">\r\n                <div
         class=\"contact-icon\">\r\n                    <a href=\"#\" aria-label=\"branche
-        services\"><img src=\"/img/branchesservices.png\" alt=\"branch services\"
-        loading=\"lazy\" width=\"50\" height=\"50\" /></a>\r\n                </div>\r\n
-        \               <div class=\"contact-text\">\r\n                    <a href=\"tel:8769294622\"
-        class=\"link\" aria-label=\"branches services\">BRANCH SERVICES</a>\r\n                    <a
-        href=\"tel:8769294622\" class=\"link\" aria-label=\"branches number\">876-929-4622</a>\r\n
-        \               </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n
-        \   <div class=\"bottomBar\">\r\n        <div class=\"container\">\r\n            <span
-        class=\"copyright\">&copy; Copyright 1999-2026 NCB Financial Group. All Rights
-        Reserved.</span>\r\n            <span class=\"links\"><a href=\"/special-pages/ncb-cookie-policy\">Cookie
-        Policy</a> | <a href=\"/special-pages/terms-of-use\">Terms of use</a></span>\r\n
-        \           <span class=\"memberof\">\r\n                Member of: <a href=\"https://www.jba.org.jm/\"
-        target=\"_blank\"><img src=\"/img/jba-logo-white.png\" alt=\"memberof\" loading=\"lazy\"
-        width=\"50\" height=\"40\" /></a> <a href=\"https://www.jdic.org/\" target=\"_blank\"><img
-        src=\"/img/jdic.png\" alt=\"jdic\" loading=\"lazy\" width=\"50\" height=\"50\"
-        /></a>\r\n            </span>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<script
-        src=\"/_content/Kentico.Content.Web.Rcl/Scripts/jquery-3.5.1.js\"></script>\r\n<script
-        src=\"/_content/Kentico.Content.Web.Rcl/Scripts/jquery.unobtrusive-ajax.js\"></script>\r\n<script
-        src=\"/_content/Kentico.Content.Web.Rcl/Content/Bundles/Public/systemFormComponents.min.js\"></script>\r\n\r\n
-        \       <script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyCGW6DI9sAKFA3DFojI-D9mcQOlyhU8muc&libraries=places&v=weekly&channel=2\"></script>\r\n
-        \       <script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js\"></script>\r\n\r\n
-        \       <script src=\"/assets/aos.js\"></script>\r\n        <script src=\"/assets/lity.min.js\"></script>\r\n
-        \       <script src=\"/assets/owl.carousel.min.js\"></script>\r\n        <script
-        src=\"/assets/slider.js\"></script>\r\n\r\n        <script type=\"module\"
-        src=\"/assets/application-5ba5570b.js\"></script>\r\n\r\n\r\n        \r\n
-        \   </div>\r\n</body>\r\n</html>\r\n"
+        services\"></a>\r\n                </div>\r\n                <div class=\"contact-text\">\r\n
+        \                   <a href=\"tel:8769294622\" class=\"link\" aria-label=\"branches
+        services\">BRANCH SERVICES</a>\r\n                    <a href=\"tel:8769294622\"
+        class=\"link\" aria-label=\"branches number\">876-929-4622</a>\r\n                </div>\r\n
+        \           </div>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"bottomBar\">\r\n
+        \       <div class=\"container\">\r\n            <span class=\"copyright\">©
+        Copyright 1999-2026 NCB Financial Group. All Rights Reserved.</span>\r\n            <span
+        class=\"links\"><a href=\"/special-pages/ncb-cookie-policy\">Cookie Policy</a>
+        | <a href=\"/special-pages/terms-of-use\">Terms of use</a></span>\r\n            <span
+        class=\"memberof\">\r\n                Member of: <a href=\"https://www.jba.org.jm/\"
+        target=\"_blank\"></a> <a href=\"https://www.jdic.org/\" target=\"_blank\"></a>\r\n
+        \           </span>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n\r\n\r\n\r\n\r\n
+        \       \r\n        \r\n\r\n        \r\n        \r\n        \r\n        \r\n\r\n
+        \       \r\n\r\n\r\n        \r\n    </div>\r\n</body>\r\n</html>\n"
   recorded_at: Thu, 21 May 2026 12:22:11 GMT
 recorded_with: VCR 6.4.0
